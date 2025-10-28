@@ -1,0 +1,108 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# API Keys and Secrets
+*.key
+*.pem
+.env.local
+.env.*.local
+secrets/
+
+# Data files (optional - 根据需要调整)
+# 如果论文文献太大不想上传git，取消下面的注释
+# 论文文献/*.md
+# 依存路径提取结果/*.csv
+
+# Processed data and outputs
+数据结果/
+chroma_db/
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
+*.ndjson
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# ChromaDB
+chroma_db/
+*.chroma/
+
+# Model outputs
+outputs/
+results/
+*.json
+!schema文件/*.json
+!configs/**/*.json
+
+# Large files
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
