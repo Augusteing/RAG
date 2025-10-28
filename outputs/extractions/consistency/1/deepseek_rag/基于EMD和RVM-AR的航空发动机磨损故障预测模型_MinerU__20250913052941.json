@@ -1,0 +1,200 @@
+{
+  "entities": [
+    {
+      "name": "故障预测与健康管理(PHM)",
+      "type": "研究领域"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "滑油光谱分析",
+      "type": "研究方法"
+    },
+    {
+      "name": "经验模态分解(EMD)",
+      "type": "算法"
+    },
+    {
+      "name": "相关向量机(RVM)",
+      "type": "算法"
+    },
+    {
+      "name": "自回归模型(AR)",
+      "type": "模型"
+    },
+    {
+      "name": "量子粒子群优化(QPSO)",
+      "type": "算法"
+    },
+    {
+      "name": "支持向量机(SVM)",
+      "type": "算法"
+    },
+    {
+      "name": "固有模态函数(IMF)",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "残余函数(RF)",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "Fe元素",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "Si元素",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "平均相对预测误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "镜像延拓法",
+      "type": "方法"
+    },
+    {
+      "name": "Gaussian核函数",
+      "type": "理论基础"
+    },
+    {
+      "name": "Bayesian方法",
+      "type": "理论基础"
+    },
+    {
+      "name": "交叉验证误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "最终预测误差(FPE)准则",
+      "type": "性能指标"
+    },
+    {
+      "name": "EMD+RVM-AR模型",
+      "type": "模型"
+    },
+    {
+      "name": "非线性非平稳时间序列",
+      "type": "理论基础"
+    },
+    {
+      "name": "磨损故障预测",
+      "type": "研究方法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "基于",
+      "tail": "经验模态分解(EMD)"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "基于",
+      "tail": "相关向量机(RVM)"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "基于",
+      "tail": "自回归模型(AR)"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "用于",
+      "tail": "航空发动机磨损故障预测"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "优于",
+      "tail": "自回归模型(AR)"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "优于",
+      "tail": "支持向量机(SVM)"
+    },
+    {
+      "head": "经验模态分解(EMD)",
+      "relation": "分离",
+      "tail": "固有模态函数(IMF)"
+    },
+    {
+      "head": "经验模态分解(EMD)",
+      "relation": "分离",
+      "tail": "残余函数(RF)"
+    },
+    {
+      "head": "经验模态分解(EMD)",
+      "relation": "采用",
+      "tail": "镜像延拓法"
+    },
+    {
+      "head": "相关向量机(RVM)",
+      "relation": "基于",
+      "tail": "Bayesian方法"
+    },
+    {
+      "head": "相关向量机(RVM)",
+      "relation": "优于",
+      "tail": "支持向量机(SVM)"
+    },
+    {
+      "head": "量子粒子群优化(QPSO)",
+      "relation": "优化",
+      "tail": "相关向量机(RVM)"
+    },
+    {
+      "head": "量子粒子群优化(QPSO)",
+      "relation": "基于",
+      "tail": "交叉验证误差"
+    },
+    {
+      "head": "滑油光谱分析",
+      "relation": "用于",
+      "tail": "航空发动机磨损故障预测"
+    },
+    {
+      "head": "Fe元素",
+      "relation": "用于",
+      "tail": "滑油光谱分析"
+    },
+    {
+      "head": "Si元素",
+      "relation": "用于",
+      "tail": "滑油光谱分析"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "预测",
+      "tail": "Fe元素"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "预测",
+      "tail": "Si元素"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "评价指标是",
+      "tail": "平均相对预测误差"
+    },
+    {
+      "head": "自回归模型(AR)",
+      "relation": "评价指标是",
+      "tail": "最终预测误差(FPE)准则"
+    },
+    {
+      "head": "相关向量机(RVM)",
+      "relation": "采用",
+      "tail": "Gaussian核函数"
+    },
+    {
+      "head": "故障预测与健康管理(PHM)",
+      "relation": "应用于",
+      "tail": "航空发动机"
+    }
+  ]
+}

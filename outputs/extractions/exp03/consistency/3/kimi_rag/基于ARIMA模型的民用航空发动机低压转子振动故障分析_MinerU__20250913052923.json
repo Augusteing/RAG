@@ -1,0 +1,189 @@
+{
+  "entities": [
+    {
+      "name": "民用航空发动机低压转子振动故障分析",
+      "type": "研究课题"
+    },
+    {
+      "name": "ARIMA模型",
+      "type": "模型"
+    },
+    {
+      "name": "回归分析法",
+      "type": "研究方法"
+    },
+    {
+      "name": "CFM56-7B发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "振动值变化趋势",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "发动机振动故障",
+      "type": "故障模式"
+    },
+    {
+      "name": "QAR数据",
+      "type": "数据集"
+    },
+    {
+      "name": "N1转速",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "LPT振动单位值TN1VIB",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "一元回归分析法",
+      "type": "研究方法"
+    },
+    {
+      "name": "二次多项式回归模型",
+      "type": "模型"
+    },
+    {
+      "name": "三次多项式回归模型",
+      "type": "模型"
+    },
+    {
+      "name": "指数模型",
+      "type": "模型"
+    },
+    {
+      "name": "可决系数R^2",
+      "type": "性能指标"
+    },
+    {
+      "name": "ADF检验",
+      "type": "算法"
+    },
+    {
+      "name": "差分法",
+      "type": "算法"
+    },
+    {
+      "name": "自相关图ACF",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "偏自相关图PACF",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "三次指数平滑法",
+      "type": "研究方法"
+    },
+    {
+      "name": "均方根误差RMSE",
+      "type": "性能指标"
+    },
+    {
+      "name": "平均绝对误差MAE",
+      "type": "性能指标"
+    },
+    {
+      "name": "最大绝对误差MaxAE",
+      "type": "性能指标"
+    }
+  ],
+  "relations": [
+    {
+      "head": "民用航空发动机低压转子振动故障分析",
+      "relation": "提出",
+      "tail": "基于ARIMA模型的故障分析方法"
+    },
+    {
+      "head": "基于ARIMA模型的故障分析方法",
+      "relation": "基于",
+      "tail": "回归分析法"
+    },
+    {
+      "head": "基于ARIMA模型的故障分析方法",
+      "relation": "应用于",
+      "tail": "CFM56-7B发动机"
+    },
+    {
+      "head": "基于ARIMA模型的故障分析方法",
+      "relation": "预测",
+      "tail": "发动机振动故障"
+    },
+    {
+      "head": "QAR数据",
+      "relation": "包含",
+      "tail": "N1转速"
+    },
+    {
+      "head": "QAR数据",
+      "relation": "包含",
+      "tail": "LPT振动单位值TN1VIB"
+    },
+    {
+      "head": "一元回归分析法",
+      "relation": "描述",
+      "tail": "振动值变化趋势"
+    },
+    {
+      "head": "二次多项式回归模型",
+      "relation": "描述",
+      "tail": "振动值变化趋势"
+    },
+    {
+      "head": "三次多项式回归模型",
+      "relation": "描述",
+      "tail": "振动值变化趋势"
+    },
+    {
+      "head": "指数模型",
+      "relation": "描述",
+      "tail": "振动值变化趋势"
+    },
+    {
+      "head": "基于ARIMA模型的故障分析方法",
+      "relation": "评价指标是",
+      "tail": "可决系数R^2"
+    },
+    {
+      "head": "基于ARIMA模型的故障分析方法",
+      "relation": "评价指标是",
+      "tail": "均方根误差RMSE"
+    },
+    {
+      "head": "基于ARIMA模型的故障分析方法",
+      "relation": "评价指标是",
+      "tail": "平均绝对误差MAE"
+    },
+    {
+      "head": "基于ARIMA模型的故障分析方法",
+      "relation": "评价指标是",
+      "tail": "最大绝对误差MaxAE"
+    },
+    {
+      "head": "基于ARIMA模型的故障分析方法",
+      "relation": "优于",
+      "tail": "三次指数平滑法"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "基于",
+      "tail": "差分法"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "基于",
+      "tail": "ADF检验"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "基于",
+      "tail": "自相关图ACF"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "基于",
+      "tail": "偏自相关图PACF"
+    }
+  ]
+}

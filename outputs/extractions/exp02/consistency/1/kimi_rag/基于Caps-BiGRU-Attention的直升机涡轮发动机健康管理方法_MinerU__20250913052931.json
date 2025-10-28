@@ -1,0 +1,199 @@
+{
+  "entities": [
+    {
+      "name": "直升机涡轮发动机健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "Caps-BiGRU-Attention模型",
+      "type": "模型"
+    },
+    {
+      "name": "故障模式识别",
+      "type": "研究方法"
+    },
+    {
+      "name": "扭矩裕度预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "胶囊网络",
+      "type": "模型"
+    },
+    {
+      "name": "BiGRU层",
+      "type": "模型"
+    },
+    {
+      "name": "SE注意力机制",
+      "type": "模型"
+    },
+    {
+      "name": "直升机涡轮发动机数据集",
+      "type": "数据集"
+    },
+    {
+      "name": "扭矩裕度",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "故障目标值",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "外部空气温度",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "平均气体温度",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "可用功率",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "指示空速",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "净功率",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "压缩机转速",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "测量扭矩",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "贝塔分布",
+      "type": "理论基础"
+    },
+    {
+      "name": "混合高斯密度模型",
+      "type": "理论基础"
+    },
+    {
+      "name": "K-S检验",
+      "type": "理论基础"
+    },
+    {
+      "name": "Akaike信息准则值（AIC）",
+      "type": "理论基础"
+    },
+    {
+      "name": "SHAP模型",
+      "type": "理论基础"
+    }
+  ],
+  "relations": [
+    {
+      "head": "直升机涡轮发动机健康管理",
+      "relation": "提出",
+      "tail": "Caps-BiGRU-Attention模型"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "应用于",
+      "tail": "故障模式识别"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "应用于",
+      "tail": "扭矩裕度预测"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "包含",
+      "tail": "胶囊网络"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "包含",
+      "tail": "BiGRU层"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "包含",
+      "tail": "SE注意力机制"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "基于",
+      "tail": "直升机涡轮发动机数据集"
+    },
+    {
+      "head": "直升机涡轮发动机数据集",
+      "relation": "包括",
+      "tail": "扭矩裕度"
+    },
+    {
+      "head": "直升机涡轮发动机数据集",
+      "relation": "包括",
+      "tail": "故障目标值"
+    },
+    {
+      "head": "直升机涡轮发动机数据集",
+      "relation": "包括",
+      "tail": "外部空气温度"
+    },
+    {
+      "head": "直升机涡轮发动机数据集",
+      "relation": "包括",
+      "tail": "平均气体温度"
+    },
+    {
+      "head": "直升机涡轮发动机数据集",
+      "relation": "包括",
+      "tail": "可用功率"
+    },
+    {
+      "head": "直升机涡轮发动机数据集",
+      "relation": "包括",
+      "tail": "指示空速"
+    },
+    {
+      "head": "直升机涡轮发动机数据集",
+      "relation": "包括",
+      "tail": "净功率"
+    },
+    {
+      "head": "直升机涡轮发动机数据集",
+      "relation": "包括",
+      "tail": "压缩机转速"
+    },
+    {
+      "head": "直升机涡轮发动机数据集",
+      "relation": "包括",
+      "tail": "测量扭矩"
+    },
+    {
+      "head": "扭矩裕度",
+      "relation": "基于",
+      "tail": "贝塔分布"
+    },
+    {
+      "head": "扭矩裕度",
+      "relation": "基于",
+      "tail": "混合高斯密度模型"
+    },
+    {
+      "head": "扭矩裕度",
+      "relation": "基于",
+      "tail": "K-S检验"
+    },
+    {
+      "head": "扭矩裕度",
+      "relation": "基于",
+      "tail": "Akaike信息准则值（AIC）"
+    },
+    {
+      "head": "直升机涡轮发动机健康管理",
+      "relation": "基于",
+      "tail": "SHAP模型"
+    }
+  ]
+}

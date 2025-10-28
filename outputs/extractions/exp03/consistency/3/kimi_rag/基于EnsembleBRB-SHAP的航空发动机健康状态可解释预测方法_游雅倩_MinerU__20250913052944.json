@@ -1,0 +1,141 @@
+{
+  "entities": [
+    {
+      "name": "航空发动机健康状态预测",
+      "type": "研究领域"
+    },
+    {
+      "name": "EnsembleBRB-SHAP模型",
+      "type": "模型"
+    },
+    {
+      "name": "数据驱动法",
+      "type": "研究方法"
+    },
+    {
+      "name": "置信规则库（Belief Rule-Based, BRB）",
+      "type": "模型"
+    },
+    {
+      "name": "沙普利加性解释（SHapley Additive exPlanations, SHAP）",
+      "type": "理论基础"
+    },
+    {
+      "name": "商用模块化航空推进系统仿真软件（C-MAPSS）",
+      "type": "软件工具"
+    },
+    {
+      "name": "低压涡轮机冷却液泄漏量",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "风扇转速",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "多源不确定数据",
+      "type": "数据集"
+    },
+    {
+      "name": "集成学习算法",
+      "type": "算法"
+    },
+    {
+      "name": "物理模型（physics- based models, PbMs）",
+      "type": "研究方法"
+    },
+    {
+      "name": "数据驱动模型（data- driven models, DDMs）",
+      "type": "研究方法"
+    },
+    {
+      "name": "发动机健康管理（Prognostic and Health Management, PHM）",
+      "type": "研究领域"
+    },
+    {
+      "name": "准确率",
+      "type": "性能指标"
+    },
+    {
+      "name": "均方根误差(MSE)",
+      "type": "性能指标"
+    }
+  ],
+  "relations": [
+    {
+      "head": "航空发动机健康状态预测",
+      "relation": "基于",
+      "tail": "EnsembleBRB-SHAP模型"
+    },
+    {
+      "head": "EnsembleBRB-SHAP模型",
+      "relation": "结合了",
+      "tail": "置信规则库（Belief Rule-Based, BRB）"
+    },
+    {
+      "head": "EnsembleBRB-SHAP模型",
+      "relation": "结合了",
+      "tail": "沙普利加性解释（SHapley Additive exPlanations, SHAP）"
+    },
+    {
+      "head": "数据驱动法",
+      "relation": "用于",
+      "tail": "航空发动机健康状态预测"
+    },
+    {
+      "head": "EnsembleBRB-SHAP模型",
+      "relation": "应用于",
+      "tail": "航空发动机健康状态预测"
+    },
+    {
+      "head": "EnsembleBRB-SHAP模型",
+      "relation": "利用",
+      "tail": "多源不确定数据"
+    },
+    {
+      "head": "集成学习算法",
+      "relation": "改进了",
+      "tail": "置信规则库（Belief Rule-Based, BRB）"
+    },
+    {
+      "head": "物理模型（physics- based models, PbMs）",
+      "relation": "区别于",
+      "tail": "数据驱动模型（data- driven models, DDMs）"
+    },
+    {
+      "head": "数据驱动模型（data- driven models, DDMs）",
+      "relation": "应用于",
+      "tail": "航空发动机健康状态预测"
+    },
+    {
+      "head": "发动机健康管理（Prognostic and Health Management, PHM）",
+      "relation": "包括",
+      "tail": "航空发动机健康状态预测"
+    },
+    {
+      "head": "EnsembleBRB-SHAP模型",
+      "relation": "评价指标是",
+      "tail": "准确率"
+    },
+    {
+      "head": "EnsembleBRB-SHAP模型",
+      "relation": "评价指标是",
+      "tail": "均方根误差(MSE)"
+    },
+    {
+      "head": "低压涡轮机冷却液泄漏量",
+      "relation": "影响",
+      "tail": "航空发动机健康状态预测"
+    },
+    {
+      "head": "风扇转速",
+      "relation": "影响",
+      "tail": "航空发动机健康状态预测"
+    },
+    {
+      "head": "EnsembleBRB-SHAP模型",
+      "relation": "验证使用",
+      "tail": "商用模块化航空推进系统仿真软件（C-MAPSS）"
+    }
+  ]
+}

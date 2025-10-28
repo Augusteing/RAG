@@ -1,0 +1,190 @@
+{
+  "entities": [
+    {
+      "name": "故障预测与健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "滑油光谱分析",
+      "type": "研究方法"
+    },
+    {
+      "name": "经验模态分解",
+      "type": "算法"
+    },
+    {
+      "name": "相关向量机",
+      "type": "模型"
+    },
+    {
+      "name": "自回归模型",
+      "type": "模型"
+    },
+    {
+      "name": "量子粒子群优化",
+      "type": "算法"
+    },
+    {
+      "name": "EMD+RVM-AR模型",
+      "type": "模型"
+    },
+    {
+      "name": "AR模型",
+      "type": "模型"
+    },
+    {
+      "name": "SVM模型",
+      "type": "模型"
+    },
+    {
+      "name": "Fe元素",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "Si元素",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "平均相对误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "镜像延拓法",
+      "type": "算法"
+    },
+    {
+      "name": "Gaussian核函数",
+      "type": "理论基础"
+    },
+    {
+      "name": "Bayesian方法",
+      "type": "理论基础"
+    },
+    {
+      "name": "交叉验证误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "嵌入维数",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "核参数",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "非线性非平稳时间序列",
+      "type": "理论基础"
+    },
+    {
+      "name": "磨损故障预测",
+      "type": "研究方法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "提出了",
+      "tail": "磨损故障预测"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "基于",
+      "tail": "经验模态分解"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "基于",
+      "tail": "相关向量机"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "基于",
+      "tail": "自回归模型"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "应用于",
+      "tail": "航空发动机"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "用于",
+      "tail": "滑油光谱分析"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "预测",
+      "tail": "Fe元素"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "预测",
+      "tail": "Si元素"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "优于",
+      "tail": "AR模型"
+    },
+    {
+      "head": "EMD+RVM-AR模型",
+      "relation": "优于",
+      "tail": "SVM模型"
+    },
+    {
+      "head": "经验模态分解",
+      "relation": "分离",
+      "tail": "非线性非平稳时间序列"
+    },
+    {
+      "head": "相关向量机",
+      "relation": "基于",
+      "tail": "Bayesian方法"
+    },
+    {
+      "head": "相关向量机",
+      "relation": "利用",
+      "tail": "Gaussian核函数"
+    },
+    {
+      "head": "量子粒子群优化",
+      "relation": "优化",
+      "tail": "嵌入维数"
+    },
+    {
+      "head": "量子粒子群优化",
+      "relation": "优化",
+      "tail": "核参数"
+    },
+    {
+      "head": "量子粒子群优化",
+      "relation": "基于",
+      "tail": "交叉验证误差"
+    },
+    {
+      "head": "镜像延拓法",
+      "relation": "抑制",
+      "tail": "端点效应"
+    },
+    {
+      "head": "滑油光谱分析",
+      "relation": "用于",
+      "tail": "磨损故障预测"
+    },
+    {
+      "head": "故障预测与健康管理",
+      "relation": "应用于",
+      "tail": "航空发动机"
+    },
+    {
+      "head": "平均相对误差",
+      "relation": "评估",
+      "tail": "EMD+RVM-AR模型"
+    }
+  ]
+}

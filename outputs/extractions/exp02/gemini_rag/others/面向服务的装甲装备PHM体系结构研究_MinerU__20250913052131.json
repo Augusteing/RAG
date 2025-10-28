@@ -1,0 +1,271 @@
+{
+  "entities": [
+    {
+      "name": "面向服务的装甲装备PHM体系结构",
+      "type": "模型"
+    },
+    {
+      "name": "故障预测与健康管理(PHM)",
+      "type": "研究领域"
+    },
+    {
+      "name": "装甲装备",
+      "type": "系统/部件"
+    },
+    {
+      "name": "面向服务架构(SOA)",
+      "type": "理论基础"
+    },
+    {
+      "name": "装甲装备综合电子信息系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "OSA-CBM体系结构",
+      "type": "模型"
+    },
+    {
+      "name": "JSF飞机的PHM体系结构",
+      "type": "模型"
+    },
+    {
+      "name": "面向机载PHM的分层融合式体系结构",
+      "type": "模型"
+    },
+    {
+      "name": "维修保障方式",
+      "type": "研究方法"
+    },
+    {
+      "name": "多源信息融合",
+      "type": "研究方法"
+    },
+    {
+      "name": "神经网络",
+      "type": "模型"
+    },
+    {
+      "name": "模糊逻辑",
+      "type": "算法"
+    },
+    {
+      "name": "基于模型的推理",
+      "type": "研究方法"
+    },
+    {
+      "name": "表示层",
+      "type": "系统/部件"
+    },
+    {
+      "name": "服务发布层",
+      "type": "系统/部件"
+    },
+    {
+      "name": "业务逻辑层",
+      "type": "系统/部件"
+    },
+    {
+      "name": "数据访问层",
+      "type": "系统/部件"
+    },
+    {
+      "name": "细粒度服务",
+      "type": "系统/部件"
+    },
+    {
+      "name": "粗粒度服务",
+      "type": "系统/部件"
+    },
+    {
+      "name": "WebService",
+      "type": "软件工具"
+    },
+    {
+      "name": "XML",
+      "type": "软件工具"
+    },
+    {
+      "name": "SOAP",
+      "type": "软件工具"
+    },
+    {
+      "name": "HTTP",
+      "type": "软件工具"
+    },
+    {
+      "name": "分布式特点",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "层次化特点",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "开放性特点",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "维修保障",
+      "type": "研究方法"
+    },
+    {
+      "name": "分布式应用环境",
+      "type": "应用场景"
+    },
+    {
+      "name": "PHM体系结构",
+      "type": "模型"
+    },
+    {
+      "name": "本文",
+      "type": "研究主体"
+    }
+  ],
+  "relations": [
+    {
+      "head": "本文",
+      "relation": "提出了",
+      "tail": "面向服务的装甲装备PHM体系结构"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "适应",
+      "tail": "维修保障"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "结合",
+      "tail": "面向服务架构(SOA)"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "建立在",
+      "tail": "装甲装备综合电子信息系统"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "具有",
+      "tail": "分布式特点"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "具有",
+      "tail": "层次化特点"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "具有",
+      "tail": "开放性特点"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "满足",
+      "tail": "分布式应用环境"
+    },
+    {
+      "head": "维修保障方式",
+      "relation": "发展为",
+      "tail": "故障预测与健康管理(PHM)"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "参考",
+      "tail": "OSA-CBM体系结构"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "包含",
+      "tail": "表示层"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "包含",
+      "tail": "服务发布层"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "包含",
+      "tail": "业务逻辑层"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "包含",
+      "tail": "数据访问层"
+    },
+    {
+      "head": "服务发布层",
+      "relation": "封装",
+      "tail": "细粒度服务"
+    },
+    {
+      "head": "服务发布层",
+      "relation": "发布",
+      "tail": "粗粒度服务"
+    },
+    {
+      "head": "业务逻辑层",
+      "relation": "封装成",
+      "tail": "细粒度服务"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "利用",
+      "tail": "XML"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "利用",
+      "tail": "SOAP"
+    },
+    {
+      "head": "面向服务的装甲装备PHM体系结构",
+      "relation": "使用",
+      "tail": "HTTP"
+    },
+    {
+      "head": "JSF飞机的PHM体系结构",
+      "relation": "利用",
+      "tail": "神经网络"
+    },
+    {
+      "head": "JSF飞机的PHM体系结构",
+      "relation": "利用",
+      "tail": "模糊逻辑"
+    },
+    {
+      "head": "JSF飞机的PHM体系结构",
+      "relation": "利用",
+      "tail": "基于模型的推理"
+    },
+    {
+      "head": "OSA-CBM体系结构",
+      "relation": "支持",
+      "tail": "多源信息融合"
+    },
+    {
+      "head": "PHM体系结构",
+      "relation": "应具备",
+      "tail": "分布式特点"
+    },
+    {
+      "head": "PHM体系结构",
+      "relation": "应具备",
+      "tail": "层次化特点"
+    },
+    {
+      "head": "PHM体系结构",
+      "relation": "应具备",
+      "tail": "开放性特点"
+    },
+    {
+      "head": "服务发布层",
+      "relation": "利用",
+      "tail": "WebService"
+    },
+    {
+      "head": "故障预测与健康管理(PHM)",
+      "relation": "应用于",
+      "tail": "装甲装备"
+    }
+  ]
+}

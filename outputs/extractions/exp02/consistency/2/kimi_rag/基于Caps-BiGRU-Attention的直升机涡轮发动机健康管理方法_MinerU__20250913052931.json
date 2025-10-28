@@ -1,0 +1,159 @@
+{
+  "entities": [
+    {
+      "name": "直升机涡轮发动机健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "Caps-BiGRU-Attention模型",
+      "type": "模型"
+    },
+    {
+      "name": "胶囊网络",
+      "type": "模型"
+    },
+    {
+      "name": "BiGRU网络",
+      "type": "模型"
+    },
+    {
+      "name": "SE注意力机制",
+      "type": "理论基础"
+    },
+    {
+      "name": "扭矩裕度预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "直升机涡轮发动机数据集",
+      "type": "数据集"
+    },
+    {
+      "name": "特征分析",
+      "type": "研究方法"
+    },
+    {
+      "name": "概率分布拟合",
+      "type": "研究方法"
+    },
+    {
+      "name": "SHAP模型",
+      "type": "理论基础"
+    },
+    {
+      "name": "混合高斯密度模型",
+      "type": "模型"
+    },
+    {
+      "name": "贝塔分布",
+      "type": "理论基础"
+    },
+    {
+      "name": "Logistic分布",
+      "type": "理论基础"
+    },
+    {
+      "name": "K-S检验",
+      "type": "理论基础"
+    },
+    {
+      "name": "AIC值",
+      "type": "性能指标"
+    },
+    {
+      "name": "粒子群优化",
+      "type": "算法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "直升机涡轮发动机健康管理",
+      "relation": "采用",
+      "tail": "Caps-BiGRU-Attention模型"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "包含",
+      "tail": "胶囊网络"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "包含",
+      "tail": "BiGRU网络"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "结合",
+      "tail": "SE注意力机制"
+    },
+    {
+      "head": "直升机涡轮发动机健康管理",
+      "relation": "涉及",
+      "tail": "扭矩裕度预测"
+    },
+    {
+      "head": "直升机涡轮发动机健康管理",
+      "relation": "涉及",
+      "tail": "故障诊断"
+    },
+    {
+      "head": "扭矩裕度预测",
+      "relation": "基于",
+      "tail": "直升机涡轮发动机数据集"
+    },
+    {
+      "head": "故障诊断",
+      "relation": "基于",
+      "tail": "直升机涡轮发动机数据集"
+    },
+    {
+      "head": "直升机涡轮发动机健康管理",
+      "relation": "进行",
+      "tail": "特征分析"
+    },
+    {
+      "head": "直升机涡轮发动机健康管理",
+      "relation": "进行",
+      "tail": "概率分布拟合"
+    },
+    {
+      "head": "特征分析",
+      "relation": "使用",
+      "tail": "SHAP模型"
+    },
+    {
+      "head": "概率分布拟合",
+      "relation": "使用",
+      "tail": "混合高斯密度模型"
+    },
+    {
+      "head": "概率分布拟合",
+      "relation": "确定",
+      "tail": "贝塔分布"
+    },
+    {
+      "head": "概率分布拟合",
+      "relation": "确定",
+      "tail": "Logistic分布"
+    },
+    {
+      "head": "混合高斯密度模型",
+      "relation": "评估",
+      "tail": "K-S检验"
+    },
+    {
+      "head": "混合高斯密度模型",
+      "relation": "评估",
+      "tail": "AIC值"
+    },
+    {
+      "head": "粒子群优化",
+      "relation": "用于",
+      "tail": "寻找最优箱数"
+    }
+  ]
+}

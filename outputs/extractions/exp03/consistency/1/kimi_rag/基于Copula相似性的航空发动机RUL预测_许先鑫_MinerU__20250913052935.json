@@ -1,0 +1,160 @@
+{
+  "entities": [
+    {
+      "name": "航空发动机性能退化特征",
+      "type": "研究对象"
+    },
+    {
+      "name": "Copula相似性",
+      "type": "理论基础"
+    },
+    {
+      "name": "航空发动机RUL预测方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "K-means聚类",
+      "type": "算法"
+    },
+    {
+      "name": "Copula函数",
+      "type": "理论基础"
+    },
+    {
+      "name": "传感器",
+      "type": "系统/部件"
+    },
+    {
+      "name": "非线性相关关系",
+      "type": "理论基础"
+    },
+    {
+      "name": "预测误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "预测精度",
+      "type": "性能指标"
+    },
+    {
+      "name": "NASA的C-MAPSS航空发动机仿真模型数据",
+      "type": "数据集"
+    },
+    {
+      "name": "加力式涡扇发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "温度、压力",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "多维退化模型",
+      "type": "理论基础"
+    },
+    {
+      "name": "退化率相关性建模",
+      "type": "理论基础"
+    },
+    {
+      "name": "Copula相关性建模",
+      "type": "理论基础"
+    },
+    {
+      "name": "贝叶斯动态线性模型",
+      "type": "模型"
+    },
+    {
+      "name": "非线性Wiener过程",
+      "type": "理论基础"
+    },
+    {
+      "name": "阿基米德Copula函数",
+      "type": "理论基础"
+    },
+    {
+      "name": "半Copula模型",
+      "type": "模型"
+    },
+    {
+      "name": "齿轮箱RUL问题",
+      "type": "研究领域"
+    },
+    {
+      "name": "秩相关系数",
+      "type": "统计特征"
+    }
+  ],
+  "relations": [
+    {
+      "head": "航空发动机性能退化特征",
+      "relation": "具有",
+      "tail": "非线性相关关系"
+    },
+    {
+      "head": "航空发动机RUL预测方法",
+      "relation": "基于",
+      "tail": "Copula相似性"
+    },
+    {
+      "head": "航空发动机RUL预测方法",
+      "relation": "通过",
+      "tail": "K-means聚类"
+    },
+    {
+      "head": "航空发动机RUL预测方法",
+      "relation": "利用",
+      "tail": "Copula函数"
+    },
+    {
+      "head": "航空发动机RUL预测方法",
+      "relation": "减少",
+      "tail": "预测误差"
+    },
+    {
+      "head": "航空发动机RUL预测方法",
+      "relation": "提高",
+      "tail": "预测精度"
+    },
+    {
+      "head": "航空发动机RUL预测方法",
+      "relation": "验证使用",
+      "tail": "NASA的C-MAPSS航空发动机仿真模型数据"
+    },
+    {
+      "head": "加力式涡扇发动机",
+      "relation": "包含",
+      "tail": "温度、压力"
+    },
+    {
+      "head": "Copula相关性建模",
+      "relation": "区别于",
+      "tail": "多维退化模型"
+    },
+    {
+      "head": "Copula相关性建模",
+      "relation": "区别于",
+      "tail": "退化率相关性建模"
+    },
+    {
+      "head": "贝叶斯动态线性模型",
+      "relation": "用于",
+      "tail": "设备RUL预测"
+    },
+    {
+      "head": "非线性Wiener过程",
+      "relation": "结合",
+      "tail": "阿基米德Copula函数"
+    },
+    {
+      "head": "半Copula模型",
+      "relation": "用于",
+      "tail": "失效时间相关性建模"
+    },
+    {
+      "head": "秩相关系数",
+      "relation": "衡量",
+      "tail": "变量变化趋势"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "entities": [
+    {
+      "name": "PHM技术",
+      "type": "技术"
+    },
+    {
+      "name": "飞机机体结构疲劳失效",
+      "type": "故障模式"
+    },
+    {
+      "name": "疲劳故障预测",
+      "type": "技术"
+    },
+    {
+      "name": "失效物理模型",
+      "type": "理论基础"
+    },
+    {
+      "name": "应力严重系数",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "局部应力应变法",
+      "type": "方法"
+    },
+    {
+      "name": "疲劳缺口系数",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "修正Neuber法",
+      "type": "方法"
+    },
+    {
+      "name": "Manson-Coffin公式",
+      "type": "理论基础"
+    },
+    {
+      "name": "MTS Landmark试验机",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "2024铝合金",
+      "type": "材料"
+    },
+    {
+      "name": "7050铝合金",
+      "type": "材料"
+    },
+    {
+      "name": "应变-寿命曲线",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "疲劳试验",
+      "type": "实验/测试"
+    },
+    {
+      "name": "飞机结构件",
+      "type": "系统/部件"
+    }
+  ],
+  "relations": [
+    {
+      "head": "PHM技术",
+      "relation": "用于",
+      "tail": "疲劳故障预测"
+    },
+    {
+      "head": "PHM技术",
+      "relation": "基于",
+      "tail": "失效物理模型"
+    },
+    {
+      "head": "失效物理模型",
+      "relation": "包含",
+      "tail": "应力严重系数"
+    },
+    {
+      "head": "失效物理模型",
+      "relation": "包含",
+      "tail": "疲劳缺口系数"
+    },
+    {
+      "head": "疲劳寿命预测",
+      "relation": "基于",
+      "tail": "局部应力应变法"
+    },
+    {
+      "head": "局部应力应变法",
+      "relation": "修正为",
+      "tail": "修正Neuber法"
+    },
+    {
+      "head": "修正Neuber法",
+      "relation": "描述为",
+      "tail": "Manson-Coffin公式"
+    },
+    {
+      "head": "疲劳试验",
+      "relation": "使用设备",
+      "tail": "MTS Landmark试验机"
+    },
+    {
+      "head": "应力严重系数",
+      "relation": "计算涉及材料",
+      "tail": "2024铝合金"
+    },
+    {
+      "head": "应力严重系数",
+      "relation": "计算涉及材料",
+      "tail": "7050铝合金"
+    },
+    {
+      "head": "疲劳寿命预测",
+      "relation": "依据",
+      "tail": "应变-寿命曲线"
+    },
+    {
+      "head": "飞机结构件",
+      "relation": "经历",
+      "tail": "疲劳试验"
+    }
+  ]
+}

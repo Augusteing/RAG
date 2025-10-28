@@ -1,0 +1,235 @@
+{
+  "entities": [
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "剩余使用寿命预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "Copula相似性",
+      "type": "方法"
+    },
+    {
+      "name": "K-means聚类",
+      "type": "算法"
+    },
+    {
+      "name": "退化模型",
+      "type": "模型"
+    },
+    {
+      "name": "Copula函数",
+      "type": "理论基础"
+    },
+    {
+      "name": "Kendall秩相关系数",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "C-MAPSS数据集",
+      "type": "数据集"
+    },
+    {
+      "name": "预测误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "预测精度",
+      "type": "性能指标"
+    },
+    {
+      "name": "传统方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "非线性相关关系",
+      "type": "理论基础"
+    },
+    {
+      "name": "性能退化特征",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "传感器",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "Ps30",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "T50",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "BPR",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "Frank Copula",
+      "type": "模型"
+    },
+    {
+      "name": "Clayton Copula",
+      "type": "模型"
+    },
+    {
+      "name": "Joe Copula",
+      "type": "模型"
+    },
+    {
+      "name": "Akaike信息准则",
+      "type": "性能指标"
+    },
+    {
+      "name": "标准差",
+      "type": "性能指标"
+    },
+    {
+      "name": "预测与健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "线性退化模型",
+      "type": "模型"
+    },
+    {
+      "name": "相似性方法",
+      "type": "方法"
+    },
+    {
+      "name": "NASA",
+      "type": "组织"
+    }
+  ],
+  "relations": [
+    {
+      "head": "Copula相似性",
+      "relation": "用于",
+      "tail": "剩余使用寿命预测"
+    },
+    {
+      "head": "Copula相似性",
+      "relation": "基于",
+      "tail": "Copula函数"
+    },
+    {
+      "head": "Copula函数",
+      "relation": "描述",
+      "tail": "非线性相关关系"
+    },
+    {
+      "head": "K-means聚类",
+      "relation": "用于",
+      "tail": "工作状态分类"
+    },
+    {
+      "head": "退化模型",
+      "relation": "用于",
+      "tail": "传感器选择"
+    },
+    {
+      "head": "Copula相似性",
+      "relation": "减少",
+      "tail": "预测误差"
+    },
+    {
+      "head": "Copula相似性",
+      "relation": "提高",
+      "tail": "预测精度"
+    },
+    {
+      "head": "Copula相似性",
+      "relation": "优于",
+      "tail": "传统方法"
+    },
+    {
+      "head": "Kendall秩相关系数",
+      "relation": "用于",
+      "tail": "相似性度量"
+    },
+    {
+      "head": "C-MAPSS数据集",
+      "relation": "用于",
+      "tail": "实验验证"
+    },
+    {
+      "head": "线性退化模型",
+      "relation": "构建",
+      "tail": "退化模型"
+    },
+    {
+      "head": "Copula函数",
+      "relation": "连接",
+      "tail": "边缘分布"
+    },
+    {
+      "head": "Akaike信息准则",
+      "relation": "用于",
+      "tail": "Copula函数选择"
+    },
+    {
+      "head": "标准差",
+      "relation": "用于",
+      "tail": "模型对比"
+    },
+    {
+      "head": "预测与健康管理",
+      "relation": "应用于",
+      "tail": "航空发动机"
+    },
+    {
+      "head": "相似性方法",
+      "relation": "基于",
+      "tail": "历史样本"
+    },
+    {
+      "head": "NASA",
+      "relation": "提供",
+      "tail": "C-MAPSS数据集"
+    },
+    {
+      "head": "航空发动机",
+      "relation": "具有",
+      "tail": "性能退化特征"
+    },
+    {
+      "head": "传感器",
+      "relation": "监测",
+      "tail": "性能退化特征"
+    },
+    {
+      "head": "Ps30",
+      "relation": "是",
+      "tail": "传感器"
+    },
+    {
+      "head": "T50",
+      "relation": "是",
+      "tail": "传感器"
+    },
+    {
+      "head": "BPR",
+      "relation": "是",
+      "tail": "传感器"
+    },
+    {
+      "head": "Frank Copula",
+      "relation": "是",
+      "tail": "Copula函数"
+    },
+    {
+      "head": "Clayton Copula",
+      "relation": "是",
+      "tail": "Copula函数"
+    },
+    {
+      "head": "Joe Copula",
+      "relation": "是",
+      "tail": "Copula函数"
+    }
+  ]
+}

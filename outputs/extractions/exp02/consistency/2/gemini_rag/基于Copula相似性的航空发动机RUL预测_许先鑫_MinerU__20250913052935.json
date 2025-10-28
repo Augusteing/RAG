@@ -1,0 +1,202 @@
+{
+  "entities": [
+    {
+      "name": "基于Copula相似性的航空发动机RUL预测方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "剩余使用寿命预测(RUL)",
+      "type": "研究方法"
+    },
+    {
+      "name": "Copula函数",
+      "type": "理论基础"
+    },
+    {
+      "name": "K-means聚类",
+      "type": "算法"
+    },
+    {
+      "name": "退化模型",
+      "type": "模型"
+    },
+    {
+      "name": "Copula相似性",
+      "type": "理论基础"
+    },
+    {
+      "name": "预测误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "预测精度",
+      "type": "性能指标"
+    },
+    {
+      "name": "传统方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "非线性相关关系",
+      "type": "理论基础"
+    },
+    {
+      "name": "Copula结构",
+      "type": "模型"
+    },
+    {
+      "name": "C-MAPSS航空发动机仿真模型数据",
+      "type": "数据集"
+    },
+    {
+      "name": "Akaike信息准则(AIC)",
+      "type": "性能指标"
+    },
+    {
+      "name": "最优Copula结构",
+      "type": "模型"
+    },
+    {
+      "name": "Kendall秩相关系数",
+      "type": "理论基础"
+    },
+    {
+      "name": "相似性度量",
+      "type": "研究方法"
+    },
+    {
+      "name": "Ps30",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "T50",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "BPR",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "退化趋势",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "性能退化",
+      "type": "故障模式"
+    },
+    {
+      "name": "航空发动机工作状态",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "退化特征",
+      "type": "特征/健康指标"
+    }
+  ],
+  "relations": [
+    {
+      "head": "本文",
+      "relation": "提出了",
+      "tail": "基于Copula相似性的航空发动机RUL预测方法"
+    },
+    {
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "relation": "解决",
+      "tail": "非线性相关关系"
+    },
+    {
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "relation": "应用于",
+      "tail": "航空发动机"
+    },
+    {
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "relation": "用于",
+      "tail": "剩余使用寿命预测(RUL)"
+    },
+    {
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "relation": "基于",
+      "tail": "Copula相似性"
+    },
+    {
+      "head": "K-means聚类",
+      "relation": "用于分类",
+      "tail": "航空发动机工作状态"
+    },
+    {
+      "head": "Copula函数",
+      "relation": "构建",
+      "tail": "Copula结构"
+    },
+    {
+      "head": "Copula函数",
+      "relation": "用于建模",
+      "tail": "非线性相关关系"
+    },
+    {
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "relation": "优于",
+      "tail": "传统方法"
+    },
+    {
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "relation": "减少",
+      "tail": "预测误差"
+    },
+    {
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "relation": "提高",
+      "tail": "预测精度"
+    },
+    {
+      "head": "C-MAPSS航空发动机仿真模型数据",
+      "relation": "用于验证",
+      "tail": "基于Copula相似性的航空发动机RUL预测方法"
+    },
+    {
+      "head": "Akaike信息准则(AIC)",
+      "relation": "用于选择",
+      "tail": "最优Copula结构"
+    },
+    {
+      "head": "Kendall秩相关系数",
+      "relation": "作为",
+      "tail": "相似性度量"
+    },
+    {
+      "head": "退化模型",
+      "relation": "用于评估",
+      "tail": "退化趋势"
+    },
+    {
+      "head": "Ps30",
+      "relation": "是退化趋势最明显的传感器之一",
+      "tail": "Ps30"
+    },
+    {
+      "head": "T50",
+      "relation": "是退化趋势最明显的传感器之一",
+      "tail": "T50"
+    },
+    {
+      "head": "BPR",
+      "relation": "是退化趋势最明显的传感器之一",
+      "tail": "BPR"
+    },
+    {
+      "head": "航空发动机",
+      "relation": "存在",
+      "tail": "性能退化"
+    },
+    {
+      "head": "航空发动机",
+      "relation": "具有",
+      "tail": "退化特征"
+    }
+  ]
+}

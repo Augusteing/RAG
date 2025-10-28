@@ -1,0 +1,141 @@
+{
+  "entities": [
+    {
+      "name": "AFDX网络",
+      "type": "系统/部件"
+    },
+    {
+      "name": "综合模块化航空电子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障注入技术",
+      "type": "研究方法"
+    },
+    {
+      "name": "健康管理功能",
+      "type": "研究领域"
+    },
+    {
+      "name": "PC机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "Visual C++ MFC框架",
+      "type": "软件工具"
+    },
+    {
+      "name": "接口控制文件",
+      "type": "数据集"
+    },
+    {
+      "name": "SQLite数据库",
+      "type": "软件工具"
+    },
+    {
+      "name": "多媒体定时器",
+      "type": "软件工具"
+    },
+    {
+      "name": "AFDX端系统卡",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障数据",
+      "type": "数据集"
+    },
+    {
+      "name": "功能数据集合",
+      "type": "数据集"
+    },
+    {
+      "name": "Copilot软件",
+      "type": "软件工具"
+    },
+    {
+      "name": "数据更新率",
+      "type": "性能指标"
+    },
+    {
+      "name": "定时器周期",
+      "type": "性能指标"
+    }
+  ],
+  "relations": [
+    {
+      "head": "综合模块化航空电子系统",
+      "relation": "基于",
+      "tail": "AFDX网络"
+    },
+    {
+      "head": "故障注入技术",
+      "relation": "应用于",
+      "tail": "综合模块化航空电子系统"
+    },
+    {
+      "head": "健康管理功能",
+      "relation": "包含",
+      "tail": "分区驻留的PHM进程"
+    },
+    {
+      "head": "故障注入软件",
+      "relation": "基于",
+      "tail": "Visual C++ MFC框架"
+    },
+    {
+      "head": "故障数据配置",
+      "relation": "依据",
+      "tail": "接口控制文件"
+    },
+    {
+      "head": "故障数据",
+      "relation": "存储于",
+      "tail": "SQLite数据库"
+    },
+    {
+      "head": "故障注入平台",
+      "relation": "使用",
+      "tail": "多媒体定时器"
+    },
+    {
+      "head": "故障注入数据帧发送操作",
+      "relation": "通过",
+      "tail": "AFDX端系统卡"
+    },
+    {
+      "head": "功能数据集合",
+      "relation": "包含",
+      "tail": "故障数据"
+    },
+    {
+      "head": "Copilot软件",
+      "relation": "用于",
+      "tail": "监控错误帧信息"
+    },
+    {
+      "head": "数据更新率",
+      "relation": "与",
+      "tail": "定时器周期"
+    },
+    {
+      "head": "故障注入技术",
+      "relation": "解决",
+      "tail": "健康管理功能验证"
+    },
+    {
+      "head": "故障注入技术",
+      "relation": "导致",
+      "tail": "PHM功能的正确性和可信性验证"
+    },
+    {
+      "head": "故障注入技术",
+      "relation": "包括",
+      "tail": "非法数据输入和特殊信令输入"
+    },
+    {
+      "head": "故障注入技术",
+      "relation": "优化",
+      "tail": "数据发送间隔的定时精度"
+    }
+  ]
+}

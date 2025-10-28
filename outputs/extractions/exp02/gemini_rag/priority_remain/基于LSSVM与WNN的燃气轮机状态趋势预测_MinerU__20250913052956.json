@@ -1,0 +1,159 @@
+{
+  "entities": [
+    {
+      "name": "燃气轮机状态趋势预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "最小二乘支持向量机",
+      "type": "模型"
+    },
+    {
+      "name": "小波神经网络",
+      "type": "模型"
+    },
+    {
+      "name": "LSSVM-WNN预测模型",
+      "type": "模型"
+    },
+    {
+      "name": "燃气轮机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "残差",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "平均相对误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "排气温度",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "故障预测技术",
+      "type": "研究领域"
+    },
+    {
+      "name": "视情维修",
+      "type": "研究领域"
+    },
+    {
+      "name": "基于数据驱动的预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "标准SVM",
+      "type": "模型"
+    },
+    {
+      "name": "morlet小波",
+      "type": "理论基础"
+    },
+    {
+      "name": "小波去噪",
+      "type": "研究方法"
+    },
+    {
+      "name": "某型燃气轮机试验数据",
+      "type": "数据集"
+    },
+    {
+      "name": "主泵",
+      "type": "系统/部件"
+    },
+    {
+      "name": "性能衰退",
+      "type": "故障模式"
+    }
+  ],
+  "relations": [
+    {
+      "head": "LSSVM-WNN预测模型",
+      "relation": "提出用于",
+      "tail": "燃气轮机状态趋势预测"
+    },
+    {
+      "head": "LSSVM-WNN预测模型",
+      "relation": "结合",
+      "tail": "最小二乘支持向量机"
+    },
+    {
+      "head": "LSSVM-WNN预测模型",
+      "relation": "结合",
+      "tail": "小波神经网络"
+    },
+    {
+      "head": "小波神经网络",
+      "relation": "用于预测",
+      "tail": "残差"
+    },
+    {
+      "head": "燃气轮机状态趋势预测",
+      "relation": "应用于",
+      "tail": "燃气轮机"
+    },
+    {
+      "head": "LSSVM-WNN预测模型",
+      "relation": "性能优于",
+      "tail": "最小二乘支持向量机"
+    },
+    {
+      "head": "LSSVM-WNN预测模型",
+      "relation": "性能优于",
+      "tail": "小波神经网络"
+    },
+    {
+      "head": "LSSVM-WNN预测模型",
+      "relation": "评价指标是",
+      "tail": "平均相对误差"
+    },
+    {
+      "head": "最小二乘支持向量机",
+      "relation": "改进了",
+      "tail": "标准SVM"
+    },
+    {
+      "head": "LSSVM-WNN预测模型",
+      "relation": "基于",
+      "tail": "基于数据驱动的预测"
+    },
+    {
+      "head": "燃气轮机状态趋势预测",
+      "relation": "监测参数为",
+      "tail": "排气温度"
+    },
+    {
+      "head": "排气温度",
+      "relation": "衡量",
+      "tail": "主泵"
+    },
+    {
+      "head": "主泵",
+      "relation": "是...的关键部件",
+      "tail": "燃气轮机"
+    },
+    {
+      "head": "主泵",
+      "relation": "存在故障",
+      "tail": "性能衰退"
+    },
+    {
+      "head": "LSSVM-WNN预测模型",
+      "relation": "使用",
+      "tail": "某型燃气轮机试验数据"
+    },
+    {
+      "head": "故障预测技术",
+      "relation": "是实现...的基础",
+      "tail": "视情维修"
+    },
+    {
+      "head": "LSSVM-WNN预测模型",
+      "relation": "采用",
+      "tail": "小波去噪"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "name": "航空发动机排气温度基线模型",
+      "type": "研究对象"
+    },
+    {
+      "name": "核主成分分析",
+      "type": "算法"
+    },
+    {
+      "name": "深度置信网络",
+      "type": "模型"
+    },
+    {
+      "name": "CFM56-7B发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "QAR数据",
+      "type": "数据集"
+    },
+    {
+      "name": "EGT基线模型",
+      "type": "模型"
+    },
+    {
+      "name": "KPCA-DBN混合模型",
+      "type": "模型"
+    },
+    {
+      "name": "平均绝对误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "GA-BP神经网络",
+      "type": "模型"
+    },
+    {
+      "name": "DBN网络",
+      "type": "模型"
+    },
+    {
+      "name": "KPCA降维",
+      "type": "方法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "航空发动机排气温度基线模型",
+      "relation": "基于",
+      "tail": "核主成分分析"
+    },
+    {
+      "head": "航空发动机排气温度基线模型",
+      "relation": "基于",
+      "tail": "深度置信网络"
+    },
+    {
+      "head": "核主成分分析",
+      "relation": "用于",
+      "tail": "KPCA降维"
+    },
+    {
+      "head": "深度置信网络",
+      "relation": "用于",
+      "tail": "EGT基线模型"
+    },
+    {
+      "head": "EGT基线模型",
+      "relation": "验证通过",
+      "tail": "QAR数据"
+    },
+    {
+      "head": "KPCA-DBN混合模型",
+      "relation": "结合了",
+      "tail": "核主成分分析"
+    },
+    {
+      "head": "KPCA-DBN混合模型",
+      "relation": "结合了",
+      "tail": "深度置信网络"
+    },
+    {
+      "head": "KPCA-DBN混合模型",
+      "relation": "评价指标是",
+      "tail": "平均绝对误差"
+    },
+    {
+      "head": "GA-BP神经网络",
+      "relation": "对比",
+      "tail": "KPCA-DBN混合模型"
+    },
+    {
+      "head": "DBN网络",
+      "relation": "对比",
+      "tail": "KPCA-DBN混合模型"
+    },
+    {
+      "head": "KPCA降维",
+      "relation": "影响",
+      "tail": "KPCA-DBN混合模型"
+    }
+  ]
+}

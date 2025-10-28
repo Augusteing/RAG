@@ -1,0 +1,197 @@
+{
+  "entities": [
+    {
+      "name": "航空发动机排气温度基线模型",
+      "type": "模型"
+    },
+    {
+      "name": "核主成分分析(KPCA)",
+      "type": "算法"
+    },
+    {
+      "name": "深度置信网络(DBN)",
+      "type": "模型"
+    },
+    {
+      "name": "KPCA-DBN模型",
+      "type": "模型"
+    },
+    {
+      "name": "航空发动机健康管理(EHM)",
+      "type": "研究领域"
+    },
+    {
+      "name": "CFM56-7B发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "QAR数据",
+      "type": "数据集"
+    },
+    {
+      "name": "降维",
+      "type": "研究方法"
+    },
+    {
+      "name": "高斯函数",
+      "type": "算法"
+    },
+    {
+      "name": "传统神经网络建模方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "预测精度",
+      "type": "性能指标"
+    },
+    {
+      "name": "网络结构复杂度",
+      "type": "性能指标"
+    },
+    {
+      "name": "排气温度(EGT)",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "部件异常",
+      "type": "故障模式"
+    },
+    {
+      "name": "深度学习",
+      "type": "理论基础"
+    },
+    {
+      "name": "受限玻尔兹曼机(RBM)",
+      "type": "模型"
+    },
+    {
+      "name": "反向传播网络(BP)",
+      "type": "模型"
+    },
+    {
+      "name": "GA-BP神经网络模型",
+      "type": "模型"
+    },
+    {
+      "name": "主成分分析(PCA)",
+      "type": "算法"
+    },
+    {
+      "name": "核方法",
+      "type": "理论基础"
+    },
+    {
+      "name": "非线性特征提取",
+      "type": "研究方法"
+    },
+    {
+      "name": "平均绝对误差(MAE)",
+      "type": "性能指标"
+    },
+    {
+      "name": "遗传算法(GA)",
+      "type": "算法"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    }
+  ],
+  "relations": [
+    {
+      "head": "KPCA-DBN模型",
+      "relation": "结合了",
+      "tail": "核主成分分析(KPCA)"
+    },
+    {
+      "head": "KPCA-DBN模型",
+      "relation": "结合了",
+      "tail": "深度置信网络(DBN)"
+    },
+    {
+      "head": "KPCA-DBN模型",
+      "relation": "用于构建",
+      "tail": "航空发动机排气温度基线模型"
+    },
+    {
+      "head": "航空发动机排气温度基线模型",
+      "relation": "应用于",
+      "tail": "航空发动机健康管理(EHM)"
+    },
+    {
+      "head": "核主成分分析(KPCA)",
+      "relation": "用于",
+      "tail": "降维"
+    },
+    {
+      "head": "核主成分分析(KPCA)",
+      "relation": "用于",
+      "tail": "非线性特征提取"
+    },
+    {
+      "head": "深度置信网络(DBN)",
+      "relation": "由...组成",
+      "tail": "受限玻尔兹曼机(RBM)"
+    },
+    {
+      "head": "深度置信网络(DBN)",
+      "relation": "由...组成",
+      "tail": "反向传播网络(BP)"
+    },
+    {
+      "head": "QAR数据",
+      "relation": "用于验证",
+      "tail": "KPCA-DBN模型"
+    },
+    {
+      "head": "KPCA-DBN模型",
+      "relation": "优于",
+      "tail": "GA-BP神经网络模型"
+    },
+    {
+      "head": "KPCA-DBN模型",
+      "relation": "优于",
+      "tail": "深度置信网络(DBN)"
+    },
+    {
+      "head": "KPCA-DBN模型",
+      "relation": "提高了",
+      "tail": "预测精度"
+    },
+    {
+      "head": "KPCA-DBN模型",
+      "relation": "降低了",
+      "tail": "网络结构复杂度"
+    },
+    {
+      "head": "平均绝对误差(MAE)",
+      "relation": "评价",
+      "tail": "KPCA-DBN模型"
+    },
+    {
+      "head": "遗传算法(GA)",
+      "relation": "用于优化",
+      "tail": "反向传播网络(BP)"
+    },
+    {
+      "head": "核主成分分析(KPCA)",
+      "relation": "改进了",
+      "tail": "主成分分析(PCA)"
+    },
+    {
+      "head": "部件异常",
+      "relation": "引起",
+      "tail": "排气温度(EGT)"
+    },
+    {
+      "head": "航空发动机排气温度基线模型",
+      "relation": "监测",
+      "tail": "排气温度(EGT)"
+    },
+    {
+      "head": "KPCA-DBN模型",
+      "relation": "应用于",
+      "tail": "CFM56-7B发动机"
+    }
+  ]
+}
