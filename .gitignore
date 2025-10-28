@@ -79,11 +79,18 @@ chroma_db/
 *.chroma/
 
 # Model outputs
-outputs/
+# 默认不跟踪 outputs 内容，但允许跟踪抽取结果 JSON
+outputs/*
 results/
 *.json
 !schema文件/*.json
 !configs/**/*.json
+# 允许提交 outputs/extractions 下的 JSON 结果
+!outputs/extractions/
+!outputs/extractions/**/*.json
+# 保持其他非 JSON 输出忽略（例如 raw_response、txt）
+outputs/extractions/**/*.txt
+outputs/extractions/**/*.raw_response.*
 
 # Large files
 *.pkl
