@@ -1,0 +1,199 @@
+{
+  "entities": [
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "预测与健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "剩余使用寿命(RUL)",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "Copula相似性",
+      "type": "理论基础"
+    },
+    {
+      "name": "非线性相关性",
+      "type": "理论基础"
+    },
+    {
+      "name": "K-means聚类",
+      "type": "算法"
+    },
+    {
+      "name": "传感器",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "退化模型",
+      "type": "模型"
+    },
+    {
+      "name": "统计学方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "机器学习方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "数据驱动方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "物理模型",
+      "type": "理论基础"
+    },
+    {
+      "name": "多维退化模型",
+      "type": "模型"
+    },
+    {
+      "name": "退化率相关性建模",
+      "type": "研究方法"
+    },
+    {
+      "name": "贝叶斯动态线性模型",
+      "type": "模型"
+    },
+    {
+      "name": "非线性Wiener过程",
+      "type": "模型"
+    },
+    {
+      "name": "阿基米德Copula函数",
+      "type": "理论基础"
+    },
+    {
+      "name": "半Copula模型",
+      "type": "模型"
+    },
+    {
+      "name": "齿轮箱",
+      "type": "系统/部件"
+    },
+    {
+      "name": "C-MAPSS航空发动机仿真模型数据",
+      "type": "数据集"
+    },
+    {
+      "name": "标准差",
+      "type": "性能指标"
+    },
+    {
+      "name": "传统方法",
+      "type": "研究方法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "预测与健康管理",
+      "relation": "应用于",
+      "tail": "航空发动机"
+    },
+    {
+      "head": "剩余使用寿命(RUL)",
+      "relation": "预测",
+      "tail": "预测与健康管理"
+    },
+    {
+      "head": "Copula相似性",
+      "relation": "用于",
+      "tail": "剩余使用寿命(RUL)预测"
+    },
+    {
+      "head": "非线性相关性",
+      "relation": "描述",
+      "tail": "Copula相似性"
+    },
+    {
+      "head": "K-means聚类",
+      "relation": "用于",
+      "tail": "航空发动机工作状态分类"
+    },
+    {
+      "head": "传感器",
+      "relation": "用于",
+      "tail": "航空发动机状态监测"
+    },
+    {
+      "head": "退化模型",
+      "relation": "建立",
+      "tail": "航空发动机"
+    },
+    {
+      "head": "统计学方法",
+      "relation": "基于",
+      "tail": "假设"
+    },
+    {
+      "head": "机器学习方法",
+      "relation": "输入输出关系",
+      "tail": "未知"
+    },
+    {
+      "head": "数据驱动方法",
+      "relation": "克服",
+      "tail": "系统了解有限和潜在未知因素影响"
+    },
+    {
+      "head": "物理模型",
+      "relation": "结合",
+      "tail": "数据驱动方法"
+    },
+    {
+      "head": "多维退化模型",
+      "relation": "需要",
+      "tail": "假设特征变量的分布形式"
+    },
+    {
+      "head": "退化率相关性建模",
+      "relation": "忽视",
+      "tail": "部件之间的相依性"
+    },
+    {
+      "head": "贝叶斯动态线性模型",
+      "relation": "计算",
+      "tail": "退化特征的RUL"
+    },
+    {
+      "head": "非线性Wiener过程",
+      "relation": "建立",
+      "tail": "退化特征相互作用模型"
+    },
+    {
+      "head": "阿基米德Copula函数",
+      "relation": "描述",
+      "tail": "两退化变量间的依赖关系"
+    },
+    {
+      "head": "半Copula模型",
+      "relation": "对",
+      "tail": "不同退化程度下的失效时间进行相关性建模"
+    },
+    {
+      "head": "齿轮箱",
+      "relation": "RUL预测",
+      "tail": "Copula函数"
+    },
+    {
+      "head": "C-MAPSS航空发动机仿真模型数据",
+      "relation": "验证",
+      "tail": "基于Copula相似性的RUL预测方法"
+    },
+    {
+      "head": "标准差",
+      "relation": "用于",
+      "tail": "模型对比验证"
+    },
+    {
+      "head": "基于Copula相似性的RUL预测方法",
+      "relation": "优于",
+      "tail": "传统方法"
+    }
+  ]
+}

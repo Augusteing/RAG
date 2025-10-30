@@ -134,53 +134,130 @@
 {
   "entities": [
     {
-      "name": "预测与健康管理（PHM）技术",
-      "type": "技术"
-    },
-    {
-      "name": "预测",
-      "type": "概念"
-    },
-    {
-      "name": "健康管理",
-      "type": "概念"
-    },
-    {
-      "name": "故障预测",
-      "type": "概念"
-    },
-    {
-      "name": "综合化",
-      "type": "特征"
-    },
-    {
-      "name": "飞机液压泵",
-      "type": "系统/部件"
-    },
-    {
-      "name": "液压系统",
+      "name": "电子系统",
       "type": "系统/部件"
     },
     {
       "name": "航空电子系统",
-      "type": ""
+      "type": "系统/部件"
+    },
+    {
+      "name": "系统级健康管理",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障隔离",
+      "type": "研究方法"
+    },
+    {
+      "name": "测试性设计",
+      "type": "研究方法"
+    },
+    {
+      "name": "相关性模型",
+      "type": "模型"
+    },
+    {
+      "name": "综合模块化航空电子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障预测与健康管理系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "飞机安全性",
+      "type": "性能指标"
+    },
+    {
+      "name": "分层结构",
+      "type": "系统/部件"
+    },
+    {
+      "name": "标准化",
+      "type": "性能指标"
+    },
+    {
+      "name": "层次化",
+      "type": "性能指标"
+    },
+    {
+      "name": "模块化",
+      "type": "性能指标"
+    },
+    {
+      "name": "开放性",
+      "type": "性能指标"
+    },
+    {
+      "name": "综合化航空电子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "健康管理体系",
+      "type": "系统/部件"
+    },
+    {
+      "name": "增强诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "健康评估",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "贝叶斯网络",
+      "type": "模型"
     }
   ],
   "relations": [
     {
-      "head": "预测与健康管理（PHM）技术",
-      "relation": "经历了阶段",
-      "tail": "故障预测"
+      "head": "系统级健康管理",
+      "relation": "基于",
+      "tail": "测试性设计"
     },
     {
-      "head": "航空电子系统",
-      "relation": "发展方向为",
-      "tail": "综合化"
+      "head": "故障预测与健康管理系统",
+      "relation": "应用于",
+      "tail": "综合模块化航空电子系统"
     },
     {
-      "head": "飞机液压泵",
-      "relation": "是...的关键部件",
-      "tail": "液压系统"
+      "head": "综合模块化航空电子系统",
+      "relation": "按功能划分为",
+      "tail": "分层结构"
+    },
+    {
+      "head": "故障预测与健康管理系统",
+      "relation": "满足要求",
+      "tail": "标准化"
+    },
+    {
+      "head": "故障预测与健康管理系统",
+      "relation": "满足要求",
+      "tail": "层次化"
+    },
+    {
+      "head": "故障预测与健康管理系统",
+      "relation": "满足要求",
+      "tail": "模块化"
+    },
+    {
+      "head": "故障预测与健康管理系统",
+      "relation": "满足要求",
+      "tail": "开放性"
+    },
+    {
+      "head": "健康管理体系",
+      "relation": "应用于",
+      "tail": "综合化航空电子系统"
     }
   ]
 }
@@ -211,10 +288,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 飞机健康管理平台的客户需求分析与PLM服务资源匹配
-
-和伟辉，明新国，刘安，郑茂宽（1. 上海交通大学机械与动力工程学院，上海200240，E- mail：18817558023@163. com;2. 西安卫星测控中心，西安710043)
-
 摘要：根据对航空系统各个相关利益方的需求分析，基于模糊理论确立飞机故障诊断和健康管理（Prognostic and Health Management，PHM）平台的各个模块需实现的功能，利用灰色关联法对客户需求进行重要度排序，并基于自回归求和移动平均（ARIMA）模型求解客户需求的动态特征，对客户需求作出全面的分析和预期。最终在质量屋（House of Quality，HOQ）衡量全生命周期管理（Product Lifecycle Management，PLM）的服务资源与客户需求的匹配度，进而定量反映客户对航空系统各种服务资源的满意度。
 
 关键词：故障诊断和健康管理；需求分析；灰色关联法；ARIMA；服务资源配置中图分类号：TP277 文献标识码：A
@@ -222,10 +295,6 @@
 # DOI:10.13952/j.cnki.johmdr.2018.0217 Customer Needs Analysis of Aircraft PHM Platform and PLM Service Resources Mapping
 
 HE Weihui，MING Xinguo，LIU An²，ZHENG Maokuan (1. School of Mechanical Engineering, Shanghai Jiao Tong University, Shanghai 200240,China; 2. Xi'an Satellite Control Ceter, Xi'an 710043, China)
-
-Abstract: According to the demand analysis of each stakeholder in the aviation system, the functions realized in each module of aircraft Prognostic and Health Management (PHM) platform are established based on fuzzy theory. Using gray relational analysis to sort customer needs and analyzing the dynamic characteristics of customer needs based on the ARIMA model to fully analyze and anticipate customer needs. Finally, House of Quality (HOQ) measures the matching degree of Product Lifecycle Management (PLM) service resources with customer needs to quantitatively reflect customer satisfaction with various service resources of the aviation system.
-
-Key words: prognostic and health management; needs analysis; gray relational analysis; ARIMA; service resource mapping
 
 为确保飞机健康、经济运行，及早发现并解决故障，合理安排维护时间，缩短飞机停机时间，降低运营和服务成本，通过提高飞机可用性以增加收入。国际上，飞机故障诊断与健康管理（Prognostic and Health Management，PHM）平台业已成为航空业着力发展的研究领域，比如波音777的AHM系统、空客A380的AIRMAN系统、加拿大国家研究委员会研制的飞机综合诊断系统（IDS）等。因此对飞机PHM平台的客户需求分析，以及对客户需求与企业PLM的服务资源映射关系的研究就显得尤其重要。
 
@@ -446,7 +515,3 @@ $\lambda$  取0.76时，对  $\{CR_{5},CR_{4},CR_{5},CR_{6}\}$  这4项关联度
 本文针对民用飞机相关利益方复杂，全生命周期管理服务平台资源及业务众多的特点，提出飞机PHM平台的客户需求获取与推理研究框架。基于模糊理论对需求进行归类，划分功能模块。通过灰色关联法探利益相关方的需求进行重要度排序，作为QFD中客户需求权重的依据。基于
 
 ARIMA模型获取需求的动态特征，用于对QFD作下1步的调整改进，有助于服务资源调整、分配。将传统QFD应用到客户需求和服务资源的映射中，结合了灰色关联法和ARIMA预测，更加真实准确地将客户需求数据化，同时增强了QFD的动态特性。有效地用工程语言将飞机PLM的服务资源与客户需求紧密结合，理清各种企业服务资源之间的关联和冲突情况，为服务平台搭建和改善提供可靠依据。
-
-# 参考文献
-
-[1] 顾祝平，郑逢亮.基于自动数据获得技术的飞机CBM维修策略[.2011航空维修理论研究及技术发展学术交流会论文集，2011,8. [2] HE L, SONG W, WU Z, et al. Quantification and integration of an improved Kano model into QFD based on multi- population adaptive genetic algorithm [J]. Computers & Industrial Engineering, 2017, 114: 183- 194. [3] KAHRAMAN C,ERTAY T, BÜYÜKÖZKAN G. A fuzzy optimization model for QFD planning process using analytic network approach [J]. European Journal of Operational Research, 2006, 171(2): 390- 411. [4] SEBASTIAN R K, PERINPINAYAGAM S, CHOUDHARY R. Health management design considerations for an all electric aircraft [J]. Procedia CIRP, 2017, 59: 102- 110. [5] 李中凯，冯毅雄，谭建荣，等.基于灰色系统理论的质量屋中动态需求的分析与预测[.计算机集成制造系统，2009，15(11):2272- 2279. [6] 王秋明，高慧颖，刘付成.基于模糊政策及灰色关联的软件需求分析方法[.中国科学院研究生院学报，2010，27（6）：859- 863. [7] TANEJA K, AHMAD S, AHMAD K, et al. Time series analysis of aerosol optical depth over new Delhi using box- jenkins ARIMA modeling approach [J]. Atmospheric Pollution Research, 2016, 7(4): 585- 596. [8] 王海麟.民用飞机航材管理信息系统分析与设计[.上海：上海交通大学，2014. [9] ROSS R W. Integrated vehicle health management in aerospace structures [J]. Structural Health Monitoring (SHM) in Aerospace Structures,2016. [10] 李朝玲，高齐圣.在QFD中应用灰色关联度确定关联关系的研究[.机械设计与研究，2008，24（4）：10- 12. [11] 侯智，张根保，余德忠，等.基于QFD，TRIZ和稳健设计的设计方法体系结构研究[.机械设计与研究，2003，19（3）：17- 19. [12] 谢建中，杨育，张晓微，等.基于FCM和JGA的广义客户需求分析及其资源配置[.计算机集成制造系统，2015，21（3）：634- 647. [13] BABBAR C, AMIN S H. A multi- objective mathematical model integrating environmental concerns for supplier selection and order allocation based on fuzzy QFD in beverages industry [J]. Expert Systems with Applications, 2018, 92: 27- 38. [14] PUTRO S P, KOSHIO S, OKTAFERDIAN V. Implementation of ARIMA model to asses seasonal variability macrobenthic assemblages [J]. Aquatic Procedia, 2016(7): 277- 284.

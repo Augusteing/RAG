@@ -45,8 +45,8 @@ EXP02_PROMPT_FILE = PROJECT_ROOT / "configs" / "prompts" / "exp02" / "prompt.txt
 # 实验三逐论文 Prompt 目录
 EXP03_PROMPTS_DIR = PROJECT_ROOT / "configs" / "prompts" / "exp03"
 
-# 论文目录
-PAPERS_DIR = PROJECT_ROOT / "data" / "raw" / "papers"
+# 论文目录（使用处理后的清洗数据）
+PAPERS_DIR = PROJECT_ROOT / "data" / "processed" / "papers"
 
 # 向量数据库路径
 VECTOR_DB_DIR = PROJECT_ROOT / "data" / "vectorstores" / "langchain_chroma_db"
@@ -139,7 +139,7 @@ if RAG_ENABLED:
             model_name=str(BGE_LOCAL_PATH),
             model_kwargs={
                 'device': EMBEDDING_DEVICE,
-                'local_files_only': True if EMBEDDING_LOCAL_ONLY else False
+                'local_files_only': EMBEDDING_LOCAL_ONLY
             },
             encode_kwargs={'normalize_embeddings': True}
         )

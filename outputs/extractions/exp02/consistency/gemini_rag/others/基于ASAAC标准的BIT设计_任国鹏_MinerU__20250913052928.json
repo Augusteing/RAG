@@ -1,0 +1,208 @@
+{
+  "entities": [
+    {
+      "name": "机内自测试(BIT)系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "ASAC标准",
+      "type": "理论基础"
+    },
+    {
+      "name": "航空电子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "可测试性",
+      "type": "性能指标"
+    },
+    {
+      "name": "可靠性",
+      "type": "性能指标"
+    },
+    {
+      "name": "测试维护成本",
+      "type": "性能指标"
+    },
+    {
+      "name": "健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "故障管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "故障检测",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障隔离",
+      "type": "研究方法"
+    },
+    {
+      "name": "总线层次化方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "BIT设计",
+      "type": "研究方法"
+    },
+    {
+      "name": "系统级测试",
+      "type": "研究方法"
+    },
+    {
+      "name": "分系统级测试",
+      "type": "研究方法"
+    },
+    {
+      "name": "模块级测试",
+      "type": "研究方法"
+    },
+    {
+      "name": "通用系统管理(GSM)",
+      "type": "系统/部件"
+    },
+    {
+      "name": "BIT测试",
+      "type": "研究方法"
+    },
+    {
+      "name": "测试覆盖率",
+      "type": "性能指标"
+    },
+    {
+      "name": "PBIT",
+      "type": "研究方法"
+    },
+    {
+      "name": "CBIT",
+      "type": "研究方法"
+    },
+    {
+      "name": "IBIT",
+      "type": "研究方法"
+    },
+    {
+      "name": "数字测试电路",
+      "type": "系统/部件"
+    },
+    {
+      "name": "IEEE1149.1边界扫描协议",
+      "type": "理论基础"
+    }
+  ],
+  "relations": [
+    {
+      "head": "BIT设计",
+      "relation": "基于",
+      "tail": "ASAC标准"
+    },
+    {
+      "head": "机内自测试(BIT)系统",
+      "relation": "旨在提高",
+      "tail": "可测试性"
+    },
+    {
+      "head": "机内自测试(BIT)系统",
+      "relation": "旨在降低",
+      "tail": "测试维护成本"
+    },
+    {
+      "head": "机内自测试(BIT)系统",
+      "relation": "实现",
+      "tail": "故障检测"
+    },
+    {
+      "head": "机内自测试(BIT)系统",
+      "relation": "实现",
+      "tail": "故障隔离"
+    },
+    {
+      "head": "BIT设计",
+      "relation": "采用",
+      "tail": "总线层次化方法"
+    },
+    {
+      "head": "BIT设计",
+      "relation": "划分为",
+      "tail": "系统级测试"
+    },
+    {
+      "head": "BIT设计",
+      "relation": "划分为",
+      "tail": "分系统级测试"
+    },
+    {
+      "head": "BIT设计",
+      "relation": "划分为",
+      "tail": "模块级测试"
+    },
+    {
+      "head": "机内自测试(BIT)系统",
+      "relation": "结合",
+      "tail": "健康管理"
+    },
+    {
+      "head": "机内自测试(BIT)系统",
+      "relation": "结合",
+      "tail": "故障管理"
+    },
+    {
+      "head": "机内自测试(BIT)系统",
+      "relation": "提高",
+      "tail": "可靠性"
+    },
+    {
+      "head": "BIT测试",
+      "relation": "归属于",
+      "tail": "通用系统管理(GSM)"
+    },
+    {
+      "head": "通用系统管理(GSM)",
+      "relation": "包括",
+      "tail": "健康管理"
+    },
+    {
+      "head": "通用系统管理(GSM)",
+      "relation": "包括",
+      "tail": "故障管理"
+    },
+    {
+      "head": "BIT测试",
+      "relation": "为...提供依据",
+      "tail": "健康管理"
+    },
+    {
+      "head": "BIT测试",
+      "relation": "为...提供依据",
+      "tail": "故障管理"
+    },
+    {
+      "head": "BIT测试",
+      "relation": "包括",
+      "tail": "PBIT"
+    },
+    {
+      "head": "BIT测试",
+      "relation": "包括",
+      "tail": "CBIT"
+    },
+    {
+      "head": "BIT测试",
+      "relation": "包括",
+      "tail": "IBIT"
+    },
+    {
+      "head": "数字测试电路",
+      "relation": "基于",
+      "tail": "IEEE1149.1边界扫描协议"
+    },
+    {
+      "head": "机内自测试(BIT)系统",
+      "relation": "满足",
+      "tail": "测试覆盖率"
+    }
+  ]
+}

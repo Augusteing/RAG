@@ -1,0 +1,123 @@
+{
+  "entities": [
+    {
+      "name": "飞机空调冷却子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "热交换器",
+      "type": "系统/部件"
+    },
+    {
+      "name": "2参数Weibull分步",
+      "type": "模型"
+    },
+    {
+      "name": "3参数Weibull分步",
+      "type": "模型"
+    },
+    {
+      "name": "双Weibull分步",
+      "type": "模型"
+    },
+    {
+      "name": "三Weibull分步",
+      "type": "模型"
+    },
+    {
+      "name": "2段Weibull分步",
+      "type": "模型"
+    },
+    {
+      "name": "更新过程",
+      "type": "理论基础"
+    },
+    {
+      "name": "幂律过程",
+      "type": "模型"
+    },
+    {
+      "name": "拉普拉斯算法",
+      "type": "算法"
+    },
+    {
+      "name": "故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "失效数据",
+      "type": "数据集"
+    },
+    {
+      "name": "最小偏差平方和",
+      "type": "性能指标"
+    },
+    {
+      "name": "Cram'er-von Mises统计量",
+      "type": "性能指标"
+    },
+    {
+      "name": "水分离器",
+      "type": "系统/部件"
+    },
+    {
+      "name": "空气循环机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "脏堵",
+      "type": "故障模式"
+    },
+    {
+      "name": "损坏",
+      "type": "故障模式"
+    }
+  ],
+  "relations": [
+    {
+      "head": "故障预测",
+      "relation": "基于",
+      "tail": "失效数据"
+    },
+    {
+      "head": "2段Weibull分步",
+      "relation": "应用于",
+      "tail": "热交换器"
+    },
+    {
+      "head": "2段Weibull分步",
+      "relation": "优于",
+      "tail": "2参数Weibull分步"
+    },
+    {
+      "head": "更新过程",
+      "relation": "用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "幂律过程",
+      "relation": "应用于",
+      "tail": "飞机空调冷却子系统"
+    },
+    {
+      "head": "拉普拉斯算法",
+      "relation": "用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "脏堵",
+      "relation": "导致",
+      "tail": "热交换器"
+    },
+    {
+      "head": "2段Weibull分步",
+      "relation": "验证",
+      "tail": "失效数据"
+    },
+    {
+      "head": "幂律过程",
+      "relation": "验证",
+      "tail": "失效数据"
+    }
+  ]
+}

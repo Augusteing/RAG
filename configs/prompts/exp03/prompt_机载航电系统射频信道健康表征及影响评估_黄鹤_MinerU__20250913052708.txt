@@ -134,53 +134,102 @@
 {
   "entities": [
     {
-      "name": "综合化",
-      "type": "特征"
+      "name": "故障预测",
+      "type": "研究方法"
     },
     {
-      "name": "飞机液压泵",
+      "name": "飞行器健康管理系统",
       "type": "系统/部件"
     },
     {
-      "name": "液压系统",
+      "name": "数据采集",
+      "type": "研究方法"
+    },
+    {
+      "name": "数据预处理",
+      "type": "研究方法"
+    },
+    {
+      "name": "状态监测",
+      "type": "研究方法"
+    },
+    {
+      "name": "健康评估",
+      "type": "研究方法"
+    },
+    {
+      "name": "决策支持",
+      "type": "研究方法"
+    },
+    {
+      "name": "飞机健康管理系统",
       "type": "系统/部件"
     },
     {
-      "name": "预测与健康管理（PHM）技术",
-      "type": "技术"
-    },
-    {
-      "name": "预测",
-      "type": "概念"
+      "name": "故障诊断",
+      "type": "研究方法"
     },
     {
       "name": "健康管理",
-      "type": "概念"
+      "type": "研究领域"
     },
     {
-      "name": "故障预测",
-      "type": "概念"
+      "name": "预防性维护",
+      "type": "研究方法"
     },
     {
-      "name": "航空电子系统",
-      "type": ""
+      "name": "视情维修",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障诊断",
+      "type": "研究领域"
+    },
+    {
+      "name": "故障信息",
+      "type": "传感器/监测参数"
     }
   ],
   "relations": [
     {
-      "head": "航空电子系统",
-      "relation": "发展方向为",
-      "tail": "综合化"
+      "head": "故障预测",
+      "relation": "是...的一部分",
+      "tail": "飞行器健康管理系统"
     },
     {
-      "head": "飞机液压泵",
-      "relation": "是...的关键部件",
-      "tail": "液压系统"
+      "head": "飞行器健康管理系统",
+      "relation": "包含",
+      "tail": "数据采集"
     },
     {
-      "head": "预测与健康管理（PHM）技术",
-      "relation": "经历了阶段",
-      "tail": "故障预测"
+      "head": "飞行器健康管理系统",
+      "relation": "包含",
+      "tail": "状态监测"
+    },
+    {
+      "head": "飞行器健康管理系统",
+      "relation": "包含",
+      "tail": "健康评估"
+    },
+    {
+      "head": "飞行器健康管理系统",
+      "relation": "包含",
+      "tail": "决策支持"
+    },
+    {
+      "head": "飞机健康管理系统",
+      "relation": "采用",
+      "tail": "故障诊断"
+    },
+    {
+      "head": "健康管理",
+      "relation": "实现",
+      "tail": "视情维修"
+    },
+    {
+      "head": "健康管理",
+      "relation": "实现",
+      "tail": "预防性维护"
     }
   ]
 }
@@ -224,10 +273,6 @@
 # Health Characterization and Effect Evaluation of RF Channel in Airborne Avionics System
 
 HUANG He，CHEN Wen- hao，ZHANG Yi (Southwest China Institute of Electronic Technology，Chengdu 610036，China)
-
-Abstract:This paper proposes the principles and methods for selecting the health characterization parameters based on Failure Mode，Effects and Criticality Analysis(FMECA),Fault Tree Analysis(FTA） and historical cas es.At the same time,it discusses the method and application of the health characterization parameters based on Hidden Markov Model(HMM） and Bayes·Considering the integrated RF channel architecture in airborne avion ic system，this paper analyzes the health influence on RF channel by means of the built model and selected characterization parameters·The results are important for the technology research of advanced fighter health management·
-
-Key words:advanced fighter;avionics system;RF channel;health management;characterization parameter
 
 # 1 引言
 
@@ -409,27 +454,3 @@ JTAG参数；温度</td></tr><tr><td>射频信道</td><td>接收、发射功能�
 本文主要针对战斗机航电系统典型射频信道健康表征等基础性问题进行探讨，研究了典型射频信道用于健康表征的参量选取方法和步骤。同时，对基于HMM和贝叶斯网络的射频信道健康表征算法方法进行了理论研究。通过表征参量选取和健康评估研究得到了射频信道的初步优选表征参量，为深入研究电子系统表征参数的特征提取、健康状态评
 
 估、性能趋势预测和系统重构方法奠定基础。典型射频信道健康表征参量和影响评估方法的研究对促进开展先进战斗机故障预测与健康管理技术研究具有重要意义，其有助于在航空电子系统缩短与军事强国间的差距，提高战斗机的任务完成率和战备完好性，增强战斗机航电系统的后勤保障和维护能力。
-
-# 参考文献：
-
-[1] 郭阳明，蔡小斌，张宝珍，等.故障预测与健康管理技术综述[J].计算机测量与控制，2008，16(9)：1213—1219. GUO Yangming，CAI Xiao- bin，ZHANG Bao- zhen，et al. Review of Prognostics and Health Management Technology [J]. Computer Measurement & Control，2008,16(9)：1213—1219. (in Chinese)  [2] 曾声奎，Pecht M G，吴际.故障预测与健康管理(PHM)技术的现状与发展[J].航空学报，2005,26(5)：627—632. ZENG Sheng- kui，Pecht M G，WU Ji. Status and Perspectives of Prognostic and Health Management Technologies[J]. Acta Aeronautica Et Astronautica Sinica，2005,26(5)：627—632. (in Chinese)  [3] 张嘉钟，张利国.航空设备故障预测与健康管理设备[J].航空制造技术，2008，33(2)：40—43. ZHANG Jia- zhong，ZHANG Li- guo. Equation Equipment Faults Prognostic and Health Management Equipment [J]. Aeronautical Manufacturing Technology，2008,33(2)：40—43. (in Chinese)  [4] 孙博，康锐，谢劲松.故障预测与健康管理系统研究和应用现状综述[J].系统工程与电子技术，2007，29(10)：1762—1767. SUN Bo，KANG Rui，XIE Jin- song. Research and application of the prognostic and health management system[J]. System Engineering and Electronics，2007,29(10)：1762—1767. (in Chinese)  [5] 梁旭，李行善，张磊，等.支持视情维修的故障预测技术研究[J].测控技术，2007，26(6)：5—8. LIANG Xu，LI Xing- shan，ZHANG Lei，et al. Survey of Fault Prognostics Supporting Condition Based Maintenance [J]. Measurement & Control Technology，2007,26(6)：5—8. (in Chinese)  [6] Hess A，Fila L. The joint strike fighter (JSP) PHM concept: potential impact on aging aircraft problems[C]//Proceedings of 2002 IEEE Aerospace Conference. Big Sky，MT：IEEE，2002:8821—8029.  [7] 张秋菊，张冬梅.电子系统故障预测与健康管理技术研究[J].光电技术应用，2012，27(1)：19—24. ZHANG Qiu- ju，ZHANG Dong- mei. Study on Prognostic and Health Management of Electronic System [J]. Electro- Optic Technology Application，2012,27(1)：19—24. (in Chinese)  [8] Biagetti T，Sciubba E. Automatic diagnostics and prognostics of energy conversion processes via knowledge—based systems [J]. Energy 2004,29(12)：2553—2572.  [9] Ponci F，Cristaldi L，Faifer M，et al. Innovative approach to early fault detection for induction motors[C]//Proceedings of 2007 IEEE International Symposium on Diagnostics for Electric Machines. Power Electronics and Drive: Cracow:IEEE，2007:283—288.
-
-中国知网 https://www.cnki.net
-
-[10] 石君友，纪超.扩展FMECA方法应用研究[J].测控技术，2011，30(5)：110—114. SHI Jun- you，JI Chao. Study on Enhanced FMECA Method Application[J]. Test and Control Technology，2011,30(5)：110—114. (in Chinese)  [11] 钱彦岭.测试性建模技术及其应用研究[D].长沙：国防科技大学，2002：2—13. QIAN Yan- ling. Testability Modeling Technology and Its Application Research[D]. Changsha: National University of Defense Technology，2002,2—13. (in Chinese)  [12] 许丽佳，龙兵，王厚军.混合训练的DHMM及其在发射机状态检测中的应用[J].电子与信息学报，2008，30(7)：1661—1665. XU Li- jia，LONG Bing，WANG Hou- jun. Hybrid TrainingDHMM and Its Application to Check Transmitter Power[J]. Journal of Electronics & Information Technology，2008,30(7)：1661—1665. (in Chinese)  [13] 周韶园.基于HMM的统计过程监控研究[D].杭州：浙江大学，2005，14—16. ZHOU Shao- yuan. Statistical Process Monitoring Via Hidden Markov Model[D]. Hangzhou: Zhejiang University，2005：14—16. (in Chinese)  [14] 慕春棣，戴剑彬，叶俊.用于数据挖掘的贝叶斯网络[J].软件学报，2000，11(5)：660—666. MU Chun- di，DAN Jian- bin，YE Jun. Bayesian Network for Data Mining[J]. Journal of Software，2000，11(5)：660—666. (in Chinese)  [15] 许丽佳，王厚军，龙兵.贝叶斯网络在电子系统故障诊断中的应用研究[J].计算机工程与应用，2009，45(8)：194—197. XU Li- jia，WANG Hou- jun. LONG Bing. Study on fault diagnosis of electronic system using Bayesian network [J]. Computer Engineering and Applications，2009,45(8)：194—197. (in Chinese)  [16] 王承.基于神经网络的模拟电路故障诊断方法研究[D].成都：电子科技大学，2005. WANG Cheng. Study on Fault Diagnosis in Analog Circuits Based on Neural Networks [D]. Chengdu: University of Electronic Science and Technology of China，2005. (in Chinese)
-
-# 作者简介：
-
-黄鹤（1970—），男，四川巴中人，高级工程师，主要研究方向为机载航电射频总体；
-
-HUANG He was born in Bazhong，Sichuan Province，in 1970. He is now a senior engineer. His research concerns the integration of airborne avionics RF system.
-
-Email: Hh2013ph@126. com
-
-陈文豪（1983—），男，四川遂宁人，2002年于西安电子科技大学获博士学位，主要从事机载航电射频故障征兆及健康管理研究；
-
-CHEN Wen- had was born in Suining，Sichuan Province，in 1983. He received the Ph.D. degree from Xidian University in 2012. His research concerns fault prognostic and health management of airborne avionics RF system.
-
-张弋（1983—），男，四川成都人，工程师，主要从事机载航电射频测试性和健康管理研究。
-
-ZHANG Yi was born in Chengdu. Sichuan Province，in 1983. He is now an engineer. His research concerns testability and health management of airborne avionics RF system.

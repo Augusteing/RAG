@@ -1,0 +1,294 @@
+{
+  "entities": [
+    {
+      "name": "飞机健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "数据挖掘技术",
+      "type": "理论基础"
+    },
+    {
+      "name": "飞机健康管理系统(AHMS)",
+      "type": "系统/部件"
+    },
+    {
+      "name": "CBR模块",
+      "type": "系统/部件"
+    },
+    {
+      "name": "维护方案模块",
+      "type": "系统/部件"
+    },
+    {
+      "name": "KDD模块",
+      "type": "系统/部件"
+    },
+    {
+      "name": "数据源反馈模块",
+      "type": "系统/部件"
+    },
+    {
+      "name": "基于事例的推理方法(CBR)",
+      "type": "研究方法"
+    },
+    {
+      "name": "规则归纳",
+      "type": "研究方法"
+    },
+    {
+      "name": "决策树",
+      "type": "研究方法"
+    },
+    {
+      "name": "神经网络",
+      "type": "研究方法"
+    },
+    {
+      "name": "异常检测",
+      "type": "研究方法"
+    },
+    {
+      "name": "聚集",
+      "type": "研究方法"
+    },
+    {
+      "name": "信息提取技术(IE)",
+      "type": "研究方法"
+    },
+    {
+      "name": "CBR数据库",
+      "type": "系统/部件"
+    },
+    {
+      "name": "维护方案库",
+      "type": "系统/部件"
+    },
+    {
+      "name": "飞机维护技术文档",
+      "type": "数据集"
+    },
+    {
+      "name": "历史维护经验",
+      "type": "数据集"
+    },
+    {
+      "name": "飞行实时数据",
+      "type": "数据集"
+    },
+    {
+      "name": "故障",
+      "type": "故障模式"
+    },
+    {
+      "name": "潜在的知识和规律",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "Java",
+      "type": "软件工具"
+    },
+    {
+      "name": "Oracle",
+      "type": "软件工具"
+    },
+    {
+      "name": "CMCS(Central Maintenance Computing System)",
+      "type": "系统/部件"
+    },
+    {
+      "name": "实时故障报文",
+      "type": "数据集"
+    },
+    {
+      "name": "故障代码",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "故障信息",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "范例库",
+      "type": "系统/部件"
+    },
+    {
+      "name": "自我升级",
+      "type": "研究方法"
+    },
+    {
+      "name": "预言模块",
+      "type": "系统/部件"
+    },
+    {
+      "name": "维护方案的可视化",
+      "type": "应用场景"
+    },
+    {
+      "name": "察觉、分类并预报故障",
+      "type": "研究方法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "飞机健康管理系统(AHMS)",
+      "relation": "提出了",
+      "tail": "飞机健康管理"
+    },
+    {
+      "head": "飞机健康管理系统(AHMS)",
+      "relation": "基于",
+      "tail": "数据挖掘技术"
+    },
+    {
+      "head": "飞机健康管理系统(AHMS)",
+      "relation": "由...组成",
+      "tail": "CBR模块"
+    },
+    {
+      "head": "飞机健康管理系统(AHMS)",
+      "relation": "由...组成",
+      "tail": "维护方案模块"
+    },
+    {
+      "head": "飞机健康管理系统(AHMS)",
+      "relation": "由...组成",
+      "tail": "KDD模块"
+    },
+    {
+      "head": "飞机健康管理系统(AHMS)",
+      "relation": "由...组成",
+      "tail": "数据源反馈模块"
+    },
+    {
+      "head": "飞机健康管理系统(AHMS)",
+      "relation": "实现",
+      "tail": "自我升级"
+    },
+    {
+      "head": "飞机健康管理系统(AHMS)",
+      "relation": "旨在",
+      "tail": "察觉、分类并预报故障"
+    },
+    {
+      "head": "CBR模块",
+      "relation": "采用",
+      "tail": "基于事例的推理方法(CBR)"
+    },
+    {
+      "head": "CBR模块",
+      "relation": "构建",
+      "tail": "CBR数据库"
+    },
+    {
+      "head": "CBR数据库",
+      "relation": "构建基于",
+      "tail": "飞机维护技术文档"
+    },
+    {
+      "head": "CBR数据库",
+      "relation": "修正依据",
+      "tail": "历史维护经验"
+    },
+    {
+      "head": "维护方案模块",
+      "relation": "采用",
+      "tail": "规则归纳"
+    },
+    {
+      "head": "维护方案模块",
+      "relation": "采用",
+      "tail": "决策树"
+    },
+    {
+      "head": "维护方案模块",
+      "relation": "采用",
+      "tail": "神经网络"
+    },
+    {
+      "head": "维护方案模块",
+      "relation": "处理",
+      "tail": "飞行实时数据"
+    },
+    {
+      "head": "维护方案模块",
+      "relation": "调用",
+      "tail": "CBR数据库"
+    },
+    {
+      "head": "维护方案模块",
+      "relation": "生成",
+      "tail": "维护方案库"
+    },
+    {
+      "head": "KDD模块",
+      "relation": "基于",
+      "tail": "维护方案库"
+    },
+    {
+      "head": "KDD模块",
+      "relation": "采用",
+      "tail": "规则归纳"
+    },
+    {
+      "head": "KDD模块",
+      "relation": "采用",
+      "tail": "异常检测"
+    },
+    {
+      "head": "KDD模块",
+      "relation": "采用",
+      "tail": "聚集"
+    },
+    {
+      "head": "KDD模块",
+      "relation": "挖掘",
+      "tail": "潜在的知识和规律"
+    },
+    {
+      "head": "数据源反馈模块",
+      "relation": "补充",
+      "tail": "历史维护经验"
+    },
+    {
+      "head": "数据源反馈模块",
+      "relation": "完善",
+      "tail": "飞机维护技术文档"
+    },
+    {
+      "head": "数据源反馈模块",
+      "relation": "利用",
+      "tail": "潜在的知识和规律"
+    },
+    {
+      "head": "CMCS(Central Maintenance Computing System)",
+      "relation": "产生",
+      "tail": "实时故障报文"
+    },
+    {
+      "head": "实时故障报文",
+      "relation": "包含",
+      "tail": "故障代码"
+    },
+    {
+      "head": "实时故障报文",
+      "relation": "包含",
+      "tail": "故障信息"
+    },
+    {
+      "head": "故障代码",
+      "relation": "用于调用",
+      "tail": "CBR数据库"
+    },
+    {
+      "head": "神经网络",
+      "relation": "建立",
+      "tail": "预言模块"
+    },
+    {
+      "head": "决策树",
+      "relation": "用于",
+      "tail": "维护方案的可视化"
+    }
+  ]
+}

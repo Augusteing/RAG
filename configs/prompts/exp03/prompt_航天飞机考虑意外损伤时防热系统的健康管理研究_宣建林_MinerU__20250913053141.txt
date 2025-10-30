@@ -134,62 +134,81 @@
 {
   "entities": [
     {
-      "name": "飞机液压泵",
+      "name": "虚拟仪器技术",
+      "type": "研究方法"
+    },
+    {
+      "name": "飞行器健康管理系统",
       "type": "系统/部件"
     },
     {
-      "name": "液压系统",
+      "name": "飞机健康管理系统",
       "type": "系统/部件"
-    },
-    {
-      "name": "故障注入",
-      "type": "方法"
     },
     {
       "name": "故障诊断",
-      "type": "技术"
+      "type": "研究方法"
     },
     {
       "name": "故障预测",
-      "type": "技术"
+      "type": "研究方法"
     },
     {
-      "name": "故障预测方法",
-      "type": "方法"
+      "name": "数据采集",
+      "type": "研究方法"
     },
     {
-      "name": "综合化",
-      "type": "特征"
+      "name": "数据预处理",
+      "type": "研究方法"
     },
     {
-      "name": "健康管理",
-      "type": ""
+      "name": "状态监测",
+      "type": "研究方法"
     },
     {
-      "name": "航空电子系统",
-      "type": ""
+      "name": "健康评估",
+      "type": "研究方法"
+    },
+    {
+      "name": "决策支持",
+      "type": "研究方法"
     }
   ],
   "relations": [
     {
-      "head": "飞机液压泵",
-      "relation": "是...的关键部件",
-      "tail": "液压系统"
+      "head": "虚拟仪器技术",
+      "relation": "应用于",
+      "tail": "飞行器健康管理系统"
     },
     {
-      "head": "健康管理",
-      "relation": "以...为主要手段",
+      "head": "飞机健康管理系统",
+      "relation": "采用",
       "tail": "故障诊断"
     },
     {
-      "head": "健康管理",
-      "relation": "以...为主要手段",
-      "tail": "故障预测"
+      "head": "故障预测",
+      "relation": "是...的一部分",
+      "tail": "飞行器健康管理系统"
     },
     {
-      "head": "航空电子系统",
-      "relation": "发展方向为",
-      "tail": "综合化"
+      "head": "飞行器健康管理系统",
+      "relation": "包含",
+      "tail": "数据采集"
+    },
+    {
+      "head": "飞行器健康管理系统",
+      "relation": "包含",
+      "tail": "状态监测"
+    },
+    {
+      "head": "飞行器健康管理系统",
+      "relation": "包含",
+      "tail": "健康评估"
+    },
+    {
+      "head": "飞行器健康管理系统",
+      "relation": "包含",
+      "tail": "决策支持"
     }
   ]
 }
@@ -220,27 +239,11 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 研究简报
-
-# 航天飞机考虑意外损伤时防热系统的健康管理研究* CONSIDERED ACCIDENT DAMAGE THE HEALTH MANAGEMENT FOR THERMAL PROTECTION SYSTEM OF SPACE SHUTTLE
-
-宣建林** 冯蕴雯 张 茂 宋笔锋 (西北工业大学航空学院，西安 710072) XUAN JianLin FENG YunWen ZHANG Mao SONG BiFeng (School of Aeronautics, Northwest Polytechnical University, Xi'an 710072, China)
-
 摘要 防热系统健康管理是航天飞行器的关键技术之一。文中提出通过监测防热系统的关键性能指标，分析评估系统状态的航天飞机防热系统健康管理方法，论述航天飞机防热系统健康管理的概念和健康监测的原理，从考虑意外损伤的角度探讨防热系统健康监控的有关问题。利用ANSYS软件模拟遭受不同程度损伤的防热瓦在再入过程中的温度分布情况，并进行比较分析与讨论，论证方法的可行性。
 
 # 关键词 航天飞机 防热系统 健康管理 损伤 传感器
 
 中图分类号 V430 V448.25
-
-Abstract Health management for thermal protection system (TPS) is one of the key technologies for space vehicle. The paper puts forward a method that analyze and valuation the system states by monitoring the key function index sign of TPS. The concept of health management for thermal protection system of space shuttle and the principles of health monitoring are introduced. Combine to inquiry into the relevant problem of the health management from the angle of consider the accident damage. Make use of the ANSYS software to simulate and analyze the temperature distribute of thermal protection tile suffered of reentry space shuttle damaged by different degree, demonstrate the feasibility of the method.
-
-Key words Space shuttle; Thermal protection system; Health management; Damage- Sensor
-
-Corresponding author: XUAN JianLin, E- mail: nnn1115@126. com, Tel: +86- 29- 88400478
-
-The project supported by the National Natural Science Foundation of China (No. 10577015), the Aviation Foundation (No. 03B53008) and the Yingcai Foundation of Northwest Polytechnical University.
-
-Manuscript received 20051024, in revised form 20060227.
 
 # 1 引言
 
@@ -355,7 +358,3 @@ of thermal protection tile
 2）通过对无损伤和长宽深分别为  $50~\mathrm{mm}\times$ $30\mathrm{mm}\times 10\mathrm{mm}$  与  $100\mathrm{mm}\times 60\mathrm{mm}\times 20\mathrm{mm}$  两种不同损伤程度的防热瓦的有限元模拟分析，可看出防热瓦温
 
 度能准确明显地反映出防热瓦的损伤情况，该算例说明本文提出的方法是可行的。
-
-# 参考文献（References）
-
-1 胡昌寿．航天可靠性设计手册．北京：机械工业出版社，1999. HU ChangShou. The design handbook of spaceflight reliability. Beijing: China Machine Press, 1999(In Chinese).2 纪实：哥伦比亚号失事调查日记．国际太空，2003，3：4～11. JI Shi. Diary on investigating the loss of space shuttle Columbia. Space international, 2003, 3: 4～11(In Chinese).3 胡峰，孙国基．过程监控技术及其应用．北京：国防工业出版社，2001. HU Feng, WEN Guoji. Process monitoring technique and applications. Beijing: National Defence Industry Press, 2001(In Chinese).4 戴焯．传感与检测技术．武汉：武汉理工大学出版社，2003. DAI Chao. Transducing and measuring technique. Wuhan: Wuhan University of Technology Press, 2003(In Chinese).5 张启伟．大型桥梁健康监测概念与监测系统设计．同济大学学报，2001, 29(1):65～69. ZHANG QiWei. Conception of long span bridge health monitoring and monitoring system design. Journal of Tongji University, 2001, 29(1):65～69 (In Chinese).6 杨叔子，胡以怀，史铁林．机械设备状态的计算机集成监控．机械强度，1995，17(2)：31～37. YANG ShuZi, HU Yiduai, SHI TieLin. Computer integrated monitoring and controlling system for mechanical equipment condition. Journal of Mechanical Strength, 1995, 17(2): 31～37(In Chinese).7 丁彩红，黄文虎，姜兴渭，等．载人航天故障诊断技术的发展及其关键技术分析．强度与环境，1999，(2)：20～24. DING CaiHong, HUANG WenHu, JIANG XingWei, et al. The development of spaceflight fault diagnostic techniques and the analysis towards its key skills. Structure & Environment Engineering, 1999, 2: 20～24(In Chinese).8 钱炜祺，蔡金狮．再入航天飞机表面热流密度辨识．宇航学报，2000, 21(4): 1～6. QIAN WeiQi, CAI Jin Shi. Surface heat flux identification of reentry space shuttle. Journal of Astronautics, 2000, 21(4): 1～6(In Chinese).9 Eric P Fahrenthold, Younnekeun Park. Simulation of foam impact effects on components of the space shuttle thermal protection system. AIAA 2004- 940.10 Wei H Ng, Peretz P Friedmann, Anthony M Waas. Thermomechanical analysis of a damaged thermal protection system. AIAA 2005- 2301.11 Amarshi A. Bhungalia, Lt Carrie Clewett, Harold Croop, et al. Thermal protection system (TPS) optimization. AIAA 2004- 5826.12 Cowart K, Olds J. Integrating aero heating and TPS into conceptual RLV design. AIAA 99- 4806.

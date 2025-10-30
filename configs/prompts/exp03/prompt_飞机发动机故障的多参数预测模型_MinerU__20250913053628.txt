@@ -134,57 +134,122 @@
 {
   "entities": [
     {
-      "name": "神经网络",
-      "type": "网络"
+      "name": "AMESim",
+      "type": "软件工具"
     },
     {
-      "name": "航空发动机健康管理系统",
-      "type": "系统"
+      "name": "系统仿真模型",
+      "type": "模型"
     },
     {
-      "name": "健康管理系统",
-      "type": "系统"
+      "name": "故障注入",
+      "type": "研究方法"
     },
     {
-      "name": "SDQ算法",
+      "name": "空气压缩机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "本文",
+      "type": "Misc"
+    },
+    {
+      "name": "灰色预测建模理论",
+      "type": "理论基础"
+    },
+    {
+      "name": "传统GM(1,1)预测模型",
+      "type": "模型"
+    },
+    {
+      "name": "波动序列",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "预测精度",
+      "type": "性能指标"
+    },
+    {
+      "name": "水分离器出口温度",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "精度",
+      "type": "性能指标"
+    },
+    {
+      "name": "飞机水/废水系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "数据驱动的故障预测算法",
       "type": "算法"
     },
     {
-      "name": "遗传算法",
-      "type": "算法"
+      "name": "故障数据",
+      "type": "数据集"
     },
     {
-      "name": "AANN神经网络",
-      "type": "网络"
+      "name": "神经网络故障预测方法",
+      "type": "研究方法"
     },
     {
-      "name": "故障诊断",
-      "type": "任务"
+      "name": "系统性能衰退曲线",
+      "type": "特征/健康指标"
     },
     {
-      "name": "信息融合",
-      "type": ""
+      "name": "性能衰退趋势",
+      "type": "特征/健康指标"
     },
     {
-      "name": "气路故障诊断",
-      "type": ""
+      "name": "产品剩余寿命",
+      "type": "特征/健康指标"
     }
   ],
   "relations": [
     {
-      "head": "信息融合",
-      "relation": "使用的数学工具有",
-      "tail": "神经网络"
+      "head": "系统仿真模型",
+      "relation": "建立在",
+      "tail": "AMESim"
     },
     {
-      "head": "气路故障诊断",
-      "relation": "成为...重要组成部分",
-      "tail": "健康管理系统"
+      "head": "传统GM(1,1)预测模型",
+      "relation": "不适用于",
+      "tail": "波动序列"
     },
     {
-      "head": "遗传算法",
-      "relation": "优化了",
-      "tail": "AANN神经网络"
+      "head": "数据驱动的故障预测算法",
+      "relation": "应用于",
+      "tail": "飞机水/废水系统"
+    },
+    {
+      "head": "故障注入",
+      "relation": "用于获取",
+      "tail": "故障数据"
+    },
+    {
+      "head": "神经网络故障预测方法",
+      "relation": "用于拟合",
+      "tail": "系统性能衰退曲线"
+    },
+    {
+      "head": "神经网络故障预测方法",
+      "relation": "预测",
+      "tail": "性能衰退趋势"
+    },
+    {
+      "head": "神经网络故障预测方法",
+      "relation": "预测",
+      "tail": "产品剩余寿命"
+    },
+    {
+      "head": "飞机水/废水系统",
+      "relation": "包含",
+      "tail": "空气压缩机"
     }
   ]
 }
@@ -215,16 +280,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 飞机发动机故障的多参数预测模型
-
-孙姜燕，徐艳玲2SUN Jiangyan, XU Yanling21. 西安外事学院现代技术教育中心，西安7100772. 中航工业自动控制研究所，西安7100651. Modern Technical Education Center, Xi'an International University, Xi'an 710077, China2. AVIC Xi'an Flight Control Research Institute, Xi'an 710065, China
-
-SUN Jiangyan, XU Yanling. Multi- parameter prediction model of aero- engine fault. Computer Engineering and Applications, 2012, 48(13):240- 243.
-
-Abstract: The aero- engine faults often characterize as a variety of feature signal, and the same characteristic signal may also reflect the different faults. But the traditional aero- engine fault prediction methods based on grey theory have not sufficient accuracy to fulfill the engineering requirement because only one characteristic parameter is considered or several characteristic parameters are considered in isolation. This paper analyzes a certain aero- engine faults, and a multi- parameter prediction model is proposed based on the idea of grey forecast model and information fusion. Using this model, the relevant parameters of time- series can be not only to provide for their own forecast information but also to provide the necessary information for the others, so the accuracy of the forecast is improved. Finally, a good forecast effect is given through an aero- engine fault prediction example, the obtained results show that the model is availability.Key words: aero- engine fault; multi- parameter; grey prediction; prediction model
-
-Key words: aero- engine fault; multi- parameter; grey prediction; prediction model
-
 摘要：飞机发动机故障往往表现出一种故障表征出多种特征信号，同一特征信号还可能反映了不同的故障的特点，而传统的基于灰色理论的飞机发动机故障预测由于只考虑表征发动机故障的一个特征参数或单独考虑几个特征参数，使得预测的准确性不能满足实际工程需要。针对某型发动机故障，借鉴灰色预测建模和信息融合的思想，提出了基于多故障特征参数的发动机故障预测模型，使得多个相关特征参数时间序列不仅可以为各自的预测提供相关信息，也可为其他序列预测提供必要的信息，增加了预测的准确性。仿真验证结果表明，该预测模型具有较高的预测准确性，是一个有效的预测模型。
 
 关键词：发动机故障；多参数；灰色预测；预测模型文章编号：1002- 8331(2012)13- 0240- 04文献标识码：A中图分类号：TP391/5557.1；TP806.3
@@ -463,7 +518,3 @@ $$
 # 6 结论
 
 结合用于预测的多个特征参数的监测采样数据之间存在耦合关系的特点，借鉴灰色预测建模和信息融合的思想，提出了基于多故障特征参数的飞机发动机预测模型。本文模型将表征飞机发动机故障的多个相关特征参数时间序列统一考虑，使得每一个时间序列包含的信息被更充分地应用和融合，从而有效地提高了预测的准确性。最后进行了仿真验证，取得了较好的预测效果。
-
-# 参考文献：
-
-[1] 刘思峰，党耀国，方志耕，等.灰色系统理论及其应用[M].北京：科学出版社，2004：163- 183. [2] 顾晓辉，王晓鸣，赵有守.基于灰色系统预测直升机航迹的研究[J].航空学报，2001，22（6）：559- 562. [3] 郭鹏.航空武器装备全寿命周期风险评估方法比较与改进[J].航空学报，2003，24（5）：427- 430. [4] 杨江天，岳维亮.灰色模型在机械故障预测中的应用[J].机械强度，2001，23（3）：277- 279. [5] 候自新，郑仲之，张延伦.线性代数及应用[M].天津：南开大学出版社，1990：18- 65. [6] 翟军，盛建明.MGM1（1，n）灰色模型及其应用[J].系统工程理论与实践，1997（5）：109- 113.

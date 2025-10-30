@@ -134,84 +134,96 @@
 {
   "entities": [
     {
-      "name": "基于多模型融合的航空电子产品故障预测方法",
+      "name": "现代信息技术",
+      "type": "理论基础"
+    },
+    {
+      "name": "人工智能技术",
+      "type": "理论基础"
+    },
+    {
+      "name": "PHM系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "数据采集",
       "type": "研究方法"
     },
     {
-      "name": "航空电子产品故障预测",
-      "type": "问题"
+      "name": "状态监测",
+      "type": "研究方法"
     },
     {
-      "name": "故障注入",
-      "type": "方法"
-    },
-    {
-      "name": "故障诊断",
-      "type": "技术"
+      "name": "健康评估",
+      "type": "研究方法"
     },
     {
       "name": "故障预测",
-      "type": "技术"
+      "type": "研究方法"
     },
     {
-      "name": "故障预测方法",
-      "type": "方法"
+      "name": "航空发动机领域",
+      "type": "应用场景"
     },
     {
-      "name": "核动力系统故障诊断方法",
-      "type": "方法"
+      "name": "航电测试性设计",
+      "type": "研究方法"
     },
     {
-      "name": "核领域的实际应用",
-      "type": "应用领域"
+      "name": "故障检测/隔离",
+      "type": "研究方法"
     },
     {
-      "name": "两步走策略",
-      "type": "策略"
+      "name": "剩余使用寿命预测",
+      "type": "研究方法"
     },
     {
-      "name": "设备及故障诊断确定故障源设备",
-      "type": "步骤"
+      "name": "气路碎片监测",
+      "type": "研究方法"
     },
     {
-      "name": "具体设备的故障源诊断",
-      "type": "步骤"
+      "name": "静电气路监测法",
+      "type": "研究方法"
     },
     {
-      "name": "健康管理",
-      "type": ""
+      "name": "静电感应原理",
+      "type": "理论基础"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
     }
   ],
   "relations": [
     {
-      "head": "基于多模型融合的航空电子产品故障预测方法",
-      "relation": "提出用于解决",
-      "tail": "航空电子产品故障预测"
+      "head": "PHM系统",
+      "relation": "包含",
+      "tail": "数据采集"
     },
     {
-      "head": "健康管理",
-      "relation": "以...为主要手段",
-      "tail": "故障诊断"
+      "head": "PHM系统",
+      "relation": "包含",
+      "tail": "状态监测"
     },
     {
-      "head": "健康管理",
-      "relation": "以...为主要手段",
+      "head": "PHM系统",
+      "relation": "包含",
+      "tail": "健康评估"
+    },
+    {
+      "head": "PHM系统",
+      "relation": "包含",
       "tail": "故障预测"
     },
     {
-      "head": "核动力系统故障诊断方法",
-      "relation": "推广到",
-      "tail": "核领域的实际应用"
+      "head": "航电测试性设计",
+      "relation": "用于",
+      "tail": "故障检测/隔离"
     },
     {
-      "head": "两步走策略",
-      "relation": "包括",
-      "tail": "设备及故障诊断确定故障源设备"
-    },
-    {
-      "head": "两步走策略",
-      "relation": "包括",
-      "tail": "具体设备的故障源诊断"
+      "head": "静电气路监测法",
+      "relation": "基于",
+      "tail": "静电感应原理"
     }
   ]
 }
@@ -242,10 +254,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 飞机开关磁阻发电系统故障推理模型研究
-
-李宁，雷洪利，韩建定，朱喜华（空军工程大学工程学院，陕西西安710038）
-
 摘要：开关磁阻发电系统是飞机供电系统的核心部分，为了研究飞机供电系统健康管理技术，减少故障推理模型的检测参数，满足飞机可靠性方面的要求，利用MATLAB软件对开关磁阻发电机典型电气故障进行了仿真分析，并引入记忆模块解决以往仿真过程中产生的代数环问题。然后将发电机输出电压信号利用EMD算法进行分解，将其分解后的各层频率信号的标准差作为特征量训练神经网络，得出开关磁阻发电系统的故障推理模型，本模型只需测量输出电压一个参数，减少了检测参数的数量，为开关磁阻发电系统故障预测模型及飞机整个供电系统健康管理系统的开发奠定了基础。
 
 关键词：开关磁阻发电机；EMD；MATLAB/simulink；神经网络；故障  中图分类号：TM31 文献标识码：A 文章编号：1002- 087X（2011）05- 0563- 04
@@ -253,8 +261,6 @@
 # Fault deducing model research of switched reluctance power system of airplane based on PHM
 
 LI Ning, LEI Hong- li, HAN Jian- ding, ZHU Xi- hua (Engineering College, Air- force Engineering University, Xi'an Shanxi 710038, China)
-
-Abstract: The switched reluctance power system is the core of airplane power system. In order to research the application of PHM in the power system of airplane, reduce the measure parameters of the fault deducing model and satisfy the requirements of airplane dependability, the typical electric faults of SRG was carefully analyzed in this paper with MATLAB, and the memory module was used to solve the algebraic bop problem. The SRG voltage signal with EMD was analyzed, and the decomposed signal as character data was used to train the neural network and gain the fault concluding model of SRG main electrical power system. Only one parameter of the output voltage was needed to be measured with this model, which reduced the number of the measured parameters and was meaningful to the research of the prognostic model and PHM system of power system. Key words: switched reluctance generator; EMD; MATLAB/simulink; artificial neural network; fault
 
 健康管理系统的应用为飞机供电系统的可靠性、维护的高效性、故障诊断及容错能力的提高提供了有力的保障，其中故障推理模型、故障预测模型的建立是健康管理系统的关键技术，但是检测参数过多是健康管理系统研究的一大课题。特别是航空领域，多参数测量所需的大量设备会降低系统的可靠性。
 
@@ -389,11 +395,3 @@ $$
 # 5结论
 
 作为新的飞机电源系统，开关磁阻发电系统具有发电容量大、效率高，起动和发电组合容易等优点，具有很大的应用前景，本文通过对其典型电气故障进行详细分析，并借助MATLAB软件对其故障进行仿真，以开关磁阻发电机输出电压信号为特征信号，利用EMD算法对其按频率高低进行分解，利用分解后不同频率信号的标准差来训练神经网络，最后建立开关磁阻发电机主电源系统的故障推理模型，减少了故障诊断的检测参数，为健康管理系统在飞机供电系统中的应用奠定了基础。
-
-# 参考文献：
-
-[1]巩建英，刘卫国.开关磁阻发电系统仿真与稳定性分析[J].系统仿真学报，2009，21(20)：6634- 6638. [2]方天治，赵德安.开关磁阻发电机的控制模式及仿真研究[J].计
-
-算机仿真，2004，21（4）：51- 53.
-
-[3]刘震，林辉，司利云.开关磁阻发电系统故障分析与仿真[J].电力系统及其自动化学报，2005，17(5)：7- 11. [4]刘震，林辉，徐敏.多电飞机开关磁阻发电系统的数字仿真研究[J].系统仿真学报，2005，17(12)：3070- 3073. [5]张慧.开关磁阻发电机系统的研究[D].浙江：浙江大学，2003. [6]陈东锁.开关磁阻电机驱动系统的动态模型及仿真[D].太原：太原理工大学，2002. [7]顾明磊.开关磁阻电机发电控制系统的研究[D].武汉：华中科技大学，2007. [8]张慧.开关磁阻发电机系统的研究[D].杭州：浙江大学，2003. [9]FAIZ J, MOAYED- ZADEH K. Design of switched reluctance machine for starter/generator of hybrid electric vehicle [J]. Electric Power Systems Research (S0378- 7796), 2005, 75(2): 153- 160. [10]ZHANG J H, ARTHUR V R. A new method to measure the switched reluctance motor's flux [J]. IEEE Transaction on Industry Applications (S0093- 9594), 2006, 42(5): 1171- 1176.

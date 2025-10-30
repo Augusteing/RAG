@@ -2,7 +2,7 @@
   "entities": [
     {
       "name": "航空状态监测传感器",
-      "type": "Sensor/Monitoring Parameter"
+      "type": "系统/部件"
     },
     {
       "name": "飞机健康管理",
@@ -14,14 +14,22 @@
     },
     {
       "name": "MEMS技术",
-      "type": "研究方法"
+      "type": "技术"
     },
     {
       "name": "光纤技术",
-      "type": "研究方法"
+      "type": "技术"
     },
     {
       "name": "无线传感网络",
+      "type": "技术"
+    },
+    {
+      "name": "静电传感技术",
+      "type": "技术"
+    },
+    {
+      "name": "新型航空状态监测传感器",
       "type": "系统/部件"
     },
     {
@@ -29,140 +37,213 @@
       "type": "理论基础"
     },
     {
-      "name": "智能材料",
-      "type": "研究方法"
+      "name": "状态信息",
+      "type": "传感器/监测参数"
     },
     {
-      "name": "智能化与网络化",
-      "type": "研究方法"
+      "name": "故障预测与健康管理",
+      "type": "研究领域"
     },
     {
-      "name": "MEMS传感器",
-      "type": "Sensor/Monitoring Parameter"
+      "name": "传感器技术",
+      "type": "技术"
     },
     {
-      "name": "飞机",
+      "name": "新材料与新工艺",
+      "type": "技术"
+    },
+    {
+      "name": "智能化传感器",
       "type": "系统/部件"
     },
     {
+      "name": "微处理器",
+      "type": "系统/部件"
+    },
+    {
+      "name": "微型惯性测量装置",
+      "type": "系统/部件"
+    },
+    {
+      "name": "硅微陀螺",
+      "type": "系统/部件"
+    },
+    {
+      "name": "硅加速度计",
+      "type": "系统/部件"
+    },
+    {
+      "name": "JSF战斗机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "MEMS轮胎压力传感器",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "波音公司",
+      "type": "组织机构"
+    },
+    {
       "name": "压力带",
-      "type": "Sensor/Monitoring Parameter"
+      "type": "传感器/监测参数"
     },
     {
       "name": "飞行载荷测试",
       "type": "研究方法"
     },
     {
-      "name": "Boeing757-300飞机",
-      "type": "系统/部件"
-    },
-    {
       "name": "光纤传感器",
-      "type": "Sensor/Monitoring Parameter"
-    },
-    {
-      "name": "压力",
       "type": "传感器/监测参数"
     },
     {
-      "name": "温度",
-      "type": "传感器/监测参数"
-    },
-    {
-      "name": "光纤光栅传感器",
-      "type": "Sensor/Monitoring Parameter"
-    },
-    {
-      "name": "材料结构健康状态监测",
-      "type": "研究方法"
-    },
-    {
-      "name": "光纤应变传感器",
-      "type": "Sensor/Monitoring Parameter"
-    },
-    {
-      "name": "结构健康监测",
-      "type": "研究方法"
+      "name": "结构健康状态监测",
+      "type": "研究领域"
     },
     {
       "name": "F/A-18E/F“超级大黄蜂”战机",
       "type": "系统/部件"
     },
     {
-      "name": "飞行器结构健康监控",
-      "type": "研究方法"
+      "name": "光纤应变传感器",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "NASA",
+      "type": "组织机构"
+    },
+    {
+      "name": "分布式光纤光栅传感系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "飞行器结构应变",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "飞行器结构温度",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "传统传感器布线问题",
+      "type": "问题"
     },
     {
       "name": "静电传感器",
-      "type": "Sensor/Monitoring Parameter"
+      "type": "传感器/监测参数"
     },
     {
       "name": "发动机气路颗粒物检测系统",
       "type": "系统/部件"
     },
     {
-      "name": "静电技术",
-      "type": "研究方法"
+      "name": "英国史密斯宇航公司",
+      "type": "组织机构"
     },
     {
       "name": "光电传感技术",
-      "type": "研究方法"
+      "type": "技术"
     },
     {
       "name": "光电效应",
       "type": "理论基础"
     },
     {
-      "name": "Metal-SCAN",
-      "type": "Sensor/Monitoring Parameter"
+      "name": "Gastops公司",
+      "type": "组织机构"
     },
     {
-      "name": "航空发动机金属磨粒",
-      "type": "故障模式"
+      "name": "Metal-SCAN传感器",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "磨损在线监测难题",
+      "type": "问题"
     },
     {
       "name": "F35战机",
       "type": "系统/部件"
     },
     {
-      "name": "我国航空状态监测传感器技术",
-      "type": "研究方法"
-    },
-    {
-      "name": "国外先进传感器技术",
-      "type": "研究方法"
+      "name": "健康管理技术",
+      "type": "研究领域"
     }
   ],
   "relations": [
     {
       "head": "航空状态监测传感器",
-      "relation": "是...的基础",
+      "relation": "是基础",
       "tail": "飞机健康管理"
     },
     {
       "head": "飞机健康管理",
-      "relation": "建立在",
+      "relation": "基于",
       "tail": "状态监测"
     },
     {
-      "head": "航空状态监测传感器",
-      "relation": "发展趋势为",
-      "tail": "智能化与网络化"
+      "head": "状态监测",
+      "relation": "依赖于",
+      "tail": "航空状态监测传感器"
     },
     {
       "head": "航空状态监测传感器",
-      "relation": "发展趋势为",
-      "tail": "智能材料"
+      "relation": "用于获取",
+      "tail": "状态信息"
     },
     {
-      "head": "MEMS传感器",
+      "head": "状态信息",
+      "relation": "用于",
+      "tail": "故障预测与健康管理"
+    },
+    {
+      "head": "新型航空状态监测传感器",
       "relation": "基于",
       "tail": "MEMS技术"
     },
     {
-      "head": "MEMS传感器",
-      "relation": "应用于",
-      "tail": "飞机"
+      "head": "新型航空状态监测传感器",
+      "relation": "基于",
+      "tail": "光纤技术"
+    },
+    {
+      "head": "新型航空状态监测传感器",
+      "relation": "基于",
+      "tail": "无线传感网络"
+    },
+    {
+      "head": "新型航空状态监测传感器",
+      "relation": "基于",
+      "tail": "静电感应原理"
+    },
+    {
+      "head": "传感器技术",
+      "relation": "依赖于",
+      "tail": "新材料与新工艺"
+    },
+    {
+      "head": "智能化传感器",
+      "relation": "包含",
+      "tail": "微处理器"
+    },
+    {
+      "head": "微型惯性测量装置",
+      "relation": "由...组成",
+      "tail": "硅微陀螺"
+    },
+    {
+      "head": "微型惯性测量装置",
+      "relation": "由...组成",
+      "tail": "硅加速度计"
+    },
+    {
+      "head": "JSF战斗机",
+      "relation": "采用",
+      "tail": "MEMS轮胎压力传感器"
+    },
+    {
+      "head": "波音公司",
+      "relation": "研制了",
+      "tail": "压力带"
     },
     {
       "head": "压力带",
@@ -175,39 +256,34 @@
       "tail": "飞行载荷测试"
     },
     {
-      "head": "压力带",
-      "relation": "应用于",
-      "tail": "Boeing757-300飞机"
-    },
-    {
       "head": "光纤传感器",
-      "relation": "用于测量",
-      "tail": "压力"
-    },
-    {
-      "head": "光纤传感器",
-      "relation": "用于测量",
-      "tail": "温度"
-    },
-    {
-      "head": "光纤光栅传感器",
       "relation": "应用于",
-      "tail": "材料结构健康状态监测"
+      "tail": "结构健康状态监测"
     },
     {
-      "head": "光纤应变传感器",
-      "relation": "用于",
-      "tail": "结构健康监测"
+      "head": "F/A-18E/F“超级大黄蜂”战机",
+      "relation": "采用",
+      "tail": "光纤应变传感器"
     },
     {
-      "head": "光纤应变传感器",
-      "relation": "应用于",
-      "tail": "F/A-18E/F“超级大黄蜂”战机"
+      "head": "NASA",
+      "relation": "采用",
+      "tail": "分布式光纤光栅传感系统"
+    },
+    {
+      "head": "分布式光纤光栅传感系统",
+      "relation": "用于监测",
+      "tail": "飞行器结构应变"
+    },
+    {
+      "head": "分布式光纤光栅传感系统",
+      "relation": "用于监测",
+      "tail": "飞行器结构温度"
     },
     {
       "head": "无线传感网络",
-      "relation": "应用于",
-      "tail": "飞行器结构健康监控"
+      "relation": "解决了",
+      "tail": "传统传感器布线问题"
     },
     {
       "head": "静电传感器",
@@ -215,9 +291,9 @@
       "tail": "静电感应原理"
     },
     {
-      "head": "发动机气路颗粒物检测系统",
-      "relation": "采用",
-      "tail": "静电技术"
+      "head": "英国史密斯宇航公司",
+      "relation": "开发了",
+      "tail": "发动机气路颗粒物检测系统"
     },
     {
       "head": "光电传感技术",
@@ -225,19 +301,24 @@
       "tail": "光电效应"
     },
     {
-      "head": "Metal-SCAN",
-      "relation": "用于检测",
-      "tail": "航空发动机金属磨粒"
+      "head": "Gastops公司",
+      "relation": "研制了",
+      "tail": "Metal-SCAN传感器"
     },
     {
-      "head": "Metal-SCAN",
+      "head": "Metal-SCAN传感器",
+      "relation": "解决了",
+      "tail": "磨损在线监测难题"
+    },
+    {
+      "head": "Metal-SCAN传感器",
       "relation": "应用于",
       "tail": "F35战机"
     },
     {
-      "head": "我国航空状态监测传感器技术",
-      "relation": "落后于",
-      "tail": "国外先进传感器技术"
+      "head": "健康管理技术",
+      "relation": "依赖于",
+      "tail": "航空状态监测传感器"
     }
   ]
 }

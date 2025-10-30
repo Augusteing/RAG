@@ -1,0 +1,177 @@
+{
+  "entities": [
+    {
+      "name": "PHM",
+      "type": "研究领域"
+    },
+    {
+      "name": "疲劳破坏",
+      "type": "故障模式"
+    },
+    {
+      "name": "失效物理模型",
+      "type": "理论基础"
+    },
+    {
+      "name": "疲劳寿命预测方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "应力严重系数",
+      "type": "理论基础"
+    },
+    {
+      "name": "疲劳缺口系数",
+      "type": "理论基础"
+    },
+    {
+      "name": "局部应力应变法",
+      "type": "研究方法"
+    },
+    {
+      "name": "应变-寿命曲线",
+      "type": "理论基础"
+    },
+    {
+      "name": "疲劳寿命",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "飞机结构",
+      "type": "系统/部件"
+    },
+    {
+      "name": "连接件",
+      "type": "系统/部件"
+    },
+    {
+      "name": "传感器",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "修正Neuber法",
+      "type": "算法"
+    },
+    {
+      "name": "Manson-Coffin公式",
+      "type": "理论基础"
+    },
+    {
+      "name": "Newton-Raphson迭代方法",
+      "type": "算法"
+    },
+    {
+      "name": "中心圆孔板件",
+      "type": "系统/部件"
+    },
+    {
+      "name": "MTS Landmark试验机",
+      "type": "软件工具"
+    },
+    {
+      "name": "疲劳试验",
+      "type": "研究方法"
+    },
+    {
+      "name": "相对误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "一维简化模型",
+      "type": "模型"
+    },
+    {
+      "name": "钉元",
+      "type": "模型"
+    },
+    {
+      "name": "杆元",
+      "type": "模型"
+    },
+    {
+      "name": "内力分布",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "PHM系统",
+      "type": "系统/部件"
+    }
+  ],
+  "relations": [
+    {
+      "head": "PHM",
+      "relation": "预测",
+      "tail": "疲劳破坏"
+    },
+    {
+      "head": "疲劳寿命预测方法",
+      "relation": "基于",
+      "tail": "失效物理模型"
+    },
+    {
+      "head": "疲劳寿命预测方法",
+      "relation": "求解",
+      "tail": "应力严重系数"
+    },
+    {
+      "head": "疲劳寿命预测方法",
+      "relation": "求解",
+      "tail": "疲劳缺口系数"
+    },
+    {
+      "head": "疲劳寿命预测方法",
+      "relation": "修正",
+      "tail": "应变-寿命曲线"
+    },
+    {
+      "head": "局部应力应变法",
+      "relation": "预测",
+      "tail": "疲劳寿命"
+    },
+    {
+      "head": "PHM",
+      "relation": "应用于",
+      "tail": "飞机结构"
+    },
+    {
+      "head": "疲劳寿命预测方法",
+      "relation": "应用于",
+      "tail": "连接件"
+    },
+    {
+      "head": "疲劳寿命预测方法",
+      "relation": "预测",
+      "tail": "疲劳寿命"
+    },
+    {
+      "head": "局部应力应变法",
+      "relation": "利用",
+      "tail": "修正Neuber法"
+    },
+    {
+      "head": "Manson-Coffin公式",
+      "relation": "描述",
+      "tail": "应变-寿命曲线"
+    },
+    {
+      "head": "Newton-Raphson迭代方法",
+      "relation": "求解",
+      "tail": "疲劳寿命"
+    },
+    {
+      "head": "疲劳试验",
+      "relation": "验证",
+      "tail": "疲劳寿命预测方法"
+    },
+    {
+      "head": "相对误差",
+      "relation": "评价",
+      "tail": "疲劳寿命预测方法"
+    },
+    {
+      "head": "疲劳寿命预测方法",
+      "relation": "集成在",
+      "tail": "PHM系统"
+    }
+  ]
+}

@@ -1,8 +1,12 @@
 {
   "entities": [
     {
-      "name": "贝叶斯优化LSTM",
-      "type": "模型"
+      "name": "航空发动机剩余寿命预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "深度学习算法",
+      "type": "理论基础"
     },
     {
       "name": "长短期记忆网络(LSTM)",
@@ -13,59 +17,67 @@
       "type": "算法"
     },
     {
-      "name": "航空发动机",
-      "type": "系统/部件"
-    },
-    {
-      "name": "剩余寿命预测",
-      "type": "研究方法"
-    },
-    {
-      "name": "预测准确率",
-      "type": "性能指标"
+      "name": "贝叶斯优化LSTM算法",
+      "type": "模型"
     },
     {
       "name": "传感器数据",
       "type": "传感器/监测参数"
     },
     {
-      "name": "时间序列预测",
-      "type": "研究方法"
-    },
-    {
       "name": "超参数",
-      "type": "特征/健康指标"
+      "type": "模型参数"
     },
     {
-      "name": "隐藏层数",
-      "type": "特征/健康指标"
-    },
-    {
-      "name": "初始学习率",
-      "type": "特征/健康指标"
+      "name": "预测准确率",
+      "type": "性能指标"
     },
     {
       "name": "C-MAPSS数据集",
       "type": "数据集"
     },
     {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "预测与健康管理(PHM)",
+      "type": "研究领域"
+    },
+    {
+      "name": "剩余使用寿命(RUL)",
+      "type": "特征/健康指标"
+    },
+    {
       "name": "循环神经网络(RNN)",
       "type": "模型"
+    },
+    {
+      "name": "长期依赖问题",
+      "type": "技术问题"
+    },
+    {
+      "name": "参数优化效率低",
+      "type": "技术问题"
     },
     {
       "name": "均方根误差(RMSE)",
       "type": "性能指标"
     },
     {
-      "name": "支持向量回归(SVR)",
+      "name": "制定维修替换策略",
+      "type": "应用场景"
+    },
+    {
+      "name": "MLP",
       "type": "模型"
     },
     {
-      "name": "多层感知机(MLP)",
+      "name": "SVR",
       "type": "模型"
     },
     {
-      "name": "卷积神经网络(CNN)",
+      "name": "CNN",
       "type": "模型"
     },
     {
@@ -77,61 +89,63 @@
       "type": "模型"
     },
     {
-      "name": "维修替换策略",
+      "name": "初始学习率",
+      "type": "模型参数"
+    },
+    {
+      "name": "隐藏层数",
+      "type": "模型参数"
+    },
+    {
+      "name": "航空器安全使用",
       "type": "应用场景"
-    },
-    {
-      "name": "预测与健康管理(PHM)",
-      "type": "研究领域"
-    },
-    {
-      "name": "高斯过程回归",
-      "type": "模型"
-    },
-    {
-      "name": "目标函数",
-      "type": "性能指标"
-    },
-    {
-      "name": "评价指标",
-      "type": "性能指标"
     }
   ],
   "relations": [
     {
-      "head": "贝叶斯优化LSTM",
+      "head": "贝叶斯优化LSTM算法",
+      "relation": "是本文提出的方法",
+      "tail": "航空发动机剩余寿命预测"
+    },
+    {
+      "head": "贝叶斯优化LSTM算法",
       "relation": "基于",
       "tail": "长短期记忆网络(LSTM)"
     },
     {
-      "head": "贝叶斯优化LSTM",
+      "head": "贝叶斯优化LSTM算法",
       "relation": "利用",
       "tail": "贝叶斯优化算法"
     },
     {
       "head": "贝叶斯优化算法",
-      "relation": "用于优化",
+      "relation": "优化",
       "tail": "超参数"
     },
     {
       "head": "超参数",
-      "relation": "包括",
-      "tail": "隐藏层数"
+      "relation": "属于",
+      "tail": "长短期记忆网络(LSTM)"
     },
     {
-      "head": "超参数",
-      "relation": "包括",
+      "head": "贝叶斯优化算法",
+      "relation": "优化",
       "tail": "初始学习率"
     },
     {
-      "head": "贝叶斯优化LSTM",
-      "relation": "应用于",
-      "tail": "剩余寿命预测"
+      "head": "贝叶斯优化算法",
+      "relation": "优化",
+      "tail": "隐藏层数"
     },
     {
-      "head": "剩余寿命预测",
-      "relation": "针对",
-      "tail": "航空发动机"
+      "head": "贝叶斯优化LSTM算法",
+      "relation": "解决了",
+      "tail": "参数优化效率低"
+    },
+    {
+      "head": "贝叶斯优化LSTM算法",
+      "relation": "提高了",
+      "tail": "预测准确率"
     },
     {
       "head": "长短期记忆网络(LSTM)",
@@ -140,78 +154,68 @@
     },
     {
       "head": "长短期记忆网络(LSTM)",
-      "relation": "用于",
-      "tail": "时间序列预测"
+      "relation": "解决了",
+      "tail": "长期依赖问题"
     },
     {
-      "head": "时间序列预测",
+      "head": "长短期记忆网络(LSTM)",
       "relation": "处理",
       "tail": "传感器数据"
     },
     {
-      "head": "C-MAPSS数据集",
-      "relation": "用于验证",
-      "tail": "贝叶斯优化LSTM"
-    },
-    {
-      "head": "均方根误差(RMSE)",
-      "relation": "是",
-      "tail": "评价指标"
-    },
-    {
-      "head": "均方根误差(RMSE)",
-      "relation": "作为",
-      "tail": "目标函数"
-    },
-    {
-      "head": "贝叶斯优化LSTM",
-      "relation": "提高了",
-      "tail": "预测准确率"
-    },
-    {
-      "head": "贝叶斯优化LSTM",
-      "relation": "优于",
-      "tail": "长短期记忆网络(LSTM)"
-    },
-    {
-      "head": "贝叶斯优化LSTM",
-      "relation": "优于",
-      "tail": "BiLSTM"
-    },
-    {
-      "head": "贝叶斯优化LSTM",
-      "relation": "优于",
-      "tail": "BHSLSTM"
-    },
-    {
-      "head": "贝叶斯优化LSTM",
-      "relation": "优于",
-      "tail": "支持向量回归(SVR)"
-    },
-    {
-      "head": "贝叶斯优化LSTM",
-      "relation": "优于",
-      "tail": "多层感知机(MLP)"
-    },
-    {
-      "head": "贝叶斯优化LSTM",
-      "relation": "优于",
-      "tail": "卷积神经网络(CNN)"
-    },
-    {
-      "head": "剩余寿命预测",
+      "head": "剩余使用寿命(RUL)预测",
       "relation": "是...的关键任务",
       "tail": "预测与健康管理(PHM)"
     },
     {
-      "head": "贝叶斯优化算法",
-      "relation": "采用",
-      "tail": "高斯过程回归"
+      "head": "贝叶斯优化LSTM算法",
+      "relation": "在...上验证",
+      "tail": "C-MAPSS数据集"
     },
     {
-      "head": "贝叶斯优化LSTM",
+      "head": "贝叶斯优化LSTM算法",
+      "relation": "评价指标是",
+      "tail": "均方根误差(RMSE)"
+    },
+    {
+      "head": "贝叶斯优化LSTM算法",
+      "relation": "优于",
+      "tail": "MLP"
+    },
+    {
+      "head": "贝叶斯优化LSTM算法",
+      "relation": "优于",
+      "tail": "SVR"
+    },
+    {
+      "head": "贝叶斯优化LSTM算法",
+      "relation": "优于",
+      "tail": "CNN"
+    },
+    {
+      "head": "贝叶斯优化LSTM算法",
+      "relation": "优于",
+      "tail": "BiLSTM"
+    },
+    {
+      "head": "贝叶斯优化LSTM算法",
+      "relation": "优于",
+      "tail": "BHSLSTM"
+    },
+    {
+      "head": "贝叶斯优化LSTM算法",
+      "relation": "优于",
+      "tail": "长短期记忆网络(LSTM)"
+    },
+    {
+      "head": "贝叶斯优化LSTM算法",
       "relation": "为...提供参考",
-      "tail": "维修替换策略"
+      "tail": "制定维修替换策略"
+    },
+    {
+      "head": "贝叶斯优化LSTM算法",
+      "relation": "保障",
+      "tail": "航空器安全使用"
     }
   ]
 }

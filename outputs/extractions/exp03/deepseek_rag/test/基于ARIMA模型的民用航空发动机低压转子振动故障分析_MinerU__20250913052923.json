@@ -1,0 +1,160 @@
+{
+  "entities": [
+    {
+      "name": "回归分析法",
+      "type": "研究方法"
+    },
+    {
+      "name": "ARIMA模型",
+      "type": "模型"
+    },
+    {
+      "name": "指数模型",
+      "type": "模型"
+    },
+    {
+      "name": "线性模型",
+      "type": "模型"
+    },
+    {
+      "name": "二次多项式模型",
+      "type": "模型"
+    },
+    {
+      "name": "三次多项式模型",
+      "type": "模型"
+    },
+    {
+      "name": "振动故障",
+      "type": "故障模式"
+    },
+    {
+      "name": "N1振动高",
+      "type": "故障模式"
+    },
+    {
+      "name": "N1转速",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "TN1VIB",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "系数a",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "R²",
+      "type": "性能指标"
+    },
+    {
+      "name": "RMSE",
+      "type": "性能指标"
+    },
+    {
+      "name": "MAE",
+      "type": "性能指标"
+    },
+    {
+      "name": "MaxAE",
+      "type": "性能指标"
+    },
+    {
+      "name": "BIC",
+      "type": "性能指标"
+    },
+    {
+      "name": "ADF检验",
+      "type": "研究方法"
+    },
+    {
+      "name": "专家建模器",
+      "type": "软件工具"
+    },
+    {
+      "name": "三次指数平滑法",
+      "type": "研究方法"
+    },
+    {
+      "name": "CFM56-7B发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "波音737-800",
+      "type": "系统/部件"
+    },
+    {
+      "name": "QAR数据",
+      "type": "数据集"
+    },
+    {
+      "name": "低压转子",
+      "type": "系统/部件"
+    },
+    {
+      "name": "LPT",
+      "type": "系统/部件"
+    },
+    {
+      "name": "预测性维护",
+      "type": "应用场景"
+    },
+    {
+      "name": "发动机健康监测",
+      "type": "应用场景"
+    }
+  ],
+  "relations": [
+    {
+      "head": "指数模型",
+      "relation": "生成",
+      "tail": "系数a"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "基于",
+      "tail": "系数a"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "预测",
+      "tail": "振动故障"
+    },
+    {
+      "head": "专家建模器",
+      "relation": "提供",
+      "tail": "ARIMA模型"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "优于",
+      "tail": "三次指数平滑法"
+    },
+    {
+      "head": "ADF检验",
+      "relation": "检验",
+      "tail": "系数a"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "评价指标是",
+      "tail": "R²"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "评价指标是",
+      "tail": "RMSE"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "评价指标是",
+      "tail": "MAE"
+    },
+    {
+      "head": "回归分析法",
+      "relation": "处理",
+      "tail": "QAR数据"
+    }
+  ]
+}

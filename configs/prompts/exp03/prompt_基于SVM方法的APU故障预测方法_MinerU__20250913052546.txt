@@ -134,84 +134,84 @@
 {
   "entities": [
     {
-      "name": "核动力系统故障诊断方法",
-      "type": "方法"
+      "name": "歼击机",
+      "type": "系统/部件"
     },
     {
-      "name": "核领域的实际应用",
-      "type": "应用领域"
+      "name": "结构故障",
+      "type": "故障模式"
     },
     {
-      "name": "两步走策略",
-      "type": "策略"
+      "name": "结构故障诊断",
+      "type": "研究领域"
     },
     {
-      "name": "设备及故障诊断确定故障源设备",
-      "type": "步骤"
-    },
-    {
-      "name": "具体设备的故障源诊断",
-      "type": "步骤"
-    },
-    {
-      "name": "基于多模型融合的航空电子产品故障预测方法",
+      "name": "故障检测",
       "type": "研究方法"
     },
     {
-      "name": "航空电子产品故障预测",
-      "type": "问题"
+      "name": "故障隔离",
+      "type": "研究方法"
     },
     {
-      "name": "粗糙集理论",
-      "type": "理论"
+      "name": "非线性系统辨识方法",
+      "type": "研究方法"
     },
     {
-      "name": "BP神经网络",
-      "type": "网络"
+      "name": "角度差值",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "襟翼不对称故障",
+      "type": "故障模式"
+    },
+    {
+      "name": "组合预测方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "指数平滑法",
+      "type": "模型"
     },
     {
       "name": "故障预测",
-      "type": "技术"
+      "type": "研究方法"
     },
     {
-      "name": "视情维修",
-      "type": "维修策略"
-    },
-    {
-      "name": "神经网络",
-      "type": "技术"
+      "name": "航空设备",
+      "type": "系统/部件"
     }
   ],
   "relations": [
     {
-      "head": "核动力系统故障诊断方法",
-      "relation": "推广到",
-      "tail": "核领域的实际应用"
-    },
-    {
-      "head": "两步走策略",
+      "head": "结构故障诊断",
       "relation": "包括",
-      "tail": "设备及故障诊断确定故障源设备"
+      "tail": "故障检测"
     },
     {
-      "head": "两步走策略",
+      "head": "结构故障诊断",
       "relation": "包括",
-      "tail": "具体设备的故障源诊断"
+      "tail": "故障隔离"
     },
     {
-      "head": "基于多模型融合的航空电子产品故障预测方法",
-      "relation": "提出用于解决",
-      "tail": "航空电子产品故障预测"
+      "head": "角度差值",
+      "relation": "用于推测",
+      "tail": "襟翼不对称故障"
     },
     {
-      "head": "粗糙集理论",
+      "head": "组合预测方法",
+      "relation": "提出用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "组合预测方法",
       "relation": "结合",
-      "tail": "神经网络"
+      "tail": "指数平滑法"
     },
     {
-      "head": "故障预测",
-      "relation": "支持",
-      "tail": "视情维修"
+      "head": "组合预测方法",
+      "relation": "应用于",
+      "tail": "航空设备"
     }
   ]
 }
@@ -242,10 +242,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 基于SVM方法的APU故障预测方法
-
-蔡坤烨 蔡 景 周 迪 泽 山（南京航空航天大学民航学院，南京，211106）
-
 摘要：针对辅助动力装置（Auxiliary power unit，APU）故障预测时，仅基于快速存取记录器（Quick access recorder，QAR）数据存在实时性欠缺或精度不足的问题，提出了基于实时报文数据的APU故障预测方法。首先，对报文所采集的数据进行预处理，将每次航班的报文数据规整为一条数据集；其次，从参数阈值、维修记录及APU序列号变化情况等角度对数据集进行标注工作；随后，针对特征选择算法具有较差解释性的缺点，提出通过相关性分析选取能够表征APU运行性能的参数；最后，建立基于支持向量机（Support vector machine，SVM）的多参数故障预测模型并优化。经验证，该模型提高了预测正确率，为APU视情维修策略的制定提供参考。
 
 关键词：辅助动力装置（APU）；报文系统；数据分析；故障预测；支持向量机
@@ -255,10 +251,6 @@
 # APU Fault Prediction Based on SVM Method
 
 CAI Kunye，CAI Jing，ZHOU Di，ZE Shan (College of Civil Aviation， Nanjing University of Aeronautics & Astronautics, Nanjing， 211106， China)
-
-Abstract:Since in auxiliary power unit (APU) fault prediction quick access recorder(QAR) data cannot meet the requirement of real- time or accuracy，an APU fault prediction based on real- time message data is proposed. First, the data collected by the message is preprocessed, and the message data of each flight is organized and put into one data set. Second, the data set is marked from the perspectives of parameter threshold， maintenance record and changes of APU sequence number. Third， aiming at the poor interpretation of the feature selection algorithm, we select parameters that can characterize APU performance through correlation analysis. Finally， a multi- parameter fault prediction model based on support vector machine(SVM) is established and optimized. It is proved that this model can improve the prediction accuracy and provide reference for APU maintenance strategy.
-
-Key words: auxiliary power unit (APU)； report system； data analysis； fault prediction； support vector machine
 
 辅助动力装置（Auxiliary power unit，APU）为地面上的飞机提供电源和气源并用于启动主发动机。APU作为最低放行设备清单（MEL）中的保留故障项目，飞机在缺少地面电源和气源保障的情况下，APU的失效或故障将导致飞机无法运行。因此，在目前航空公司越来越重视签派可靠度和经济性的情况下，如何提前预测APU故障以减少飞
 
@@ -466,15 +458,3 @@ Fig.7 ROC curves of each algorithm
 本文提出了一种新的特征提取思路，即排除算法筛选导致解释性差的特点，从发动机特性出发选择特征，再以算法验证其正确性。通过模型预测准确率为依据加以验证，提高特征选择的可解释性。并且在数据预处理步骤中，分析选取报文中有价值的数据用于模型训练。通过对SVM模型进行优化，获得一个泛化效果更好的模型并选择合适的评价指标对模型进行评估。
 
 结果证明，基于SVM模型以A13号报文为数据源进行故障识别时，比其他分类模型有较高的优越性；同时，用于模型训练的特征参数均来自于ACARS发送到地面基站的A13号报文。通过实时传输的A13号报文，能够实现故障的在线监测，能及时安排地勤维修人员及时排故，避免非计划维修，在一定程度上实现APU的视情维修。
-
-# 参考文献：
-
-[1] 高飞鹏，黄加阳，陈新霞.基于航后QAR数据译码的APU故障诊断技术[J].计算机测量与控制，2016，24(1):42- 45. GAO Feipeng，HUANG Jiayang，CHEN Xinxia.APU fault diagnosis technology based on post- flightQAR data decoding[J].Computer Measurement &Control,2016,24(1):42- 45. [2] 李海然.排故中的QAR数据使用[J].航空维修与工程，2010(2):47- 48. LI Hairan. QAR data used in troubleshooting[J].Aviation Maintenance and Engineering，2010（2）：47- 48. [3] GRUYER P,ROSE D, SERVIERES- BORDES C.Hybrid ACARS communication system: US,US8195813 B2[P].2012. [4] ZHAI Hongchun，HUANG Yuanqiang，ZHANG
-
-Xingchuan. Analysis of cruise message of Boeing 747- 400 aircraft based on QAR data[J]. Machine tool and Hydraulics,2015,43(24):20- 24. [5] 顾祝平，张弛，黄磊，等.飞机辅助动力单元涡轮效率监控方法和装置：CN201310313879.0[P].2015- 02- 11. GU Zhuping, ZHANG Chi, HUANG Lei. Methods and devices for turbine efficiency monitoring of aircraft auxiliary power units: CN201310313879.0 [P].2015- 02- 11. [6] 唐敏杰.基于状态维修的APU起动机监控模型的建模与实现[J].航空维修与工程，2014(3):73- 75. TANG Minjie. Modeling and implementation of APU starter monitoring model based on state maintenance[J]. Aviation maintenance and Engineering,2014(3):73- 75. [7] 丁慧锋.基于预防性维修的APU性能评估建模与监控方法[J].航空维修与工程，2012(6):52- 54. DING Huifeng. APU performance evaluation modeling and monitoring method based on preventive maintenance[J]. Aviation Maintenance and Engineering,2012(6):52- 54. [8] 徐爽，王尔宝，张希第.客户化ACMS报告在引气系统上的应用[J].航空维修与工程，2013(3):57- 58. XU Shuang，WANG Erbao，ZHANG Xidi. Application of customized ACMS report on air intake system[J]. Aviation Maintenance and Engineering,2013(3):57- 58. [9] GARCIA- NIETO P J, GARCIA- GONZALO E, SANCHEZ LASHERAS F, et al. Hybrid PSO- SVM- based method for forecasting of the remaining useful life for aircraft engines and evaluation of its reliability[J]. Reliability Engineering & System Safety,2015,138:219- 231. [10] JIANG Liying, XUE Changan, CUI Jianguo, et al. Research recognition of aircraft engine abnormal state [C]//Control and Decision Conference，2015 27th Chinese [S.1]., IEEE,2015. [11] ZHANG Ye, de VISSER C C, CHU Q. Online aircraft damage case identification and classification for database information retrieval[C]//2018 AIAA Atmospheric Flight Mechanics Conference. [S.1] : AIAA,2018. [12] ZHAN L, LI C. A hybrid PSO- SVM- based method for predicting the friction coefficient between aircraft tire and coating[J]. Measurement Science and Technology,2017,28(2):025004. [13] CHEN X, WANG H, HUANG J, et al. APU degradation prediction based on EEMD and gaussian
-
-process regression [C]// 2017 International Conference on Sensing, Diagnostics, Prognostics, and Control (SDPC). Shanghai, China: SDPC, 2017. [14] CHEN X, LYU Z, REN H, et al. APU feature integration based on multi- variant flight data analysis [C]// 2016 IEEE International Conference on Prognostics and Health Management (ICPHM). Ottawa, USA: IEEE, 2016. [15] YANG C, ZOU Y, LAI P, et al. Data mining- based methods for fault isolation with validated FMEA model ranking [J]. Applied Intelligence, 2015, 43(4): 913- 923. [16] BRIAN X, KUMAR S A. Big data analytics framework for system health monitoring [C]// 2015 IEEE International Congress on Big Data. New York, USA: IEEE, 2015.
-
-[17] 丁慧锋, 王炳正, 黄磊. 面向 CBM 维修策略的飞机 APU 系统监控建模与实现 [C]//2011 航空维修理论研究及技术发展学术交流会论文集. [S.I.]: 中国知网, 2011. DING Huifeng, WANG Bingzheng, HUANG Lei. CBM maintenance strategy oriented aircraft APU system monitoring modeling and implementation [C]//2011 aviation maintenance theory research and technology development academic exchange proceedings. [S.I.]: CNKI, 2011. [18] CORTES C, VAPNIK V. Support- vector networks [J]. Machine Learning, 1995, 20(3): 73- 297. [19] PEI Yun, ZHANG Sheng, SHU Meng, et al. An online fault detection model and strategies based on svm- grid in clouds [J]. IEEE/CAA Journal of Automatica Sinica, 2018, 5(2): 445- 456.
-
-（编辑：张蓓）

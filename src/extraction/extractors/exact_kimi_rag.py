@@ -35,8 +35,8 @@ PROMPT_FILE = PROJECT_ROOT / "configs" / "prompts" / "prompt.txt"  # 通用/回�
 EXP02_PROMPT_FILE = PROJECT_ROOT / "configs" / "prompts" / "exp02" / "prompt.txt"  # 仅实验二使用的新路径
 EXP03_PROMPTS_DIR = PROJECT_ROOT / "configs" / "prompts" / "exp03"
 
-# 论文目录
-PAPERS_DIR = PROJECT_ROOT / "data" / "raw" / "papers"
+# 论文目录（使用处理后的清洗数据）
+PAPERS_DIR = PROJECT_ROOT / "data" / "processed" / "papers"
 
 # 向量数据库路径
 VECTOR_DB_DIR = PROJECT_ROOT / "data" / "vectorstores" / "langchain_chroma_db"
@@ -84,8 +84,19 @@ os.makedirs(PROMPT_EXAMPLE_DIR, exist_ok=True)
 RAG_TOP_K = int(os.getenv("RAG_TOP_K", "5"))
 RAG_ENABLED = os.getenv("RAG_ENABLED", "1") == "1"
 
-# Kimi 配置
-MODEL_NAME = "moonshot-v1-128k"  # 使用与 exact_kimi.py 相同的稳定模型
+# Embedding 本地化配置
+# 可通过环境变量覆盖：
+#   BGE_LOCAL_PATH: 模型本地目录（默认为 E:\langchain\configs\models\bge-large-zh-v1.5）
+#   EMBEDDING_DEVICE: cuda/cpu（默认 cuda）
+#   EMBEDDING_LOCAL_ONLY: 1/0（默认 1，强制仅本地，不触网）
+BGE_LOCAL_PATH = Path(os.getenv("BGE_LOCAL_PATH", r"E:\\langchain\\configs\\models\\bge-large-zh-v1.5"))
+EMBEDDING_DEVICE = os.getenv("EMBEDDING_DEVICE", "cuda")
+EMBEDDING_LOCAL_ONLY = os.getenv("EMBEDDING_LOCAL_ONLY", "1") == "1"
+
+# Kimi 配置 - 使用 kimi-latest 获得最强性能
+# kimi-latest 是月之暗面最新最强的模型，基于万亿参数的 Kimi K2
+# 具有更强的推理能力、更好的工具使用能力和实时更新的特性
+MODEL_NAME = "kimi-latest"
 PROVIDER_NAME = "kimi_rag"
 
 print("=" * 80)
@@ -108,13 +119,22 @@ print(f"{'='*80}")
 
 if RAG_ENABLED:
     try:
-        print(f"⏳ 加载 BGE-large-zh-v1.5 Embeddings...")
+        print(f"⏳ 加载本地 BGE-large-zh-v1.5 Embeddings...")
+        print(f"   - 本地模型目录: {BGE_LOCAL_PATH}")
+        if not BGE_LOCAL_PATH.exists():
+            raise FileNotFoundError(
+                f"未找到本地模型目录: {BGE_LOCAL_PATH}. 请将 BAAI/bge-large-zh-v1.5 下载到该目录，或设置环境变量 BGE_LOCAL_PATH 指向本地模型目录。 建议目录: E:/langchain/configs/models/bge-large-zh-v1.5"
+            )
+        
         embeddings = HuggingFaceEmbeddings(
-            model_name="BAAI/bge-large-zh-v1.5",
-            model_kwargs={'device': 'cuda'},
+            model_name=str(BGE_LOCAL_PATH),
+            model_kwargs={
+                'device': EMBEDDING_DEVICE,
+                'local_files_only': EMBEDDING_LOCAL_ONLY
+            },
             encode_kwargs={'normalize_embeddings': True}
         )
-        print(f"✅ Embeddings 加载完成")
+        print(f"✅ 本地 Embeddings 加载完成 ({EMBEDDING_DEVICE}, local_only={EMBEDDING_LOCAL_ONLY})")
         
         print(f"⏳ 连接向量数据库...")
         vectorstore = Chroma(
@@ -135,7 +155,10 @@ if RAG_ENABLED:
         
     except Exception as e:
         print(f"❌ RAG 初始化失败: {e}")
-        print(f"   将回退到非 RAG 模式")
+        # 如果是因为本地化未准备好，给出明确指引
+        print("   提示: 确保已将 BAAI/bge-large-zh-v1.5 模型下载至本地，并设置 BGE_LOCAL_PATH，"
+              "或创建 E:\\langchain\\configs\\models\\bge-large-zh-v1.5 目录。")
+        print("   现将回退到非 RAG 模式以继续运行（不进行检索增强）。")
         RAG_ENABLED = False
 else:
     print(f"ℹ️ RAG 未启用，使用传统模式")

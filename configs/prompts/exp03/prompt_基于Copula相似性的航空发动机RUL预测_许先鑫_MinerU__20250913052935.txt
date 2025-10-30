@@ -134,183 +134,104 @@
 {
   "entities": [
     {
-      "name": "性能衰退模式",
-      "type": "故障相关概念"
+      "name": "预测精度",
+      "type": "性能指标"
     },
     {
-      "name": "随机森林分类器",
-      "type": "模型"
-    },
-    {
-      "name": "多层 LSTM 预测模型",
-      "type": "模型"
-    },
-    {
-      "name": "复杂系统",
-      "type": "研究对象"
-    },
-    {
-      "name": "剩余寿命",
-      "type": "研究对象"
-    },
-    {
-      "name": "智能预测",
-      "type": "技术"
-    },
-    {
-      "name": "高维度、多尺度时序数据",
-      "type": "研究对象"
-    },
-    {
-      "name": "梯度消失",
-      "type": "问题"
-    },
-    {
-      "name": "Dropout 方法",
-      "type": "方法"
-    },
-    {
-      "name": "过拟合",
-      "type": "问题"
-    },
-    {
-      "name": "误差得分函数",
-      "type": "函数"
-    },
-    {
-      "name": "超前与滞后预测",
-      "type": "研究对象"
+      "name": "发动机寿命预测",
+      "type": "研究方法"
     },
     {
       "name": "航空发动机",
       "type": "系统/部件"
     },
     {
-      "name": "运行工况",
-      "type": "研究对象"
+      "name": "故障诊断",
+      "type": "研究方法"
     },
     {
-      "name": "误差得分",
+      "name": "健康管理(PHM)",
+      "type": "研究领域"
+    },
+    {
+      "name": "回归分析",
+      "type": "研究方法"
+    },
+    {
+      "name": "基于深度学习的方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障预测",
+      "type": "研究领域"
+    },
+    {
+      "name": "数据驱动方法",
+      "type": "理论基础"
+    },
+    {
+      "name": "物理模型",
+      "type": "理论基础"
+    },
+    {
+      "name": "数据驱动方法与物理模型的融合",
+      "type": "研究方法"
+    },
+    {
+      "name": "航空发动机剩余寿命预估",
+      "type": "研究方法"
+    },
+    {
+      "name": "传感器数据",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "航空发动机剩余寿命",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "起始模组",
+      "type": "模型"
+    },
+    {
+      "name": "传感器数据滑动重组",
+      "type": "研究方法"
+    },
+    {
+      "name": "预估准确性",
       "type": "性能指标"
-    },
-    {
-      "name": "预测",
-      "type": "算法"
-    },
-    {
-      "name": "回归",
-      "type": "算法"
-    },
-    {
-      "name": "预测方法",
-      "type": "研究方法"
-    },
-    {
-      "name": "基于融合的方法",
-      "type": "研究方法"
-    },
-    {
-      "name": "粒子滤波",
-      "type": "算法"
-    },
-    {
-      "name": "融合型的PHM方法",
-      "type": "研究方法"
-    },
-    {
-      "name": "基于失效物理模型与基于数据驱动方法的融合",
-      "type": "研究方法"
-    },
-    {
-      "name": "不同数据驱动方法之间的融合",
-      "type": "研究方法"
-    },
-    {
-      "name": "相关向量机、粒子滤波和自回归模型融合的锂离子电池的寿命预测方法",
-      "type": "算法"
-    },
-    {
-      "name": "基于数据驱动和基于模型融合的预测算法框架",
-      "type": "算法"
-    },
-    {
-      "name": "刘月峰等",
-      "type": ""
-    },
-    {
-      "name": "Liao等",
-      "type": ""
-    },
-    {
-      "name": "新一代飞机健康管理",
-      "type": ""
     }
   ],
   "relations": [
     {
-      "head": "随机森林分类器",
-      "relation": "识别",
-      "tail": "性能衰退模式"
+      "head": "发动机寿命预测",
+      "relation": "属于",
+      "tail": "健康管理(PHM)"
     },
     {
-      "head": "多层 LSTM 预测模型",
-      "relation": "处理",
-      "tail": "高维度、多尺度时序数据"
+      "head": "故障诊断",
+      "relation": "属于",
+      "tail": "健康管理(PHM)"
     },
     {
-      "head": "多层 LSTM 预测模型",
-      "relation": "防止",
-      "tail": "梯度消失"
+      "head": "数据驱动方法与物理模型的融合",
+      "relation": "结合",
+      "tail": "数据驱动方法"
     },
     {
-      "head": "多层 LSTM 预测模型",
-      "relation": "引入",
-      "tail": "Dropout 方法"
+      "head": "数据驱动方法与物理模型的融合",
+      "relation": "结合",
+      "tail": "物理模型"
     },
     {
-      "head": "Dropout 方法",
-      "relation": "避免",
-      "tail": "过拟合"
+      "head": "传感器数据滑动重组",
+      "relation": "提高",
+      "tail": "预估准确性"
     },
     {
-      "head": "误差得分函数",
-      "relation": "用于评估",
-      "tail": "超前与滞后预测"
-    },
-    {
-      "head": "多层 LSTM 预测模型",
-      "relation": "在...上验证",
-      "tail": "航空发动机"
-    },
-    {
-      "head": "预测方法",
-      "relation": "分为",
-      "tail": "基于融合的方法"
-    },
-    {
-      "head": "融合型的PHM方法",
-      "relation": "包括",
-      "tail": "基于失效物理模型与基于数据驱动方法的融合"
-    },
-    {
-      "head": "融合型的PHM方法",
-      "relation": "包括",
-      "tail": "不同数据驱动方法之间的融合"
-    },
-    {
-      "head": "刘月峰等",
-      "relation": "提出",
-      "tail": "相关向量机、粒子滤波和自回归模型融合的锂离子电池的寿命预测方法"
-    },
-    {
-      "head": "Liao等",
-      "relation": "提出",
-      "tail": "基于数据驱动和基于模型融合的预测算法框架"
-    },
-    {
-      "head": "基于融合的方法",
-      "relation": "是发展重点",
-      "tail": "新一代飞机健康管理"
+      "head": "起始模组",
+      "relation": "提高",
+      "tail": "预估准确性"
     }
   ]
 }
@@ -341,16 +262,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-文章编号：1000- 8055(2024)08- 20220576- 08
-
-doi:10.13224/j.cnki.jasp.20220576
-
-# 基于Copula相似性的航空发动机RUL预测
-
-许先鑫，李娟，孙秀慧，戴洪德
-
-（1. 鲁东大学数学与统计科学学院统计系，山东烟台264025；2. 海军航空大学航空基础学院，山东烟台264001）
-
 摘要：针对航空发动机性能退化特征众多，以及特征相互影响等问题，考虑退化特征间的非线性相关关系，提出了基于Copula相似性的航空发动机RUL（remaining useful life）预测方法。通过K- means聚类将航空发动机的工作状态分类，建立退化模型，选取退化性能趋势最明显的3组传感器。基于Copula函数对选取的3组传感器进行相关性建模分析，构建发动机传感器之间的Copula结构。基于Copula相似性实现对航空发动机的剩余寿命预测。结果表明：基于Copula相似性的航空发动机RUL预测方法相较传统方法，在发动机运行周期的  $50\%$  、  $70\%$  、  $90\%$  预测误差分别减少  $13.053\%$  、  $31.328\%$  、  $74.602\%$  ，预测精度得到提高。
 
 关键词：预测与健康管理；特征退化；剩余使用寿命；Copula相似性；非线性
@@ -360,10 +271,6 @@ doi:10.13224/j.cnki.jasp.20220576
 # RUL prediction for aero-engines based on Copula similarity
 
 XU Xianxin，LI Juan，SUN Xiuhui，DAI Hongke (1. Department of Statistics， School of Mathematics and Statistics, Lu Dong University， Yantai Shandong 264025， China; 2. School of Basic Sciences for Aviation, Naval Aviation University， Yantai Shandong 264001， China)
-
-Abstract: In view of many degradation features of aero- engine performance and their mutual influence, the RUL(remaining useful life) prediction method of aero- engine based on Copula similarity was proposed considering the nonlinear correlations of the degradation features. The working state of the aero- engine was classified through K- means clustering, and a degradation model was established to select three sets of sensors with the most obvious degradation performance trend. Based on the Copula function, the correlation modeling and analysis of the selected three sets of sensors were carried out to build the Copula structure between engine sensors. The prediction of the remaining life of aero- engine was realized based on Copula similarity. The results showed that compared with traditional methods, the prediction errors of the aero- engine RUL based on Copula similarity were reduced by  $13.053\%$ $31.328\%$  and  $74.602\%$  during the aero- engine operation cycle of  $50\%$ $70\%$ $90\%$  , respectively, and the prediction accuracy was improved.
-
-Keywords: prediction and health management; performance degradation; remaining useful life; Copula similarity; nonlinearity
 
 1960年以来，随着社会的不断变革，航空发动机作为工业皇冠上的明珠，是一个国家综合实力的重要体现。目前在应用最多的加力式涡扇发动机中，部件故障问题非常突出。在飞机运行中，如果出现部件故障问题不能及时解决，很可能会发生灾难性事故。然而发动机的维护成本非常昂贵，而预测与健康管理（prognosticshealthmanagement，PHM）可以降低费用和减少风险。同时发动机中的部件传感器能够感知各种物理参数（如温度、压力、转子速度等）并准确获取飞机发动机控制和健康管理所需的数据。因此利用实时监测到的传感器信息，对航空发动机进行预测与健康管理是一种有效的方法。
 
@@ -626,11 +533,3 @@ Table 8 Error comparison table of two methods
 2）利用秩相关系数作为相似性度量依据，将退化特征间的相关结构的相似性考虑到寿命预测中，提出了一种寻找相似样本的新方法。
 
 3）选取NASA的C-MAPSS航空发动机仿真模型数据对基于Copula相似性的RUL预测方法进行了验证，通过与传统方法相比，预测精度得到提高。
-
-# 参考文献：
-
-[1] XIONG Minglan, WANG Huawei, FU Qiang, et al. Digital twin- driven aero- engine intelligent predictive maintenance[J]. The International Journal of Advanced Manufacturing Technology, 2021, 114(11/12): 3751- 3761. [2] XU Jiuping, WANG Yusheng, XU Lei. PHM- oriented integrated fusion prognostics for aircraft engines based on sensor data[J]. IEEE Sensors Journal, 2014, 14(4): 1124- 1132. [3] LIAO Linxia, KOTTIG F. Review of hybrid prognostics approaches for remaining useful life prediction of engineered systems, and an application to battery life prediction[J]. IEEE Transactions on Reliability, 2014, 63(1): 191- 207. [4] LI Yiguang, NILKITSARANONT P. Gas turbine performance prognostic for condition- based maintenance[J]. Applied Energy, 2009, 86(10): 2152- 2161. [5] 王华伟，吴海桥. 基于信息融合的航空发动机剩余寿命预测[J]. 航空动力学报，2012, 27(12): 2749- 2755. WANG Huawei, WU Haiqiao. Residual useful life prediction for aircraft engine based on information fusion[J]. Journal of Aerospace Power, 2012, 27(12): 2749- 2755. (in Chinese)[6] SON K L, FOULADIRAD M, BARROS A, et al. Remaining useful life estimation based on stochastic deterioration models: a comparative study[J]. Reliability Engineering & System Safety, 2013, 112: 165- 175. [7] GIANTOMASSI A, FERRACUTI F, BENINI A, et al. Hidden Markov model for health estimation and prognosis of turbofan engines[C]// International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. Washington: ASME, 2011: 681- 689. [8] XIANG Sheng, QIN Yi, LUO Jun, et al. Multicellular LSTM- based deep learning model for aerorengine remaining useful life prediction[J]. Reliability Engineering & System Safety, 2021, 216: 107927. [9] MALINOWSKI S, CHEBEL- MORELLO B, ZERHOUNI N. Remaining useful life estimation based on discriminating shapelet extraction[J]. Reliability Engineering & System Safety, 2015, 142: 279- 288. [10] LAM J, SANKARARAMAN S, STEWART B. Enhanced trajectory based similarity prediction with uncertainty quantification[C]//Annual Conference of the PHM Society. Texas: IJPHM, 2014: 2513.1- 2513.12. [11] KHELIF R, MALINOWSKI S, CHEBEL- MORELLO B, et al. RUL prediction based on a new similarity- instance based approach [C]//2014 IEEE 23rd International Symposium on Industrial Elec
-
-tronics. Piscataway, US: IEEE, 2014: 2463- 2468. [12] LIU Yingchao, HU Xiaofeng, ZHANG Wenjuan. Remaining useful life prediction based on health index similarity[J]. Reliability Engineering & System Safety, 2019, 185: 502- 510. [13] YU Wennian, KIM I Y, MECHEFSKE C. An improved similarity- based prognostic algorithm for RUL estimation using an RNN autoencoder scheme[J]. Reliability Engineering & System Safety, 2020, 199: 106926. [14] PAN Zhengqiang, BALAKRISHNAN N. Reliability modeling of degradation of products with multiple performance characteristics based on gamma process[J]. Reliability Engineering & System Safety, 2011, 96(8): 949- 957. [15] ZHENG Jianfei, SI Xiaosheng, HU Changhua, et al. A nonlinear prognostic model for degrading systems with three- source variability[J]. IEEE Transactions on Reliability, 2016, 65(2): 736- 750. [16] RASMEKOMEN N, PARLIKAD A K. Condition- based maintenance of multi- component systems with degradation state- rate interactions[J]. Reliability Engineering & System Safety, 2016, 148: 1- 10. [17] SUN Fuqiang, WANG Ning, LI Xiaoyang, et al. Remaining useful life prediction for a machine with multiple dependent features based on Bayesian dynamic linear model and copulas[J]. IEEE Access, 2017, 5: 16277- 16287. [18] YANG Zhiyuan, ZHAO Jianmin, CHENG Zhonghua, et al. Reliability modeling of two- component system with degradation interaction based on copulas[C]//2018 Prognostics and System Health Management Conference. Piscataway, US: IEEE, 2019: 138- 143. [19] XI Zhimin, WANG Pingfeng. A Copula based sampling method for residual life prediction of engineering systems under uncertainty[C]//2012 IEEE Conference on Prognostics and Health Management. Piscataway, US: IEEE, 2012: 1- 9. [20] 宋仁旺, 张岩, 石慧. 基于Copula函数的齿轮箱剩余寿命预测方法[J]. 系统工程理论与实践, 2020, 40(9): 2466- 2474. SONG Renwang, ZHANG Yan, SHI Hui. Prediction method for the remaining useful life gearbox based on copula function[J]. Systems Engineering- Theory & Practice, 2020, 40(9): 2466- 2474. (in Chinese)[21] SUKHANOVA E M. A test for independence of two multivariate samples[J]. Mathematical Methods of Statistics, 2008, 17(1): 74- 86. [22] 蔡菲, 严正, 赵静波, 等. 基于Copula理论的风电场间风速及输出功率相依结构建模[J]. 电力系统自动化, 2013, 37(17): 9- 16. CAI Fei, YAN Zheng, ZHAO Jingbo, et al. Dependence structure models for wind speed and wind power among different wind farms based on copula theory[J]. Automation of Electric Power Systems, 2013, 37(17): 9- 16. (in Chinese)[23] ATIQUE F, ATTOH- KINE N. Using copula method for pipe data analysis[J]. Construction and Building Materials, 2016, 106: 140- 148. [24] SAXENA A, GOEBEL K, SIMON D, et al. Damage propagation modeling for aircraft engine run- to- failure simulation[C]//2008 International Conference on Prognostics and Health Management. Piscataway, US: IEEE, 2008: 1- 9. [25] WANG Tianyi, YU Jianbo, SIEGEL D, et al. A similarity- based prognostics approach for Remaining Useful Life estimation of engineered systems[C]//2008 International Conference on Prognostics and Health Management. Piscataway, US: IEEE, 2008: 1- 6. (编辑:陈 越)
-
-（编辑：陈 越）

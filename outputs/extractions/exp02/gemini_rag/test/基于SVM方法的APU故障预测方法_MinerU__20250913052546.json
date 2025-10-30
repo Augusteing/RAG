@@ -1,80 +1,52 @@
 {
   "entities": [
     {
-      "name": "辅助动力装置(APU)",
+      "name": "辅助动力装置 (APU)",
       "type": "系统/部件"
     },
     {
-      "name": "APU故障预测",
+      "name": "APU故障预测方法",
       "type": "研究方法"
-    },
-    {
-      "name": "基于SVM方法的APU故障预测方法",
-      "type": "研究方法"
-    },
-    {
-      "name": "快速存取记录器(QAR)数据",
-      "type": "数据集"
     },
     {
       "name": "实时报文数据",
       "type": "数据集"
     },
     {
-      "name": "A13号报文",
+      "name": "快速存取记录器 (QAR) 数据",
       "type": "数据集"
     },
     {
-      "name": "支持向量机(SVM)",
-      "type": "算法"
+      "name": "多参数故障预测模型",
+      "type": "模型"
     },
     {
-      "name": "基于SVM的多参数故障预测模型",
-      "type": "模型"
+      "name": "支持向量机 (SVM)",
+      "type": "算法"
     },
     {
       "name": "相关性分析",
       "type": "研究方法"
     },
     {
-      "name": "递归特征消除",
+      "name": "特征选择算法",
       "type": "算法"
-    },
-    {
-      "name": "特征提取",
-      "type": "研究方法"
-    },
-    {
-      "name": "新的特征提取思路",
-      "type": "研究方法"
-    },
-    {
-      "name": "表征APU运行性能的参数",
-      "type": "特征/健康指标"
-    },
-    {
-      "name": "QAR数据实时性或精度不足问题",
-      "type": "问题"
-    },
-    {
-      "name": "视情维修",
-      "type": "应用场景"
     },
     {
       "name": "预测正确率",
       "type": "性能指标"
     },
     {
-      "name": "混淆矩阵",
-      "type": "性能指标"
+      "name": "视情维修策略",
+      "type": "应用场景"
     },
     {
-      "name": "受试者工作特征曲线(ROC)",
-      "type": "性能指标"
+      "name": "APU故障",
+      "type": "故障模式"
     },
     {
-      "name": "AUC值",
-      "type": "性能指标"
+      "name": "神经网络算法",
+      "type": "算法"
     },
     {
       "name": "K近邻(KNN)",
@@ -89,57 +61,90 @@
       "type": "算法"
     },
     {
-      "name": "故障在线监测",
+      "name": "受试者工作特征曲线 (ROC)",
+      "type": "性能指标"
+    },
+    {
+      "name": "在线监测",
       "type": "应用场景"
     },
     {
-      "name": "非计划维修",
+      "name": "视情维修",
       "type": "应用场景"
     },
     {
-      "name": "飞机通信寻址与报告系统(ACARS)",
-      "type": "系统/部件"
+      "name": "A13号报文",
+      "type": "数据集"
     },
     {
-      "name": "发动机特性",
-      "type": "理论基础"
+      "name": "递归特征消除",
+      "type": "算法"
+    },
+    {
+      "name": "特征提取",
+      "type": "研究方法"
+    },
+    {
+      "name": "APU运行性能的参数",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "QAR数据实时性或精度不足问题",
+      "type": "问题"
+    },
+    {
+      "name": "特征选择算法解释性差的问题",
+      "type": "问题"
+    },
+    {
+      "name": "混淆矩阵",
+      "type": "性能指标"
+    },
+    {
+      "name": "ROC曲线下面积 (AUC)",
+      "type": "性能指标"
     }
   ],
   "relations": [
     {
-      "head": "基于SVM方法的APU故障预测方法",
+      "head": "APU故障预测方法",
+      "relation": "解决了",
+      "tail": "QAR数据实时性或精度不足问题"
+    },
+    {
+      "head": "APU故障预测方法",
       "relation": "基于",
       "tail": "实时报文数据"
     },
     {
-      "head": "基于SVM方法的APU故障预测方法",
-      "relation": "解决",
-      "tail": "QAR数据实时性或精度不足问题"
-    },
-    {
-      "head": "基于SVM方法的APU故障预测方法",
-      "relation": "建立",
-      "tail": "基于SVM的多参数故障预测模型"
-    },
-    {
-      "head": "基于SVM的多参数故障预测模型",
+      "head": "多参数故障预测模型",
       "relation": "基于",
-      "tail": "支持向量机(SVM)"
+      "tail": "支持向量机 (SVM)"
     },
     {
-      "head": "新的特征提取思路",
-      "relation": "基于",
-      "tail": "发动机特性"
+      "head": "多参数故障预测模型",
+      "relation": "预测",
+      "tail": "APU故障"
     },
     {
-      "head": "新的特征提取思路",
-      "relation": "采用",
-      "tail": "相关性分析"
+      "head": "多参数故障预测模型",
+      "relation": "提高了",
+      "tail": "预测正确率"
+    },
+    {
+      "head": "多参数故障预测模型",
+      "relation": "为...提供参考",
+      "tail": "视情维修策略"
     },
     {
       "head": "相关性分析",
       "relation": "用于选取",
-      "tail": "表征APU运行性能的参数"
+      "tail": "APU运行性能的参数"
+    },
+    {
+      "head": "相关性分析",
+      "relation": "解决了",
+      "tail": "特征选择算法解释性差的问题"
     },
     {
       "head": "递归特征消除",
@@ -147,69 +152,44 @@
       "tail": "特征提取"
     },
     {
-      "head": "基于SVM的多参数故障预测模型",
-      "relation": "提高了",
-      "tail": "预测正确率"
-    },
-    {
-      "head": "基于SVM的多参数故障预测模型",
-      "relation": "为...提供参考",
-      "tail": "视情维修"
-    },
-    {
-      "head": "基于SVM的多参数故障预测模型",
+      "head": "支持向量机 (SVM)",
       "relation": "优于",
-      "tail": "K近邻(KNN)"
+      "tail": "神经网络算法"
     },
     {
-      "head": "基于SVM的多参数故障预测模型",
+      "head": "支持向量机 (SVM)",
       "relation": "优于",
       "tail": "逻辑回归(Logistic regression)"
     },
     {
-      "head": "基于SVM的多参数故障预测模型",
+      "head": "支持向量机 (SVM)",
       "relation": "优于",
       "tail": "决策树(Decision tree)"
     },
     {
-      "head": "受试者工作特征曲线(ROC)",
-      "relation": "用于评估",
-      "tail": "基于SVM的多参数故障预测模型"
-    },
-    {
-      "head": "混淆矩阵",
-      "relation": "用于评估",
-      "tail": "基于SVM的多参数故障预测模型"
-    },
-    {
-      "head": "基于SVM的多参数故障预测模型",
-      "relation": "评价指标是",
-      "tail": "AUC值"
-    },
-    {
-      "head": "实时报文数据",
-      "relation": "来源于",
-      "tail": "A13号报文"
-    },
-    {
       "head": "A13号报文",
-      "relation": "通过...传输",
-      "tail": "飞机通信寻址与报告系统(ACARS)"
+      "relation": "实现",
+      "tail": "在线监测"
     },
     {
-      "head": "故障在线监测",
-      "relation": "基于",
-      "tail": "A13号报文"
-    },
-    {
-      "head": "故障在线监测",
+      "head": "在线监测",
       "relation": "实现",
       "tail": "视情维修"
     },
     {
-      "head": "故障在线监测",
-      "relation": "避免",
-      "tail": "非计划维修"
+      "head": "混淆矩阵",
+      "relation": "用于衡量",
+      "tail": "多参数故障预测模型"
+    },
+    {
+      "head": "受试者工作特征曲线 (ROC)",
+      "relation": "用于比较",
+      "tail": "支持向量机 (SVM)"
+    },
+    {
+      "head": "ROC曲线下面积 (AUC)",
+      "relation": "用于比较",
+      "tail": "支持向量机 (SVM)"
     }
   ]
 }

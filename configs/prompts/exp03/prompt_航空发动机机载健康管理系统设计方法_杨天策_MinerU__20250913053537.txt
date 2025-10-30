@@ -134,66 +134,80 @@
 {
   "entities": [
     {
-      "name": "健康评估",
-      "type": "技术"
+      "name": "航空发动机健康管理技术",
+      "type": "研究领域"
     },
     {
-      "name": "劣化度",
-      "type": "指标"
+      "name": "航空发动机气路故障诊断",
+      "type": "研究领域"
     },
     {
-      "name": "贝叶斯网络",
-      "type": "模型"
+      "name": "航空发动机",
+      "type": "系统/部件"
     },
     {
-      "name": "故障注入",
-      "type": "方法"
+      "name": "状态监测",
+      "type": "研究方法"
     },
     {
       "name": "故障诊断",
-      "type": "技术"
-    },
-    {
-      "name": "故障预测",
-      "type": "技术"
-    },
-    {
-      "name": "故障预测方法",
-      "type": "方法"
-    },
-    {
-      "name": "综合化",
-      "type": "特征"
+      "type": "研究方法"
     },
     {
       "name": "健康管理",
-      "type": ""
+      "type": "研究方法"
     },
     {
-      "name": "航空电子系统",
-      "type": ""
+      "name": "车辆",
+      "type": "系统/部件"
+    },
+    {
+      "name": "EHM全流程解决方案",
+      "type": "系统"
+    },
+    {
+      "name": "地面综合诊断",
+      "type": "系统"
+    },
+    {
+      "name": "智能寿命管理",
+      "type": "研究方法"
+    },
+    {
+      "name": "智能维护维修决策系统",
+      "type": "系统"
     }
   ],
   "relations": [
     {
-      "head": "贝叶斯网络",
-      "relation": "是...的健康评估方法",
-      "tail": "健康评估"
+      "head": "航空发动机健康管理技术",
+      "relation": "应用于",
+      "tail": "航空发动机"
     },
     {
-      "head": "健康管理",
-      "relation": "以...为主要手段",
+      "head": "航空发动机健康管理技术",
+      "relation": "包含",
+      "tail": "航空发动机气路故障诊断"
+    },
+    {
+      "head": "状态监测",
+      "relation": "提供数据给",
       "tail": "故障诊断"
     },
     {
-      "head": "健康管理",
-      "relation": "以...为主要手段",
-      "tail": "故障预测"
+      "head": "EHM全流程解决方案",
+      "relation": "包含",
+      "tail": "地面综合诊断"
     },
     {
-      "head": "航空电子系统",
-      "relation": "发展方向为",
-      "tail": "综合化"
+      "head": "EHM全流程解决方案",
+      "relation": "包含",
+      "tail": "智能寿命管理"
+    },
+    {
+      "head": "EHM全流程解决方案",
+      "relation": "包含",
+      "tail": "智能维护维修决策系统"
     }
   ]
 }
@@ -224,10 +238,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 航空发动机机载健康管理系统设计方法
-
-杨天策，张瑞，蔡景（1. 南京航空航天大学民航学院，南京211106；2. 中国航发沈阳发动机研究所，沈阳110015）
-
 摘要：为解决航空发动机机载健康管理系统正向设计流程不清晰、设计需求不明确、需求设计对应及追溯不规范的问题，在对比国内外现有健康管理功能架构体系的基础上，结合正向设计中需求捕获、需求分析和功能分配，研究了由上到下的航空发动机健康管理系统正向设计基本流程，开发了航空发动机健康管理正向设计流程平台，实现了机载功能架构的设计。引入基于模型的系统工程思想，采用面向对象的工程设计思路，建立功能目标量化、功能描述、模块定义等图形化设计方法，验证了该设计方法在硬件设计中的可用性。通过研究航空发动机机载健康管理系统设计方法并分析机载功能组成，建立了可扩展的流程平台，基于模型设计方法建立了可用的硬件设计模型，可为航空发动机机载健康管理系统设计提供参考。
 
 关键词：健康管理系统；基于模型的系统工程；需求分析；功能设计；航空发动机
@@ -237,10 +247,6 @@
 # Design Method of Airborne Health Management System for Aeroengine
 
 YANG Tian- ce, ZHANG Rui CAI Jing (1. College of Civil Aviation, Nanjing University of Aeronautics and Astronautics, Nanjing 211106, China; 2. AECC Shenyang Engine Research Institute, Shenyang 110015, China)
-
-Abstract: In order to solve the problems of unclear forward design process, ambiguous design requirements, and lack of standardization in the correspondence between requirement and design and requirement traceability of aeroengine airborne health management system, based on the comparison of the existing health management functional architecture systems at home and abroad, combined with requirement capture, requirement analysis and function allocation in forward design, the top- down forward design process of aeroengine health management system was studied, and the forward design process platform of aeroengine health management was developed to realize the design of airborne functional architecture. By introducing model- based system engineering ideas and adopting an object- oriented engineering design approach, graphical design methods such as functional objective quantification, function description and module definition were established to verify the feasibility of this design method in hardware design. By studying the design method of aeroengine airborne health management system and analyzing the composition of airborne function, an extensible process platform was established, and feasible hardware design models were established using the model- based design method, so as to provide a reference for the design of aeroengine airborne health management system.
-
-Key words: health management system; model- based system engineering; requirement analysis; functional design; aeroengine
 
 # 0 引言
 
@@ -452,9 +458,3 @@ Rhapsody软件是1个多平台集成的平台，支持Modelica这类多领域联
 路，对机载EHM系统架构进行需求捕获分解、功能图像化定义、功能测试实现等设计流程研究，可以看出MBSE设计方法对于机载EHM系统可以实现架构覆盖设计的目标，并在架构基础上，可对该系统进行优化选代和精化设计，并进行联合仿真设计。
 
 (4)随着软件集成度的逐渐提高，自主开发的正向流程平台、基于模型的硬件系统设计平台等可以进行集成，实现多层次、多选代的机载EHM系统设计。本文提出的设计方法不仅可以在机载系统上使用，同样适用于空地通信系统、地面EHM系统等。
-
-# 参考文献：
-
-[1]王施，王荣桥，陈志英，等.航空发动机健康管理综述[J].燃气涡轮试验与研究，2009，22（1）：51- 58. WANG Shi, WANG Rongqiao, CHEN Zhiying, et al.Overview of aeroengine health management[J].Gas Turbine Experiment and Research,2009,22(1):51- 58. (in Chinese）[2] SAE.Guidelines for aviation gas turbine engine monitoring systems:ARP 1587B[S].Warrendale:SAE International,2007:1- 22. [3]杨旭.航空发动机健康管理系统需求及发展分析[J].中国科技投资，2019，(18):241- 241. YANG Xu. Demand and development analysis of aeroengine health management system[J].China Venture Capital,2019，(18):241- 241. (in Chinese）[4]李琛，吴新，崔利丰，等.基于MBSE思想的航空发动机控制系统设计方法[J].航空发动机，2021，47（4）：123- 130. LI Chen, WU Xin, CUI Lifeng, et al.Design method of aeroengine control system based on MBSE[J].Aeroengine,2021,47(4):123- 130. (in Chinese）[5]朱静，杨晖，高亚辉，等.基于模型的系统工程概述[J].航空发动机，2016,42（4）：12- 16. ZHU Jing, YANG Hui, GAO Yahui, et al.Overview of system engineering based on model[J].Aeroengine,2016,42(4):12- 16. (in Chinese）[6]蔡昀彤.浅析MBSE在国际民用航空领域的应用[J].科技创新导报，2017,14(18):17- 18. CAI Yuntong.Analysis on the application of MBSE in the field of International civil aviation[J].Science and Technology Innovation Herald,2017,14(18):17- 18. (in Chinese）[7]陈斌.基于MBSE的直升机航电系统设计方法研究[J].电子技术与软件工程，2020（23）：69- 70. CHEN Bin.Research on design method of helicopter avionics system based on MBSE[J].Electronic Technology and Software Engineering,2020(23):69- 70. (in Chinese）[8] Baek Y M, Mihret Z, Shin Y J, et al. A modeling method for model- based analysis and design of a system- of- systems[C]//2020 27th Asia- Pacific Software Engineering Conference (APSEC). Singapore:IEEE,2020:336- 345. [9]周潇雅，杨亮，张茜，等.基于ARCADA MBSE在运载火箭能源子
-
-系统的应用[J].计算机测量与控制，2020，28（11）：211- 221. ZHOU Xiaoya, YANG Jiang, ZHANG Qian, et al. Application of ARCADIA MBSE in launch vehicle energy subsystem[J]. Computer Measurement and Control,2020,28(11):211- 221. (in Chinese）[10]唐小峰，邹建，文永康，等.基于MBSE的装备测试性自动化技术研究[C]//2020中国航空工业技术装备工程协会年会论文集.西安：《调控技术》杂志社，2020：28- 31. TANG Xiaofeng, ZOU Jian, WEN Yongkang, et al. Research on equipment testability automation technology based on MBSE[C]// Proceedings of the Annual Meeting of China Aviation Industry Technology and Equipment Engineering Association in 2020. Xi'an: Measurement and Control Technology,2020:28- 31. (in Chinese）[11]赵良玉，叶俊杰，何琪，等.基于MBSE的民机起飞场景仿真[J/OL].系统仿真学报，2021，33（10）：1- 11[2021- 04- 16]. ZHAO Liangyu, YE Junjie, HE Qi, et al. Simulation of civil aircraft takeoff scene based on MBSE[J/OL]. Journal of System Simulation,2021,33(10):1- 11[2021- 04- 16]. (in Chinese）[12] Kruse B, Shea K. Design library solution patterns in SysML for concept design and simulation[J].Procedia Cirp,2016,50:695- 700. [13]陈乐平，余静，褚波，等.基于OSA- CBM体系结构的地面PHM系统研究[C]//2021年中国航空工业技术装备工程协会年会论文集.青岛：中国航空工业技术装备工程协会，2021：471- 474. CHEN Leping, YU Jing, CHU Bo, et al. Research on ground PHM system based on OSA- CBM architecture[C]//Proceedings of the Annual Meeting of China Aviation Industry Technology and Equipment Engineering Association in 2021. Qingdao: China Aviation Industries Technology Equipment Engineering Association,2021:471- 474. (in Chinese）[14] Lesesky A C, Purkey B A, Weant B R. Systems and methods for monitoring and storing performance and maintenance data related to an electrical component: US, EP1522862[P].2007- 9- 18. [15] Macconnell J H. ISHM & design: a review of the benefits of the ideal ISHM system[C]//Aerospace Conference. US: IEEE,2007:230- 214. [16]刘栋.一种基于云计算的居家慢病健康管理的分布式数据组织方法：中国，CN111710378A[P].2020- 9- 25. LIU Dong. A distributed data organization method for home chronic disease health management based on cloud computing: China, CN111710378A[P].2020- 9- 25. (in Chinese）[17] Saha H. Model- based design[J]. Control Engineering,2015,62(1):20- 20. [18]谭琪,王旭昊.基于Harmony SE方法的嵌入式软件设计综合过程研究[J].信息通信，2019（4）：93- 94. TAN Qilin, WANG Xuhao. Research on integrated process of embedded software design based on harmony SE method[J]. Information and Communication,2019(4):93- 94. (in Chinese）[19]董文方，黄干明.基于OOSEM的CNI系统架构定义应用研究[J].航空电子技术，2018，49（4）：29- 33. DONG Wenfang, HUANG Ganming. Application research on architecture definition of CNI system based on OOSEM[J]. Avionics Technology,2018,49(4):29- 33. (in Chinese）（编辑：兰海青）

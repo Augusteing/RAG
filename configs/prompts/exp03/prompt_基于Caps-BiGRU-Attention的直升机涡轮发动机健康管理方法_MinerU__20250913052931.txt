@@ -134,49 +134,114 @@
 {
   "entities": [
     {
-      "name": "信息融合",
-      "type": "技术"
+      "name": "健康管理系统",
+      "type": "系统/部件"
     },
     {
-      "name": "数据融合",
-      "type": "融合方式"
+      "name": "寿命管理",
+      "type": "功能"
     },
     {
-      "name": "神经网络",
-      "type": "网络"
+      "name": "云环境下的发动机健康管理系统",
+      "type": "系统/部件"
     },
     {
-      "name": "SDQ算法",
-      "type": "算法"
+      "name": "航空公司",
+      "type": "应用场景"
     },
     {
-      "name": "遗传算法",
-      "type": "算法"
+      "name": "飞机发动机",
+      "type": "系统/部件"
     },
     {
-      "name": "AANN神经网络",
-      "type": "网络"
+      "name": "发动机健康管理",
+      "type": "研究领域"
     },
     {
-      "name": "故障诊断",
-      "type": "任务"
+      "name": "发动机健康管理云端数据中心",
+      "type": "系统/部件"
+    },
+    {
+      "name": "发动机故障诊断方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "灰色故障识别方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "灰色关联分析",
+      "type": "理论基础"
+    },
+    {
+      "name": "气路性能故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "航空发动机故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "云端数据中心",
+      "type": "系统/部件"
+    },
+    {
+      "name": "基于模型的控制和健康管理",
+      "type": "研究方法"
+    },
+    {
+      "name": "推进控制系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "自适应发动机模型",
+      "type": "模型"
+    },
+    {
+      "name": "健康管理",
+      "type": "研究领域"
     }
   ],
   "relations": [
     {
-      "head": "信息融合",
-      "relation": "包括",
-      "tail": "数据融合"
+      "head": "健康管理系统",
+      "relation": "实现",
+      "tail": "寿命管理"
     },
     {
-      "head": "信息融合",
-      "relation": "使用的数学工具有",
-      "tail": "神经网络"
+      "head": "云环境下的发动机健康管理系统",
+      "relation": "服务于",
+      "tail": "航空公司"
     },
     {
-      "head": "遗传算法",
-      "relation": "优化了",
-      "tail": "AANN神经网络"
+      "head": "云环境下的发动机健康管理系统",
+      "relation": "包含",
+      "tail": "发动机健康管理云端数据中心"
+    },
+    {
+      "head": "云环境下的发动机健康管理系统",
+      "relation": "验证",
+      "tail": "发动机故障诊断方法"
+    },
+    {
+      "head": "灰色故障识别方法",
+      "relation": "基于",
+      "tail": "灰色关联分析"
+    },
+    {
+      "head": "灰色故障识别方法",
+      "relation": "实现",
+      "tail": "气路性能故障诊断"
+    },
+    {
+      "head": "云环境下的发动机健康管理系统",
+      "relation": "执行",
+      "tail": "航空发动机故障诊断"
+    },
+    {
+      "head": "基于模型的控制和健康管理",
+      "relation": "利用",
+      "tail": "自适应发动机模型"
     }
   ]
 }
@@ -207,20 +272,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 《航空动力学报》网络首发论文
-
-题目：基于Caps- BiGRU- Attention的直升机涡轮发动机健康管理方法  作者：张振良，毕俊喜，何荣荣，崔哲，周相志  DOI: 10.13224/j.cnki.jasp.20240775  收稿日期：2024- 11- 17  网络首发日期：2025- 04- 21  引用格式：张振良，毕俊喜，何荣荣，崔哲，周相志．基于Caps- BiGRU- Attention的直升机涡轮发动机健康管理方法[J/OL]．航空动力学报. https://doi.org/10.13224/j.cnki.jasp.20240775
-
-网络首发：在编辑部工作流程中，稿件从录用到出版要经历录用定稿、排版定稿、整期汇编定稿等阶段。录用定稿指内容已经确定，且通过同行评议、主编终审同意刊用的稿件。排版定稿指录用定稿按照期刊特定版式（包括网络呈现版式）排版后的稿件，可暂不确定出版年、卷、期和页码。整期汇编定稿指出版年、卷、期、页码均已确定的印刷或数字出版的整期汇编稿件。录用定稿网络首发稿件内容必须符合《出版管理条例》和《期刊出版管理规定》的有关规定；学术研究成果具有创新性、科学性和先进性，符合编辑部对刊文的录用要求，不存在学术不端行为及其他侵权行为；稿件内容应基本符合国家有关书刊编辑、出版的技术标准，正确使用和统一规范语言文字、符号、数字、外文字母、法定计量单位及地图标注等。为确保录用定稿网络首发的严肃性，录用定稿一经发布，不得修改论文题目、作者、机构名称和学术内容，只可基于编辑规范进行少量文字的修改。
-
-出版确认：纸质期刊编辑部通过与《中国学术期刊（光盘版）》电子杂志社有限公司签约，在《中国学术期刊（网络版）》出版传播平台上创办与纸质期刊内容一致的网络版，以单篇或整期出版形式，在印刷出版之前刊发论文的录用定稿、排版定稿、整期汇编定稿。因为《中国学术期刊（网络版）》是国家新闻出版广电总局批准的网络连续型出版物（ISSN2096- 4188，CN11- 6037/Z），所以签约期刊的网络版上网络首发论文视为正式出版。
-
-# 基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法
-
-张振良 $^{1,2}$ ，毕俊喜 $^{3}$ ，何荣荣 $^{1}$ ，崔哲 $^{1}$ ，周相志 $^{1}$ ，
-
-（1. 鄂尔多斯应用技术学院大飞机学院，鄂尔多斯市017000；2. 内蒙古工业大学理学院，呼和浩特市0100513. 内蒙古工业大学航空学院，呼和浩特市010051）
-
 摘要：针对直升机涡轮发动机故障难以识别、健康状况难以量化的问题，提出了基于注意力机制的胶囊网络- 双向门控循环单元模型(Caps- BiGRU- Attention)来进行涡轮发动机的故障模式识别以及扭矩裕度预测。该模型由三个主要部分构成：胶囊层用于捕捉输入数据的内在关系，BiGRU层用于提取时间序列特征并输出结果，SE注意力机制对特征加权以突出重要信息。通过直升机涡轮发动机数据集进行实验验证，模型在故障诊断中准确率超过 $99.7\%$ ，并将扭矩裕度预测中的平均绝对误差降低至0.027；其次对诊断和预测过程进行特征分析，寻找有利于发动机健康状态的特征取值范围。最后针对扭矩裕度的分布进行了概率分布拟合，确定在发动机严重失效、轻微失效和健康状态的最佳分布为贝塔分布，为直升机涡轮发动机的健康管理提供了重要参考。
 
 关键词：健康管理；直升机发动机；扭矩裕度；胶囊网络；特征分析；概率分布中图分类号：V240.2 文献标志码：A
@@ -230,12 +281,6 @@
 ZHANG Zhenliang $^{1,2}$ ，BI Junxi $^{3}$ ，HE Rongrong $^{1}$ ，CUI Zhe $^{1}$ ，ZHOU Xiangzhi $^{1}$
 
 (1. Ordos Institute of Technology, Comac Aviation College, Ordos, 017000, China;2. Inner Mongolia University of Technology, College of Science, Hohhot, 010051, China3. Inner Mongolia University of Technology, College of Aeronautics, Hohhot, 010051, China)
-
-Abstract: In response to the issues of difficulties in identifying faults and quantifying the health status of helicopter turbo engines, this study proposes a Caps- BiGRU- Attention model based on the attention mechanism for fault mode recognition and torque margin prediction of turbo engines. The model consists of three main components: the capsule layer captures the intrinsic relationships of the input data, the BiGRU layer extracts time series features and outputs results, and the SE attention mechanism weights the features to highlight important information. Experimental validation on a helicopter turbo engine dataset demonstrated that the model achieved an accuracy exceeding  $99.7\%$  in fault diagnosis and reduced the mean absolute error in torque margin prediction to 0.027. Additionally, a feature analysis was conducted during the diagnosis and prediction processes to identify favorable ranges of feature values for the engine's health status. Finally, probability distribution fitting was performed on the distribution of torque margin, determining that the optimal distributions for severe failure, minor failure, and healthy states of the engine
-
-are beta distributions, providing important references for the health management of helicopter turbo engines.
-
-Key words: Health management; Helicopter engine; Torque margin; Capsule network; Feature analysis; Probability density distribution
 
 通用航空作为航空产业的重要组成部分，近年来在全球范围内得到了迅速发展。在紧急医疗救援、搜索与救援、运输与巡逻任务中，直升机由于其独特的垂直起降能力和灵活的机动性能，在其中扮演着不可或缺的角色。
 
@@ -515,50 +560,3 @@ Table 4 Table of fitting parameters for the probability density function of segm
 文章使用胶囊网络替代传统卷积网络用于提取特征，结合SE注意力机制以及BiGRU网络用于直升机发动机故障诊断及扭矩裕度预测并达到了良好的效果，利用SHAP量化了不同特征对于故障以及健康指标的影响程度，总结了有利于直升机涡轮发动机健康管理的环境条件以及运行环境，揭示了特征对于发动机故障和扭矩裕度的影响机理，最后针对验证集和测试集的扭矩裕度的分布进行了拟合，得到了最优分布贝塔分布以及涡轮发动机严重失效、轻微失效、衰减状态以及健康状态四种状态的区间，可用于维修方案设计以及健康管理。
 
 后续将尝试寻找符合全寿命周期的概率密度函数分布，归纳衰减状态的故障规律，将概率密度函数结合深度学习模型来完善健康管理方案，并结合有限元分析方法、材料弹塑性理论以及热机耦合理论，建立面向直升机发动机健康管理的时变参数模型、结构失效模型和维修管理体系，揭示涡轮发动机失效的相互作用机理，为科学评估和预报涡轮发动机系统的服役性能提供方法与理论支撑。
-
-# 参考文献：
-
-[1]侯波，徐冠峰，闫慧娟，等.某型直升机主桨叶大梁断裂故障分析[J].航空动力学报.2023，38(6):1489- 1495. Hou Bo，X U. Guanfeng，Yan Hujuan, et al. Fracture fault analysis of main blades girder on a helicopter[J].Journal of Aerospace Power.2023,38(6):1489- 1495. (in Chinese) [2]Leoni J, Tanelli M, Palman A. A new comprehensive monitoring and diagnostic approach for early detection of mechanical degradation in helicopter transmission systems[J]. Expert Systems with Applications. 2022,210:118412. [3]Mironov A, Doronkin P. The Demonstrator of Structural Health Monitoring System of Helicopter Composite Blades[J]. Procedia Structural Integrity. 2022, 37: 241- 249. [4]万安平，龚志鹏，王景霖，等.多工况直升机附
-
-件齿轮箱振动故障诊断[J].振动、测试与诊断.2024， 44(2):246- 252.
-
-Wan Anping，Gong Zhipeng，Wang Jinglin, et al. Vibration Fault Diagnosis of Helicopter Accessory Gearbox Under Multi- operating Conditions[J]. Journal of Vibration. Measurement & Diagnosis.2024,44(2): 246- 252. (in Chinese) [5] Sun K, Yin A, Lu S. Domain distribution variation learning via adversarial adaption for helicopter transmission system fault diagnosis[J]. Mechanical Systems and Signal Processing.2024,215:111419. [6]Mironov A, Doronkin P, Priklonsky A, et al. The Role of Advanced Technologies of Vibration Diagnostics to Provide Efficiency of Helicopter Life Cycle[J]. Procedia Engineering.2017,178:96- 106. [7]Ouyang L, Jin N, Bai L, et al. Soft measurement of oil - water two- phase flow using a multi- task sequence- based CapsNet[J]. ISA Transactions.2023,137:629- 645. [8]Moudgil A, Singh S, Rani S, et al. Deep learning for ancient scripts recognition: A CapsNet- LSTM based approach[J]. Alexandria Engineering Journal.2024,103:169- 179. [9]Li X, Jiang H, Liu Y, et al. An integrated deep multiscale feature fusion network for aeroengine remaining useful life prediction with multisensor data[J]. Knowledge- Based Systems.2022,235:107652. [10]Lyu F, Liu J, Chen L, et al. 3D in- situ stress prediction for shale reservoirs based on the CapsNet- BiLSTM hybrid model[J]. International Journal of Rock Mechanics and Mining Sciences.2024,183:105937.
-
-[11]Nizarudeen S, Shanmughavel G R. Comparative analysis of ResNet, ResNet- SE, and attention- based RaNet for hemorrhage classification in CT images using deep learning[J]. Biomedical Signal Processing and Control.2024,88:105672.
-
-[12]管智峰.基于特征优选和ESPBO- HKELM的变压器故障诊断研究[D].阜新：辽宁工程技术大学，2023.
-
-Zhi Feng Guan. Research on Transformer Fault Diagnosis Based on Feature Selection and ESPBO- HKELM. Fuxin: Liaoning Technical University, 2023. (in Chinese) [13]Wen H, Liu B, Di M, et al. A SHAP- enhanced XGBoost model for interpretable prediction of coseismic landslides[J]. Advances in Space Research. 2024, 74(8):3826- 3854.
-
-[14] Lu Y, Tang L, Liu Z, et al. Unsupervised quantitative structural damage identification method based on BiLSTM networks and probability distribution model[J]. Journal of Sound and Vibration. 2024, 590:118597.
-
-[15]张雄，张逸轩，张明，等.基于小波包散布熵与Meanshift概率密度估计的轴承故障识别方法研究[J].湖南大学学报（自然科学版）.2021，48(8)：
-
-133- 140.
-
-Zhang Xiong, Zhang Yixuan, Zhang Ming, et al. Research on Bearing Fault Identification Method Based on Wavelet Packet Dispersion Entropy and Meanshift Probability Density Estimation[J]. Journal of Hunan University(Natural Sciences). 2021, 48(8): 133- 140. (in Chinese)
-
-[16] Zhang G, Wang Y, Li X, et al. Health indicator based on signal probability distribution measures for machinery condition monitoring[J]. Mechanical Systems and Signal Processing. 2023, 108: 110460.
-
-[17] Zhang S, Liang W, Zhao W, et al. Electro hydraulic SBW fault diagnosis method based on novel 1DCNN- LSTM with attention mechanisms and transfer learning[J]. Mechanical Systems and Signal Processing. 2024, 220: 111644.
-
-[18] Chen R, Shen H, Zhao Z, et al. Global routing between capsules[J]. Pattern Recognition. 2024, 148: 110142.
-
-[19] Zhang T, Jia J, Chen C, et al. BiGRUD- SA: Protein S- sulfenylation sites prediction based on BiGRU and self- attention[J]. Computers in Biology and Medicine. 2023, 163: 107145.
-
-[20] Saad Shakeel M. CAAM: A calibrated augmented attention module for masked face recognition[J]. Journal of Visual Communication and Image Representation. 2024, 104: 104315.
-
-[21] Zhou G, Hu G, Zhang D, et al. A novel algorithm system for wind power prediction based on RANSAC data screening and Seq2Seq- Attention- BiGRU model[J]. Energy. 2023, 283: 128986.
-
-[22] Ye M, Li L, Yoo D, et al. Prediction of shear strength in UHPC beams using machine learning- based models and SHAP interpretation[J]. Construction and Building Materials. 2023, 408: 133752.
-
-[23] Kashifi M T. Investigating two- wheelers risk factors for severe crashes using an interpretable machine learning approach and SHAP analysis[J]. IATSS Research. 2023, 47(3): 357- 371.
-
-[24] Serafini J, Bernardini G, Porcelli R, et al. In- flight health monitoring of helicopter blades via differential analysis[J]. Aerospace Science and Technology. 2019, 88: 436- 443.
-
-[25] Lin Z, Cai Y, Liu W, et al. Estimating the state of health of lithium- ion batteries based on a probability density function[J]. International Journal of Electrochemical Science. 2023, 18(6): 100137.
-
-[26] 吴涵, 袁越, 侯语涵, 等. 配电网理论线损概率分布函数的计算与分析[J]. 中国电机工程学报. 2024, 44(16): 6444- 6454.
-
-W. 
-U. Han, Yuan Yue, Hou Yuhan, et al. Computation and Analysis of Theoretic Line Loss Probability Distribution Function of Distribution Network[J]. Proceedings of the CSEE. 2024, 44(16): 6444-6454. (in Chinese)

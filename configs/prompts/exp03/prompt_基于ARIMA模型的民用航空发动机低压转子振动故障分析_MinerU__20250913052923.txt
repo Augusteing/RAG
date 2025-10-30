@@ -135,103 +135,53 @@
   "entities": [
     {
       "name": "相关分析法",
-      "type": "方法"
+      "type": "研究方法"
     },
     {
       "name": "高压转子",
-      "type": "部件"
+      "type": "系统/部件"
     },
     {
       "name": "高压转子振动大",
-      "type": "结论"
+      "type": "故障模式"
     },
     {
-      "name": "高压转子重新平衡",
-      "type": "维修措施"
+      "name": "相关矩阵",
+      "type": "特征/健康指标"
     },
     {
-      "name": "振动值",
-      "type": "指标"
+      "name": "低压转子",
+      "type": "系统/部件"
     },
     {
-      "name": "信号处理",
-      "type": "技术"
+      "name": "JT9D发动机",
+      "type": "系统/部件"
     },
     {
-      "name": "奇异值分解（SVD）",
-      "type": "算法"
-    },
-    {
-      "name": "傅里叶分解方法（FDM）",
-      "type": "方法"
-    },
-    {
-      "name": "参数自适应的变分模态分解方法（APVMD）",
-      "type": "方法"
-    },
-    {
-      "name": "变分模态分解",
-      "type": "算法"
-    },
-    {
-      "name": "整机抑制",
-      "type": "策略"
-    },
-    {
-      "name": "微创抑振",
-      "type": "技术"
-    },
-    {
-      "name": "自愈调控",
-      "type": "技术"
-    },
-    {
-      "name": "何田等",
-      "type": ""
-    },
-    {
-      "name": "基于奇异值分解（SVD）的故障特征提取方法",
-      "type": ""
-    },
-    {
-      "name": "边杰等",
-      "type": ""
-    },
-    {
-      "name": "微创抑振与自愈调控",
-      "type": ""
+      "name": "3.0放气管道破裂",
+      "type": "故障模式"
     }
   ],
   "relations": [
     {
       "head": "相关分析法",
-      "relation": "得出结论",
+      "relation": "分辨",
+      "tail": "高压转子"
+    },
+    {
+      "head": "相关分析法",
+      "relation": "诊断",
       "tail": "高压转子振动大"
     },
     {
-      "head": "高压转子重新平衡",
-      "relation": "降低了",
-      "tail": "振动值"
+      "head": "相关分析法",
+      "relation": "分辨",
+      "tail": "低压转子"
     },
     {
-      "head": "高压转子重新平衡",
-      "relation": "验证了",
-      "tail": "相关分析法"
-    },
-    {
-      "head": "何田等",
-      "relation": "提出了",
-      "tail": "基于奇异值分解（SVD）的故障特征提取方法"
-    },
-    {
-      "head": "边杰等",
-      "relation": "提出了",
-      "tail": "参数自适应的变分模态分解方法（APVMD）"
-    },
-    {
-      "head": "整机抑制",
-      "relation": "包括",
-      "tail": "微创抑振与自愈调控"
+      "head": "3.0放气管道破裂",
+      "relation": "是...的故障",
+      "tail": "JT9D发动机"
     }
   ]
 }
@@ -262,14 +212,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-引用格式：徐建新，姜春生，马超.基于ARIMA模型的民用航空发动机低压转子振动故障分析Ⅱ.科学技术与工程，2019，19（19）：362- 368Xu Jianxin, Jiang Chunsheng, Ma Chao. Vibration fault analysis of low pressure rotor of civil aero- engine based on ARIMA model . Science Technology and Engineering,2019,19(19) : 362- 368
-
-航空、航天
-
-# 基于ARIMA模型的民用航空发动机低压转子振动故障分析
-
-徐建新 姜春生 马超（中国民航大学航空工程学院，天津300300）
-
 摘要民用航空发动机运行数据是航空公司制定发动机维护方案的重要参考依据。针对某航空公司CFM56- 7B发动机的振动值变化趋势提出了一种基于回归分析和ARIMA（autoregressive integrated moving average）模型的故障分析方法。采用回归分析法对各航段发动机振动值和转速之间的关系进行回归拟合，针对指数拟合方程的指数项系数建立ARIMA分析模型，得到方程拟合系数预测值与真实值之间的对应关系并分析结果，从而预判发动机是否有振动故障征兆。结果表明，ARIMA模型能够较好地描述发动机振动- 转速拟合系数变化趋势，能够有效地预测发动机振动故障，可为航空公司制定发动机维护方案提供重要依据。
 
 关键词 民用航空发动机 故障预测 回归分析法 振动- 转速特性 ARIMA模型  中图法分类号 V263.6； 文献标志码 A
@@ -461,51 +403,3 @@ Fig.9 Left engine cubic exponential smoothing method fitting results of sequence
 （2）分析证明，将拟合振动与N1转速的关系得到的系数组成时间序列，用于建立寻找发动机振动故障征兆点的ARIMA模型是可行的，能够实现对振动故障征兆点的监测从而对故障进行预报
 
 （3）基于ARIMA模型的低压转子振动故障预测方法对表征发动机低压涡轮振动变化趋势的时间序列数据拟合结果的平均绝对误差和均方根误差较小，拟合效果良好，说明该方法具有一定的实际工程应用价值。
-
-# 参考文献
-
-1 金向阳，林琳，钟诗胜，等.航空发动机振动趋势预测的过程神经网络法.振动- 测试与诊断，2011，31（3）：331- 334. Jin Xiangyang, Lin Lin, Zhong Shisheng, et al. Chattering reduction sliding mode control for electro- hydraulic position servo system. Journal of Vibration, Measurement and Diagnosis, 2011, 31 (3): 331- 334. 2 王俨剀，马进锐，廖明夫，等.发动机振动趋势预测模型研究.振动- 测试与诊断，2014（3）：516- 523. Wang Yankai, Ma Jinru, Liao Mingfu, et al. Research on trend prediction model of engine vibration. Journal of Vibration, Measurement and Diagnosis, 2014(3): 516- 523. 3 董欢.某型航空发动机中介轴承故障诊断技术研究.沈
-
-# 阳：沈阳航空航天大学，2017
-
-Dong Huan. Research on fault diagnosis technology of inteeshaft bearings in an aeroengine [1]. Shenyang: Shenyang Aerospace University, 2017
-
-4 Wang S, Chen X, Tong C, et al. Matching synchrosqueezing wavelet transform and application to aeroengine vibration monitoring [1]. IEEE Transactions on Instrumentation and Measurement, 2017, 66 (2): 360- 372
-
-# 5 刘炳文，王铁，李国兴，等.工况特征参数对客车燃油经济性的影响.科学技术与工程，2018，18（17）：181-186
-
-Liu Bingwen, Wang Tie, Li Guoxing, et al. Influence of operating condition characteristic parameters on fuel economy of the bus [1]. Science Technology and Engineering, 2018, 18(17): 181- 186
-
-# 6 田宏卫，林权，李洪军，等.一种基于相关性分析的故障风机损失发电量估计方法的研究.科学技术与工程，2016，16(11):185-188
-
-Tian Hongwei, Lin Quan, Li Hongjun, et al. Research on an estimation method of power generation loss of the fault wind turbine based on correlation analysis [1]. Science Technology and Engineering, 2016, 16(11): 185- 188
-
-# 7 程超.基于时间序列法和回归分析法的改进月售电量预测方法研究[1].重庆：重庆大学，2016
-
-Cheng Chao. Improvement of monthly electricity sales forecasting method based on time- series method and regression method [1]. Chongqing: Chongqing University, 2016
-
-8 Contreras J, Espinola F, Nogales F J, et al. ARIMA models to predict next- day electricity prices [1]. IEEE Power Engineering Review, 2002, 22(9): 57- 57
-
-# 9 董大勇，刘珂言.基于ARIMA模型的工业品出厂价格指数预测与分析.统计与决策，2016（1）：179-181
-
-Dong Dayong, Liu Keyan. Prediction and analysis of ex- factory price index of industrial products based on ARIMA models [1]. Statistics and Decision, 2016(1): 179- 181
-
-10 Khashei M, Bijari M. A novel hybridization of artificial neural networks and ARIMA models for time series forecasting [1]. Applied Soft Computing Journal, 2011, 11(2): 2664- 2675
-
-11 Box G E P, Jenkins G M, Reinsel G C, et al. Time series analysis: forecasting and control, 5th edition [1]. Journal of the Operational Research Society, 2015, 22(2): 199- 201
-
-# 12 欧阳敏华.STAR模型下退势单位根检验统计量的比较[1.统计与决策，2017（23）：19-22
-
-Ouyang Minhua. Comparative study on performance of de- trending unit root test in STAR models [1]. Statistics and Decision, 2017 (23): 19- 22
-
-# 13 于寄语.时间序列的结构变化和单位根检验[1].武汉：华中科技大学，2017
-
-Yu Jiyu. The structural changes of time series models and unit root test [D]. Wuhan: Huazhong University of Science and Technology, 2017
-
-# Vibration Fault Analysis of Low Pressure Rotor of Civil Aero-engine Based on ARIMA Model
-
-XU Jian- xin, JIANG Chun- sheng, MA Chao (College of Aeronautical Engineering, Civil Aviation University of China, Tianjin 300300, China)
-
-Abstract] The operation data of Civil Aero- engine is an important reference for airlines to make engine maintenance plans. A fault analysis method based on regressive analysis and ARIMA (autoregressive integrated moving average) model was proposed for the development trend of vibration value of an airline CFM56- 7B engine. The regression analysis method was used to fit the vibration value and rotational speed of the engine in each flight. The ARIMA analysis model was established for the exponential coefficient of the exponential fitting equation, then the corresponding relationship between the predicted value and the real value of the equation fitting coefficient was obtained and analyzed, and then whether the engine has vibration fault symptoms was predicted. The results show that ARIMA model can describe the trend of engine vibration- speed fitting coefficient well and predict engine vibration fault effectively, and the model provides an important basis for airlines to make engine maintenance plans.
-
-[Key words] civil aviation engine fault prediction regression analysis vibration- speed characteristics ARIMA model

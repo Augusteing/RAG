@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "name": "燃气轮机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "最小二乘支持向量机（LSSVM）",
+      "type": "模型"
+    },
+    {
+      "name": "小波神经网络（WNN）",
+      "type": "模型"
+    },
+    {
+      "name": "LSSVM-WNN预测模型",
+      "type": "模型"
+    },
+    {
+      "name": "故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "状态趋势预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "残差",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "排气温度",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "相空间重构",
+      "type": "研究方法"
+    },
+    {
+      "name": "RBF核函数",
+      "type": "模型"
+    },
+    {
+      "name": "Morlet小波",
+      "type": "模型"
+    },
+    {
+      "name": "梯度修正法",
+      "type": "算法"
+    },
+    {
+      "name": "小波去噪",
+      "type": "算法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "LSSVM-WNN预测模型",
+      "relation": "组合",
+      "tail": "最小二乘支持向量机（LSSVM）"
+    },
+    {
+      "head": "LSSVM-WNN预测模型",
+      "relation": "组合",
+      "tail": "小波神经网络（WNN）"
+    },
+    {
+      "head": "最小二乘支持向量机（LSSVM）",
+      "relation": "产生",
+      "tail": "残差"
+    },
+    {
+      "head": "小波神经网络（WNN）",
+      "relation": "预测",
+      "tail": "残差"
+    },
+    {
+      "head": "LSSVM-WNN预测模型",
+      "relation": "应用于",
+      "tail": "燃气轮机"
+    },
+    {
+      "head": "LSSVM-WNN预测模型",
+      "relation": "预测",
+      "tail": "状态趋势"
+    },
+    {
+      "head": "故障预测",
+      "relation": "采用",
+      "tail": "LSSVM-WNN预测模型"
+    },
+    {
+      "head": "状态趋势预测",
+      "relation": "依据",
+      "tail": "排气温度"
+    },
+    {
+      "head": "最小二乘支持向量机（LSSVM）",
+      "relation": "采用",
+      "tail": "RBF核函数"
+    },
+    {
+      "head": "小波神经网络（WNN）",
+      "relation": "采用",
+      "tail": "Morlet小波"
+    },
+    {
+      "head": "小波神经网络（WNN）",
+      "relation": "采用",
+      "tail": "梯度修正法"
+    },
+    {
+      "head": "相空间重构",
+      "relation": "应用于",
+      "tail": "最小二乘支持向量机（LSSVM）"
+    },
+    {
+      "head": "相空间重构",
+      "relation": "应用于",
+      "tail": "小波神经网络（WNN）"
+    },
+    {
+      "head": "小波去噪",
+      "relation": "应用于",
+      "tail": "排气温度"
+    }
+  ]
+}

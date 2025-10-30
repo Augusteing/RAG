@@ -5,8 +5,8 @@
       "type": "研究方法"
     },
     {
-      "name": "基于CNN和LSTM的航空发动机剩余寿命预估方法",
-      "type": "研究方法"
+      "name": "CNNLSTM方法",
+      "type": "模型"
     },
     {
       "name": "卷积神经网络",
@@ -15,10 +15,6 @@
     {
       "name": "长短期记忆神经网络",
       "type": "模型"
-    },
-    {
-      "name": "航空发动机",
-      "type": "系统/部件"
     },
     {
       "name": "模型建立困难",
@@ -33,24 +29,20 @@
       "type": "传感器/监测参数"
     },
     {
-      "name": "特征提取",
-      "type": "研究方法"
+      "name": "传感器数据特征",
+      "type": "特征/健康指标"
     },
     {
       "name": "时间序列预测",
       "type": "研究方法"
     },
     {
-      "name": "卷积层",
-      "type": "模型"
-    },
-    {
-      "name": "池化层",
-      "type": "模型"
-    },
-    {
       "name": "全连接层",
       "type": "模型"
+    },
+    {
+      "name": "航空发动机剩余寿命",
+      "type": "特征/健康指标"
     },
     {
       "name": "C-MAPSS数据集",
@@ -62,7 +54,7 @@
     },
     {
       "name": "航空发动机健康管理系统",
-      "type": "系统/部件"
+      "type": "研究领域"
     },
     {
       "name": "J_Score",
@@ -70,14 +62,6 @@
     },
     {
       "name": "J_RMSE",
-      "type": "性能指标"
-    },
-    {
-      "name": "对称指标",
-      "type": "性能指标"
-    },
-    {
-      "name": "非对称指标",
       "type": "性能指标"
     },
     {
@@ -89,6 +73,10 @@
       "type": "算法"
     },
     {
+      "name": "相关向量回归",
+      "type": "模型"
+    },
+    {
       "name": "卷积门控循环神经网络",
       "type": "模型"
     },
@@ -98,141 +86,143 @@
     },
     {
       "name": "梯度消失问题",
-      "type": "故障模式"
+      "type": "核心问题"
     },
     {
-      "name": "涡扇发动机",
+      "name": "起始模组",
+      "type": "模型"
+    },
+    {
+      "name": "传感器数据滑动重组",
+      "type": "研究方法"
+    },
+    {
+      "name": "预估准确性",
+      "type": "性能指标"
+    },
+    {
+      "name": "Python",
+      "type": "软件工具"
+    },
+    {
+      "name": "Tensorflow",
+      "type": "软件工具"
+    },
+    {
+      "name": "航空发动机",
       "type": "系统/部件"
-    },
-    {
-      "name": "故障预测与健康管理",
-      "type": "研究领域"
-    },
-    {
-      "name": "航空发动机剩余寿命",
-      "type": "特征/健康指标"
     }
   ],
   "relations": [
     {
-      "head": "基于CNN和LSTM的航空发动机剩余寿命预估方法",
+      "head": "CNNLSTM方法",
+      "relation": "用于",
+      "tail": "航空发动机剩余寿命预估"
+    },
+    {
+      "head": "CNNLSTM方法",
       "relation": "解决了",
       "tail": "模型建立困难"
     },
     {
-      "head": "基于CNN和LSTM的航空发动机剩余寿命预估方法",
+      "head": "CNNLSTM方法",
       "relation": "解决了",
       "tail": "计算精度低"
     },
     {
-      "head": "基于CNN和LSTM的航空发动机剩余寿命预估方法",
-      "relation": "结合",
+      "head": "CNNLSTM方法",
+      "relation": "结合了",
       "tail": "卷积神经网络"
     },
     {
-      "head": "基于CNN和LSTM的航空发动机剩余寿命预估方法",
-      "relation": "结合",
+      "head": "CNNLSTM方法",
+      "relation": "结合了",
       "tail": "长短期记忆神经网络"
     },
     {
       "head": "卷积神经网络",
-      "relation": "利用",
-      "tail": "卷积层"
-    },
-    {
-      "head": "卷积神经网络",
-      "relation": "利用",
-      "tail": "池化层"
-    },
-    {
-      "head": "卷积神经网络",
-      "relation": "用于",
-      "tail": "特征提取"
-    },
-    {
-      "head": "特征提取",
-      "relation": "处理",
-      "tail": "传感器数据"
+      "relation": "提取",
+      "tail": "传感器数据特征"
     },
     {
       "head": "长短期记忆神经网络",
-      "relation": "用于",
+      "relation": "进行",
       "tail": "时间序列预测"
     },
     {
       "head": "全连接层",
-      "relation": "用于输出",
+      "relation": "输出",
       "tail": "航空发动机剩余寿命"
     },
     {
-      "head": "长短期记忆神经网络",
-      "relation": "解决了",
-      "tail": "梯度消失问题"
-    },
-    {
-      "head": "梯度消失问题",
-      "relation": "存在于",
-      "tail": "循环神经网络"
-    },
-    {
-      "head": "基于CNN和LSTM的航空发动机剩余寿命预估方法",
+      "head": "CNNLSTM方法",
       "relation": "在...上验证",
       "tail": "C-MAPSS数据集"
     },
     {
-      "head": "C-MAPSS数据集",
-      "relation": "是",
-      "tail": "涡扇发动机"
-    },
-    {
-      "head": "基于CNN和LSTM的航空发动机剩余寿命预估方法",
-      "relation": "为...提供信息",
-      "tail": "航空发动机健康管理系统"
-    },
-    {
-      "head": "基于CNN和LSTM的航空发动机剩余寿命预估方法",
+      "head": "CNNLSTM方法",
       "relation": "发出",
       "tail": "故障预警信号"
     },
     {
-      "head": "J_Score",
-      "relation": "是",
-      "tail": "非对称指标"
+      "head": "CNNLSTM方法",
+      "relation": "为...提供信息",
+      "tail": "航空发动机健康管理系统"
     },
     {
-      "head": "J_RMSE",
-      "relation": "是",
-      "tail": "对称指标"
-    },
-    {
-      "head": "J_Score",
-      "relation": "评估",
-      "tail": "基于CNN和LSTM的航空发动机剩余寿命预估方法"
-    },
-    {
-      "head": "J_RMSE",
-      "relation": "评估",
-      "tail": "基于CNN和LSTM的航空发动机剩余寿命预估方法"
-    },
-    {
-      "head": "基于CNN和LSTM的航空发动机剩余寿命预估方法",
-      "relation": "在J_Score指标上优于",
-      "tail": "卷积门控循环神经网络"
-    },
-    {
-      "head": "基于CNN和LSTM的航空发动机剩余寿命预估方法",
-      "relation": "在J_Score指标上优于",
-      "tail": "支持向量机"
-    },
-    {
-      "head": "基于CNN和LSTM的航空发动机剩余寿命预估方法",
-      "relation": "在J_RMSE指标上优于",
+      "head": "CNNLSTM方法",
+      "relation": "优于",
       "tail": "多层感知机"
     },
     {
-      "head": "航空发动机剩余寿命预估",
-      "relation": "是...的组成部分",
-      "tail": "故障预测与健康管理"
+      "head": "CNNLSTM方法",
+      "relation": "优于",
+      "tail": "支持向量机"
+    },
+    {
+      "head": "CNNLSTM方法",
+      "relation": "优于",
+      "tail": "相关向量回归"
+    },
+    {
+      "head": "CNNLSTM方法",
+      "relation": "优于",
+      "tail": "卷积门控循环神经网络"
+    },
+    {
+      "head": "长短期记忆神经网络",
+      "relation": "解决了",
+      "tail": "循环神经网络的梯度消失问题"
+    },
+    {
+      "head": "传感器数据滑动重组",
+      "relation": "提高",
+      "tail": "预估准确性"
+    },
+    {
+      "head": "起始模组",
+      "relation": "提高",
+      "tail": "预估准确性"
+    },
+    {
+      "head": "J_RMSE",
+      "relation": "是",
+      "tail": "性能指标"
+    },
+    {
+      "head": "J_Score",
+      "relation": "是",
+      "tail": "性能指标"
+    },
+    {
+      "head": "CNNLSTM方法",
+      "relation": "在...上搭建",
+      "tail": "Python"
+    },
+    {
+      "head": "CNNLSTM方法",
+      "relation": "在...上搭建",
+      "tail": "Tensorflow"
     }
   ]
 }

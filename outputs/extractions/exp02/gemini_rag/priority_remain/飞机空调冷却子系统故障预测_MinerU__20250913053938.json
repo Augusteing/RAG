@@ -5,15 +5,11 @@
       "type": "系统/部件"
     },
     {
-      "name": "故障预测",
-      "type": "研究领域"
-    },
-    {
       "name": "失效模型建立新方法",
       "type": "研究方法"
     },
     {
-      "name": "某机型系统失效数据",
+      "name": "飞机系统失效数据",
       "type": "数据集"
     },
     {
@@ -21,8 +17,8 @@
       "type": "系统/部件"
     },
     {
-      "name": "扩展的Weibull分步",
-      "type": "模型"
+      "name": "扩展的Weibull分步建模",
+      "type": "研究方法"
     },
     {
       "name": "2参数Weibull分步",
@@ -41,24 +37,20 @@
       "type": "模型"
     },
     {
-      "name": "2段Weibull分步",
+      "name": "2段Weibull分步模型",
       "type": "模型"
     },
     {
-      "name": "拟合质量",
-      "type": "性能指标"
-    },
-    {
       "name": "更新过程",
-      "type": "理论基础"
+      "type": "研究方法"
     },
     {
       "name": "期望失效数",
       "type": "特征/健康指标"
     },
     {
-      "name": "幂律过程",
-      "type": "理论基础"
+      "name": "幂律过程建模",
+      "type": "研究方法"
     },
     {
       "name": "拉普拉斯算法",
@@ -69,85 +61,88 @@
       "type": "研究方法"
     },
     {
-      "name": "模型准确性",
-      "type": "性能指标"
-    },
-    {
-      "name": "维修计划",
-      "type": "应用场景"
+      "name": "故障预测",
+      "type": "研究方法"
     },
     {
       "name": "可靠性方案",
-      "type": "应用场景"
-    },
-    {
-      "name": "维修次数超警戒",
-      "type": "故障模式"
-    },
-    {
-      "name": "换拆率超警戒",
-      "type": "故障模式"
+      "type": "研究方法"
     },
     {
       "name": "脏堵",
       "type": "故障模式"
     },
     {
-      "name": "视情维修",
-      "type": "研究方法"
-    },
-    {
-      "name": "平均失效时间",
-      "type": "特征/健康指标"
-    },
-    {
-      "name": "幂律过程模型",
+      "name": "幂指模型",
       "type": "模型"
-    },
-    {
-      "name": "Cram'er-von Mises统计量检验",
-      "type": "理论基础"
-    },
-    {
-      "name": "CBH测试",
-      "type": "理论基础"
     },
     {
       "name": "分段幂指模型",
       "type": "模型"
     },
     {
-      "name": "非例行维修任务",
-      "type": "应用场景"
+      "name": "飞机空调冷却子系统叠加系统",
+      "type": "系统/部件"
     },
     {
-      "name": "最小偏差平方和",
-      "type": "性能指标"
+      "name": "空气循环机",
+      "type": "系统/部件"
     },
     {
-      "name": "故障率",
+      "name": "水分离器",
+      "type": "系统/部件"
+    },
+    {
+      "name": "平均失效时间",
       "type": "特征/健康指标"
+    },
+    {
+      "name": "视情维修",
+      "type": "研究方法"
+    },
+    {
+      "name": "CBH测试",
+      "type": "研究方法"
+    },
+    {
+      "name": "本文",
+      "type": "研究主体"
     }
   ],
   "relations": [
     {
+      "head": "本文",
+      "relation": "提出了",
+      "tail": "失效模型建立新方法"
+    },
+    {
       "head": "失效模型建立新方法",
       "relation": "基于",
-      "tail": "某机型系统失效数据"
+      "tail": "飞机系统失效数据"
     },
     {
-      "head": "飞机空调冷却子系统",
-      "relation": "存在问题",
-      "tail": "维修次数超警戒"
+      "head": "失效模型建立新方法",
+      "relation": "用于",
+      "tail": "故障预测"
     },
     {
-      "head": "热交换器",
-      "relation": "存在问题",
-      "tail": "换拆率超警戒"
-    },
-    {
-      "head": "扩展的Weibull分步",
+      "head": "故障预测",
       "relation": "应用于",
+      "tail": "飞机空调冷却子系统"
+    },
+    {
+      "head": "扩展的Weibull分步建模",
+      "relation": "应用于",
+      "tail": "热交换器"
+    },
+    {
+      "head": "幂律过程建模",
+      "relation": "应用于",
+      "tail": "飞机空调冷却子系统"
+    },
+    {
+      "head": "2段Weibull分步模型",
+      "relation": "最符合",
       "tail": "热交换器"
     },
     {
@@ -156,34 +151,9 @@
       "tail": "期望失效数"
     },
     {
-      "head": "幂律过程",
-      "relation": "用于建模",
-      "tail": "飞机空调冷却子系统"
-    },
-    {
       "head": "拉普拉斯算法",
-      "relation": "应用于",
-      "tail": "故障趋势预测"
-    },
-    {
-      "head": "失效模型建立新方法",
       "relation": "用于",
-      "tail": "故障预测"
-    },
-    {
-      "head": "失效模型建立新方法",
-      "relation": "用于修改",
-      "tail": "维修计划"
-    },
-    {
-      "head": "2段Weibull分步",
-      "relation": "最符合",
-      "tail": "热交换器"
-    },
-    {
-      "head": "最小偏差平方和",
-      "relation": "用于判断",
-      "tail": "拟合质量"
+      "tail": "故障趋势预测"
     },
     {
       "head": "脏堵",
@@ -191,64 +161,34 @@
       "tail": "热交换器"
     },
     {
+      "head": "分段幂指模型",
+      "relation": "符合",
+      "tail": "飞机空调冷却子系统叠加系统"
+    },
+    {
+      "head": "本文",
+      "relation": "提出了维修建议",
+      "tail": "视情维修"
+    },
+    {
+      "head": "热交换器",
+      "relation": "的失效增加",
+      "tail": "空气循环机"
+    },
+    {
+      "head": "水分离器",
+      "relation": "的失效增加",
+      "tail": "空气循环机"
+    },
+    {
       "head": "更新过程",
-      "relation": "用于计算",
+      "relation": "求得",
       "tail": "平均失效时间"
     },
     {
-      "head": "视情维修",
-      "relation": "建议用于",
-      "tail": "热交换器"
-    },
-    {
-      "head": "Cram'er-von Mises统计量检验",
-      "relation": "用于检验",
-      "tail": "拟合质量"
-    },
-    {
-      "head": "CBH测试",
-      "relation": "用于判断",
-      "tail": "故障率"
-    },
-    {
-      "head": "分段幂指模型",
-      "relation": "符合",
-      "tail": "飞机空调冷却子系统"
-    },
-    {
-      "head": "分段幂指模型",
-      "relation": "用于预测",
-      "tail": "非例行维修任务"
-    },
-    {
-      "head": "扩展的Weibull分步",
-      "relation": "包括",
-      "tail": "2参数Weibull分步"
-    },
-    {
-      "head": "扩展的Weibull分步",
-      "relation": "包括",
-      "tail": "3参数Weibull分步"
-    },
-    {
-      "head": "扩展的Weibull分步",
-      "relation": "包括",
-      "tail": "双Weibull分步"
-    },
-    {
-      "head": "扩展的Weibull分步",
-      "relation": "包括",
-      "tail": "三Weibull分步"
-    },
-    {
-      "head": "扩展的Weibull分步",
-      "relation": "包括",
-      "tail": "2段Weibull分步"
-    },
-    {
-      "head": "飞机空调冷却子系统",
-      "relation": "主要失效部件是",
-      "tail": "热交换器"
+      "head": "失效模型建立新方法",
+      "relation": "用于拟定",
+      "tail": "可靠性方案"
     }
   ]
 }

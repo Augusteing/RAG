@@ -1,16 +1,24 @@
 {
   "entities": [
     {
-      "name": "通航飞机起落架系统",
+      "name": "模糊信息粒化和支持向量机相融合的时序回归预测技术",
+      "type": "研究方法"
+    },
+    {
+      "name": "起落架系统",
       "type": "系统/部件"
     },
     {
-      "name": "故障频率预测",
-      "type": "研究方法"
+      "name": "起落架故障频率",
+      "type": "特征/健康指标"
     },
     {
-      "name": "时序回归预测技术",
-      "type": "研究方法"
+      "name": "预防维修",
+      "type": "应用场景"
+    },
+    {
+      "name": "事后维修",
+      "type": "应用场景"
     },
     {
       "name": "模糊信息粒化",
@@ -18,55 +26,43 @@
     },
     {
       "name": "支持向量机",
-      "type": "理论基础"
-    },
-    {
-      "name": "预防维修",
-      "type": "研究领域"
-    },
-    {
-      "name": "事后维修",
-      "type": "研究领域"
-    },
-    {
-      "name": "机务维修",
-      "type": "应用场景"
+      "type": "模型"
     },
     {
       "name": "起落架故障数据",
       "type": "数据集"
     },
     {
-      "name": "支持向量机模型",
-      "type": "模型"
+      "name": "机务维修",
+      "type": "应用场景"
+    },
+    {
+      "name": "模式识别",
+      "type": "研究领域"
     },
     {
       "name": "小样本问题",
-      "type": "研究问题"
-    },
-    {
-      "name": "非线性问题",
-      "type": "研究问题"
-    },
-    {
-      "name": "高维模式识别问题",
-      "type": "研究问题"
-    },
-    {
-      "name": "径向基核函数(RBF)",
-      "type": "算法"
-    },
-    {
-      "name": "K-fold Cross Validation (K-CV)法",
       "type": "研究方法"
     },
     {
-      "name": "罚函数c",
-      "type": "模型参数"
+      "name": "非线性问题",
+      "type": "研究方法"
     },
     {
-      "name": "核函数参数g",
-      "type": "模型参数"
+      "name": "RBF核函数",
+      "type": "算法"
+    },
+    {
+      "name": "K-fold Cross Validation",
+      "type": "算法"
+    },
+    {
+      "name": "SVM参数c",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "SVM参数g",
+      "type": "特征/健康指标"
     },
     {
       "name": "MATLAB",
@@ -77,75 +73,72 @@
       "type": "软件工具"
     },
     {
-      "name": "模糊信息粒",
+      "name": "粒化数据",
+      "type": "数据集"
+    },
+    {
+      "name": "回归预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "相关系数r²",
+      "type": "性能指标"
+    },
+    {
+      "name": "平均平方误差MSE",
+      "type": "性能指标"
+    },
+    {
+      "name": "epsilon_SVR",
+      "type": "模型"
+    },
+    {
+      "name": "nu_SVR",
+      "type": "模型"
+    },
+    {
+      "name": "训练样本数量",
       "type": "特征/健康指标"
     },
     {
-      "name": "平均平方误差(MSE)",
-      "type": "性能指标"
-    },
-    {
-      "name": "平方相关系数(r²)",
-      "type": "性能指标"
-    },
-    {
-      "name": "epsilon_SVR模型",
-      "type": "模型"
-    },
-    {
-      "name": "nu_SVR模型",
-      "type": "模型"
-    },
-    {
-      "name": "线性核函数",
-      "type": "算法"
-    },
-    {
-      "name": "多项式核函数",
-      "type": "算法"
-    },
-    {
-      "name": "Sigmoid核函数",
-      "type": "算法"
-    },
-    {
       "name": "飞行安全",
-      "type": "研究目标"
-    },
-    {
-      "name": "故障频率",
-      "type": "传感器/监测参数"
+      "type": "研究领域"
     }
   ],
   "relations": [
     {
-      "head": "时序回归预测技术",
+      "head": "模糊信息粒化和支持向量机相融合的时序回归预测技术",
+      "relation": "提出了",
+      "tail": "本文"
+    },
+    {
+      "head": "模糊信息粒化和支持向量机相融合的时序回归预测技术",
+      "relation": "用于预测",
+      "tail": "起落架故障频率"
+    },
+    {
+      "head": "模糊信息粒化和支持向量机相融合的时序回归预测技术",
       "relation": "融合了",
       "tail": "模糊信息粒化"
     },
     {
-      "head": "时序回归预测技术",
+      "head": "模糊信息粒化和支持向量机相融合的时序回归预测技术",
       "relation": "融合了",
       "tail": "支持向量机"
     },
     {
-      "head": "时序回归预测技术",
-      "relation": "应用于",
-      "tail": "故障频率预测"
-    },
-    {
-      "head": "故障频率预测",
-      "relation": "针对",
-      "tail": "通航飞机起落架系统"
-    },
-    {
-      "head": "故障频率预测",
+      "head": "模糊信息粒化和支持向量机相融合的时序回归预测技术",
       "relation": "基于",
       "tail": "起落架故障数据"
     },
     {
-      "head": "故障频率预测",
-      "relation": "旨在实现",
+      "head": "模糊信息粒化和支持向量机相融合的时序回归预测技术",
+      "relation": "提供技术支持",
+      "tail": "机务维修"
+    },
+    {
+      "head": "模糊信息粒化和支持向量机相融合的时序回归预测技术",
+      "relation": "支持",
       "tail": "预防维修"
     },
     {
@@ -154,14 +147,9 @@
       "tail": "事后维修"
     },
     {
-      "head": "预防维修",
-      "relation": "保障",
-      "tail": "飞行安全"
-    },
-    {
-      "head": "故障频率预测",
-      "relation": "支持",
-      "tail": "机务维修"
+      "head": "支持向量机",
+      "relation": "应用于",
+      "tail": "模式识别"
     },
     {
       "head": "支持向量机",
@@ -175,42 +163,22 @@
     },
     {
       "head": "支持向量机",
-      "relation": "解决",
-      "tail": "高维模式识别问题"
-    },
-    {
-      "head": "支持向量机模型",
       "relation": "采用",
-      "tail": "径向基核函数(RBF)"
+      "tail": "RBF核函数"
     },
     {
-      "head": "支持向量机模型",
-      "relation": "采用",
-      "tail": "K-fold Cross Validation (K-CV)法"
-    },
-    {
-      "head": "K-fold Cross Validation (K-CV)法",
+      "head": "K-fold Cross Validation",
       "relation": "用于优化",
-      "tail": "罚函数c"
+      "tail": "SVM参数c"
     },
     {
-      "head": "K-fold Cross Validation (K-CV)法",
+      "head": "K-fold Cross Validation",
       "relation": "用于优化",
-      "tail": "核函数参数g"
+      "tail": "SVM参数g"
     },
     {
-      "head": "模糊信息粒化",
-      "relation": "处理",
-      "tail": "起落架故障数据"
-    },
-    {
-      "head": "模糊信息粒化",
-      "relation": "生成",
-      "tail": "模糊信息粒"
-    },
-    {
-      "head": "时序回归预测技术",
-      "relation": "使用",
+      "head": "模糊信息粒化和支持向量机相融合的时序回归预测技术",
+      "relation": "实现于",
       "tail": "MATLAB"
     },
     {
@@ -219,39 +187,54 @@
       "tail": "LIBSVM工具箱"
     },
     {
-      "head": "时序回归预测技术",
-      "relation": "预测",
-      "tail": "故障频率"
+      "head": "LIBSVM工具箱",
+      "relation": "用于实现",
+      "tail": "支持向量机"
     },
     {
-      "head": "时序回归预测技术",
-      "relation": "评价指标是",
-      "tail": "平均平方误差(MSE)"
+      "head": "模糊信息粒化",
+      "relation": "生成",
+      "tail": "粒化数据"
     },
     {
-      "head": "时序回归预测技术",
-      "relation": "评价指标是",
-      "tail": "平方相关系数(r²)"
+      "head": "支持向量机",
+      "relation": "用于",
+      "tail": "回归预测"
     },
     {
-      "head": "epsilon_SVR模型",
-      "relation": "优于",
-      "tail": "nu_SVR模型"
+      "head": "支持向量机",
+      "relation": "处理",
+      "tail": "粒化数据"
     },
     {
-      "head": "径向基核函数(RBF)",
-      "relation": "优于",
-      "tail": "线性核函数"
+      "head": "相关系数r²",
+      "relation": "评估",
+      "tail": "模糊信息粒化和支持向量机相融合的时序回归预测技术"
     },
     {
-      "head": "径向基核函数(RBF)",
-      "relation": "优于",
-      "tail": "多项式核函数"
+      "head": "平均平方误差MSE",
+      "relation": "评估",
+      "tail": "模糊信息粒化和支持向量机相融合的时序回归预测技术"
     },
     {
-      "head": "径向基核函数(RBF)",
-      "relation": "优于",
-      "tail": "Sigmoid核函数"
+      "head": "epsilon_SVR",
+      "relation": "结合",
+      "tail": "RBF核函数"
+    },
+    {
+      "head": "训练样本数量",
+      "relation": "影响",
+      "tail": "相关系数r²"
+    },
+    {
+      "head": "训练样本数量",
+      "relation": "影响",
+      "tail": "平均平方误差MSE"
+    },
+    {
+      "head": "模糊信息粒化和支持向量机相融合的时序回归预测技术",
+      "relation": "保障",
+      "tail": "飞行安全"
     }
   ]
 }

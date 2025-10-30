@@ -1,0 +1,234 @@
+{
+  "entities": [
+    {
+      "name": "故障预测与健康管理(PHM)",
+      "type": "研究领域"
+    },
+    {
+      "name": "故障时间序列预测",
+      "type": "研究领域"
+    },
+    {
+      "name": "可靠性预测",
+      "type": "研究领域"
+    },
+    {
+      "name": "故障时间序列预测方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "数据驱动方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "多层网格搜索参数优选算法",
+      "type": "研究方法"
+    },
+    {
+      "name": "循环神经网络理论",
+      "type": "理论基础"
+    },
+    {
+      "name": "深度学习理论",
+      "type": "理论基础"
+    },
+    {
+      "name": "LSTM模型",
+      "type": "模型"
+    },
+    {
+      "name": "RNN模型",
+      "type": "模型"
+    },
+    {
+      "name": "GRU模型",
+      "type": "模型"
+    },
+    {
+      "name": "Holt-Winters模型",
+      "type": "模型"
+    },
+    {
+      "name": "ARIMA模型",
+      "type": "模型"
+    },
+    {
+      "name": "SSA模型",
+      "type": "模型"
+    },
+    {
+      "name": "MLR模型",
+      "type": "模型"
+    },
+    {
+      "name": "SVR模型",
+      "type": "模型"
+    },
+    {
+      "name": "LSTM算法",
+      "type": "算法"
+    },
+    {
+      "name": "Adam优化算法",
+      "type": "算法"
+    },
+    {
+      "name": "网格搜索算法",
+      "type": "算法"
+    },
+    {
+      "name": "民航飞机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "系统级故障数据",
+      "type": "故障模式"
+    },
+    {
+      "name": "民航飞机故障数据集",
+      "type": "数据集"
+    },
+    {
+      "name": "故障时间序列数据",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "故障数",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "平均故障率",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "均方根误差(RMSE)",
+      "type": "性能指标"
+    },
+    {
+      "name": "计算耗时",
+      "type": "性能指标"
+    },
+    {
+      "name": "Python",
+      "type": "软件工具"
+    },
+    {
+      "name": "R",
+      "type": "软件工具"
+    },
+    {
+      "name": "TensorFlow",
+      "type": "软件工具"
+    },
+    {
+      "name": "航空领域可靠性预测",
+      "type": "应用场景"
+    }
+  ],
+  "relations": [
+    {
+      "head": "LSTM模型",
+      "relation": "基于",
+      "tail": "循环神经网络理论"
+    },
+    {
+      "head": "故障时间序列预测方法",
+      "relation": "基于",
+      "tail": "LSTM模型"
+    },
+    {
+      "head": "多层网格搜索参数优选算法",
+      "relation": "用于",
+      "tail": "LSTM模型"
+    },
+    {
+      "head": "LSTM模型",
+      "relation": "优于",
+      "tail": "RNN模型"
+    },
+    {
+      "head": "LSTM模型",
+      "relation": "优于",
+      "tail": "GRU模型"
+    },
+    {
+      "head": "LSTM模型",
+      "relation": "优于",
+      "tail": "Holt-Winters模型"
+    },
+    {
+      "head": "LSTM模型",
+      "relation": "优于",
+      "tail": "ARIMA模型"
+    },
+    {
+      "head": "LSTM模型",
+      "relation": "优于",
+      "tail": "SSA模型"
+    },
+    {
+      "head": "LSTM模型",
+      "relation": "优于",
+      "tail": "MLR模型"
+    },
+    {
+      "head": "LSTM模型",
+      "relation": "优于",
+      "tail": "SVR模型"
+    },
+    {
+      "head": "LSTM模型",
+      "relation": "应用于",
+      "tail": "故障时间序列预测"
+    },
+    {
+      "head": "民航飞机故障数据集",
+      "relation": "用于",
+      "tail": "训练和验证模型"
+    },
+    {
+      "head": "均方根误差(RMSE)",
+      "relation": "用于",
+      "tail": "评估模型精度"
+    },
+    {
+      "head": "Adam优化算法",
+      "relation": "用于",
+      "tail": "LSTM模型训练"
+    },
+    {
+      "head": "网格搜索算法",
+      "relation": "用于",
+      "tail": "参数优选"
+    },
+    {
+      "head": "故障时间序列预测",
+      "relation": "解决",
+      "tail": "系统级故障数据预测问题"
+    },
+    {
+      "head": "LSTM模型",
+      "relation": "实现",
+      "tail": "非线性映射"
+    },
+    {
+      "head": "多层网格搜索参数优选算法",
+      "relation": "改进了",
+      "tail": "LSTM模型性能"
+    },
+    {
+      "head": "深度学习理论",
+      "relation": "支持",
+      "tail": "故障时间序列预测"
+    },
+    {
+      "head": "数据驱动方法",
+      "relation": "利用",
+      "tail": "故障时间序列数据"
+    }
+  ]
+}

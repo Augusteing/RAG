@@ -1,0 +1,382 @@
+{
+  "entities": [
+    {
+      "name": "航空发动机健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "故障检测与诊断",
+      "type": "研究领域"
+    },
+    {
+      "name": "预测与健康管理(PHM)",
+      "type": "研究领域"
+    },
+    {
+      "name": "视情维修",
+      "type": "研究方法"
+    },
+    {
+      "name": "状态监控",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "寿命预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "气路分析和性能趋势跟踪",
+      "type": "研究方法"
+    },
+    {
+      "name": "滑油和碎屑监控",
+      "type": "研究方法"
+    },
+    {
+      "name": "振动监控",
+      "type": "研究方法"
+    },
+    {
+      "name": "使用和寿命监控",
+      "type": "研究方法"
+    },
+    {
+      "name": "任务规划",
+      "type": "研究方法"
+    },
+    {
+      "name": "概率统计模型",
+      "type": "理论基础"
+    },
+    {
+      "name": "专家系统方法",
+      "type": "理论基础"
+    },
+    {
+      "name": "人工智能",
+      "type": "理论基础"
+    },
+    {
+      "name": "机器学习",
+      "type": "理论基础"
+    },
+    {
+      "name": "EPHM系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "先进发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "有限监视系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "扩展监视系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "智能维护系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "机上分系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "机下分系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "F117发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "PCHM系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "F119发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "DHM系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "F135发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "PHM系统 (F-35/F135)",
+      "type": "系统/部件"
+    },
+    {
+      "name": "FADEC",
+      "type": "系统/部件"
+    },
+    {
+      "name": "CEDU",
+      "type": "系统/部件"
+    },
+    {
+      "name": "ALIS",
+      "type": "系统/部件"
+    },
+    {
+      "name": "IDMS",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "EDMS",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "全寿命周期费用",
+      "type": "性能指标"
+    },
+    {
+      "name": "安全性",
+      "type": "性能指标"
+    },
+    {
+      "name": "可靠性",
+      "type": "性能指标"
+    },
+    {
+      "name": "维修性",
+      "type": "性能指标"
+    },
+    {
+      "name": "费效比",
+      "type": "性能指标"
+    },
+    {
+      "name": "故障检测率",
+      "type": "性能指标"
+    },
+    {
+      "name": "虚警率",
+      "type": "性能指标"
+    },
+    {
+      "name": "故障隔离率",
+      "type": "性能指标"
+    },
+    {
+      "name": "预测的准确性",
+      "type": "性能指标"
+    },
+    {
+      "name": "预测的精确性",
+      "type": "性能指标"
+    },
+    {
+      "name": "健壮性",
+      "type": "性能指标"
+    },
+    {
+      "name": "计算性能",
+      "type": "性能指标"
+    },
+    {
+      "name": "SAE ARP 1587B",
+      "type": "标准规范"
+    },
+    {
+      "name": "EPHM系统研制",
+      "type": "研究方法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "故障检测与诊断",
+      "relation": "发展为",
+      "tail": "预测与健康管理(PHM)"
+    },
+    {
+      "head": "EPHM系统",
+      "relation": "是必备功能",
+      "tail": "先进发动机"
+    },
+    {
+      "head": "EPHM系统",
+      "relation": "应用于",
+      "tail": "航空发动机"
+    },
+    {
+      "head": "视情维修",
+      "relation": "依赖于",
+      "tail": "预测与健康管理(PHM)"
+    },
+    {
+      "head": "EPHM系统",
+      "relation": "降低",
+      "tail": "全寿命周期费用"
+    },
+    {
+      "head": "EPHM系统",
+      "relation": "提高",
+      "tail": "安全性"
+    },
+    {
+      "head": "EPHM系统",
+      "relation": "提高",
+      "tail": "可靠性"
+    },
+    {
+      "head": "EPHM系统",
+      "relation": "提高",
+      "tail": "维修性"
+    },
+    {
+      "head": "有限监视系统",
+      "relation": "发展为",
+      "tail": "扩展监视系统"
+    },
+    {
+      "head": "扩展监视系统",
+      "relation": "发展为",
+      "tail": "智能维护系统"
+    },
+    {
+      "head": "智能维护系统",
+      "relation": "发展为",
+      "tail": "EPHM系统"
+    },
+    {
+      "head": "扩展监视系统",
+      "relation": "采用",
+      "tail": "概率统计模型"
+    },
+    {
+      "head": "智能维护系统",
+      "relation": "采用",
+      "tail": "机器学习"
+    },
+    {
+      "head": "EPHM系统",
+      "relation": "包含",
+      "tail": "机上分系统"
+    },
+    {
+      "head": "EPHM系统",
+      "relation": "包含",
+      "tail": "机下分系统"
+    },
+    {
+      "head": "EPHM系统",
+      "relation": "包含功能",
+      "tail": "故障诊断"
+    },
+    {
+      "head": "EPHM系统",
+      "relation": "包含功能",
+      "tail": "寿命预测"
+    },
+    {
+      "head": "F117发动机",
+      "relation": "配备",
+      "tail": "PCHM系统"
+    },
+    {
+      "head": "F119发动机",
+      "relation": "配备",
+      "tail": "DHM系统"
+    },
+    {
+      "head": "F135发动机",
+      "relation": "配备",
+      "tail": "PHM系统 (F-35/F135)"
+    },
+    {
+      "head": "DHM系统",
+      "relation": "缺乏",
+      "tail": "寿命预测"
+    },
+    {
+      "head": "PHM系统 (F-35/F135)",
+      "relation": "具有",
+      "tail": "寿命预测"
+    },
+    {
+      "head": "PHM系统 (F-35/F135)",
+      "relation": "采用",
+      "tail": "IDMS"
+    },
+    {
+      "head": "PHM系统 (F-35/F135)",
+      "relation": "采用",
+      "tail": "EDMS"
+    },
+    {
+      "head": "DHM系统",
+      "relation": "集成",
+      "tail": "FADEC"
+    },
+    {
+      "head": "DHM系统",
+      "relation": "集成",
+      "tail": "CEDU"
+    },
+    {
+      "head": "PHM系统 (F-35/F135)",
+      "relation": "传送信息至",
+      "tail": "ALIS"
+    },
+    {
+      "head": "故障诊断",
+      "relation": "评价指标是",
+      "tail": "故障检测率"
+    },
+    {
+      "head": "故障诊断",
+      "relation": "评价指标是",
+      "tail": "虚警率"
+    },
+    {
+      "head": "故障诊断",
+      "relation": "评价指标是",
+      "tail": "故障隔离率"
+    },
+    {
+      "head": "寿命预测",
+      "relation": "评价指标是",
+      "tail": "预测的准确性"
+    },
+    {
+      "head": "寿命预测",
+      "relation": "评价指标是",
+      "tail": "预测的精确性"
+    },
+    {
+      "head": "寿命预测",
+      "relation": "评价指标是",
+      "tail": "健壮性"
+    },
+    {
+      "head": "寿命预测",
+      "relation": "评价指标是",
+      "tail": "计算性能"
+    },
+    {
+      "head": "EPHM系统",
+      "relation": "评价指标是",
+      "tail": "费效比"
+    },
+    {
+      "head": "EPHM系统研制",
+      "relation": "参考",
+      "tail": "SAE ARP 1587B"
+    }
+  ]
+}

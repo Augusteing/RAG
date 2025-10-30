@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "name": "航空发动机健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "排气温度",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "核主成分分析",
+      "type": "理论基础"
+    },
+    {
+      "name": "深度置信网络",
+      "type": "模型"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "QAR数据",
+      "type": "数据集"
+    },
+    {
+      "name": "高斯函数",
+      "type": "理论基础"
+    },
+    {
+      "name": "遗传算法优化的BP神经网络",
+      "type": "模型"
+    },
+    {
+      "name": "平均绝对误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "KPCA-DBN模型",
+      "type": "模型"
+    },
+    {
+      "name": "GA-BP网络",
+      "type": "模型"
+    },
+    {
+      "name": "DBN网络",
+      "type": "模型"
+    }
+  ],
+  "relations": [
+    {
+      "head": "核主成分分析",
+      "relation": "用于",
+      "tail": "深度置信网络"
+    },
+    {
+      "head": "深度置信网络",
+      "relation": "用于",
+      "tail": "航空发动机排气温度基线模型构建"
+    },
+    {
+      "head": "航空发动机健康管理",
+      "relation": "应用于",
+      "tail": "航空发动机"
+    },
+    {
+      "head": "QAR数据",
+      "relation": "验证",
+      "tail": "深度置信网络"
+    },
+    {
+      "head": "高斯函数",
+      "relation": "用于",
+      "tail": "核主成分分析"
+    },
+    {
+      "head": "遗传算法优化的BP神经网络",
+      "relation": "对比",
+      "tail": "KPCA-DBN模型"
+    },
+    {
+      "head": "平均绝对误差",
+      "relation": "评价指标是",
+      "tail": "KPCA-DBN模型"
+    },
+    {
+      "head": "平均绝对误差",
+      "relation": "评价指标是",
+      "tail": "GA-BP网络"
+    },
+    {
+      "head": "平均绝对误差",
+      "relation": "评价指标是",
+      "tail": "DBN网络"
+    },
+    {
+      "head": "KPCA-DBN模型",
+      "relation": "优于",
+      "tail": "GA-BP网络"
+    },
+    {
+      "head": "KPCA-DBN模型",
+      "relation": "优于",
+      "tail": "DBN网络"
+    }
+  ]
+}

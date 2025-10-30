@@ -134,85 +134,66 @@
 {
   "entities": [
     {
-      "name": "航空发动机健康管理系统",
-      "type": "系统"
+      "name": "故障",
+      "type": "故障模式"
     },
     {
-      "name": "健康管理系统",
-      "type": "系统"
+      "name": "状态估计",
+      "type": "研究方法"
     },
     {
-      "name": "SDQ算法",
+      "name": "卡尔曼滤波算法",
       "type": "算法"
     },
     {
-      "name": "遗传算法",
+      "name": "机载自适应模型",
+      "type": "模型"
+    },
+    {
+      "name": "气路故障诊断系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "卡尔曼滤波器",
       "type": "算法"
-    },
-    {
-      "name": "AANN神经网络",
-      "type": "网络"
-    },
-    {
-      "name": "故障诊断",
-      "type": "任务"
-    },
-    {
-      "name": "多电飞机",
-      "type": "概念"
-    },
-    {
-      "name": "高压",
-      "type": "发展趋势"
-    },
-    {
-      "name": "直流",
-      "type": "发展趋势"
-    },
-    {
-      "name": "电机",
-      "type": "系统/部件"
-    },
-    {
-      "name": "起动发电",
-      "type": "技术"
-    },
-    {
-      "name": "高压直流",
-      "type": "电源体制"
-    },
-    {
-      "name": "内装式高速起动发电机",
-      "type": "系统/部件"
-    },
-    {
-      "name": "混合励磁电机",
-      "type": "电机"
-    },
-    {
-      "name": "多电发动机",
-      "type": "系统/部件"
     },
     {
       "name": "气路故障诊断",
-      "type": ""
+      "type": "研究方法"
+    },
+    {
+      "name": "卡尔曼滤波器组",
+      "type": "算法"
+    },
+    {
+      "name": "无迹卡尔曼滤波",
+      "type": "算法"
+    },
+    {
+      "name": "扩展卡尔曼滤波",
+      "type": "算法"
     }
   ],
   "relations": [
     {
-      "head": "气路故障诊断",
-      "relation": "成为...重要组成部分",
-      "tail": "健康管理系统"
+      "head": "状态估计",
+      "relation": "采用",
+      "tail": "卡尔曼滤波算法"
     },
     {
-      "head": "遗传算法",
-      "relation": "优化了",
-      "tail": "AANN神经网络"
+      "head": "气路故障诊断系统",
+      "relation": "实现",
+      "tail": "气路故障诊断"
     },
     {
-      "head": "电机",
-      "relation": "得到广泛应用",
-      "tail": "多电飞机"
+      "head": "气路故障诊断系统",
+      "relation": "基于",
+      "tail": "卡尔曼滤波器组"
+    },
+    {
+      "head": "无迹卡尔曼滤波",
+      "relation": "优于",
+      "tail": "扩展卡尔曼滤波"
     }
   ]
 }
@@ -243,12 +224,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 航空发动机健康参数的卡尔曼滤波估计方法分析
-
-杨振兴，黄金泉，鲁峰
-
-（南京航空航天大学能源与动力学院，江苏南京210016）
-
 摘要：针对航空发动机气路部件健康参数估计问题，研究了基于线性和非线性模型的卡尔曼滤波估计方法。通过对气路部件渐变故障的仿真，比较了卡尔曼滤波(KF)、扩展卡尔曼滤波(EKF)、无味卡尔曼滤波(UKF)三种方法对健康参数的估计效果，对EKF在常增益条件下的仿真用时与估计结果进行了研究。结果表明，EKF可根据需要求取卡尔曼增益，能在较少计算量下得到较好的估计结果，是一种实用的非线性参数估计方法。
 
 关键词：航空发动机；健康管理；气路故障；参数估计；非线性模型；卡尔曼滤波
@@ -258,10 +233,6 @@
 # Kalman Filter for Aero-Engine Health Parameter Estimation Analysis
 
 YANG Zhen- xing, HUANG Jin- quan, LU Feng (College of Energy and Power Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China)
-
-Abstract: For health parameters estimation of aero- engine gas path components, we studied Kalman filter estimation methods which based on linear and nonlinear Kalman filter (KF). Through simulation of gradual faults of gas path components, the estimation results of KF, extended Kalman filter (EKF), and unscented Kalman filter (UKF) were compared. The simulation time and estimation results of EKF on the condition of constant gain were studied. Results show that EKF can obtain Kalman gain according to demand and get better estimation results with lower cost. EKF is a practical nonlinear parameter estimation method.
-
-Key words: aero- engine; health management; gas path fault; parameter estimation; non- linear model; Kalman filter
 
 # 1 引言
 
@@ -350,26 +321,3 @@ Table 1 Simulation error and time
 # 5结论
 
 本文使用卡尔曼滤波器对航空发动机健康参数的估计问题进行了仿真和比较研究，结果表明，扩展卡尔曼滤波虽然计算用时较长，但由于其可根据模型特点灵活选择增益更新周期与求取方法，如常增益扩展卡尔曼滤波，可在较少计算量下获得较好的估计结果，因此该方法是一种较为实用的非线性参数估计方法。
-
-# 参考文献：
-
-[1] 李一波，张光明，蒋丽英.航空发动机气路故障诊断技术研究现状[J].燃气轮机技术，2009，22(3)：10—15. [2] Lambert H H. A Simulation Study of Turbofan Engine Deterioration Estimation Using Kalman Filtering Techniques [R].NASA- TM- 104233,1991. [3] Quine B，Uhlmann J,Durrant- Whyte H. Implicit Jacobians for Linearised State Estimation in Nonlinear Systems [C]//. Proceedings of the 1995 American Control Conference. IEEE Press,1995. [4] Julier S,Uhlmann J K. A New Method for the Nonlinear Transformation of Means and Covariances in Filters and Estimators[J].IEEE Trans A C,2000,45(3):477—482. (下转第16页)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-09-11/c8b09070-7ccd-4334-b5dc-716074f06153/d7560170aa85e50edcc818de161f634694ea339fa43f818c7d5217dd6c7c48c2.jpg)  
-图10不同弧长下的表面热膜原始信号分布 Fig.10 The distribution of the hot-film original signal along the non-dimensional arc length
-
-值才有意义。
-
-利用本文发展的表面热膜测试技术使用方法，对某一负荷分布下平板表面的边界层发展进行了测量。结果显示，表面热膜所测准剪切力的相对变化趋势很好地体现了边界层的状态变化过程，并且有效地捕捉到边界层转换的主要信息。这说明虽然表面热膜测试技术有一定的不确定性，但仍能反映边界层发展的主要过程，表明了表面热膜测试技术的
-
-有效性和可靠性。
-
-# 参考文献：
-
-[1] Anderson B T, Meyer R R, Chiest H R. Techniques Used in the F- 14 Variable- Sweep Transition Flight Experiment [J]. AIAA Journal of Aircraft, 1991, 28:622- 629. [2] Zhang X F. Hot- Film Measurements of the Steady and Unsteady Boundary Layer Development on a Low- Pressure Turbine Airfoil[D]. Canada: Carleton University, 2002. [3] Howell R J. Wake- Separation Bubble Interactions in Low Reynolds Number Turbomachinery[D]. England: Cambridge University, 1999. [4] Howell R J, Ramesh O N, Hodson H P, et al. High Lift and Aft Loaded Profiles for Low Pressure Turbines[R]. ASME 2000- GT- 261, 2000. [5] Ottavy X, Vilmin S, Hodson H, et al. The Effects of Wake- Passing Unsteadiness Over a Highly Loaded Compressor- Like Flat Plate [J]. Journal of Turbomachinery, 2004, 126(1):13- 23. [6] Stieger R D. The Effects of Wakes on Separating Boundary Layers in Low Pressure Turbines[D]. England: Cambridge University, 2002. [7] 张佩林，王铁城，吴志成，等. 热膜法测量壁面剪切应力的原理和 B- 1 型热膜的初步试验[J]. 南京航空学院学报, 1982, 27(2):95- 104. [8] 王铁城. 应用表面热膜测定 NACA0012 翼型边界层转换区的实验研究[J]. 航空学报, 1984, 5(4):401- 405. [9] 雷志军、王明杰、朱俊强. 低速压气机叶栅附面层分离的实验研究[J]. 工程热物理学报, 2008, 29(11):1839- 1843. [10] 李伟, 朱俊强, 徐燕骥. 低压涡轮叶栅吸力面附面层流动分离及转换的实验研究[C]/. 中国工程热物理学会学术会议论文集, 2009. [11] 王铁城. 表面热膜在空气动力学实验中的应用[J]. 空气动力学学报, 1984, 1:77- 84. [12] Funazaki K, Shiba T, Tanimitsu H. Effects of Blade Loading Distribution on Aerodynamic Performance of Ultra- High Lift LP Turbine Airfoils under the Influences of Wake Passing and Freestream Turbulence[R]. ASME GT2010- 22134, 2010.
-
-（上接第43页）
-
-[5] Kobayashi T, Simon D L, Litt J S. Application of a Constant Gain Extended Kalman Filter for In- Flight Estimation of Aircraft Engine Performance Parameters[R]. ASME GT2005- 68494, 2005.
-
-[6] 窦建平, 黄金泉, 周文祥. 基于 UML 的航空发动机仿真建模研究[J]. 航空动力学报, 2005, 20(4):684- 688. [7] Simon D L. A Comparison of Filtering Approaches for Aircraft Engine Health Estimation[J]. Aerospace Science and Technology, 2008, 12(4):276- 284.

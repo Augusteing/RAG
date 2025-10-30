@@ -134,57 +134,82 @@
 {
   "entities": [
     {
-      "name": "神经网络",
-      "type": "网络"
+      "name": "起落架减震器",
+      "type": "系统/部件"
     },
     {
-      "name": "SDQ算法",
-      "type": "算法"
+      "name": "油液泄漏故障",
+      "type": "故障模式"
     },
     {
-      "name": "遗传算法",
-      "type": "算法"
+      "name": "故障预测",
+      "type": "研究方法"
     },
     {
-      "name": "AANN神经网络",
-      "type": "网络"
+      "name": "维修信息",
+      "type": "数据集"
     },
     {
-      "name": "故障诊断",
-      "type": "任务"
+      "name": "故障影响因素的特征数据",
+      "type": "特征/健康指标"
     },
     {
-      "name": "航空发动机健康管理系统",
-      "type": "系统"
+      "name": "人工神经网络",
+      "type": "理论基础"
     },
     {
-      "name": "健康管理系统",
-      "type": "系统"
+      "name": "LVQ神经网络",
+      "type": "模型"
     },
     {
-      "name": "信息融合",
-      "type": ""
+      "name": "历史维修信息",
+      "type": "数据集"
     },
     {
-      "name": "气路故障诊断",
-      "type": ""
+      "name": "减震器状态",
+      "type": "特征/健康指标"
     }
   ],
   "relations": [
     {
-      "head": "信息融合",
-      "relation": "使用的数学工具有",
-      "tail": "神经网络"
+      "head": "故障预测",
+      "relation": "应用于",
+      "tail": "油液泄漏故障"
     },
     {
-      "head": "遗传算法",
-      "relation": "优化了",
-      "tail": "AANN神经网络"
+      "head": "油液泄漏故障",
+      "relation": "是...的故障",
+      "tail": "起落架减震器"
     },
     {
-      "head": "气路故障诊断",
-      "relation": "成为...重要组成部分",
-      "tail": "健康管理系统"
+      "head": "故障影响因素的特征数据",
+      "relation": "提取自",
+      "tail": "维修信息"
+    },
+    {
+      "head": "人工神经网络",
+      "relation": "应用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "LVQ神经网络",
+      "relation": "用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "历史维修信息",
+      "relation": "用于训练",
+      "tail": "LVQ神经网络"
+    },
+    {
+      "head": "故障影响因素的特征数据",
+      "relation": "作为输入",
+      "tail": "LVQ神经网络"
+    },
+    {
+      "head": "减震器状态",
+      "relation": "作为输出",
+      "tail": "LVQ神经网络"
     }
   ]
 }
@@ -215,12 +240,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 航空发动机的多参数快速故障诊断模型
-
-牛伟，王国庆，翟正军，成娟，郭阳明
-
-（1. 西北工业大学计算机学院，西安710072；2. 中国航空无线电电子研究所，上海200233；3. 西安应用光学研究所，西安710065)
-
 摘要：为了提高诊断效率，降低故障诊断对人的过分依赖，建立了一个航空发动机故障快速诊断模型。该模型结合粗糙集和灰色理论各自特点，利用粗糙集去除特征信息中的冗余信息；再通过多参数灰色模型对约简后的信息进行快速准确的预测。仿真对比表明，该模型在不降低预测精度的情况下能显著减少计算时间，有效提高故障预测的快速性和实时性。
 
 关键词：粗糙集；GM（1，1）模型；多参数；故障诊断；航空发动机中图分类号：TP301.6 文献标志码：A 文章编号：1001- 3695（2011)12- 4564- 03doi:10.3969/j.issn.1001- 3695.2011.12.044
@@ -228,8 +247,6 @@
 # Multi-parameter fast fault diagnosis model of aeroengine
 
 NIU Wei，WANG Guo- qing，ZHAI Zheng- jun，CHENG Juan，GUO Yang- ming(1. College of Computer, Northwestern Polytechnical University, Xi'an 710072, China; 2. Chinese Aeronautical Radio Electronics Research Institute, Shanghai 200233, China; 3. Xi'an Institute of Applied Optics, Xi'an 710065, China)
-
-Abstract: For the sake of improving efficiency of diagnosis and lowering the dependency of manual labor, this paper proposed a fast fault diagnosis model of aeroengine. The model combined characteristics of rough sets and grey theory. Redundant information was eliminated from feature information by rough sets, and then the reduction information was quickly and accurately predicted by multi- parameter grey model. The simulation results show preliminarily that the model saves the computing time greatly and can effectively meet the requirements of fast and real- time fault prediction while precision is not reduced. Key words: rough set; GM(T,1) model; multi- parameter; faults diagnosis; aeroengine
 
 # 0 引言
 
@@ -443,21 +460,3 @@ $$
 # 4 结束语
 
 针对多agent群体对抗场景的动态性和对抗策略选择的复杂性，本文提出了多agent群体对抗场景划分识别的新方法，构建了多agent群体对抗的相关规则和模型，根据对抗态势和对抗规则，运用证据理论对agent个体的空间位置参数、传感器与执行器进行证据合成，形成agent个体对抗有效性的证据。利用多属性决策综合对抗双方证据选取最佳对抗策略对，执行双方对抗动作任务并在Visual  $\mathrm{C} + \mathrm{\Omega} + 6.0$  环境下进行了仿真实验。至于考虑agent传感器和执行器的重要程度及单个agent有效性的权重反馈对策略选择和对抗效能的影响是今后进一步研究的课题。
-
-# 参考文献：
-
-[1] 刘大有，杨鲲，陈建中Agent研究现状和发展趋势[．软件学报：2000，11（3）：315- 321. [2] 姚宏亮，王秀芳，胡大伟，等.多agent动态影响图的一种混合近似推理算法[计算机研究与发展，2011，48（4）：584- 591.
-
-# （上接第4566页）
-
-由表5可以看出，在相同的仿真条件下，本文模型不但保证了故障诊断正确率，而且在快速性和实时性方面明显优于GM（1，1）模型。
-
-# 4 结束语
-
-本文结合粗糙集和灰色理论的各自特点，提出了一种小样本情况下的多参数故障快速预测模型。通过实验对比证明，该模型在保证预测准确度的前提下，能较有效地解决故障预测过程中计算负荷过大的问题，大大提高了故障诊断的快速性。
-
-# 参考文献：
-
-[1] 柳爱利，施建洪，寇昆湖.诊断反舰导弹故障模式的故障诊断法运用[．海军航空工程学院学报，2008，23（2）：231- 233. [2] XU Dong,WU Mei,AN Jin- wen. Design of an expert system based on neural network ensembles for missile fault diagnosis [C] //Proc of IEEE International Conference on Robotics, Intelligent Systems and Signal Processing.2003:903- 908. [3] 梁瑞胜，孙有田，周希亚.小波包变换和神经网络的某型导弹故障诊断方法研究[．海军航空工程学院学报，2008，23（2）：217- 220. [4] WU Jian- da,LIU Chiu- hong. Investigation of engine fault diagnosis using discrete wavelet transform and neural network [．Expert Systems with Applications,2008,35（3）:1200- 1213. [5] 王国胤.Rough集理论与知识获取M.西安：西安交通大学出版社，2001.
-
-[1] LESSER V,ORTIZ C.L, TAMBE M,et al. Distributed sensor & networks: a multi agent perspective [M. S. 1. ]: Kluwer Academic Publishers,2003. [2] PARUCHURI P, TAMBE M,ORDONEZ F,et al. Towards a formalization of teamwork with resource constraints [J] //Proc of the 3rd International Joint Conference on Autonomous Agents and Multi- Agent Systems.2004:596- 603. [3] 王璐，陆筱霞，蔡自兴.基于局部显著区域的自然场景识别[．中国图像图形学报，2008，13（8）：1594- 1600. [4] 李桂芝，安成万，杨国胜，等.基于场景识别的移动机器人定位方法研究[．机器人，2005，27（3）：123- 127. [5] YANG Wen,DAI Deng- xin,TRIGGS B,et al. Fast semantic scene segmentation with conditional random field [C] //Proc of the 17th IEEE International Symposium on Image Processing.2010:229- 232. [6] YAN Song,OGAWA T, HASEYAMA M. MCMC- based scene segmentation method using structure of video [J] //Proc of International Symposium on Communications and Information Technologies.2010: 862- 866. [7] QIN Hong- wu, JASNI M Z, MA Xiu- qin,et al. Scene segmentation based on seeded region growing for foreground detection [J] //Proc of the 6th International Conference on Natural Computation.2010: 3619- 3623. [8] 杨善林，罗贺，胡小建.基于焦元相似度的证据理论合成规则[．模式识别与人工智能，2009，22（2）：169- 175. [9] 付超，杨善林，罗贺.异源证据间的一致度分析[．系统工程理论与实践，2009，29（5）：166- 174. [10] 周迪民，段国云.证据理论在不确定性推理中的应用研究[．计算机应用研究，2010，27（12）：4433- 4435. [11] LIU Si- feng, LIN Y. Grey information theory and practical applications [．London: Springer- Verlag, 2006. [12] 梅检民，周斌，司爱威，等.基于变精度粗糙集理论提取发动机振动故障特征[．军事交通学院学报，2009，11（3）：43- 47. [13] FRABCIS E,SHEN Li- xiang. Fault diagnosis based on rough set theory [J]. Engineering Applications of Artificial Intelligence,2003,16（1）:39- 43. [14] SWINIARSKI R W,SKOWRON A. Rough set methods in feature selection and recognition [J. Pattern Recognition Letters,2003,24（6）:833- 849. [15] 张喜斌，成立，余江民.基于一种新型粗糙集神经网络的故障诊断[．计算机应用研究，2006，23（5）：156- 158. [16] LI Guo- dong, WANG Chen- hong, MASUDA S,et al. A research on short term load forecasting problem applying improved grey dynamic model [J]. International Journal of Electrical Power & Energy Systems,2011,33（4）:809- 816. [17] LI D C, YEH C W, CHANG C J. An improved grey- based approach for early manufacturing data forecasting [J. Computers and Industrial Engineering,2009,57（4）:1161- 1167. [18] 李福琴，刘建国.数据变换提高灰色预测模型精度的研究[．统计与决策，2008，6（6）：15- 17. [19] 罗党，刘思峰，党耀国.灰色模型GM（1，1）优化[．中国工程科学，2003，15（18）：50- 54. [20] LIN Yong- huang, LEE P C. Novel high- precision grey forecasting model [J]. Automation in Construction,2007,16（6）:771- 777. [21] 王广，李军.基于粗糙集理论的航空发动机故障诊断[．航空发动机，2005,31（4）:51- 53.

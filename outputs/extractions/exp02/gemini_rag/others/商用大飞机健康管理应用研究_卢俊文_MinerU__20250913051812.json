@@ -1,27 +1,19 @@
 {
   "entities": [
     {
-      "name": "飞机健康管理(AHM)",
+      "name": "飞机健康管理 (AHM)",
       "type": "研究领域"
     },
     {
-      "name": "Built-in test(BIT)",
+      "name": "Built-in test (BIT)",
       "type": "研究方法"
     },
     {
-      "name": "数字航空电子计算机",
-      "type": "系统/部件"
-    },
-    {
       "name": "健康管理标准",
-      "type": "实体"
+      "type": "理论基础"
     },
     {
-      "name": "商用航空维修领域",
-      "type": "应用场景"
-    },
-    {
-      "name": "无故障发现(NFF)",
+      "name": "无故障发现 (NFF)",
       "type": "故障模式"
     },
     {
@@ -37,39 +29,31 @@
       "type": "系统/部件"
     },
     {
-      "name": "故障信息",
-      "type": "传感器/监测参数"
+      "name": "决策支持",
+      "type": "应用场景"
     },
     {
-      "name": "机队利用率",
-      "type": "性能指标"
-    },
-    {
-      "name": "机组警告系统(CAS)",
-      "type": "系统/部件"
-    },
-    {
-      "name": "第一代AHM技术",
+      "name": "第1代AHM技术",
       "type": "研究方法"
     },
     {
-      "name": "第二代AHM技术",
+      "name": "第2代AHM技术",
       "type": "研究方法"
     },
     {
-      "name": "ARINC-604",
-      "type": "实体"
+      "name": "第3代AHM技术",
+      "type": "研究方法"
     },
     {
-      "name": "外场可替换单元(LRUs)",
+      "name": "第4代AHM技术",
+      "type": "研究方法"
+    },
+    {
+      "name": "Airbus",
       "type": "系统/部件"
     },
     {
-      "name": "维修控制与显示面板(MCDP)",
-      "type": "系统/部件"
-    },
-    {
-      "name": "中央故障显示系统(CFDS)",
+      "name": "中央故障显示系统 (CFDS)",
       "type": "系统/部件"
     },
     {
@@ -77,15 +61,11 @@
       "type": "性能指标"
     },
     {
-      "name": "第三代AHM技术",
-      "type": "研究方法"
-    },
-    {
       "name": "ARINC-624",
-      "type": "实体"
+      "type": "理论基础"
     },
     {
-      "name": "中央维修计算机(CMC)",
+      "name": "中央维修计算机 (CMC)",
       "type": "系统/部件"
     },
     {
@@ -93,11 +73,15 @@
       "type": "系统/部件"
     },
     {
-      "name": "第四代AHM技术",
-      "type": "研究方法"
+      "name": "波音777",
+      "type": "系统/部件"
     },
     {
-      "name": "波音777",
+      "name": "模块化管理思想",
+      "type": "理论基础"
+    },
+    {
+      "name": "波音777的CMC",
       "type": "系统/部件"
     },
     {
@@ -105,7 +89,11 @@
       "type": "理论基础"
     },
     {
-      "name": "故障的分析与隔离",
+      "name": "故障分析",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障隔离",
       "type": "研究方法"
     },
     {
@@ -113,23 +101,19 @@
       "type": "系统/部件"
     },
     {
-      "name": "模块式航电系统",
-      "type": "系统/部件"
+      "name": "商业现货 (COTS)",
+      "type": "理论基础"
     },
     {
-      "name": "商业现货(COTS)",
+      "name": "故障部件识别",
       "type": "研究方法"
     },
     {
-      "name": "波音787机组信息与维修系统",
+      "name": "波音787维修信息系统 (MS)",
       "type": "系统/部件"
     },
     {
-      "name": "波音787维修信息系统(MS)",
-      "type": "系统/部件"
-    },
-    {
-      "name": "飞机状态监测功能模块(ACMF)",
+      "name": "飞机状态监测功能模块 (ACMF)",
       "type": "系统/部件"
     },
     {
@@ -137,12 +121,12 @@
       "type": "系统/部件"
     },
     {
-      "name": "完全自动化",
-      "type": "研究领域"
-    },
-    {
       "name": "实时监测与处理",
       "type": "研究方法"
+    },
+    {
+      "name": "基于网络软件的体系",
+      "type": "系统/部件"
     },
     {
       "name": "状态监测",
@@ -157,34 +141,25 @@
       "type": "研究方法"
     },
     {
-      "name": "波音727",
-      "type": "系统/部件"
-    },
-    {
-      "name": "Airbus",
-      "type": "实体"
+      "name": "改善维修",
+      "type": "研究方法"
     }
   ],
   "relations": [
     {
       "head": "健康管理标准",
       "relation": "促使出现",
-      "tail": "飞机健康管理(AHM)"
+      "tail": "飞机健康管理 (AHM)"
     },
     {
-      "head": "飞机健康管理(AHM)",
-      "relation": "应用于",
-      "tail": "商用航空维修领域"
-    },
-    {
-      "head": "无故障发现(NFF)",
+      "head": "无故障发现 (NFF)",
       "relation": "导致",
       "tail": "维修成本"
     },
     {
       "head": "AHM框架结构",
       "relation": "包含",
-      "tail": "Built-in test(BIT)"
+      "tail": "Built-in test (BIT)"
     },
     {
       "head": "AHM框架结构",
@@ -192,119 +167,124 @@
       "tail": "中央集成维修计算机"
     },
     {
-      "head": "中央集成维修计算机",
-      "relation": "用于收集",
-      "tail": "故障信息"
+      "head": "飞机健康管理 (AHM)",
+      "relation": "提供",
+      "tail": "决策支持"
     },
     {
-      "head": "飞机健康管理(AHM)",
-      "relation": "用于最大化",
-      "tail": "机队利用率"
+      "head": "第1代AHM技术",
+      "relation": "是...的雏形",
+      "tail": "Built-in test (BIT)"
     },
     {
-      "head": "机组警告系统(CAS)",
-      "relation": "用于判断",
-      "tail": "飞机所有功能是否正常"
-    },
-    {
-      "head": "波音727",
-      "relation": "首次引进",
-      "tail": "飞机健康管理(AHM)"
-    },
-    {
-      "head": "第一代AHM技术",
+      "head": "第1代AHM技术",
       "relation": "发展为",
-      "tail": "第二代AHM技术"
+      "tail": "第2代AHM技术"
     },
     {
-      "head": "第二代AHM技术",
+      "head": "第2代AHM技术",
       "relation": "发展为",
-      "tail": "第三代AHM技术"
+      "tail": "第3代AHM技术"
     },
     {
-      "head": "第三代AHM技术",
+      "head": "第3代AHM技术",
       "relation": "发展为",
-      "tail": "第四代AHM技术"
-    },
-    {
-      "head": "ARINC-604",
-      "relation": "是",
-      "tail": "第一代健康管理的标准"
+      "tail": "第4代AHM技术"
     },
     {
       "head": "Airbus",
       "relation": "开发了",
-      "tail": "中央故障显示系统(CFDS)"
+      "tail": "中央故障显示系统 (CFDS)"
     },
     {
-      "head": "中央故障显示系统(CFDS)",
+      "head": "中央故障显示系统 (CFDS)",
       "relation": "提高了",
       "tail": "维修效率"
     },
     {
       "head": "ARINC-624",
       "relation": "产生了",
-      "tail": "中央维修计算机(CMC)"
+      "tail": "中央维修计算机 (CMC)"
     },
     {
       "head": "波音747-400",
-      "relation": "率先使用了",
-      "tail": "中央维修计算机(CMC)"
+      "relation": "使用了",
+      "tail": "中央维修计算机 (CMC)"
     },
     {
       "head": "波音777",
-      "relation": "的CMC采用",
+      "relation": "采用了",
+      "tail": "模块化管理思想"
+    },
+    {
+      "head": "波音777的CMC",
+      "relation": "采用了",
       "tail": "基于模型的理论"
     },
     {
       "head": "基于模型的理论",
       "relation": "用于",
-      "tail": "故障的分析与隔离"
+      "tail": "故障分析"
+    },
+    {
+      "head": "基于模型的理论",
+      "relation": "用于",
+      "tail": "故障隔离"
     },
     {
       "head": "Primus Epic CMC",
-      "relation": "是",
-      "tail": "模块式航电系统"
+      "relation": "是...的应用案例",
+      "tail": "飞机健康管理 (AHM)"
     },
     {
       "head": "Primus Epic CMC",
-      "relation": "采用",
-      "tail": "商业现货(COTS)"
+      "relation": "采用了",
+      "tail": "商业现货 (COTS)"
     },
     {
-      "head": "波音787维修信息系统(MS)",
-      "relation": "包含",
-      "tail": "中央维修计算机(CMC)"
-    },
-    {
-      "head": "波音787维修信息系统(MS)",
-      "relation": "包含",
-      "tail": "飞机状态监测功能模块(ACMF)"
-    },
-    {
-      "head": "飞机健康管理(AHM)",
-      "relation": "发展方向为",
-      "tail": "完全自动化"
-    },
-    {
-      "head": "飞机健康管理(AHM)",
+      "head": "Primus Epic CMC",
       "relation": "实现",
+      "tail": "故障部件识别"
+    },
+    {
+      "head": "波音787维修信息系统 (MS)",
+      "relation": "包含",
+      "tail": "中央维修计算机 (CMC)"
+    },
+    {
+      "head": "波音787维修信息系统 (MS)",
+      "relation": "包含",
+      "tail": "飞机状态监测功能模块 (ACMF)"
+    },
+    {
+      "head": "飞机状态监测功能模块 (ACMF)",
+      "relation": "应用于",
+      "tail": "地面故障诊断与预测模块"
+    },
+    {
+      "head": "飞机健康管理 (AHM)",
+      "relation": "发展方向为",
       "tail": "实时监测与处理"
     },
     {
-      "head": "飞机健康管理(AHM)",
-      "relation": "集成了",
+      "head": "基于网络软件的体系",
+      "relation": "集成",
       "tail": "状态监测"
     },
     {
-      "head": "飞机健康管理(AHM)",
-      "relation": "集成了",
+      "head": "基于网络软件的体系",
+      "relation": "集成",
       "tail": "故障诊断"
     },
     {
-      "head": "飞机健康管理(AHM)",
-      "relation": "集成了",
+      "head": "基于网络软件的体系",
+      "relation": "集成",
       "tail": "故障预测"
+    },
+    {
+      "head": "飞机健康管理 (AHM)",
+      "relation": "发展目标为",
+      "tail": "改善维修"
     }
   ]
 }

@@ -1,32 +1,40 @@
 {
   "entities": [
     {
-      "name": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
-      "type": "模型"
-    },
-    {
       "name": "飞机电源预测与健康管理",
       "type": "研究领域"
     },
     {
-      "name": "OSA-CBM",
+      "name": "状态维护开放系统体系结构(OSA-CBM)模型",
       "type": "模型"
     },
     {
-      "name": "多Agent系统",
+      "name": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "type": "模型"
+    },
+    {
+      "name": "多智能体系统",
       "type": "理论基础"
+    },
+    {
+      "name": "AUML技术",
+      "type": "软件工具"
+    },
+    {
+      "name": "飞机电源系统预测和健康管理(AEPHM)",
+      "type": "系统/部件"
     },
     {
       "name": "智能代理技术",
       "type": "理论基础"
     },
     {
-      "name": "飞机电源系统",
+      "name": "机载PHM子系统",
       "type": "系统/部件"
     },
     {
-      "name": "AUML",
-      "type": "软件工具"
+      "name": "地面PHM子系统",
+      "type": "系统/部件"
     },
     {
       "name": "状态监测Agent",
@@ -41,40 +49,96 @@
       "type": "系统/部件"
     },
     {
+      "name": "维修与后勤保障Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "用户接口Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "数据仓库管理Agent",
+      "type": "系统/部件"
+    },
+    {
       "name": "管理Agent",
       "type": "系统/部件"
     },
     {
-      "name": "维修与后勤保障Agent",
+      "name": "服务Agent",
       "type": "系统/部件"
+    },
+    {
+      "name": "基于状态的维护(CBM)",
+      "type": "研究领域"
+    },
+    {
+      "name": "七层分布式结构",
+      "type": "模型"
+    },
+    {
+      "name": "Agent统一结构",
+      "type": "模型"
+    },
+    {
+      "name": "BDI Agent理论模型",
+      "type": "理论基础"
+    },
+    {
+      "name": "信息采集Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "数据分析Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "多传感器信息融合算法",
+      "type": "理论基础"
     },
     {
       "name": "诊断元Agent",
       "type": "系统/部件"
     },
     {
+      "name": "专家系统Agent",
+      "type": "模型"
+    },
+    {
       "name": "故障仲裁和决策Agent",
       "type": "系统/部件"
     },
     {
-      "name": "专家系统",
-      "type": "算法"
-    },
-    {
-      "name": "人工神经网络",
-      "type": "算法"
+      "name": "粗糙集RS理论",
+      "type": "理论基础"
     },
     {
       "name": "DS证据理论",
       "type": "理论基础"
     },
     {
-      "name": "粗糙集理论",
-      "type": "理论基础"
+      "name": "三级数据融合",
+      "type": "研究方法"
     },
     {
-      "name": "RUL",
+      "name": "剩余有效工作时间(RUL)",
       "type": "特征/健康指标"
+    },
+    {
+      "name": "仿真Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "MATLAB",
+      "type": "软件工具"
+    },
+    {
+      "name": "LabView",
+      "type": "软件工具"
+    },
+    {
+      "name": "Agent",
+      "type": "系统/部件"
     },
     {
       "name": "KQML",
@@ -89,16 +153,24 @@
       "type": "软件工具"
     },
     {
-      "name": "三级数据融合",
-      "type": "研究方法"
+      "name": "各功能Agent",
+      "type": "系统/部件"
     },
     {
-      "name": "BDI模型",
-      "type": "模型"
+      "name": "本文",
+      "type": "其他"
     },
     {
-      "name": "统一Agent实现结构",
-      "type": "模型"
+      "name": "新的设计开发模式",
+      "type": "其他"
+    },
+    {
+      "name": "航空机载设备预测与健康管理系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "飞机电源系统",
+      "type": "系统/部件"
     }
   ],
   "relations": [
@@ -109,13 +181,28 @@
     },
     {
       "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
-      "relation": "基于",
-      "tail": "OSA-CBM"
+      "relation": "为解决",
+      "tail": "飞机电源预测与健康管理"
     },
     {
       "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
-      "relation": "引入了",
-      "tail": "智能代理技术"
+      "relation": "基于",
+      "tail": "状态维护开放系统体系结构(OSA-CBM)模型"
+    },
+    {
+      "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "relation": "采用",
+      "tail": "多智能体系统"
+    },
+    {
+      "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "relation": "建模采用",
+      "tail": "AUML技术"
+    },
+    {
+      "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "relation": "提供",
+      "tail": "新的设计开发模式"
     },
     {
       "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
@@ -123,34 +210,64 @@
       "tail": "飞机电源系统"
     },
     {
-      "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
-      "relation": "采用...进行建模",
-      "tail": "AUML"
+      "head": "飞机电源系统预测和健康管理(AEPHM)",
+      "relation": "引入",
+      "tail": "智能代理技术"
+    },
+    {
+      "head": "飞机电源系统预测和健康管理(AEPHM)",
+      "relation": "由...组成",
+      "tail": "机载PHM子系统"
+    },
+    {
+      "head": "飞机电源系统预测和健康管理(AEPHM)",
+      "relation": "由...组成",
+      "tail": "地面PHM子系统"
     },
     {
       "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
-      "relation": "包含",
+      "relation": "由...组成",
       "tail": "状态监测Agent"
     },
     {
       "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
-      "relation": "包含",
+      "relation": "由...组成",
       "tail": "故障诊断Agent"
     },
     {
       "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
-      "relation": "包含",
+      "relation": "由...组成",
       "tail": "健康评估Agent"
     },
     {
-      "head": "统一Agent实现结构",
-      "relation": "基于",
-      "tail": "BDI模型"
+      "head": "状态维护开放系统体系结构(OSA-CBM)模型",
+      "relation": "为...提供标准",
+      "tail": "基于状态的维护(CBM)"
     },
     {
-      "head": "故障诊断Agent",
+      "head": "状态维护开放系统体系结构(OSA-CBM)模型",
+      "relation": "包含",
+      "tail": "七层分布式结构"
+    },
+    {
+      "head": "Agent统一结构",
+      "relation": "基于",
+      "tail": "BDI Agent理论模型"
+    },
+    {
+      "head": "状态监测Agent",
+      "relation": "包含",
+      "tail": "信息采集Agent"
+    },
+    {
+      "head": "状态监测Agent",
+      "relation": "包含",
+      "tail": "数据分析Agent"
+    },
+    {
+      "head": "信息采集Agent",
       "relation": "采用",
-      "tail": "三级数据融合"
+      "tail": "多传感器信息融合算法"
     },
     {
       "head": "故障诊断Agent",
@@ -158,19 +275,14 @@
       "tail": "诊断元Agent"
     },
     {
-      "head": "故障诊断Agent",
+      "head": "诊断元Agent",
       "relation": "包含",
-      "tail": "故障仲裁和决策Agent"
+      "tail": "专家系统Agent"
     },
     {
-      "head": "诊断元Agent",
-      "relation": "可采用",
-      "tail": "专家系统"
-    },
-    {
-      "head": "诊断元Agent",
-      "relation": "可采用",
-      "tail": "人工神经网络"
+      "head": "故障仲裁和决策Agent",
+      "relation": "采用",
+      "tail": "粗糙集RS理论"
     },
     {
       "head": "故障仲裁和决策Agent",
@@ -178,39 +290,69 @@
       "tail": "DS证据理论"
     },
     {
-      "head": "故障仲裁和决策Agent",
+      "head": "故障诊断Agent",
       "relation": "采用",
-      "tail": "粗糙集理论"
+      "tail": "三级数据融合"
     },
     {
       "head": "健康评估Agent",
       "relation": "预测",
-      "tail": "RUL"
+      "tail": "剩余有效工作时间(RUL)"
     },
     {
-      "head": "状态监测Agent",
-      "relation": "与...协作",
-      "tail": "故障诊断Agent"
+      "head": "仿真Agent",
+      "relation": "利用",
+      "tail": "MATLAB"
     },
     {
-      "head": "管理Agent",
-      "relation": "协调",
-      "tail": "维修与后勤保障Agent"
+      "head": "仿真Agent",
+      "relation": "利用",
+      "tail": "LabView"
     },
     {
-      "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
-      "relation": "采用...进行通信",
+      "head": "Agent",
+      "relation": "之间通信采用",
       "tail": "KQML"
     },
     {
       "head": "KQML",
-      "relation": "采用...描述消息",
+      "relation": "通信内容采用",
       "tail": "XML"
     },
     {
       "head": "XML",
-      "relation": "的Schema基于",
+      "relation": "的SCHEMA设计依据",
       "tail": "ATML"
+    },
+    {
+      "head": "管理Agent",
+      "relation": "协调",
+      "tail": "各功能Agent"
+    },
+    {
+      "head": "状态监测Agent",
+      "relation": "提交诊断请求给",
+      "tail": "故障诊断Agent"
+    },
+    {
+      "head": "故障诊断Agent",
+      "relation": "提交诊断结果给",
+      "tail": "管理Agent"
+    },
+    {
+      "head": "管理Agent",
+      "relation": "发出维修请求给",
+      "tail": "维修与后勤保障Agent"
+    },
+    {
+      "head": "用户接口Agent",
+      "relation": "向...请求任务",
+      "tail": "管理Agent"
+    },
+    {
+      "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "relation": "为...提供指导",
+      "tail": "航空机载设备预测与健康管理系统"
     }
   ]
 }

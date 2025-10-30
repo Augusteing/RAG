@@ -1,19 +1,7 @@
 {
   "entities": [
     {
-      "name": "多层LSTM预测模型",
-      "type": "模型"
-    },
-    {
-      "name": "剩余寿命",
-      "type": "特征/健康指标"
-    },
-    {
-      "name": "复杂系统",
-      "type": "系统/部件"
-    },
-    {
-      "name": "智能预测",
+      "name": "剩余寿命预测",
       "type": "研究方法"
     },
     {
@@ -21,8 +9,12 @@
       "type": "研究领域"
     },
     {
-      "name": "高维度、多尺度时序数据",
-      "type": "传感器/监测参数"
+      "name": "复杂系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "多层LSTM预测模型",
+      "type": "模型"
     },
     {
       "name": "梯度消失",
@@ -53,16 +45,16 @@
       "type": "系统/部件"
     },
     {
-      "name": "长期短期记忆(LSTM)模型",
+      "name": "多尺度时序数据",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "RNN模型",
       "type": "模型"
     },
     {
-      "name": "循环神经网络(RNN)",
+      "name": "LSTM模型",
       "type": "模型"
-    },
-    {
-      "name": "复杂系统健康管理",
-      "type": "研究领域"
     },
     {
       "name": "C-MAPSS数据集",
@@ -74,7 +66,7 @@
     },
     {
       "name": "运行工况",
-      "type": "传感器/监测参数"
+      "type": "应用场景"
     },
     {
       "name": "主成分分析(PCA)",
@@ -85,16 +77,28 @@
       "type": "特征/健康指标"
     },
     {
+      "name": "RUL估计值",
+      "type": "特征/健康指标"
+    },
+    {
       "name": "单层LSTM模型",
       "type": "模型"
+    },
+    {
+      "name": "本文",
+      "type": "研究主体"
     },
     {
       "name": "均方根误差(RMSE)",
       "type": "性能指标"
     },
     {
-      "name": "平均绝对误差(MAE)",
+      "name": "平均误差(MAE)",
       "type": "性能指标"
+    },
+    {
+      "name": "复杂系统健康管理",
+      "type": "研究领域"
     }
   ],
   "relations": [
@@ -106,42 +110,32 @@
     {
       "head": "多层LSTM预测模型",
       "relation": "应用于",
-      "tail": "剩余寿命"
+      "tail": "剩余寿命预测"
     },
     {
-      "head": "剩余寿命",
-      "relation": "是...的重要支撑",
+      "head": "剩余寿命预测",
+      "relation": "支撑",
       "tail": "预测性维修"
     },
     {
-      "head": "多层LSTM预测模型",
-      "relation": "处理",
-      "tail": "高维度、多尺度时序数据"
+      "head": "剩余寿命预测",
+      "relation": "是...的关键内容",
+      "tail": "复杂系统健康管理"
     },
     {
       "head": "多层LSTM预测模型",
-      "relation": "防止了",
+      "relation": "防止",
       "tail": "梯度消失"
     },
     {
       "head": "多层LSTM预测模型",
-      "relation": "提取",
-      "tail": "深层次关联性抽象特征"
-    },
-    {
-      "head": "Dropout方法",
-      "relation": "减少",
-      "tail": "过拟合"
-    },
-    {
-      "head": "多层LSTM预测模型",
-      "relation": "引入了",
+      "relation": "利用",
       "tail": "Dropout方法"
     },
     {
-      "head": "误差得分函数",
-      "relation": "用于评估",
-      "tail": "超前与滞后预测"
+      "head": "Dropout方法",
+      "relation": "避免",
+      "tail": "过拟合"
     },
     {
       "head": "多层LSTM预测模型",
@@ -149,19 +143,19 @@
       "tail": "航空发动机"
     },
     {
-      "head": "航空发动机",
-      "relation": "数据来源于",
-      "tail": "C-MAPSS数据集"
+      "head": "多层LSTM预测模型",
+      "relation": "处理",
+      "tail": "多尺度时序数据"
     },
     {
-      "head": "长期短期记忆(LSTM)模型",
+      "head": "LSTM模型",
       "relation": "改进了",
-      "tail": "循环神经网络(RNN)"
+      "tail": "RNN模型"
     },
     {
-      "head": "剩余寿命",
-      "relation": "是...的关键内容",
-      "tail": "复杂系统健康管理"
+      "head": "多层LSTM预测模型",
+      "relation": "验证使用",
+      "tail": "C-MAPSS数据集"
     },
     {
       "head": "K-means方法",
@@ -180,22 +174,32 @@
     },
     {
       "head": "多层LSTM预测模型",
-      "relation": "优于",
+      "relation": "输出",
+      "tail": "RUL估计值"
+    },
+    {
+      "head": "多层LSTM预测模型",
+      "relation": "性能优于",
       "tail": "单层LSTM模型"
     },
     {
       "head": "多层LSTM预测模型",
-      "relation": "优于",
-      "tail": "循环神经网络(RNN)"
+      "relation": "性能优于",
+      "tail": "RNN模型"
+    },
+    {
+      "head": "误差得分函数",
+      "relation": "用于评估",
+      "tail": "超前与滞后预测"
     },
     {
       "head": "均方根误差(RMSE)",
-      "relation": "评估",
+      "relation": "用于评估",
       "tail": "多层LSTM预测模型"
     },
     {
-      "head": "平均绝对误差(MAE)",
-      "relation": "评估",
+      "head": "平均误差(MAE)",
+      "relation": "用于评估",
       "tail": "多层LSTM预测模型"
     }
   ]

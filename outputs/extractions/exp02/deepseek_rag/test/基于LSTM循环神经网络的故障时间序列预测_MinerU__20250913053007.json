@@ -1,0 +1,193 @@
+{
+  "entities": [
+    {
+      "name": "长短期记忆(LSTM)模型",
+      "type": "模型"
+    },
+    {
+      "name": "循环神经网络(RNN)",
+      "type": "模型"
+    },
+    {
+      "name": "故障时间序列预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "多层网格搜索",
+      "type": "算法"
+    },
+    {
+      "name": "深度学习",
+      "type": "理论基础"
+    },
+    {
+      "name": "故障机理(PoF)",
+      "type": "理论基础"
+    },
+    {
+      "name": "数据驱动(DD)",
+      "type": "研究方法"
+    },
+    {
+      "name": "融合的方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "自回归移动平均(ARIMA)模型",
+      "type": "模型"
+    },
+    {
+      "name": "奇异谱分析(SSA)模型",
+      "type": "模型"
+    },
+    {
+      "name": "支持向量回归(SVR)模型",
+      "type": "模型"
+    },
+    {
+      "name": "人工神经网络(ANN)模型",
+      "type": "模型"
+    },
+    {
+      "name": "GRU模型",
+      "type": "模型"
+    },
+    {
+      "name": "Holt-Winters模型",
+      "type": "模型"
+    },
+    {
+      "name": "多元线性回归(MLR)模型",
+      "type": "模型"
+    },
+    {
+      "name": "民航飞机故障数据",
+      "type": "数据集"
+    },
+    {
+      "name": "波音737飞机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "均方根误差(RMSE)",
+      "type": "性能指标"
+    },
+    {
+      "name": "Python",
+      "type": "软件工具"
+    },
+    {
+      "name": "TensorFlow",
+      "type": "软件工具"
+    },
+    {
+      "name": "Adam优化算法",
+      "type": "算法"
+    },
+    {
+      "name": "BPTT算法",
+      "type": "算法"
+    },
+    {
+      "name": "故障时间序列",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "故障数",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "平均故障间隔时间(MTBF)",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "系统级故障时间序列",
+      "type": "数据集"
+    },
+    {
+      "name": "可靠性预测",
+      "type": "研究领域"
+    },
+    {
+      "name": "LSTM预测模型参数优选算法",
+      "type": "算法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "长短期记忆(LSTM)模型",
+      "relation": "改进了",
+      "tail": "循环神经网络(RNN)"
+    },
+    {
+      "head": "故障时间序列预测",
+      "relation": "基于",
+      "tail": "长短期记忆(LSTM)模型"
+    },
+    {
+      "head": "LSTM预测模型参数优选算法",
+      "relation": "基于",
+      "tail": "多层网格搜索"
+    },
+    {
+      "head": "长短期记忆(LSTM)模型",
+      "relation": "应用于",
+      "tail": "故障时间序列预测"
+    },
+    {
+      "head": "长短期记忆(LSTM)模型",
+      "relation": "基于",
+      "tail": "深度学习"
+    },
+    {
+      "head": "长短期记忆(LSTM)模型",
+      "relation": "优于",
+      "tail": "自回归移动平均(ARIMA)模型"
+    },
+    {
+      "head": "长短期记忆(LSTM)模型",
+      "relation": "优于",
+      "tail": "奇异谱分析(SSA)模型"
+    },
+    {
+      "head": "长短期记忆(LSTM)模型",
+      "relation": "优于",
+      "tail": "支持向量回归(SVR)模型"
+    },
+    {
+      "head": "长短期记忆(LSTM)模型",
+      "relation": "优于",
+      "tail": "Holt-Winters模型"
+    },
+    {
+      "head": "长短期记忆(LSTM)模型",
+      "relation": "优于",
+      "tail": "多元线性回归(MLR)模型"
+    },
+    {
+      "head": "均方根误差(RMSE)",
+      "relation": "用于评估",
+      "tail": "长短期记忆(LSTM)模型"
+    },
+    {
+      "head": "民航飞机故障数据",
+      "relation": "支持",
+      "tail": "故障时间序列预测"
+    },
+    {
+      "head": "故障时间序列",
+      "relation": "是",
+      "tail": "可靠性指标"
+    },
+    {
+      "head": "数据驱动(DD)",
+      "relation": "用于",
+      "tail": "故障时间序列预测"
+    },
+    {
+      "head": "Adam优化算法",
+      "relation": "用于",
+      "tail": "长短期记忆(LSTM)模型训练"
+    }
+  ]
+}

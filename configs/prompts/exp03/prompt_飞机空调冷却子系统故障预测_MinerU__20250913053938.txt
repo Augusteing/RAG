@@ -134,71 +134,107 @@
 {
   "entities": [
     {
-      "name": "基于多模型融合的航空电子产品故障预测方法",
+      "name": "歼击机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "结构故障",
+      "type": "故障模式"
+    },
+    {
+      "name": "结构故障诊断",
+      "type": "研究领域"
+    },
+    {
+      "name": "故障检测",
       "type": "研究方法"
     },
     {
-      "name": "航空电子产品故障预测",
-      "type": "问题"
+      "name": "故障隔离",
+      "type": "研究方法"
     },
     {
-      "name": "核动力系统故障诊断方法",
-      "type": "方法"
+      "name": "非线性系统辨识方法",
+      "type": "研究方法"
     },
     {
-      "name": "核领域的实际应用",
-      "type": "应用领域"
+      "name": "组合预测方法",
+      "type": "研究方法"
     },
     {
-      "name": "两步走策略",
-      "type": "策略"
+      "name": "指数平滑法",
+      "type": "模型"
     },
     {
-      "name": "设备及故障诊断确定故障源设备",
-      "type": "步骤"
+      "name": "故障预测",
+      "type": "研究方法"
     },
     {
-      "name": "具体设备的故障源诊断",
-      "type": "步骤"
-    },
-    {
-      "name": "航空蓄电池",
+      "name": "航空设备",
       "type": "系统/部件"
     },
     {
-      "name": "锂离子航空蓄电池",
+      "name": "飞行器健康管理系统",
       "type": "系统/部件"
     },
     {
-      "name": "航空电子产品",
-      "type": ""
+      "name": "单一预测方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "加权系数",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "预测系统",
+      "type": "系统/部件"
     }
   ],
   "relations": [
     {
-      "head": "基于多模型融合的航空电子产品故障预测方法",
-      "relation": "提出用于解决",
-      "tail": "航空电子产品故障预测"
-    },
-    {
-      "head": "核动力系统故障诊断方法",
-      "relation": "推广到",
-      "tail": "核领域的实际应用"
-    },
-    {
-      "head": "两步走策略",
+      "head": "结构故障诊断",
       "relation": "包括",
-      "tail": "设备及故障诊断确定故障源设备"
+      "tail": "故障检测"
     },
     {
-      "head": "两步走策略",
+      "head": "结构故障诊断",
       "relation": "包括",
-      "tail": "具体设备的故障源诊断"
+      "tail": "故障隔离"
     },
     {
-      "head": "锂离子航空蓄电池",
-      "relation": "作为...的典型代表",
-      "tail": "航空电子产品"
+      "head": "组合预测方法",
+      "relation": "提出用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "组合预测方法",
+      "relation": "结合",
+      "tail": "指数平滑法"
+    },
+    {
+      "head": "组合预测方法",
+      "relation": "应用于",
+      "tail": "航空设备"
+    },
+    {
+      "head": "组合预测方法",
+      "relation": "采用",
+      "tail": "加权系数"
+    },
+    {
+      "head": "组合预测方法",
+      "relation": "弥补...不足",
+      "tail": "单一预测方法"
+    },
+    {
+      "head": "组合预测方法",
+      "relation": "提高...性能",
+      "tail": "预测系统"
+    },
+    {
+      "head": "故障预测",
+      "relation": "是...的一部分",
+      "tail": "飞行器健康管理系统"
     }
   ]
 }
@@ -229,12 +265,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 飞机空调冷却子系统故障预测
-
-王辉，徐坤
-
-（中国民航大学航空工程学院，天津 300300）
-
 摘要：针对近年来飞机空调冷却子系统维修次数超警戒从而导致航空公司运营效率低下的问题，提出了一种基于某机型系统失效数据的失效模型建立新方法。对换拆率超警戒的热交换器这一特定部件选用扩展的Weibull分步建模，分别研究了其在2参数Weibull分步、3参数Weibull分步、双Weibull分步、三Weibull分步和2段Weibull分步模型下的拟合质量，运用更新过程解出期望失效数。随后对整个子系统运用幂律过程建模，使用拉普拉斯算法进行故障趋势预测。通过理论计算与实际维修资料对比，验证了模型准确性，修改了维修计划。该模型可用于航空公司对该子系统及其部件进行故障预测和拟定可靠性方案。
 
 关键词：飞机空调；Weibull分步；更新过程；幂律过程；拉普拉斯算法；故障预测  中图分类号：TH134 文献标识码：A 文章编号：1001- 2354（2019）02- 0073- 09  DOI:10.13841/j.cnki.jxsj.2019.02.011
@@ -244,10 +274,6 @@
 WANG Hui, XU Kun
 
 (School of Aeronautical Engineering, Civil Aviation University of China, Tianjin 300300)
-
-Abstract: In recent years, the aircraft's air- conditioning cooling subsystem suffers too much maintenance, which results in the inefficient operation of airlines. In this article, a new method of failure modeling is proposed based on the failure- related data of a certain type of aircraft. As for the specific component- the heat exchanger with excessive maintenance, the extended model of Weibull distribution is applied. The analysis is conducted on the model's fitting quality under such conditions as two- parameter Weibull distribution, three- parameter Weibull distribution, double Weibull distribution, three Weibull distribution and two- phased Weibull distribution. Via the renewal process, the expected failure number is obtained. Then, the whole subsystem is modeled with the aid of power- law process, and the Laplace algorithm is applied for failure forecasting. The accuracy of model is verified by a series of theoretical calculation and the data on maintenance, and based on this, the maintenance plan is modified. The model can be applied by airlines to forecast the failure of the subsystem and its components and to work out the reliability- related solutions.
-
-Key words: aircraft's air conditioning; Weibull distribution; renewal process; power- law process; Laplace algorithm; failure forecasting
 
 飞机空调系统故障预测是根据空调系统过去和现在的运行状态，预测未来某一时段系统或者部件的故障规律。将预测结果及时提供给维护人员，进而采取预防措施，从而避免故障的发生，提高航班的正常率，降低延误率，提高航空工程维修管理水平，增加航空维修企业的经济效益。而维修计划文件（MPD）是由飞机
 
@@ -502,11 +528,3 @@ $$
 （3）研究结果表明5架飞机空调冷却子系统叠加系统失效数据符合分段幂指模型分步，并依此提出对于该航线该机型空调冷却子系统每年该有21次非例行维修任务。
 
 (4)该研究同时表明，基于每一特定航线特定运营环境下飞机的真实故障数据和系统或部件的真实可靠性与制造商做试验得出的数据还有很大差异，通过后期维修进而去改进前端设计或修正维修方案是必不可少的方法。文中所做的基于真实维修数据的研究，对于制造商设计飞机或者航空公司运营飞机具有重要意义。
-
-# 参考文献
-
-[1] Li J J, Wang Z Y, Zheng D. Fault prediction in air- conditioning refrigeration system by wavelet transform [J]. Advanced Materials Research, 2012, 614- 615:428- 431. [2] Regattieri A, Giatzi A, Gamberi M, et al. An innovative method to optimize the maintenance policies in an aircraft:
-
-general framework and case study[J]. Journal of Air Transport Management, 2015, 44- 45:8- 20. [3] Oliveira J L G, Tecchio C, Paiva K V, et al. Passive aircraft cooling systems for variable thermal conditions [J]. Applied Thermal Engineering, 2015, 79:88- 97. [4] Algarni A Z, Tozan M, Algarni A, et al. Failure forecasting of aircraft air conditioning/cooling pack with field data [J]. Journal of Aircraft, 2012, 44(3):996- 1002. [5] Selchert T, Solntsev A. Device and method for cooling exhaust air of aircraft air- conditioning systems: US, WO/2009/144162[P]. 2009. [6] Nacke R, Northcutt B, Mudawar I. Theory and experimental validation of cross- flow micro- channel heat exchanger module with reference to high Mach aircraft gas turbine engines [J]. International Journal of Heat & Mass Transfer, 2011, 54(5- 6):1224- 1235. [7] Sato O, Iwai H, Yoshida H. System design of aircraft air conditioning system (1st report: Effect of component for high- pressure water separation on system operation) [J]. Transactions of the Japan Society of Mechanical Engineers, 2014, 80(820):TEP0360- TEP0360. [8] 李超, 王玉明, 翠浩, 等. 阀门的可靠性评估方法研究 [J]. 机械设计, 2015(1):13- 16. [9] Yao K. Uncertain calculus with renewal process [J]. Fuzzy
-
-Optimization and Decision Making, 2012, 11(3):285- 297. [10] Sandborn P. Warranty cost analysis [M]. Springer London: Warranty Management and Product Manufacture, 2006: 251- 272. [11] 杜永恩, 王生楠. 飞机结构 MSD 失效概率的敏感性分析 [J]. 北京航空航天大学学报, 2014, 40(5):658- 661. [12] 李宏凯, 李志, 郭朝龙, 等. 基于四足机器人稳定性的对角步态规划 [J]. 机械设计, 2016, 33(1):64- 69. [13] 侯学东. 飞机环境控制系统的仿真研究 [D]. 南京: 南京航空航天大学, 2010. [14] Filimonov V, Sonnette D. A stable and robust calibration scheme of the log- periodic power law model [J]. Social Science Electronic Publishing, 2011, 392(17):3698- 3707. [15] 熊健. 光滑经验分布函数的 Cram'er- von Mises 统计量 [J]. 数理统计与应用概率, 1995(4):35- 41. [16] Tal J. Chapter 10- ine, two, three testing: hypothesis testing and multiplicity [M]. Elsevier Inc: Strategy and Statistics in Clinical Trials, 2011:135- 153.

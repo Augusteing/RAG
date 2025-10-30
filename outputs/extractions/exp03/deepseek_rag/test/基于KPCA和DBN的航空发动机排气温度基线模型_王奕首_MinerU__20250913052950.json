@@ -1,0 +1,160 @@
+{
+  "entities": [
+    {
+      "name": "航空发动机健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "气路监控",
+      "type": "研究领域"
+    },
+    {
+      "name": "核主成分分析",
+      "type": "算法"
+    },
+    {
+      "name": "深度置信网络",
+      "type": "模型"
+    },
+    {
+      "name": "EGT基线模型",
+      "type": "模型"
+    },
+    {
+      "name": "KPCA-DBN混合模型",
+      "type": "模型"
+    },
+    {
+      "name": "QAR数据",
+      "type": "数据集"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "CFM56-7B发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "排气温度",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "平均绝对误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "遗传算法",
+      "type": "算法"
+    },
+    {
+      "name": "BP神经网络",
+      "type": "模型"
+    },
+    {
+      "name": "受限玻尔兹曼机",
+      "type": "模型"
+    },
+    {
+      "name": "主成分分析",
+      "type": "算法"
+    },
+    {
+      "name": "深度学习",
+      "type": "研究方法"
+    },
+    {
+      "name": "神经网络",
+      "type": "理论基础"
+    },
+    {
+      "name": "高斯核函数",
+      "type": "理论基础"
+    },
+    {
+      "name": "特征提取",
+      "type": "研究方法"
+    },
+    {
+      "name": "降维处理",
+      "type": "研究方法"
+    },
+    {
+      "name": "GA-BP神经网络",
+      "type": "模型"
+    }
+  ],
+  "relations": [
+    {
+      "head": "核主成分分析",
+      "relation": "结合",
+      "tail": "深度置信网络"
+    },
+    {
+      "head": "核主成分分析",
+      "relation": "用于",
+      "tail": "特征提取"
+    },
+    {
+      "head": "核主成分分析",
+      "relation": "用于",
+      "tail": "降维处理"
+    },
+    {
+      "head": "KPCA-DBN混合模型",
+      "relation": "用于构建",
+      "tail": "EGT基线模型"
+    },
+    {
+      "head": "QAR数据",
+      "relation": "用于",
+      "tail": "模型训练"
+    },
+    {
+      "head": "QAR数据",
+      "relation": "验证",
+      "tail": "EGT基线模型"
+    },
+    {
+      "head": "EGT基线模型",
+      "relation": "应用于",
+      "tail": "航空发动机"
+    },
+    {
+      "head": "平均绝对误差",
+      "relation": "用于评价",
+      "tail": "EGT基线模型"
+    },
+    {
+      "head": "KPCA-DBN混合模型",
+      "relation": "优于",
+      "tail": "GA-BP神经网络"
+    },
+    {
+      "head": "KPCA-DBN混合模型",
+      "relation": "优于",
+      "tail": "深度置信网络"
+    },
+    {
+      "head": "深度置信网络",
+      "relation": "由",
+      "tail": "受限玻尔兹曼机"
+    },
+    {
+      "head": "深度置信网络",
+      "relation": "由",
+      "tail": "BP神经网络"
+    },
+    {
+      "head": "核主成分分析",
+      "relation": "基于",
+      "tail": "高斯核函数"
+    },
+    {
+      "head": "气路监控",
+      "relation": "是核心",
+      "tail": "航空发动机健康管理"
+    }
+  ]
+}

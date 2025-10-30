@@ -1,0 +1,182 @@
+{
+  "entities": [
+    {
+      "name": "Copula相似性方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "RUL预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "K-means聚类",
+      "type": "算法"
+    },
+    {
+      "name": "退化模型",
+      "type": "模型"
+    },
+    {
+      "name": "Copula函数",
+      "type": "理论基础"
+    },
+    {
+      "name": "预测误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "预测精度",
+      "type": "性能指标"
+    },
+    {
+      "name": "C-MAPSS数据集",
+      "type": "数据集"
+    },
+    {
+      "name": "标准差",
+      "type": "性能指标"
+    },
+    {
+      "name": "AIC",
+      "type": "性能指标"
+    },
+    {
+      "name": "PHM",
+      "type": "研究领域"
+    },
+    {
+      "name": "数据驱动模型",
+      "type": "研究方法"
+    },
+    {
+      "name": "统计模型",
+      "type": "研究方法"
+    },
+    {
+      "name": "机器学习方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "相似性方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "Kendall秩相关系数",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "Ps30",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "T50",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "BPR",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "健康指标",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "退化特征",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "传统相似性方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "Copula结构",
+      "type": "模型"
+    }
+  ],
+  "relations": [
+    {
+      "head": "Copula相似性方法",
+      "relation": "基于",
+      "tail": "Copula函数"
+    },
+    {
+      "head": "Copula相似性方法",
+      "relation": "采用",
+      "tail": "K-means聚类"
+    },
+    {
+      "head": "Copula相似性方法",
+      "relation": "建立",
+      "tail": "退化模型"
+    },
+    {
+      "head": "Copula相似性方法",
+      "relation": "选取",
+      "tail": "Ps30"
+    },
+    {
+      "head": "Copula相似性方法",
+      "relation": "选取",
+      "tail": "T50"
+    },
+    {
+      "head": "Copula相似性方法",
+      "relation": "选取",
+      "tail": "BPR"
+    },
+    {
+      "head": "Copula相似性方法",
+      "relation": "构建",
+      "tail": "Copula结构"
+    },
+    {
+      "head": "Copula相似性方法",
+      "relation": "实现",
+      "tail": "RUL预测"
+    },
+    {
+      "head": "Copula相似性方法",
+      "relation": "减少",
+      "tail": "预测误差"
+    },
+    {
+      "head": "Copula相似性方法",
+      "relation": "提高",
+      "tail": "预测精度"
+    },
+    {
+      "head": "Copula相似性方法",
+      "relation": "优于",
+      "tail": "传统相似性方法"
+    },
+    {
+      "head": "PHM",
+      "relation": "应用于",
+      "tail": "航空发动机"
+    },
+    {
+      "head": "数据驱动模型",
+      "relation": "用于",
+      "tail": "RUL预测"
+    },
+    {
+      "head": "统计模型",
+      "relation": "用于",
+      "tail": "RUL预测"
+    },
+    {
+      "head": "机器学习方法",
+      "relation": "用于",
+      "tail": "RUL预测"
+    },
+    {
+      "head": "相似性方法",
+      "relation": "用于",
+      "tail": "RUL预测"
+    }
+  ]
+}

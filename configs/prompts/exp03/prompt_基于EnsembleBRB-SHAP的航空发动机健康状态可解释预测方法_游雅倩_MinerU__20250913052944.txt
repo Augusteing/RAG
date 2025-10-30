@@ -134,70 +134,106 @@
 {
   "entities": [
     {
-      "name": "多源异构数据",
-      "type": "数据"
-    },
-    {
-      "name": "飞机",
+      "name": "健康管理系统",
       "type": "系统/部件"
     },
     {
-      "name": "发动机",
+      "name": "寿命管理",
+      "type": "功能"
+    },
+    {
+      "name": "云环境下的发动机健康管理系统",
       "type": "系统/部件"
     },
     {
-      "name": "数据融合",
-      "type": "概念"
+      "name": "航空公司",
+      "type": "应用场景"
     },
     {
-      "name": "双向循环神经网络",
-      "type": "网络"
+      "name": "飞机发动机",
+      "type": "系统/部件"
     },
     {
-      "name": "人工免疫系统",
-      "type": "技术领域"
+      "name": "发动机健康管理",
+      "type": "研究领域"
     },
     {
-      "name": "故障诊断",
-      "type": "应用领域"
+      "name": "发动机健康管理云端数据中心",
+      "type": "系统/部件"
     },
     {
-      "name": "遗传算法",
-      "type": "算法"
+      "name": "发动机故障诊断方法",
+      "type": "研究方法"
     },
     {
-      "name": "神经网络",
+      "name": "灰色故障识别方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "灰色关联分析",
+      "type": "理论基础"
+    },
+    {
+      "name": "气路性能故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "航空发动机故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "云端数据中心",
+      "type": "系统/部件"
+    },
+    {
+      "name": "发动机数学模型",
       "type": "模型"
     },
     {
-      "name": "故障预测",
-      "type": "研究问题"
-    },
-    {
-      "name": "粗糙神经网络",
-      "type": "模型"
+      "name": "健康标准",
+      "type": "特征/健康指标"
     }
   ],
   "relations": [
     {
-      "head": "飞机",
-      "relation": "产生",
-      "tail": "多源异构数据"
+      "head": "健康管理系统",
+      "relation": "实现",
+      "tail": "寿命管理"
     },
     {
-      "head": "数据融合",
-      "relation": "分为四个阶段",
-      "tail": "数据融合"
+      "head": "云环境下的发动机健康管理系统",
+      "relation": "服务于",
+      "tail": "航空公司"
     },
     {
-      "head": "人工免疫系统",
-      "relation": "应用到",
-      "tail": "故障诊断"
+      "head": "云环境下的发动机健康管理系统",
+      "relation": "包含",
+      "tail": "发动机健康管理云端数据中心"
     },
     {
-      "head": "遗传算法",
-      "relation": "结合",
-      "tail": "神经网络"
+      "head": "云环境下的发动机健康管理系统",
+      "relation": "验证",
+      "tail": "发动机故障诊断方法"
+    },
+    {
+      "head": "灰色故障识别方法",
+      "relation": "基于",
+      "tail": "灰色关联分析"
+    },
+    {
+      "head": "灰色故障识别方法",
+      "relation": "实现",
+      "tail": "气路性能故障诊断"
+    },
+    {
+      "head": "云环境下的发动机健康管理系统",
+      "relation": "执行",
+      "tail": "航空发动机故障诊断"
+    },
+    {
+      "head": "发动机数学模型",
+      "relation": "用于制定",
+      "tail": "健康标准"
     }
   ]
 }
@@ -228,38 +264,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 《计算机工程》网络首发论文
-
-题目：
-
-作者：
-
-DOI:
-
-网络首发日期：
-
-引用格式：
-
-基于EnsembleBRB- SHAP的航空发动机健康状态可解释预测方法
-
-游雅倩，闫辉，苏耀峰，王晓双，鄢睿丞
-
-10.19678/j.issn.1000- 3428.0070152
-
-2024- 12- 11
-
-游雅倩，闫辉，苏耀峰，王晓双，鄢睿丞．基于EnsembleBRB- SHAP的航空发动机健康状态可解释预测方法[J/OL]．计算机工程.
-
-https://doi.org/10.19678/j.issn.1000- 3428.0070152
-
-网络首发：在编辑部工作流程中，稿件从录用到出版要经历录用定稿、排版定稿、整期汇编定稿等阶段。录用定稿指内容已经确定，且通过同行评议、主编终审同意刊用的稿件。排版定稿指录用定稿按照期刊特定版式（包括网络呈现版式）排版后的稿件，可暂不确定出版年、卷、期和页码。整期汇编定稿指出版年、卷、期、页码均已确定的印刷或数字出版的整期汇编稿件。录用定稿网络首发稿件内容必须符合《出版管理条例》和《期刊出版管理规定》的有关规定；学术研究成果具有创新性、科学性和先进性，符合编辑部对刊文的录用要求，不存在学术不端行为及其他侵权行为；稿件内容应基本符合国家有关书刊编辑、出版的技术标准，正确使用和统一规范语言文字、符号、数字、外文字母、法定计量单位及地图标注等。为确保录用定稿网络首发的严肃性，录用定稿一经发布，不得修改论文题目、作者、机构名称和学术内容，只可基于编辑规范进行少量文字的修改。
-
-出版确认：纸质期刊编辑部通过与《中国学术期刊（光盘版）》电子杂志社有限公司签约，在《中国学术期刊（网络版）》出版传播平台上创办与纸质期刊内容一致的网络版，以单篇或整期出版形式，在印刷出版之前刊发论文的录用定稿、排版定稿、整期汇编定稿。因为《中国学术期刊（网络版）》是国家新闻出版广电总局批准的网络连续型出版物（ISSN2096- 4188，CN11- 6037/Z），所以签约期刊的网络版上网络首发论文视为正式出版。
-
-# 基于 EnsembleBRB-SHAP 的航空发动机健康状态可解释预测方法
-
-游雅倩，闫辉\*，苏耀峰，王晓双，鄢睿丞（国防科技大学，信息通信学院，武汉430030）
-
 摘要：航空发动机健康状态预测作为发动机健康管理的重要环节之一，能够为提升飞机可靠性、降低发动机维护成本等工作提供定量化依据。然而，传统的航空发动机健康状态预测对可解释性关注度较低，导致对发动机视情维修等决策的支撑性不足。为此，本文面向发动机健康状态预测的可解释需求，提出基于EnsembleBRB- SHAP模型的航空发动机健康状态可解释预测方法。首先，采用数据驱动法训练多个航空发动机健康状态预测子置信规则库（Belief Rule- Based，BRB）模型。在此基础上，构建航空发动机健康状态预测集成置信规则库（EnsembleBRB）模型，在有效利用多源不确定数据的同时，保证模型的预测准确性。然后，基于沙普利加性解释（SHapley Additive exPlanations，SHAP），对EnsembleBRB模型进行分析解释，定位影响发动机健康状态的关键因素，实现航空发动机健康状态的可解释性预测。最后，引入商用模块化航空推进系统仿真软件记录的发动机故障实验监测数据，验证所提方法的可行性与有效性。结果表明，该方法在航空发动机健康状态预测中的准确性为  $\mathrm{MSE} = 0.0122$  ，通过局部可解释性与全局可解释性分析，归纳得出低压涡轮机冷却液泄漏量、风扇转速等是决定发动机健康状态的关键参数，进而更好地支撑航空发动机健康管理等决策工作。
 
 关键词：集成学习算法；置信规则库（Belief Rule- Based, BRB）；沙普利加性解释（SHapley Additive exPlanations, SHAP）；可解释性；发动机健康状态预测
@@ -609,55 +613,3 @@ Table 2 Comparison of MSE among six methods
 开展了发动机健康状态预测的案例研究，结果表明，该方法既能通过数据驱动的EnsembleBRB预测建模实现多元发动机监测参数的有效利用，保证预测的客观性与准确性，又能通过基于SHAP框架的局部与全局可解释性分析，确定影响发动机健康状态的关键监测参数以及建模中存在的冗余参数、掌握监测参数与发动机健康状态的关联关系等，为该型号发动机健康管理工作提供决策支撑。
 
 良好的可解释性使EnsembleBRB- SHAP方法同样适用于装备健康管理领域的其他问题中，后续将在更多复杂非线性系统的分析与决策实践中进一步验证所提方法的有效性与可拓展性。
-
-# 参考文献
-
-[1] ZHANG Y, XIN Y, LIU Z, et al. Health status assessment and remaining useful life prediction of aero- engine based on BiGRU and MMoE[J]. Reliability Engineering & System Safety, 2022, 220: 108263. [2] CUBILLO A, PERINPANAYAGAM S, ESPERON- MIGUEZ M. A review of physics- based models in prognostics: Application to gears and bearings of rotating machinery[J]. Advances in Mechanical Engineering, 2016, 8(8).[3] VICHARE N M, PECHT M G. Prognostics and health management of electronics[J]. IEEE Transactions on components and packaging technologies, 2006, 29(1): 222- 229. [4] YOU Y, SUN J, CHEN Y, et al. Ensemble belief rule- based model for complex system classification and prediction[J]. Expert Systems with Applications, 2021, 164: 113952. [5] LUNDBERG S M, LEE S I. A unified approach to interpreting model predictions[J]. Advances in neural information processing systems, 2017, 30: 4765- 4774. [6] YANG J B, LIU J, WANG J, et al. Belief rule- base inference methodology using the evidential reasoning approach- RIMER[J]. IEEE
-
-Transactions on systems, Man, and Cybernetics- part A: Systems and Humans, 2006, 36(2):266- 285.
-
-[7] 韩文策，康潇，李红宇，等．基于人在回路策略的在线置信规则库疾病诊断方法[J].计算机工程，doi:10.19678/j.issn.1000- 3428.0068838.
-
-HAN W C, KANG X, LI H Y, et al. A novel online belief rule base method with human- in- the- loop strategy for disease diagnosis[J]. Computer Engineering, doi: 10.19678/j.issn.1000- 3428.0068838.
-
-[8] SHAPLEY L. A value for n- person games. Contributions to the theory of games II [M]. New York, USA: Cambridge university press, 1953.
-
-[9] MANGALATHU S, HWANG S H, JEON J S. Failure mode and effects analysis of RC members based on machine- learning- based SHapley Additive exPlanations (SHAP) approach[J]. Engineering Structures, 2020, 219: 110927.
-
-[10] 武宇翔，韩肖清，牛哲文，等．基于变权重随机森林的暂态稳定评估方法及其可解释性分析[J].电力系统自动化，2023，47(14)：93- 104.
-
-WU Y X, HAN X Q, NIU Z W, et al. Transient stability assessment method based on variable weight random forest and its interpretability analysis[J]. Automation of Electric Power Systems, 2023, 47(14): 93- 104. (in Chinese)
-
-[11] SAXENA A, GOEBEL K, SIMON D, et al. Damage propagation modeling for aircraft engine run- to- failure simulation[C]//2008 international conference on prognostics and health management. IEEE, 2008: 1- 9.
-
-[12] HANACHI H, LIU J, BANERJEE A, et al. A physics- based modeling approach for performance monitoring in gas turbine engines[J]. IEEE Transactions on Reliability, 2014, 64(1): 197- 205.
-
-[13] KIM S, IM J H, KIM M, et al. Diagnostics using a physics- based engine model in aero gas turbine engine verification tests[J]. Aerospace Science and Technology, 2023, 133: 108102.
-
-[14] 于拓舟，王宇，张建锐，等．基于AMESim发动机物理模型的预测性研究[C]//仿真与试验技术大会论文集，2016:1- 5.
-
-YU T Z, WANG Y, ZHANG J R, et al. Predictive
-
-research of engine physical model based on AMESim[C]//2016 Siemens PLM Software, 2016:1- 5. (in Chinese)
-
-[15] SUN X, TAN J, WEN Y, et al. Rolling bearing fault diagnosis method based on data- driven random fuzzy evidence acquisition and Dempster- Shafer evidence theory[J]. Advances in Mechanical Engineering, 2016, 8(1).
-
-[16] LI Z, GOEBEL K, WU D. Degradation modeling and remaining useful life prediction of aircraft engines using ensemble learning[J]. Journal of Engineering for Gas Turbines and Power, 2019, 141(4): 041008.
-
-[17] CHENG Y, ZENG J, WANG Z, et al. A health state- related ensemble deep learning method for aircraft engine remaining useful life prediction[J]. Applied Soft Computing, 2023, 135: 110041.
-
-[18] 崔建国, 高波, 蒋丽英, 等. LSSVM 与 HMM 在航空发动机状态预测中的应用研究[J]. 计算机工程, 2017, 43(10): 310- 315.
-
-CUI J G, GAO B, JIANG Y L, et al. Application Research of LSSVM and HMM in Aeroengine Condition Prediction[J]. Computer Engineering, 2017, 43(10): 310- 315.
-
-[19] SKORDILIS, E., MOGHADDASS, R. A deep reinforcement learning approach for real- time sensor- driven decision making and predictive analytics[J]. Computers & Industrial Engineering, 2020, 147: 106600.
-
-[20] VISHNU, T. V., NARENDHAR GUGULOTHU, PANKAJ MALHOTRA, et al. Bayesian networks for interpretable health monitoring of complex systems[C]//Workshop on AI for Internet of Things at IJCAI. 2017.
-
-[21] GAO JIAHAO, YOUREN WANG, and ZEJIN SUN. An interpretable RUL prediction method of aircraft engines under complex operating conditions using spatio- temporal features[J]. Measurement Science and Technology, 2024, 35(7): 076003.
-
-[22] ZHOU ZHIJIJI, YOU CAO, GUANYU HU, et al. New health- state assessment model based on belief rule base with interpretability[J]. Science China Information Sciences, 2021, 64(7): 172214.
-
-[23] SACHAN S, YANG J- B, XU D- L. Global and
-
-Local Interpretability of Belief Rule Base[C]// Developments of Artificial Intelligence Technologies in Computation and Robotics: Proceedings of the  $14^{\text{th}}$  International FLINS Conference (FLINS 2020). 2020:68- 75. [24] CAO Y, ZHOU Z, HU C, et al. On the Interpretability of Belief Rule- Based Expert Systems[J]. IEEE Transactions on Fuzzy Systems. 2020, 29 (11): 3489- 3503. [25] RIBEIRO M T, SINGH S, GUESTRIN C. Why should I trust you? Explaining the predictions of any classifier[C]//Proceedings of the  $22^{\text{nd}}$  ACM SIGKDD international conference on knowledge discovery and data mining. 2016: 1135- 1144. [26] SHRIKUMAR A, GREENSIDE P, KUNDAJE A. Learning important features through propagating activation differences[C]//International conference on machine learning. PMIR, 2017: 3145- 3153. [27] BACH S, BINDER A, MONTAVON G, et al. On pixel- wise explanations for non- linear classifier decisions by layer- wise relevance propagation[J]. PloS one, 2015, 10(7): e0130140. [28] LIPOVETSKY S, CONKLIN M. Analysis of regression in game theory approach[J]. Applied stochastic models in business and industry, 2001, 17(4): 319- 330. [29] STRUMBELJ E, KONONENKO I. Explaining prediction models and individual predictions with feature contributions[J]. Knowledge and information systems, 2014, 41: 647- 665. [30] DATTA A, SEN S, ZICK Y. Algorithmic transparency via quantitative input influence: Theory and experiments with learning systems[C]// IEEE symposium on security and privacy (SP). IEEE, 2016: 598- 617. [31] MANGALATHU S, HWANG S H, JEON J S. Failure mode and effects analysis of RC members based on machine- learning- based SHapley Additive exPlanations (SHAP) approach[J]. Engineering Structures, 2020, 219: 110927.

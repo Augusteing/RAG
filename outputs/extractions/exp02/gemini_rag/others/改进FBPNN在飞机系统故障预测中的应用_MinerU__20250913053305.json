@@ -5,11 +5,11 @@
       "type": "研究领域"
     },
     {
-      "name": "改进的FBPNN模型",
+      "name": "改进的模糊BP神经网络",
       "type": "模型"
     },
     {
-      "name": "传统FBPNN",
+      "name": "模糊BP神经网络",
       "type": "模型"
     },
     {
@@ -21,12 +21,16 @@
       "type": "特征/健康指标"
     },
     {
-      "name": "主观性",
-      "type": "性能指标"
+      "name": "隶属度函数",
+      "type": "特征/健康指标"
     },
     {
-      "name": "专家经验",
-      "type": "理论基础"
+      "name": "隶属度矩阵",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "主观性",
+      "type": "问题/局限性"
     },
     {
       "name": "飞机襟缝翼系统",
@@ -41,28 +45,24 @@
       "type": "性能指标"
     },
     {
-      "name": "预测精度",
-      "type": "性能指标"
+      "name": "BP神经网络",
+      "type": "理论基础"
     },
     {
       "name": "模糊理论",
       "type": "理论基础"
     },
     {
-      "name": "BP神经网络",
-      "type": "模型"
-    },
-    {
-      "name": "仿真研究",
+      "name": "专家经验",
       "type": "研究方法"
     },
     {
-      "name": "角度差",
+      "name": "角度差值",
       "type": "传感器/监测参数"
     },
     {
-      "name": "襟翼系统磨损和润滑情况",
-      "type": "故障模式"
+      "name": "相邻角度差之间的差值",
+      "type": "传感器/监测参数"
     },
     {
       "name": "B737-800飞机飞行数据",
@@ -77,25 +77,38 @@
       "type": "性能指标"
     },
     {
-      "name": "隶属度矩阵",
-      "type": "特征/健康指标"
+      "name": "预测精度",
+      "type": "性能指标"
+    },
+    {
+      "name": "复杂系统故障预测",
+      "type": "应用场景"
+    },
+    {
+      "name": "襟翼不对称故障",
+      "type": "故障模式"
     }
   ],
   "relations": [
     {
-      "head": "改进的FBPNN模型",
+      "head": "改进的模糊BP神经网络",
       "relation": "提出用于",
       "tail": "飞机故障预测"
     },
     {
-      "head": "改进的FBPNN模型",
+      "head": "改进的模糊BP神经网络",
       "relation": "改进了",
-      "tail": "传统FBPNN"
+      "tail": "模糊BP神经网络"
     },
     {
-      "head": "改进的FBPNN模型",
-      "relation": "采用",
+      "head": "改进的模糊BP神经网络",
+      "relation": "利用",
       "tail": "方差-协方差法"
+    },
+    {
+      "head": "方差-协方差法",
+      "relation": "用于优化",
+      "tail": "隶属度矩阵"
     },
     {
       "head": "方差-协方差法",
@@ -103,74 +116,84 @@
       "tail": "隶属度值"
     },
     {
-      "head": "方差-协方差法",
-      "relation": "优化了",
-      "tail": "隶属度矩阵"
-    },
-    {
-      "head": "改进的FBPNN模型",
+      "head": "改进的模糊BP神经网络",
       "relation": "减小了",
       "tail": "主观性"
     },
     {
-      "head": "传统FBPNN",
+      "head": "模糊BP神经网络",
       "relation": "依赖",
       "tail": "专家经验"
     },
     {
-      "head": "改进的FBPNN模型",
-      "relation": "优于",
-      "tail": "传统FBPNN"
-    },
-    {
-      "head": "改进的FBPNN模型",
-      "relation": "具有更好的",
-      "tail": "预测效果"
-    },
-    {
-      "head": "改进的FBPNN模型",
-      "relation": "提高了",
-      "tail": "预测精度"
-    },
-    {
-      "head": "改进的FBPNN模型",
-      "relation": "在...上验证",
-      "tail": "飞机襟缝翼系统"
-    },
-    {
-      "head": "MATLAB",
-      "relation": "用于",
-      "tail": "仿真研究"
-    },
-    {
-      "head": "传统FBPNN",
-      "relation": "融合了",
-      "tail": "模糊理论"
-    },
-    {
-      "head": "传统FBPNN",
+      "head": "模糊BP神经网络",
       "relation": "融合了",
       "tail": "BP神经网络"
     },
     {
-      "head": "角度差",
-      "relation": "反映",
-      "tail": "襟翼系统磨损和润滑情况"
+      "head": "模糊BP神经网络",
+      "relation": "融合了",
+      "tail": "模糊理论"
     },
     {
-      "head": "改进的FBPNN模型",
-      "relation": "使用",
-      "tail": "B737-800飞机飞行数据"
+      "head": "改进的模糊BP神经网络",
+      "relation": "验证于",
+      "tail": "飞机襟缝翼系统"
     },
     {
-      "head": "改进的FBPNN模型",
-      "relation": "评价指标是",
-      "tail": "平均相对误差"
+      "head": "改进的模糊BP神经网络",
+      "relation": "通过...仿真",
+      "tail": "MATLAB"
     },
     {
-      "head": "改进的FBPNN模型",
-      "relation": "评价指标是",
-      "tail": "标准差"
+      "head": "改进的模糊BP神经网络",
+      "relation": "优于",
+      "tail": "模糊BP神经网络"
+    },
+    {
+      "head": "改进的模糊BP神经网络",
+      "relation": "具有",
+      "tail": "更好的预测效果"
+    },
+    {
+      "head": "改进的模糊BP神经网络",
+      "relation": "提高了",
+      "tail": "预测精度"
+    },
+    {
+      "head": "平均相对误差",
+      "relation": "是...的性能指标",
+      "tail": "改进的模糊BP神经网络"
+    },
+    {
+      "head": "标准差",
+      "relation": "是...的性能指标",
+      "tail": "改进的模糊BP神经网络"
+    },
+    {
+      "head": "改进的模糊BP神经网络",
+      "relation": "输入为",
+      "tail": "角度差值"
+    },
+    {
+      "head": "改进的模糊BP神经网络",
+      "relation": "输入为",
+      "tail": "相邻角度差之间的差值"
+    },
+    {
+      "head": "B737-800飞机飞行数据",
+      "relation": "用于训练和测试",
+      "tail": "改进的模糊BP神经网络"
+    },
+    {
+      "head": "改进的模糊BP神经网络",
+      "relation": "可应用于",
+      "tail": "复杂系统故障预测"
+    },
+    {
+      "head": "角度差值",
+      "relation": "用于推测",
+      "tail": "襟翼不对称故障"
     }
   ]
 }

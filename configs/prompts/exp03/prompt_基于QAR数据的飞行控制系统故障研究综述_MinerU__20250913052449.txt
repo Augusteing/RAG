@@ -134,75 +134,98 @@
 {
   "entities": [
     {
-      "name": "核动力系统故障诊断方法",
-      "type": "方法"
+      "name": "故障诊断",
+      "type": "研究领域"
     },
     {
-      "name": "核领域的实际应用",
-      "type": "应用领域"
+      "name": "故障部件定位",
+      "type": "研究领域"
     },
     {
-      "name": "两步走策略",
-      "type": "策略"
+      "name": "贝叶斯网络",
+      "type": "模型"
     },
     {
-      "name": "设备及故障诊断确定故障源设备",
-      "type": "步骤"
+      "name": "故障逻辑图",
+      "type": "模型"
     },
     {
-      "name": "具体设备的故障源诊断",
-      "type": "步骤"
-    },
-    {
-      "name": "基于多模型融合的航空电子产品故障预测方法",
+      "name": "正向推理",
       "type": "研究方法"
     },
     {
-      "name": "航空电子产品故障预测",
-      "type": "问题"
-    },
-    {
-      "name": "SDQ算法",
-      "type": "算法"
-    },
-    {
-      "name": "遗传算法",
-      "type": "算法"
-    },
-    {
-      "name": "AANN神经网络",
-      "type": "网络"
+      "name": "反向推理",
+      "type": "研究方法"
     },
     {
       "name": "故障诊断",
-      "type": "任务"
+      "type": "研究方法"
+    },
+    {
+      "name": "机载设备综合诊断方案",
+      "type": "研究方法"
+    },
+    {
+      "name": "多信号模型",
+      "type": "模型"
+    },
+    {
+      "name": "飞机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "机器学习",
+      "type": "理论基础"
+    },
+    {
+      "name": "基于机器学习和数据驱动的方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "基于模型和仿真的方法",
+      "type": "研究方法"
     }
   ],
   "relations": [
     {
-      "head": "核动力系统故障诊断方法",
-      "relation": "推广到",
-      "tail": "核领域的实际应用"
+      "head": "故障逻辑图",
+      "relation": "用于构建",
+      "tail": "贝叶斯网络"
     },
     {
-      "head": "两步走策略",
-      "relation": "包括",
-      "tail": "设备及故障诊断确定故障源设备"
+      "head": "贝叶斯网络",
+      "relation": "应用",
+      "tail": "正向推理"
     },
     {
-      "head": "两步走策略",
-      "relation": "包括",
-      "tail": "具体设备的故障源诊断"
+      "head": "贝叶斯网络",
+      "relation": "应用",
+      "tail": "反向推理"
     },
     {
-      "head": "基于多模型融合的航空电子产品故障预测方法",
-      "relation": "提出用于解决",
-      "tail": "航空电子产品故障预测"
+      "head": "正向推理",
+      "relation": "实现",
+      "tail": "故障诊断"
     },
     {
-      "head": "遗传算法",
-      "relation": "优化了",
-      "tail": "AANN神经网络"
+      "head": "反向推理",
+      "relation": "实现",
+      "tail": "故障部件定位"
+    },
+    {
+      "head": "机载设备综合诊断方案",
+      "relation": "基于",
+      "tail": "多信号模型"
+    },
+    {
+      "head": "故障诊断",
+      "relation": "方法分为",
+      "tail": "基于机器学习和数据驱动的方法"
+    },
+    {
+      "head": "故障诊断",
+      "relation": "方法分为",
+      "tail": "基于模型和仿真的方法"
     }
   ]
 }
@@ -233,29 +256,13 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-中文引用格式：王岩韬，高艺，时统宇.基于QAR数据的飞行控制系统故障研究综述[J].中国安全科学学报，2024，34（4）：1- 9. 英文引用格式：WANG Yantao，GAO Yi，SHI Tongyu. A review of flight control system fault research based on QAR data[J]. China Safety Science Journal，2024，34（4）：1- 9.
-
-# 基于QAR数据的飞行控制系统故障研究综述
-
-王岩韬教授，高艺，时统宇讲师（中国民航大学国家空管运行安全技术重点实验室，天津300300）
-
-中图分类号：X949 文献标志码：A DOI:10.16265/j.cnki.issn1003- 3033.2024.04.1254
-
-资助项目：国家重点研发项目（2022YFC3002502）。
-
-【摘要】为系统梳理国内外对民用飞机飞行控制系统故障分析的研究历程和现状，针对基于快速存取记录器（QAR）数据分析的飞行控制系统典型故障类型，首先，总结QAR数据预处理、特征提取等使用过程；然后，根据故障分析可达到的性能指标，提出4个故障研究阶段，分别为故障监测、故障识别、故障诊断和故障预测；最后，综合国内外研究进度与深度，得出飞行控制系统典型故障类型，包括方向舵液压泄漏、升降舵指示不一致、襟翼动作耗时等，建模常用QAR数据项包括飞机主舵面位置、飞行姿态、飞机性能、左右襟翼角度、襟翼位置等，计算方法包括物理模型、多变量统计、逻辑推理、机器学习等。结果表明：系统分析方向舵、升降舵、襟翼等子系统最新研究进展，发现在故障类型、参数选择和计算方法的改进等方面取得了一定的成果，故障研究阶段基本处于故障诊断或非实时预测水平，但仍需加强面向安全保障与实际维修方面的需求，以实现故障实时预测技术。
+摘要】为系统梳理国内外对民用飞机飞行控制系统故障分析的研究历程和现状，针对基于快速存取记录器（QAR）数据分析的飞行控制系统典型故障类型，首先，总结QAR数据预处理、特征提取等使用过程；然后，根据故障分析可达到的性能指标，提出4个故障研究阶段，分别为故障监测、故障识别、故障诊断和故障预测；最后，综合国内外研究进度与深度，得出飞行控制系统典型故障类型，包括方向舵液压泄漏、升降舵指示不一致、襟翼动作耗时等，建模常用QAR数据项包括飞机主舵面位置、飞行姿态、飞机性能、左右襟翼角度、襟翼位置等，计算方法包括物理模型、多变量统计、逻辑推理、机器学习等。结果表明：系统分析方向舵、升降舵、襟翼等子系统最新研究进展，发现在故障类型、参数选择和计算方法的改进等方面取得了一定的成果，故障研究阶段基本处于故障诊断或非实时预测水平，但仍需加强面向安全保障与实际维修方面的需求，以实现故障实时预测技术。
 
 【关键词】快速存取记录器（QAR）；飞行控制系统；故障监测；故障识别；故障诊断；故障预测
 
 A review of flight control system fault research based on QAR data
 
 WANG Yantao，GAO Yi，SHI Tongyu (National Key Laboratory of ATM Operation Safety Management，Civil Aviation University of China，Tianjin 300300，China)
-
-Abstract: To systematically review the research progress and current status of fault analysis in civil aircraft flight control systems, both domestically and internationally, this review study was carried out. The study focused on identifying typical fault types of flight control systems through analysing QAR data. Firstly, the process of QAR data preprocessing and feature extraction was summarized. Secondly, based on the performance metrics achievable by fault analysis, four stages of fault research were proposed, including fault monitoring, fault identification, fault diagnosis, and fault prediction. Finally, by combining the progress and depth of domestic and international research, typical fault types of flight control systems were identified, including rudder hydraulic leakage, inconsistent elevator indications, and flap actuation delays. Commonly used QAR data items for modeling include aircraft primary control surface positions, flight attitudes, aircraft performance, left and right flap angles, and flap positions. Calculation methods
-
-encompass physical models, multivariate statistics, logical reasoning, and machine learning. The results show that through a systematic analysis of the latest research progress in subsystems such as rudder, elevator, and flaps, it is found that certain achievements have been made in fault types, parameter selection, and the improvement of calculation methods. However, the fault research stage is primarily focused on fault diagnosis or non- real- time prediction. Further emphasis is required on addressing safety assurance and practical maintenance needs to achieve real- time fault prediction technology.
-
-Keywords: quick access recorder (QAR); flight control system; fault monitoring; fault identification; fault diagnosis; fault prediction.
 
 # 0 引言
 
@@ -429,113 +436,3 @@ UTC时间点、飞机位置参数、姿态参数、左右襟翼位置、左右�
 4）现有研究成果集中于A320和B737等主力机型。由于国产民机总飞行时间较短、故障样本量少，不足以构建精度较高的故障识别、诊断和预测模型。
 
 5）现有故障研究水平仅能事后识别和判断故障发生与否、故障所在位置、故障严重程度，由此被动制定排放计划和方案。面向一线维修和安全保障，提前预测故障更加符合实际技术需求。5GATG（Air to Groud）技术被应用于QAR数据的实时传输，使得实时故障预测技术已具备了重要的数据基础。可以预见的是，建立并迭代C919、ARJ21等国产飞机的故障分析模型、构建并验证实时故障预测模型将成为一段时间内的研究热点。
-
-# 参考文献
-
-[1] 中国民用航空局航空器使用困难报告[EB/OL].（2020- 08- 06）.https://www.cauc.gov.cn/XXGK/XXGK/GFXWJ/202009/t20200918_204565. html.  [2] ZHANG Heng. A review of the research of quick access recorder data. Academic Journal of Science and Technology, 2023, 5(1): 95- 101.  [3] HoHNDORF L, SIEGEL J, SEMBIRING J, et al. Reconstruction of aircraft states during landing based on quick access recorder data. Journal of Guidance, Control, and Dynamics, 2017, 40(9): 2393- 2398.  [4] 巴塔西，李蕊，熊毅，等.基于QAR数据的民用飞机故障预测及验证.计算机测量与控制，2019, 27(10): 31- 35.  BA Taxi, LI Rui, XIONG Yi, et al. Civil aircraft fault prediction and verification based on OAR data. Computer Measurement & Control, 2019, 27(10): 31- 35.  [5] PAN Weihua, FENG Yunwen, CHENG Lu, et al. Analyzing the operation reliability of aeroengine using quick access recorder flight data. Reliability Engineering & System Safety, 2023, 235: 109- 193.  [6] 李波.基于大数据的民用飞机故障诊断与安全预测技术研究.上海：上海交通大学，2018.  LI Bo. Research of fault diagnosis and safety forecast of civil aircraft based on big data. Shanghai: Shanghai Jiaotong University, 2018.  [7] 王剑辉，邓伟，夏正洪，等.运输航空飞行安全风险评价方法.中国安全科学学报，2019, 29(12): 110- 116.  WANG Jianhui, DENG Wei, MA Zhenghong, et al. Flight risk assessment method of transport aviation. China Safety Science Journal, 2019, 29(12): 110- 116.  [8] LIU Yanfang, LYU Jianghua, MA Shilong. A real time anomaly detection method based on variable N- Gram for flight data. [C]. 2018 IEEE 20th International Conference on High Performance Computing and Communications, 2018: 370- 376.  [9] 杨余，杨鑫，王英，等.基于mini- 1D- CNN模型的TE过程故障诊断.中国安全科学学报，2023, 33(2): 173- 178.  YANG Yu, YANG Xin, WANG Ying, et al. Research on TE process fault diagnosis based on mini- 1D- CNN model. China Safety Science Journal, 2023, 33(2): 173- 178.  [10] 陈泽灏，陈晖，高玉闪，等.基于模型的液体火箭发动机故障诊断技术研究回顾与展望.航空学报，2023, 44(23): 84- 104.  CHEN Zehao, CHEN Hui, GAO Yushan, et al. Review and prospect of model- based fault diagnosis technology for liquid rocket engines. Acta Aeronautica et Astronautica Sinica, 2023, 44(23): 84- 104.  [11] 刘强，卓洁，郎自强，等.数据驱动的工业过程运行监控与自优化研究展望.自动化学报，2018, 44(11): 1944- 1956.  LIU Qiang, ZHUO Jie, LIANG Ziqiang, et al. Perspectives on data- driven operation monitoring and self- optimization of industrial processes. Acta Automatica Sinica, 2018, 44(11): 1944- 1956.  [12] 吴晓东，熊伟丽.基于多块信息提取和马氏距离的K近邻故障监测.信息与控制，2021, 50(3): 287- 296.
-
-WU Xiaodong, XIONG Weili. kNN fault detection based on multi- block information extraction and mahalanobis distance [J]. Information and Control, 2021, 50(3): 287- 296.
-
-[13] KONG Xiangyu, LUO Jiayu, XU Zhongying, et al. Quality- relevant data- driven process monitoring based on orthogonal signal correction and recursive modified PLS [J]. IEEE Access, 2019, 7: 117 934- 11 7943.
-
-[14] 孙康, 金江涛, 李春, 等. 基于优化变分模态分解与混沌分形融合的滚动轴承故障识别 [J]. 动力工程学报, 2022, 42(10): 951- 959.
-
-SUN Kang, JIN Jiangtao, LI Chun, et al. Fault identification of rolling bearings based on optimized variational mode decomposition and chaotic fractal [J]. Journal of Chinese Society of Power Engineering, 2022, 42(10): 951- 959.
-
-[15] 顾伟, 李丽莉, 黄志毅, 等. 飞机操纵面故障的模糊差分进化识别方法 [J]. 计算机应用研究, 2010, 27(5): 1782- 1784.
-
-GU Wei, LI Lili, HUANG Zhiyi, et al. Fuzzy differential evolution identification method of flight control surface faults [J]. Application Research of Computers, 2010, 27(5): 1782- 1784.
-
-[16] 安刚, 刘人境, 殷广强. 一种新风险识别方法在民用飞机高升力系统研制中的应用 [J]. 航空工程进展, 2023, 14(1): 57- 64.
-
-AN Gang, LIU Renjing, YIN Guangqiang. Application of a new risk identification method in the development of civil aircraft high lift systems [J]. Advances in Aeronautical Science and Engineering, 2023, 14(1): 57- 64.
-
-[17] 扶碧波, 方宗德, 沈云波. 综合应用小波包支持向量机直升机齿轮故障识别及实验研究 [J]. 机械科学与技术, 2011, 30(11): 1822- 1826.
-
-FU Bibao, FANG Zongde, SHEN Yunbo. Gear fault recognition and experimental study of helicopter transmission based on wavelet transform and support vector machines [J]. Mechanical Science and Technology for Aerospace Engineering, 2011, 30(11): 1822- 1826.
-
-[18] QIAN Zhen, LIANG Yan, MA Cunbao, et al. Fault identification and diagnosis of fly- by- wire control system based on intelligent learning [C]. 2022 4th International Conference on Intelligent Control, Measurement and Signal Processing (ICMSP), 2022: 915- 922.
-
-[19] 聂同攀, 曾继炎, 程玉杰, 等. 面向飞机电源系统故障诊断的知识图谱构建技术及应用 [J]. 航空学报, 2022, 43(8): 46- 62.
-
-NIE Tongpan, ZENG Jiyan, CHENG Yujie, et al. Knowledge graph construction technology and its application in aircraft power system fault diagnosis [J]. Acta Aeronautica et Astronautica Sinica, 2022, 43(8): 46- 62.
-
-[20] WANG Hong, CHAI Tianyou, DING Jinliang, et al. Data driven fault diagnosis and fault tolerant control: some advances and possible new directions [J]. Acta Automatica Sinica, 2009, 35(6): 739- 747.
-
-[21] 王秋彦, 鞠建波, 宋振宇. 故障诊断技术研究现状及发展趋势 [J]. 电子测量技术, 2009, 32(4): 5- 8.
-
-WANG Qiuyan, JU Jianbo, SONG Zhenyu. Present situation and future development of fault diagnosis techniques [J]. Electronic Measurement Technology, 2009, 32(4): 5- 8.
-
-[22] 郝俊杰, 高虹霓, 王崴, 等. 基于大数据分析的液压系统故障诊断综述 [J]. 机床与液压, 2022, 50(10): 166- 173.
-
-HAO Junjie, GAO Hongni, WANG Wei, et al. Overview of hydraulic system fault diagnosis based on big data analysis [J]. Machine Tool & Hydraulics, 2022, 50(10): 166- 173.
-
-[23] 黄迅迪, 庞雄文. 基于深度学习的智能设备故障诊断研究综述 [J]. 计算机科学, 2023, 50(5): 93- 102.
-
-HUANG Xundi, PANG Xionggen. Review of intelligent device fault diagnosis based on deep learning [J]. Computer Science, 2023, 50(5): 93- 102.
-
-[24] LI Lishuai, DAS S, JOHN HANSMAN R, et al. Analysis of flight data using clustering techniques for detecting abnormal operations [J]. Journal of Aerospace Information Systems, 2015, 12(9): 587- 598.
-
-[25] 翟玉婷, 程占昕, 房少军. 智能化雷达故障预测及检测技术综述 [J]. 计算机科学, 2023, 50(5): 217- 229.
-
-ZHAI Yuting, CHENG Zhanxin, FANG Shaojun. Overview of intelligent radar fault prediction and detection technology [J]. Computer Science, 2023, 50(5): 217- 229.
-
-[26] 李磊, 李晓猛, 付一博, 等. 数据驱动的故障预测方法研究 [J]. 测控技术, 2022, 41(5): 66- 74.
-
-LI Lei, LI Xiaomeng, FU Yibo, et al. Research progress of data- driven fault prediction methods [J]. Measurement & Control Technology, 2022, 41(5): 66- 74.
-
-[27] YAGHOUBI V, CHENG Liangliang, VAN PAEPEGEM W, et al. CNN- DST: ensemble deep learning based on Dempster- Shafer theory for vibration- based fault recognition [J]. Structural Health Monitoring, 2022, 21(5): 2063- 2082.
-
-[28] 高金源, 冯华南. 民用飞机飞行控制系统 [M]. 北京: 北京航空航天大学出版社, 2018: 10- 50.
-
-[29] 顾杨波, 耿嘉逊. 使用创新手段排除 A320 飞机抖动故障的方法 [J]. 航空维修与工程, 2018(3): 69- 71.
-
-GU Yangbo, GENG Jiaxun. Innovation method to solve the vibration of A320 aircraft [J]. Aviation Maintenance & Engineering, 2018(3): 69- 71.
-
-[30] 黄建练, 凌云志. 波音 73707 飞机升降舵指示不一致案例分析 [J]. 航空维修与工程, 2023(1): 84- 86.
-
-HUANG Jianlian, LING Yunzhi. A case analysis on the inconsistency elevators indication for B737NG aircraft [J]. Aviation Maintenance & Engineering, 2023(1): 84- 86.
-
-[31] 张鹏, 张迪, 段照斌, 等. IDE- ELM 在民机方向舵系统故障诊断中的应用 [J]. 电光与控制, 2020, 27(5): 97- 115.
-
-ZHANG Peng, ZHANG Di, DUAN Zhaobin, et al. Application of IDE- ELM in fault diagnosis of civil aircraft steering system [J]. Electronics Optics & Control, 2020, 27(5): 97- 115.
-
-[32] 段照斌, 刘颖欣. CNN- SVM 在民机升降舵故障诊断中的应用 [J]. 电光与控制, 2021, 28(12): 97- 115.
-
-DUAN Zhaobin, LIU Yingxin. Application of CNN- SVM to fault diagnosis of civil aircraft's elevator [J]. Electronics Optics & Control, 2021, 28(12): 97- 115.
-
-[33] 王旭辉. 飞机飞行安全实时监控关键技术研究 [D]. 南京: 南京航空航天大学, 2008.
-
-WANG Xuhui. Aircraft flight safety real- time monitoring key technology research [D]. Nanjing: Nanjing University of Aeronautics and Astronautics, 2008.
-
-[34] 刘博. 民航客机飞控系统健康管理关键技术研究 [D]. 天津: 中国民航大学, 2017.
-
-LIU Bo. Research on the key technology of civil aircraft flight control system health management [D]. Tianjin: Civil Aviation University of China, 2017.
-
-[35] 程科. 飞机操纵系统状态监测与故障预测方法研究 [D]. 南京: 南京航空航天大学, 2014.
-
-CHENG Ke. Aircraft control system condition monitoring and fault forecast method research [D]. Nanjing: Nanjing University of Aeronautics and Astronautics, 2014.
-
-[36] 姜朱楠. 飞机操纵系统健康评估与故障诊断研究 [D]. 南京: 南京航空航天大学, 2018.
-
-JIANG Zhu nan. The research of health assessment and fault diagnosis method of civil aircraft flight control system [D]. Nanjing: Nanjing University of Aeronautics and Astronautics, 2018.
-
-[37] 朱晓炜, 赵红华, 苟俊哲, 等. 波音 737NG 机队后缘襟翼不对称监控项目的开发 [J]. 航空维修与工程, 2019(1): 52- 54.
-
-ZHU Xiaowei, ZHAO Honghua, GOU Junzhe, et al. Research on performance predictive monitoring of B737NG aircraft trailing edge flap disagree [D]. Aviation Maintenance & Engineering, 2019(1): 52- 54.
-
-[38] 刘磊, 腾达, 冯蕴雯. 基于协同智能移动 Xriging 的襟翼偏角可靠性分析 [D]. 西北工业大学学报, 2023, 41(2): 253- 263.
-
-LIU Lei, TENG Da, FENG Yunwen. Reliability analysis of flap deflection angle based on collaborative intelligent moving Kriging model [D]. Journal of Northwestern Polytechnical University, 2023, 41(2): 253- 263.
-
-[39] 程漩. 基于 QAR 数据的综合模块化航电系统可靠性预测模型研究 [D]. 南京: 南京航空航天大学, 2020.
-
-CHENG Xuan. Research on reliability prediction model of integrated modular avionics system based on QAR data [D]. Nanjing: Nanjing University of Aeronautics and Astronautics, 2020.
-
-[40] 姜朱楠, 左洪福, 李利荣, 等. 后缘襟翼位置传感器故障预测方法研究 [D]. 航空计算技术, 2018, 48(2): 75- 78. JIANG Zhunan, ZUO Hongfu, LI Lirong, et al. Research on fault prediction method of trailing edge flap position sensor failure [D]. Aeronautical Computing Technique, 2018, 48(2): 75- 78.
-
-[41] 马超, 张雄飞, 徐建新. 基于蒙特卡洛方法的飞机襟翼不对称风险预测 [D]. 交通信息与安全, 2020, 38(3): 24- 31.
-
-MA Chao, ZHANG Xiongfei, XU Jianxin. A risk prediction of aircraft flap asymmetric based on Monte Carlo method [D]. Journal of Transport Information and Safety, 2020, 38(3): 24- 31.
-
-作者简介: 王若韬 (1982—), 男, 吉林磐石人, 硕士, 教授, 主要从事飞行运行安全与管理等方面研究。E- mail: CAUCwyt@126. com.

@@ -1,36 +1,32 @@
 {
   "entities": [
     {
-      "name": "航空发动机油液磨粒与故障关系预测",
-      "type": "研究方法"
-    },
-    {
-      "name": "支持向量机(SVM)",
+      "name": "支持向量机 (SVM)",
       "type": "模型"
     },
     {
-      "name": "相关向量机(RVM)",
+      "name": "发动机油液磨粒与故障关系预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "相关向量机 (RVM)",
       "type": "模型"
     },
     {
-      "name": "稀疏性",
-      "type": "性能指标"
+      "name": "最小二乘支持向量机 (LSSVM)",
+      "type": "模型"
     },
     {
-      "name": "计算量",
-      "type": "性能指标"
+      "name": "反向传播神经网络 (BP-NN)",
+      "type": "模型"
     },
     {
-      "name": "核函数必须满足Mercer条件",
-      "type": "理论基础"
+      "name": "人工神经网络 (ANN)",
+      "type": "模型"
     },
     {
-      "name": "航空发动机",
-      "type": "系统/部件"
-    },
-    {
-      "name": "滑油光谱分析",
-      "type": "研究方法"
+      "name": "滑油光谱分析数据",
+      "type": "数据集"
     },
     {
       "name": "金属磨粒浓度",
@@ -41,40 +37,24 @@
       "type": "特征/健康指标"
     },
     {
-      "name": "最小二乘支持向量机(LSSVM)",
-      "type": "模型"
+      "name": "贝叶斯学习理论",
+      "type": "理论基础"
     },
     {
-      "name": "反向传播神经网络(BP-NN)",
-      "type": "模型"
+      "name": "Mercer条件",
+      "type": "理论基础"
     },
     {
-      "name": "精度",
-      "type": "性能指标"
+      "name": "航空发动机",
+      "type": "系统/部件"
     },
     {
-      "name": "预测时间",
-      "type": "性能指标"
-    },
-    {
-      "name": "发动机油液磨粒分析",
+      "name": "油液磨粒分析",
       "type": "研究方法"
     },
     {
       "name": "故障预测",
       "type": "研究方法"
-    },
-    {
-      "name": "贝叶斯学习理论",
-      "type": "理论基础"
-    },
-    {
-      "name": "人工神经网络(ANN)",
-      "type": "模型"
-    },
-    {
-      "name": "油液磨粒浓度数据",
-      "type": "数据集"
     },
     {
       "name": "Gauss核函数",
@@ -85,7 +65,15 @@
       "type": "性能指标"
     },
     {
-      "name": "检测时间",
+      "name": "计算量",
+      "type": "性能指标"
+    },
+    {
+      "name": "预测时间",
+      "type": "性能指标"
+    },
+    {
+      "name": "精度",
       "type": "性能指标"
     },
     {
@@ -95,109 +83,109 @@
   ],
   "relations": [
     {
-      "head": "相关向量机(RVM)",
-      "relation": "提出用于",
-      "tail": "航空发动机油液磨粒与故障关系预测"
+      "head": "支持向量机 (SVM)",
+      "relation": "应用于",
+      "tail": "发动机油液磨粒与故障关系预测"
     },
     {
-      "head": "支持向量机(SVM)",
-      "relation": "存在问题",
-      "tail": "稀疏性"
+      "head": "支持向量机 (SVM)",
+      "relation": "受限于",
+      "tail": "Mercer条件"
     },
     {
-      "head": "支持向量机(SVM)",
-      "relation": "存在问题",
-      "tail": "计算量"
+      "head": "相关向量机 (RVM)",
+      "relation": "建立在",
+      "tail": "支持向量机 (SVM)"
     },
     {
-      "head": "支持向量机(SVM)",
-      "relation": "存在约束",
-      "tail": "核函数必须满足Mercer条件"
-    },
-    {
-      "head": "相关向量机(RVM)",
-      "relation": "解决了",
-      "tail": "支持向量机(SVM)"
-    },
-    {
-      "head": "相关向量机(RVM)",
+      "head": "相关向量机 (RVM)",
       "relation": "基于",
       "tail": "贝叶斯学习理论"
     },
     {
-      "head": "航空发动机油液磨粒与故障关系预测",
-      "relation": "使用数据",
-      "tail": "油液磨粒浓度数据"
+      "head": "相关向量机 (RVM)",
+      "relation": "不受限于",
+      "tail": "Mercer条件"
     },
     {
-      "head": "油液磨粒浓度数据",
+      "head": "相关向量机 (RVM)",
+      "relation": "应用于",
+      "tail": "油液磨粒分析"
+    },
+    {
+      "head": "相关向量机 (RVM)",
+      "relation": "应用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "相关向量机 (RVM)",
+      "relation": "预测",
+      "tail": "发动机工作状态"
+    },
+    {
+      "head": "相关向量机 (RVM)",
+      "relation": "采用",
+      "tail": "滑油光谱分析数据"
+    },
+    {
+      "head": "滑油光谱分析数据",
+      "relation": "来源于",
+      "tail": "航空发动机"
+    },
+    {
+      "head": "滑油光谱分析数据",
       "relation": "包含",
       "tail": "金属磨粒浓度"
     },
     {
-      "head": "航空发动机油液磨粒与故障关系预测",
-      "relation": "预测目标为",
-      "tail": "发动机工作状态"
-    },
-    {
-      "head": "相关向量机(RVM)",
+      "head": "相关向量机 (RVM)",
       "relation": "对比",
-      "tail": "最小二乘支持向量机(LSSVM)"
+      "tail": "最小二乘支持向量机 (LSSVM)"
     },
     {
-      "head": "相关向量机(RVM)",
+      "head": "相关向量机 (RVM)",
       "relation": "对比",
-      "tail": "反向传播神经网络(BP-NN)"
+      "tail": "反向传播神经网络 (BP-NN)"
     },
     {
-      "head": "相关向量机(RVM)",
+      "head": "相关向量机 (RVM)",
       "relation": "性能优于",
-      "tail": "最小二乘支持向量机(LSSVM)"
+      "tail": "最小二乘支持向量机 (LSSVM)"
     },
     {
-      "head": "相关向量机(RVM)",
+      "head": "相关向量机 (RVM)",
       "relation": "性能优于",
-      "tail": "反向传播神经网络(BP-NN)"
+      "tail": "反向传播神经网络 (BP-NN)"
     },
     {
-      "head": "相关向量机(RVM)",
-      "relation": "具有优势",
-      "tail": "计算量"
-    },
-    {
-      "head": "相关向量机(RVM)",
-      "relation": "具有优势",
-      "tail": "预测时间"
-    },
-    {
-      "head": "相关向量机(RVM)",
-      "relation": "具有优势",
-      "tail": "精度"
-    },
-    {
-      "head": "相关向量机(RVM)",
-      "relation": "可应用于",
-      "tail": "发动机油液磨粒分析"
-    },
-    {
-      "head": "相关向量机(RVM)",
-      "relation": "可应用于",
-      "tail": "故障预测"
-    },
-    {
-      "head": "相关向量机(RVM)",
+      "head": "相关向量机 (RVM)",
       "relation": "采用",
       "tail": "Gauss核函数"
     },
     {
-      "head": "相关向量机(RVM)",
-      "relation": "评价指标是",
-      "tail": "均方误差"
+      "head": "均方误差",
+      "relation": "用于评估",
+      "tail": "Gauss核函数"
     },
     {
-      "head": "相关向量机(RVM)",
-      "relation": "提高了",
-      "tail": "可推广性"
+      "head": "精度",
+      "relation": "是",
+      "tail": "相关向量机 (RVM)的优势"
+    },
+    {
+      "head": "计算量",
+      "relation": "是",
+      "tail": "相关向量机 (RVM)的优势"
+    },
+    {
+      "head": "预测时间",
+      "relation": "是",
+      "tail": "相关向量机 (RVM)的优势"
+    },
+    {
+      "head": "可推广性",
+      "relation": "是",
+      "tail": "相关向量机 (RVM)的优势"
     }
   ]
 }

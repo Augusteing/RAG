@@ -1,0 +1,326 @@
+{
+  "entities": [
+    {
+      "name": "飞机电源预测与健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "状态维护开放系统体系结构OSA-CBM模型",
+      "type": "系统架构"
+    },
+    {
+      "name": "多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "type": "系统架构"
+    },
+    {
+      "name": "飞机电源系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障预测与健康管理PHM",
+      "type": "研究领域"
+    },
+    {
+      "name": "状态监测",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "健康管理",
+      "type": "研究方法"
+    },
+    {
+      "name": "预知维修",
+      "type": "研究方法"
+    },
+    {
+      "name": "AUML技术",
+      "type": "软件工具"
+    },
+    {
+      "name": "智能代理技术",
+      "type": "技术"
+    },
+    {
+      "name": "多Agent系统",
+      "type": "技术"
+    },
+    {
+      "name": "机载PHM子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "地面PHM子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "状态监测Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障诊断Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "健康评估Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "维修与后勤保障Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "用户接口Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "数据仓库管理Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "管理Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "服务Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "仿真Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "信息采集Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "数据分析Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "诊断任务分解Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "诊断资源管理和调度Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障仲裁和决策Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "诊断元Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "专家系统Agent",
+      "type": "算法"
+    },
+    {
+      "name": "人工神经网络Agent",
+      "type": "算法"
+    },
+    {
+      "name": "遗传算法Agent",
+      "type": "算法"
+    },
+    {
+      "name": "模糊推理Agent",
+      "type": "算法"
+    },
+    {
+      "name": "粗糙集RS理论",
+      "type": "理论基础"
+    },
+    {
+      "name": "DS证据理论",
+      "type": "理论基础"
+    },
+    {
+      "name": "MATLAB",
+      "type": "软件工具"
+    },
+    {
+      "name": "LabView",
+      "type": "软件工具"
+    },
+    {
+      "name": "KQML语言",
+      "type": "软件工具"
+    },
+    {
+      "name": "XML",
+      "type": "软件工具"
+    },
+    {
+      "name": "ATML",
+      "type": "软件工具"
+    }
+  ],
+  "relations": [
+    {
+      "head": "多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "relation": "基于",
+      "tail": "状态维护开放系统体系结构OSA-CBM模型"
+    },
+    {
+      "head": "飞机电源预测与健康管理",
+      "relation": "应用于",
+      "tail": "飞机电源系统"
+    },
+    {
+      "head": "飞机电源系统",
+      "relation": "需要",
+      "tail": "状态监测"
+    },
+    {
+      "head": "飞机电源系统",
+      "relation": "需要",
+      "tail": "故障诊断"
+    },
+    {
+      "head": "飞机电源系统",
+      "relation": "需要",
+      "tail": "健康管理"
+    },
+    {
+      "head": "飞机电源系统",
+      "relation": "需要",
+      "tail": "预知维修"
+    },
+    {
+      "head": "飞机电源故障预测与健康管理系统体系结构模型",
+      "relation": "采用",
+      "tail": "AUML技术"
+    },
+    {
+      "head": "飞机电源故障预测与健康管理系统体系结构模型",
+      "relation": "采用",
+      "tail": "智能代理技术"
+    },
+    {
+      "head": "飞机电源故障预测与健康管理系统体系结构模型",
+      "relation": "采用",
+      "tail": "多Agent系统"
+    },
+    {
+      "head": "飞机电源故障预测与健康管理系统",
+      "relation": "由",
+      "tail": "机载PHM子系统"
+    },
+    {
+      "head": "飞机电源故障预测与健康管理系统",
+      "relation": "由",
+      "tail": "地面PHM子系统"
+    },
+    {
+      "head": "机载PHM子系统",
+      "relation": "包含",
+      "tail": "状态监测Agent"
+    },
+    {
+      "head": "机载PHM子系统",
+      "relation": "包含",
+      "tail": "故障诊断Agent"
+    },
+    {
+      "head": "地面PHM子系统",
+      "relation": "包含",
+      "tail": "健康评估Agent"
+    },
+    {
+      "head": "地面PHM子系统",
+      "relation": "包含",
+      "tail": "维修与后勤保障Agent"
+    },
+    {
+      "head": "状态监测Agent",
+      "relation": "包含",
+      "tail": "信息采集Agent"
+    },
+    {
+      "head": "状态监测Agent",
+      "relation": "包含",
+      "tail": "数据分析Agent"
+    },
+    {
+      "head": "故障诊断Agent",
+      "relation": "包含",
+      "tail": "诊断任务分解Agent"
+    },
+    {
+      "head": "故障诊断Agent",
+      "relation": "包含",
+      "tail": "诊断资源管理和调度Agent"
+    },
+    {
+      "head": "故障诊断Agent",
+      "relation": "包含",
+      "tail": "故障仲裁和决策Agent"
+    },
+    {
+      "head": "故障诊断Agent",
+      "relation": "包含",
+      "tail": "诊断元Agent"
+    },
+    {
+      "head": "诊断元Agent",
+      "relation": "包括",
+      "tail": "专家系统Agent"
+    },
+    {
+      "head": "诊断元Agent",
+      "relation": "包括",
+      "tail": "人工神经网络Agent"
+    },
+    {
+      "head": "诊断元Agent",
+      "relation": "包括",
+      "tail": "遗传算法Agent"
+    },
+    {
+      "head": "诊断元Agent",
+      "relation": "包括",
+      "tail": "模糊推理Agent"
+    },
+    {
+      "head": "故障仲裁和决策Agent",
+      "relation": "采用",
+      "tail": "粗糙集RS理论"
+    },
+    {
+      "head": "故障仲裁和决策Agent",
+      "relation": "采用",
+      "tail": "DS证据理论"
+    },
+    {
+      "head": "仿真Agent",
+      "relation": "利用",
+      "tail": "MATLAB"
+    },
+    {
+      "head": "仿真Agent",
+      "relation": "利用",
+      "tail": "LabView"
+    },
+    {
+      "head": "Agent之间的协作",
+      "relation": "依赖于",
+      "tail": "KQML语言"
+    },
+    {
+      "head": "KQML语言",
+      "relation": "结合",
+      "tail": "XML"
+    },
+    {
+      "head": "XML",
+      "relation": "基于",
+      "tail": "ATML"
+    }
+  ]
+}

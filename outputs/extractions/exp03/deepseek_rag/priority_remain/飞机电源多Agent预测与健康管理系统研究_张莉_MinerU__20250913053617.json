@@ -1,0 +1,388 @@
+{
+  "entities": [
+    {
+      "name": "故障预测与健康管理(PHM)",
+      "type": "研究领域"
+    },
+    {
+      "name": "飞机电源系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "AEPHM系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "OSA-CBM模型",
+      "type": "模型"
+    },
+    {
+      "name": "多Agent系统",
+      "type": "模型"
+    },
+    {
+      "name": "AUML技术",
+      "type": "软件工具"
+    },
+    {
+      "name": "状态监测",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "健康评估",
+      "type": "研究方法"
+    },
+    {
+      "name": "预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "维修决策",
+      "type": "研究方法"
+    },
+    {
+      "name": "BDI Agent理论",
+      "type": "理论基础"
+    },
+    {
+      "name": "FFT分析",
+      "type": "算法"
+    },
+    {
+      "name": "时域分析",
+      "type": "算法"
+    },
+    {
+      "name": "频域分析",
+      "type": "算法"
+    },
+    {
+      "name": "小波分析",
+      "type": "算法"
+    },
+    {
+      "name": "专家系统",
+      "type": "算法"
+    },
+    {
+      "name": "人工神经网络",
+      "type": "算法"
+    },
+    {
+      "name": "遗传算法",
+      "type": "算法"
+    },
+    {
+      "name": "模糊推理",
+      "type": "算法"
+    },
+    {
+      "name": "粗糙集理论",
+      "type": "理论基础"
+    },
+    {
+      "name": "DS证据理论",
+      "type": "理论基础"
+    },
+    {
+      "name": "多传感器信息融合算法",
+      "type": "算法"
+    },
+    {
+      "name": "电压",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "电流",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "转速",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "局部放电信号",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "频率",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "剩余使用寿命(RUL)",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "MATLAB",
+      "type": "软件工具"
+    },
+    {
+      "name": "LabView",
+      "type": "软件工具"
+    },
+    {
+      "name": "KQML",
+      "type": "软件工具"
+    },
+    {
+      "name": "XML",
+      "type": "软件工具"
+    },
+    {
+      "name": "状态监测Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障诊断Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "健康评估Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "维修与后勤保障Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "用户接口Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "数据仓库管理Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "管理Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "服务Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "FFT分析Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "时域分析Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "频域分析Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "小波分析Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "专家系统Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "人工神经网络Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "遗传算法Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "模糊推理Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "信息采集Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "诊断任务分解Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "诊断资源管理和调度Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障仲裁和决策Agent",
+      "type": "系统/部件"
+    }
+  ],
+  "relations": [
+    {
+      "head": "AEPHM系统",
+      "relation": "基于",
+      "tail": "OSA-CBM模型"
+    },
+    {
+      "head": "AEPHM系统",
+      "relation": "采用",
+      "tail": "多Agent系统"
+    },
+    {
+      "head": "多Agent系统",
+      "relation": "基于",
+      "tail": "BDI Agent理论"
+    },
+    {
+      "head": "状态监测Agent",
+      "relation": "用于",
+      "tail": "状态监测"
+    },
+    {
+      "head": "故障诊断Agent",
+      "relation": "用于",
+      "tail": "故障诊断"
+    },
+    {
+      "head": "健康评估Agent",
+      "relation": "用于",
+      "tail": "健康评估"
+    },
+    {
+      "head": "维修与后勤保障Agent",
+      "relation": "用于",
+      "tail": "维修决策"
+    },
+    {
+      "head": "用户接口Agent",
+      "relation": "实现",
+      "tail": "用户交互"
+    },
+    {
+      "head": "数据仓库管理Agent",
+      "relation": "用于",
+      "tail": "数据存储"
+    },
+    {
+      "head": "管理Agent",
+      "relation": "用于",
+      "tail": "系统管理"
+    },
+    {
+      "head": "服务Agent",
+      "relation": "用于",
+      "tail": "服务管理"
+    },
+    {
+      "head": "FFT分析Agent",
+      "relation": "采用",
+      "tail": "FFT分析"
+    },
+    {
+      "head": "时域分析Agent",
+      "relation": "采用",
+      "tail": "时域分析"
+    },
+    {
+      "head": "频域分析Agent",
+      "relation": "采用",
+      "tail": "频域分析"
+    },
+    {
+      "head": "小波分析Agent",
+      "relation": "采用",
+      "tail": "小波分析"
+    },
+    {
+      "head": "专家系统Agent",
+      "relation": "采用",
+      "tail": "专家系统"
+    },
+    {
+      "head": "人工神经网络Agent",
+      "relation": "采用",
+      "tail": "人工神经网络"
+    },
+    {
+      "head": "遗传算法Agent",
+      "relation": "采用",
+      "tail": "遗传算法"
+    },
+    {
+      "head": "模糊推理Agent",
+      "relation": "采用",
+      "tail": "模糊推理"
+    },
+    {
+      "head": "信息采集Agent",
+      "relation": "采用",
+      "tail": "多传感器信息融合算法"
+    },
+    {
+      "head": "AUML技术",
+      "relation": "用于构建",
+      "tail": "AEPHM系统"
+    },
+    {
+      "head": "MATLAB",
+      "relation": "用于",
+      "tail": "仿真"
+    },
+    {
+      "head": "LabView",
+      "relation": "用于",
+      "tail": "仿真"
+    },
+    {
+      "head": "KQML",
+      "relation": "用于",
+      "tail": "Agent通信"
+    },
+    {
+      "head": "XML",
+      "relation": "用于",
+      "tail": "数据描述"
+    },
+    {
+      "head": "AEPHM系统",
+      "relation": "应用于",
+      "tail": "飞机电源系统"
+    },
+    {
+      "head": "状态监测Agent",
+      "relation": "监测",
+      "tail": "电压"
+    },
+    {
+      "head": "状态监测Agent",
+      "relation": "监测",
+      "tail": "电流"
+    },
+    {
+      "head": "状态监测Agent",
+      "relation": "监测",
+      "tail": "转速"
+    },
+    {
+      "head": "状态监测Agent",
+      "relation": "监测",
+      "tail": "局部放电信号"
+    },
+    {
+      "head": "状态监测Agent",
+      "relation": "监测",
+      "tail": "频率"
+    },
+    {
+      "head": "健康评估Agent",
+      "relation": "预测",
+      "tail": "剩余使用寿命(RUL)"
+    },
+    {
+      "head": "故障仲裁和决策Agent",
+      "relation": "采用",
+      "tail": "粗糙集理论"
+    },
+    {
+      "head": "故障仲裁和决策Agent",
+      "relation": "采用",
+      "tail": "DS证据理论"
+    }
+  ]
+}

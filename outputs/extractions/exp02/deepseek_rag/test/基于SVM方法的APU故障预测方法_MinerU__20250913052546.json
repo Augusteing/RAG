@@ -1,0 +1,220 @@
+{
+  "entities": [
+    {
+      "name": "辅助动力装置 (APU)",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "快速存取记录器 (QAR) 数据",
+      "type": "数据集"
+    },
+    {
+      "name": "报文数据",
+      "type": "数据集"
+    },
+    {
+      "name": "支持向量机 (SVM)",
+      "type": "模型"
+    },
+    {
+      "name": "相关性分析",
+      "type": "研究方法"
+    },
+    {
+      "name": "特征选择",
+      "type": "研究方法"
+    },
+    {
+      "name": "APU故障",
+      "type": "故障模式"
+    },
+    {
+      "name": "视情维修",
+      "type": "应用场景"
+    },
+    {
+      "name": "飞机通信寻址与报告系统 (ACARS)",
+      "type": "系统/部件"
+    },
+    {
+      "name": "A13号报文",
+      "type": "数据集"
+    },
+    {
+      "name": "排气温度 (EGTA)",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "启动时间 (STA)",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "引气压力 (PT)",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "使用时间 (AHRS)",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "IGV角度",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "油槽温度 (OTA)",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "准确率",
+      "type": "性能指标"
+    },
+    {
+      "name": "ROC曲线",
+      "type": "性能指标"
+    },
+    {
+      "name": "AUC",
+      "type": "性能指标"
+    },
+    {
+      "name": "混淆矩阵",
+      "type": "性能指标"
+    },
+    {
+      "name": "F-score",
+      "type": "性能指标"
+    },
+    {
+      "name": "T检验",
+      "type": "性能指标"
+    },
+    {
+      "name": "K近邻 (KNN)",
+      "type": "算法"
+    },
+    {
+      "name": "逻辑回归",
+      "type": "算法"
+    },
+    {
+      "name": "决策树",
+      "type": "算法"
+    },
+    {
+      "name": "数据预处理",
+      "type": "研究方法"
+    },
+    {
+      "name": "特征提取",
+      "type": "研究方法"
+    },
+    {
+      "name": "模型优化",
+      "type": "研究方法"
+    },
+    {
+      "name": "SVM模型参数C",
+      "type": "模型参数"
+    },
+    {
+      "name": "SVM模型参数γ",
+      "type": "模型参数"
+    }
+  ],
+  "relations": [
+    {
+      "head": "故障预测",
+      "relation": "基于",
+      "tail": "报文数据"
+    },
+    {
+      "head": "故障预测",
+      "relation": "建立",
+      "tail": "支持向量机 (SVM)"
+    },
+    {
+      "head": "支持向量机 (SVM)",
+      "relation": "预测",
+      "tail": "APU故障"
+    },
+    {
+      "head": "支持向量机 (SVM)",
+      "relation": "为...提供参考",
+      "tail": "视情维修"
+    },
+    {
+      "head": "相关性分析",
+      "relation": "用于",
+      "tail": "特征选择"
+    },
+    {
+      "head": "报文数据",
+      "relation": "支持",
+      "tail": "故障预测"
+    },
+    {
+      "head": "飞机通信寻址与报告系统 (ACARS)",
+      "relation": "实现",
+      "tail": "报文数据"
+    },
+    {
+      "head": "支持向量机 (SVM)",
+      "relation": "优于",
+      "tail": "K近邻 (KNN)"
+    },
+    {
+      "head": "支持向量机 (SVM)",
+      "relation": "优于",
+      "tail": "逻辑回归"
+    },
+    {
+      "head": "支持向量机 (SVM)",
+      "relation": "优于",
+      "tail": "决策树"
+    },
+    {
+      "head": "特征提取",
+      "relation": "基于",
+      "tail": "相关性分析"
+    },
+    {
+      "head": "数据预处理",
+      "relation": "用于",
+      "tail": "支持向量机 (SVM)"
+    },
+    {
+      "head": "支持向量机 (SVM)",
+      "relation": "实现",
+      "tail": "准确率"
+    },
+    {
+      "head": "支持向量机 (SVM)",
+      "relation": "评估指标为",
+      "tail": "ROC曲线"
+    },
+    {
+      "head": "支持向量机 (SVM)",
+      "relation": "评估指标为",
+      "tail": "AUC"
+    },
+    {
+      "head": "支持向量机 (SVM)",
+      "relation": "评估指标为",
+      "tail": "混淆矩阵"
+    },
+    {
+      "head": "模型优化",
+      "relation": "改进",
+      "tail": "支持向量机 (SVM)"
+    },
+    {
+      "head": "特征提取",
+      "relation": "提高",
+      "tail": "准确率"
+    }
+  ]
+}

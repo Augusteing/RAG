@@ -1,0 +1,252 @@
+{
+  "entities": [
+    {
+      "name": "FADEC软件开发",
+      "type": "研究领域"
+    },
+    {
+      "name": "航空发动机数控系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "FADEC软件",
+      "type": "系统/部件"
+    },
+    {
+      "name": "SCADE",
+      "type": "软件工具"
+    },
+    {
+      "name": "基于模型开发",
+      "type": "研究方法"
+    },
+    {
+      "name": "模型测试",
+      "type": "研究方法"
+    },
+    {
+      "name": "模型覆盖率分析",
+      "type": "研究方法"
+    },
+    {
+      "name": "软件硬件集成测试",
+      "type": "研究方法"
+    },
+    {
+      "name": "Simulink",
+      "type": "软件工具"
+    },
+    {
+      "name": "SCADE和Simulink联合MBD解决方案",
+      "type": "研究方法"
+    },
+    {
+      "name": "DO-331",
+      "type": "标准"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "FADEC",
+      "type": "系统/部件"
+    },
+    {
+      "name": "自动代码生成",
+      "type": "研究方法"
+    },
+    {
+      "name": "DO-178C",
+      "type": "标准"
+    },
+    {
+      "name": "KCG",
+      "type": "软件工具"
+    },
+    {
+      "name": "基于SCADE工具集的完整MBD解决方案",
+      "type": "研究方法"
+    },
+    {
+      "name": "模型验证",
+      "type": "研究方法"
+    },
+    {
+      "name": "QTE",
+      "type": "软件工具"
+    },
+    {
+      "name": "MTC",
+      "type": "软件工具"
+    },
+    {
+      "name": "Simulink Gateway",
+      "type": "软件工具"
+    },
+    {
+      "name": "Simulink Wrapper",
+      "type": "软件工具"
+    },
+    {
+      "name": "发动机健康管理模块",
+      "type": "系统/部件"
+    },
+    {
+      "name": "发动机推力矢量模块",
+      "type": "系统/部件"
+    },
+    {
+      "name": "Simulink模型",
+      "type": "模型"
+    },
+    {
+      "name": "SCADE模型",
+      "type": "模型"
+    },
+    {
+      "name": "MC/DC覆盖准则",
+      "type": "标准"
+    },
+    {
+      "name": "C代码",
+      "type": "其他"
+    },
+    {
+      "name": "TCL脚本",
+      "type": "软件工具"
+    },
+    {
+      "name": "航空发动机控制软件",
+      "type": "系统/部件"
+    },
+    {
+      "name": "Simulink Translator",
+      "type": "软件工具"
+    },
+    {
+      "name": "Stateflow模型",
+      "type": "模型"
+    },
+    {
+      "name": "数据流模型",
+      "type": "模型"
+    },
+    {
+      "name": "健康管理系统",
+      "type": "系统/部件"
+    }
+  ],
+  "relations": [
+    {
+      "head": "SCADE",
+      "relation": "应用于",
+      "tail": "FADEC软件开发"
+    },
+    {
+      "head": "基于模型开发",
+      "relation": "应用于",
+      "tail": "FADEC软件开发"
+    },
+    {
+      "head": "FADEC软件开发",
+      "relation": "针对",
+      "tail": "航空发动机数控系统"
+    },
+    {
+      "head": "DO-331",
+      "relation": "指导",
+      "tail": "基于模型开发"
+    },
+    {
+      "head": "SCADE",
+      "relation": "提供了",
+      "tail": "基于SCADE工具集的完整MBD解决方案"
+    },
+    {
+      "head": "SCADE",
+      "relation": "提供了",
+      "tail": "SCADE和Simulink联合MBD解决方案"
+    },
+    {
+      "head": "KCG",
+      "relation": "是...的工具",
+      "tail": "SCADE"
+    },
+    {
+      "head": "KCG",
+      "relation": "通过认证",
+      "tail": "DO-178C"
+    },
+    {
+      "head": "KCG",
+      "relation": "用于",
+      "tail": "自动代码生成"
+    },
+    {
+      "head": "KCG",
+      "relation": "生成",
+      "tail": "C代码"
+    },
+    {
+      "head": "QTE",
+      "relation": "支持",
+      "tail": "模型测试"
+    },
+    {
+      "head": "MTC",
+      "relation": "用于",
+      "tail": "模型覆盖率分析"
+    },
+    {
+      "head": "SCADE",
+      "relation": "可联合使用",
+      "tail": "Simulink"
+    },
+    {
+      "head": "Simulink Gateway",
+      "relation": "将...转换为",
+      "tail": "Simulink模型"
+    },
+    {
+      "head": "Simulink模型",
+      "relation": "可转换为",
+      "tail": "SCADE模型"
+    },
+    {
+      "head": "Simulink Wrapper",
+      "relation": "集成",
+      "tail": "SCADE模型"
+    },
+    {
+      "head": "基于SCADE工具集的完整MBD解决方案",
+      "relation": "用于开发",
+      "tail": "发动机健康管理模块"
+    },
+    {
+      "head": "SCADE和Simulink联合MBD解决方案",
+      "relation": "用于开发",
+      "tail": "发动机推力矢量模块"
+    },
+    {
+      "head": "模型验证",
+      "relation": "依据",
+      "tail": "MC/DC覆盖准则"
+    },
+    {
+      "head": "TCL脚本",
+      "relation": "驱动",
+      "tail": "模型测试"
+    },
+    {
+      "head": "Simulink Translator",
+      "relation": "转换",
+      "tail": "数据流模型"
+    },
+    {
+      "head": "健康管理系统",
+      "relation": "是...的组成部分",
+      "tail": "FADEC"
+    }
+  ]
+}

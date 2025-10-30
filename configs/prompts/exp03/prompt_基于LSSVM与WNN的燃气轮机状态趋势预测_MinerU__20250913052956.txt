@@ -134,36 +134,24 @@
 {
   "entities": [
     {
-      "name": "半监督框架下的自标记技术和多学习器模型的结合方法",
-      "type": "方法"
-    },
-    {
-      "name": "支持向量机（SVM）",
+      "name": "卡尔曼滤波",
       "type": "算法"
     },
     {
-      "name": "隐马尔可夫模型（HMM）",
-      "type": "模型"
+      "name": "残差",
+      "type": "特征/健康指标"
     },
     {
-      "name": "粗糙集理论",
-      "type": "理论"
+      "name": "故障发生",
+      "type": "故障模式"
     },
     {
-      "name": "BP神经网络",
-      "type": "网络"
+      "name": "航空发动机",
+      "type": "系统/部件"
     },
     {
-      "name": "故障预测",
-      "type": "技术"
-    },
-    {
-      "name": "视情维修",
-      "type": "维修策略"
-    },
-    {
-      "name": "神经网络",
-      "type": "技术"
+      "name": "健康管理系统",
+      "type": "系统/部件"
     },
     {
       "name": "遗传算法",
@@ -174,38 +162,48 @@
       "type": "模型"
     },
     {
+      "name": "航空发动机性能诊断",
+      "type": "研究方法"
+    },
+    {
       "name": "故障预测",
-      "type": "研究问题"
+      "type": "研究方法"
     },
     {
-      "name": "粗糙神经网络",
-      "type": "模型"
-    },
-    {
-      "name": "欠标记且不平衡的垃圾网页数据集分类问题",
-      "type": ""
+      "name": "粒子滤波算法",
+      "type": "算法"
     }
   ],
   "relations": [
     {
-      "head": "半监督框架下的自标记技术和多学习器模型的结合方法",
-      "relation": "解决",
-      "tail": "欠标记且不平衡的垃圾网页数据集分类问题"
+      "head": "卡尔曼滤波",
+      "relation": "产生",
+      "tail": "残差"
     },
     {
-      "head": "粗糙集理论",
+      "head": "残差",
+      "relation": "用于推断",
+      "tail": "故障发生"
+    },
+    {
+      "head": "神经网络",
       "relation": "结合",
-      "tail": "神经网络"
-    },
-    {
-      "head": "故障预测",
-      "relation": "支持",
-      "tail": "视情维修"
+      "tail": "遗传算法"
     },
     {
       "head": "遗传算法",
-      "relation": "结合",
-      "tail": "神经网络"
+      "relation": "应用于",
+      "tail": "航空发动机性能诊断"
+    },
+    {
+      "head": "健康管理系统",
+      "relation": "应用于",
+      "tail": "航空发动机"
+    },
+    {
+      "head": "故障预测",
+      "relation": "采用",
+      "tail": "粒子滤波算法"
     }
   ]
 }
@@ -236,10 +234,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 基于LSSVM与WNN的燃气轮机状态趋势预测*
-
-崔建国 $^{1,2}$ ,李慧华 $^{1}$ ,于明月 $^{1}$ ,蒋丽英 $^{1}$ (1. 沈阳航空航天大学自动化学院,沈阳 110136;2. 中航工业上海航空测控技术研究所故障诊断与健康管理技术航空科技重点实验室,上海 20160)
-
 摘要：为了对燃气轮机未来状态趋势进行预测，提出基于最小二乘支持向量机（LSSVM）与小波神经网络（WNN）组合的燃气轮机状态趋势预测方法，把最小二乘支持向量机的预测结果分为两部分，将实际参数数据与前一部分的预测结果计算残差，然后利用小波神经网络对残差进行预测，再将预测的残差与最小二乘支持向量机的预测结果的后一部分进行合成，将合成的结果作为最小二乘支持向量机。小波预测模型的预测结果。结合某型燃气轮机进行试验验证，验证结果表明，组合的最小二乘支持向量机与小波神经网络预测模型预测效果更好，预测结果相对误差为  $0.12\%$
 
 关键词燃气轮机，趋势预测，最小二乘支持向量机，小波神经网络，排气温度中图分类号  $\mathrm{TP206 + .3}$  文献标识码：A DOI:0.3969/jissn.1002- 0640.2018.08.034
@@ -249,12 +243,6 @@
 # Trend Prediction of Gas Turbine Based on Least Squares Support Vector Machine and Wavelet Neural Network
 
 CUI Jian- guo $^{1,2}$ ,LI Hui- hua $^{1}$ ,YU Ming- yue $^{1}$ ,JIANG li- ying $^{1}$ (1. School of Automation,Shenyang Aerospace University,Shenyang 110136,China;2. Shanghai Aero Measurement & Control Technology Research Institute Aviation Key Laboratory of Science and Technology on Fault Diagnosis and Health Management,Shanghai 201601,China)
-
-Abstract In order to predict the future state of the gas turbine,a method based on least squares support vector machine (LSSVM) and wavelet neural network (WNN) is proposed to predict the state of gas turbine,the prediction results of the least squares support vector machine are divided into two parts,subtracting the actual parameter data from the prediction results of the previous part,and then use wavelet neural network to forecast the residuals,then the residual of prediction is added to the latter part of the prediction result of the least squares support vector machine,the results of the synthesis are taken as the results of least squares support vector machine and wavelet neural network prediction model. Experimental research with a gas turbine,the test results show that the combined least squares support vector machine wavelet neural network prediction model have better prediction results,and the average relative error of the prediction result is  $0.23\%$
-
-Key words gas turbine,trend prediction,least squares support vector machine,wavelet neural network,exhaust temperature.
-
-Citation format XUI J G,LI H H,YU M Y,et al.Trend prediction of gas turbine based on least squares support vector machine and wavelet neural network [J].Fire Control & Command Control,2018,43  $(\mathfrak{A})$  160- 163.
 
 # 0 引言
 
@@ -405,29 +393,3 @@ WNN预测模型的训练样本集与LSSVM预测模型的训练样本集一致，
 # 5结论
 
 5 结论为了实现对燃气轮机状态趋势进行预测，本文设计了LSSVM- WNN预测模型，该预测模型利用WNN对LSSVM预测的残差进行预测，最后将LSSVM预测结果与WNN预测的残差进行合成，得到最小二乘支持向量机一小波神经网络的预测模型的预测输出结果。选取表征燃气轮机状态的排气温度作为研究对象，利用该模型对某型燃气轮机未来状态趋势进行预测，并和实际状态趋势进行对比可知，预测的状态趋势变化与实际状态一致，预测结果的相对误差为  $0.12\%$  ，从而验证了该方法的有效性。本文所建立的LSSVM- WNN预测模型结合最小二乘支持向量机和小波神经网络的优点，不仅有收敛速度更快，精度更高的优势，并且还有较强的逼近能力和泛化能力。
-
-# 参考文献：
-
-参考文献：[1] SUYKENS J A K, VANDEWALLE J. Least squares support（下转第167页）
-
-务系统中的一致性和有效性；按MBD相关规范定制规范化、快捷化应用工具，主要应用于产品设计及工艺设计阶段。如在产品设计阶段，提供产品制造信息的标注、管理、查询、导出等功能。
-
-MBD技术规范，解决了火炮领域全三维数字化过程中无MBD数据相关规范标准的问题。MBD技术规范体系适用于火炮领域相关产品进行全三维数字化设计制造时MBD相关数据的规范性建立。
-
-# 3 结论
-
-3 结论火炮数字化标准体系作为信息化的基础保障，需要在标准体系建设、标准制定等方面开展大量的工作。本研究提出了火炮数字化标准体系建设的“五统一”指导原则，构建了火炮数字化标准体系，包括从基础规范、设计规范、制造规范、管理规范等多个方面。并在编码规范、数字制造规范方面的进行了应用案例分析。数字化标准是一项系统性很强的工作，通过数字化标准的制定，将促进军工制造业数字化信息的生成、交换、集成和共享，逐步构建系统完善、协调一致的火炮军工制造业数字化标准体系，支撑军工制造业数字化技术的发展。未来将进一步加强火炮数字化标准体系的建设，根据新的技术规范，引入新的技术标准，将火炮数字化标准体系建设的经验推广到其他军工制造领域，推动我国军工制造业的标准化建设快速发展。
-
-# 参考文献：
-
-[1]张利军，李利民.实现军工企业智能制造的数字化研究
-
-[1]张利军，李利民.实现军工企业智能制造的数字化研究[1].现代工业经济和信息化，2016，6（2）：111- 112. [2]陈京生，何华，陈彦，等.标准化科技创新在型号产品全寿命成本中的作用[1].兵器装备工程学报，2017，38（5）：144- 146. [3]陈京生，郑晓亚，何华，等.装甲车辆数字化标准的研究与探讨[1].四川兵工学报，2015，36（8）：59- 62. [4]陈京生，郑治华，吕鑫，等.兵器装备数字化研制中标准化工作[1].四川兵工学报，2014（6）：75- 77. [5]陈京生，何华，郑晓亚，等.装备全寿命标准化管理方法[1].四川兵工学报，2013，34（6）：73- 74. [6]王丙义.信息分类与编码[1].北京：国防工业出版社，2003. [7]何薇，冯叶素，梁丹.航天制造企业数字化标准体系的研究与实践[1].航天制造技术，2011（2）：52- 57. [8]冯潼能，王锋阳，孟静晖.MBD技术在数字化协同制造中的应用与展望[1].南京航空航天大学学报，2012，44（b04）：132- 137. [9]唐克，庚力，董建国，等.协同设计与制造标准体系分析[1].国防技术基础，2010（1）：13- 15. [10]王惠方，任杰，代波，等.某型多管火箭炮射击间隔优化研究[1].火力与指挥控制，2016，41（2）：104- 107. [11]吕学志，常利胜.炮兵对有生力量压制比的仿真计算方法[1].火力与指挥控制，2016，41（2）：93- 96. [12]李昭，李强.基于可视化仿真的高炮系统服务概率分析技术[1].火力与指挥控制，2016，41（3）：116- 119. [13]程五四，陈帝江，张红旗.MBD技术标准化及应用研究[1].智能制造，2013（9）：14- 16.
-
-# （上接第163页）
-
-[1]张利军，李利民.实现军工企业智能制造的数字化研究[1].张利军，李利民.实现军工企业智能制造的数字化研究[1].火力与指挥控制，2016，41（2）：145- 146. [2]许葆华LS- SVM在状态监测数据趋势预测中的应用[1].科学技术与工程，2007，7（5）：3924- 3926. [3]谭巍，徐健，于向财.基于支持向量机的航空发动机性能衰退指标预测[1].航空发动机，2014，40（4）：51- 55. [4]SUYKENSJA  $\mathrm{K}_{\mathrm{y}}$  BRABANTERTD,LUKASL.Weighted least squares support vector machines :robustness and sparse approximation[1].Neurocomputing,2002,18（10）85- 105. [5] SAMUI P,KOTHARI D P.Utilization of a least square sup- port vector machine (LSSVM) for slope stability analysis[1].Scicntialranica,2011,18（1）：53- 58.
-
-[6]彭丹.小波分析概述及其应用研究[1].装备制造技术，
-
-[6]彭丹.小波分析概述及其应用研究[1].装备制造技术，2014（6）：145- 146. [7]谢永成，贺方君，李光升，等.基于改进型小波神经网络的灭火系统故障诊断[1].电子测量技术，2012，35（4）：128- 131. [8]宋振宇，王秋彦，丁小峰.BP神经网络训练中的实际问题研究[1].海军航空工程学院学报，2009，24（4）：704- 706. [9]柳月青，徐吉辉.基于改进支持向量机的航空装备维修安全评估[1].火力与指挥控制，2016，41（9）：66- 69. [10]LI H Q,CHENG J,WAN B W.Using multi- input- layer wavelet neural network to model product quality of continuous casting furnace and hot rolling mill[1].Journal of Systems Science and Information,2004,2（2）：309- 317.

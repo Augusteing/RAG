@@ -1,0 +1,202 @@
+{
+  "entities": [
+    {
+      "name": "多层LSTM预测模型",
+      "type": "模型"
+    },
+    {
+      "name": "剩余寿命",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "复杂系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "智能预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "预测性维修",
+      "type": "研究领域"
+    },
+    {
+      "name": "高维度、多尺度时序数据",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "梯度消失",
+      "type": "故障模式"
+    },
+    {
+      "name": "深层次关联性抽象特征",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "Dropout方法",
+      "type": "算法"
+    },
+    {
+      "name": "过拟合",
+      "type": "故障模式"
+    },
+    {
+      "name": "误差得分函数",
+      "type": "性能指标"
+    },
+    {
+      "name": "超前与滞后预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "长期短期记忆(LSTM)模型",
+      "type": "模型"
+    },
+    {
+      "name": "循环神经网络(RNN)",
+      "type": "模型"
+    },
+    {
+      "name": "复杂系统健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "C-MAPSS数据集",
+      "type": "数据集"
+    },
+    {
+      "name": "K-means方法",
+      "type": "算法"
+    },
+    {
+      "name": "运行工况",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "主成分分析(PCA)",
+      "type": "算法"
+    },
+    {
+      "name": "健康因子",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "单层LSTM模型",
+      "type": "模型"
+    },
+    {
+      "name": "均方根误差(RMSE)",
+      "type": "性能指标"
+    },
+    {
+      "name": "平均绝对误差(MAE)",
+      "type": "性能指标"
+    }
+  ],
+  "relations": [
+    {
+      "head": "本文",
+      "relation": "提出了",
+      "tail": "多层LSTM预测模型"
+    },
+    {
+      "head": "多层LSTM预测模型",
+      "relation": "应用于",
+      "tail": "剩余寿命"
+    },
+    {
+      "head": "剩余寿命",
+      "relation": "是...的重要支撑",
+      "tail": "预测性维修"
+    },
+    {
+      "head": "多层LSTM预测模型",
+      "relation": "处理",
+      "tail": "高维度、多尺度时序数据"
+    },
+    {
+      "head": "多层LSTM预测模型",
+      "relation": "防止了",
+      "tail": "梯度消失"
+    },
+    {
+      "head": "多层LSTM预测模型",
+      "relation": "提取",
+      "tail": "深层次关联性抽象特征"
+    },
+    {
+      "head": "Dropout方法",
+      "relation": "减少",
+      "tail": "过拟合"
+    },
+    {
+      "head": "多层LSTM预测模型",
+      "relation": "引入了",
+      "tail": "Dropout方法"
+    },
+    {
+      "head": "误差得分函数",
+      "relation": "用于评估",
+      "tail": "超前与滞后预测"
+    },
+    {
+      "head": "多层LSTM预测模型",
+      "relation": "验证于",
+      "tail": "航空发动机"
+    },
+    {
+      "head": "航空发动机",
+      "relation": "数据来源于",
+      "tail": "C-MAPSS数据集"
+    },
+    {
+      "head": "长期短期记忆(LSTM)模型",
+      "relation": "改进了",
+      "tail": "循环神经网络(RNN)"
+    },
+    {
+      "head": "剩余寿命",
+      "relation": "是...的关键内容",
+      "tail": "复杂系统健康管理"
+    },
+    {
+      "head": "K-means方法",
+      "relation": "用于识别",
+      "tail": "运行工况"
+    },
+    {
+      "head": "主成分分析(PCA)",
+      "relation": "用于构建",
+      "tail": "健康因子"
+    },
+    {
+      "head": "健康因子",
+      "relation": "作为输入",
+      "tail": "多层LSTM预测模型"
+    },
+    {
+      "head": "多层LSTM预测模型",
+      "relation": "优于",
+      "tail": "单层LSTM模型"
+    },
+    {
+      "head": "多层LSTM预测模型",
+      "relation": "优于",
+      "tail": "循环神经网络(RNN)"
+    },
+    {
+      "head": "均方根误差(RMSE)",
+      "relation": "评估",
+      "tail": "多层LSTM预测模型"
+    },
+    {
+      "head": "平均绝对误差(MAE)",
+      "relation": "评估",
+      "tail": "多层LSTM预测模型"
+    }
+  ]
+}

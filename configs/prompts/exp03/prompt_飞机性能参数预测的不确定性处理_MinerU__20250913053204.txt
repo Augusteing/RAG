@@ -134,125 +134,112 @@
 {
   "entities": [
     {
-      "name": "xPC Target",
-      "type": "工具/平台"
+      "name": "故障诊断与健康管理(PHM)技术",
+      "type": "研究领域"
     },
     {
-      "name": "机载自适应模型",
+      "name": "系统可用性",
+      "type": "性能指标"
+    },
+    {
+      "name": "维修效率",
+      "type": "性能指标"
+    },
+    {
+      "name": "寿命周期成本",
+      "type": "性能指标"
+    },
+    {
+      "name": "综合航空电子PHM系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "健康管理",
+      "type": "研究方法"
+    },
+    {
+      "name": "电子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "航空电子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "系统级健康管理",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障隔离",
+      "type": "研究方法"
+    },
+    {
+      "name": "测试性设计",
+      "type": "研究方法"
+    },
+    {
+      "name": "相关性模型",
       "type": "模型"
     },
     {
-      "name": "气路故障",
-      "type": "故障"
+      "name": "综合化航空电子系统",
+      "type": "系统/部件"
     },
     {
-      "name": "高涵道比民用涡扇发动机",
-      "type": "研究对象"
+      "name": "健康管理体系",
+      "type": "系统/部件"
     },
     {
-      "name": "混合卡尔曼滤波算法",
-      "type": "算法"
+      "name": "增强诊断",
+      "type": "研究方法"
     },
     {
-      "name": "非线性实时模型",
+      "name": "健康评估",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "贝叶斯网络",
       "type": "模型"
-    },
-    {
-      "name": "卡尔曼滤波器",
-      "type": "算法"
-    },
-    {
-      "name": "发动机故障诊断硬件实时仿真验证平台",
-      "type": "工具/平台"
-    },
-    {
-      "name": "发动机模拟数据",
-      "type": "数据"
-    },
-    {
-      "name": "GSP",
-      "type": "软件"
-    },
-    {
-      "name": "TERTS",
-      "type": "软件"
-    },
-    {
-      "name": "Gasturb",
-      "type": "软件"
-    },
-    {
-      "name": "TMATS",
-      "type": "软件"
-    },
-    {
-      "name": "信息融合",
-      "type": "技术"
-    },
-    {
-      "name": "发动机故障诊断",
-      "type": ""
-    },
-    {
-      "name": "基于数学模型诊断",
-      "type": ""
-    },
-    {
-      "name": "可以进行定性和定量的故障诊断",
-      "type": ""
-    },
-    {
-      "name": "需要准确的数学模型",
-      "type": ""
-    },
-    {
-      "name": "基于数据驱动诊断",
-      "type": ""
-    },
-    {
-      "name": "可以处理传感器噪声和测量偏差",
-      "type": ""
-    },
-    {
-      "name": "需要大量的数据样本及训练时间进行训练",
-      "type": ""
     }
   ],
   "relations": [
     {
-      "head": "混合卡尔曼滤波算法",
-      "relation": "结合了",
-      "tail": "非线性实时模型"
+      "head": "故障诊断与健康管理(PHM)技术",
+      "relation": "用于提高",
+      "tail": "系统可用性"
     },
     {
-      "head": "混合卡尔曼滤波算法",
-      "relation": "结合了",
-      "tail": "卡尔曼滤波器"
+      "head": "故障诊断与健康管理(PHM)技术",
+      "relation": "用于提高",
+      "tail": "维修效率"
     },
     {
-      "head": "发动机模拟数据",
-      "relation": "是...重要的数据来源",
-      "tail": "发动机故障诊断"
+      "head": "故障诊断与健康管理(PHM)技术",
+      "relation": "用于降低",
+      "tail": "寿命周期成本"
     },
     {
-      "head": "基于数学模型诊断",
-      "relation": "优点是",
-      "tail": "可以进行定性和定量的故障诊断"
+      "head": "综合航空电子PHM系统",
+      "relation": "包含功能",
+      "tail": "健康管理"
     },
     {
-      "head": "基于数学模型诊断",
-      "relation": "缺点是",
-      "tail": "需要准确的数学模型"
+      "head": "系统级健康管理",
+      "relation": "基于",
+      "tail": "测试性设计"
     },
     {
-      "head": "基于数据驱动诊断",
-      "relation": "优点是",
-      "tail": "可以处理传感器噪声和测量偏差"
-    },
-    {
-      "head": "基于数据驱动诊断",
-      "relation": "缺点是",
-      "tail": "需要大量的数据样本及训练时间进行训练"
+      "head": "健康管理体系",
+      "relation": "应用于",
+      "tail": "综合化航空电子系统"
     }
   ]
 }
@@ -283,14 +270,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-文章编号：1000- 6893（2012）06- 1100- 08
-
-# 飞机性能参数预测的不确定性处理
-
-# 许喆平，郎荣玲*，邓小乐
-
-北京航空航天大学 电子信息工程学院，北京 100191
-
 摘要：利用飞机的性能参数对飞机进行故障预报和状态监控是非常重要的。飞机的性能参数不仅具有非线性而且往往包含噪声，使得故障预测结果具有不确定性。针对这些问题，研究了利用非线性支持向量机处理飞机性能参数的预测问题，通过增加线性约束的方式解决了噪声带来的不确定性问题。此种方法不仅提高了预测的精度，而且模型可以利用适用于处理大规模二次规划的序列最小最优化算法进行求解，使得其可以解决大数据量的预测问题。利用仿真数据以及实际飞机性能参数对该方法进行了实验分析，实验结果表明此方法在精度上较不考虑噪声影响的模型有所提高，对于进一步提高飞机故障预测的精度，从而提高飞机的安全性具有重要意义。
 
 关键词：飞机性能参数；预测；支持向量机；不确定性；排气温度；排气温度裕度
@@ -608,25 +587,3 @@ Table 4 Test result affected by noise of coordinate  $\pmb{x}$
 # 4结论
 
 研究了利用SVM处理噪声带来的飞机性能参数预测的不确定性问题，通过增加约束的方式使得利用SMO算法对模型进行求解，不仅提高了模型的精度，而且使得模型能够应用于大数量的情形。通过仿真实验分析，说明了本文提出的方法可以实现函数的精确回归，模型的求解精度比传统的SVM要高，并且噪声的强度越大，这种优势越明显。利用飞机性能参数EGT和EGTM模型的进行了实用性验证，结果表明本文提出的方法可以实现对飞机的性能参数的精确回归和预测，与传统的支持向量机模型相比，精度也有一定程度的提高，对于提高飞机故障预测的精度具有重要的意义。
-
-# 参考文献
-
-[1] Li X B, Cui X L, Lang R L. Forecasting method for aeroengine performance parameters. Journal of Beijing University of Aeronautics and Astronautics, 2008, 34(3): 253- 257. (in Chinese) 李晓白，崔秀伶，郜荣玲. 航空发动机性能参数预测方法研究. 北京航空航天大学学报，2008，34（3）：253- 257. [2] Lu Y L, Lang R L, Lu H, et al. Prediction of aeroengines performance parameter combining RBFPN and FAR. Journal of Beijing University of Aeronautics and Astronautics, 2010, 36(2): 131- 135. (in Chinese) 吕永乐，郎荣玲，路辉，等. 航空发动机性能参数联合RBFPN和FAR预测. 北京航空航天大学学报，2010，36(2): 131- 135. [3] Pai P F, Lin K P, Lin C S, et al. Time series forecasting by a seasonal support vector regression model. Expert Systems with Applications, 2010, 37(6): 4261- 4265. [4] Thissenu U, van Brakela R, de Weijerb A P, et al. Using support vector machines for time series prediction. Chemometrics and Intelligent Laboratory Systems, 2003, 69(1- 2): 35- 49. [5] Wang W J, Men C Q, Lu W Z. Online prediction model based on support vector machine. Neurocomputing, 2008, 71(4- 6): 550- 558. [6] Hong W C, Pai P F. Predicting engine reliability by sup-
-
-port vector machines. International Journal of Advanced Manufacture Technology, 2006, 28(1- 2): 154- 161. [7] Park J. Uncertainty and sensitivity analysis in support vector machines: robust optimization and uncertain programming approaches. Oklahoma: University of Oklahoma, 2006. [8] Bhattacharyya C, Pannagadatta K S, Smola A J. A second order cone programming formulation for classifying missing data//Lawrence K S, ed. Advances in Neural Information Processing Systems, 2005, 17: 153- 160. [9] Lobo M S, Vandenberghe L, Stephen B, et al. Applications of second- order cone programming. Linear Algebra and its Applications, 1998, 281: 193- 228. [10] Xu H Y, Xia X Z, Chen W. Segmentation of images corrupted by noise based on fuzzy weighted support vector machine approach. Microelectronics & Computer, 2007, 24(11): 14- 20. (in Chinese) 徐海祥, 夏学知, 陈炜. 基于支持向量机方法的噪声图像分割. 微电子学与计算机, 2007, 24(11): 14- 20. [11] Deng N Y, Tian Y J. New method in data mining—support vector machine. Beijing: Science Press, 2004. (in Chinese) 邓乃扬, 田英杰. 数据挖掘中的算法——支持向量机. 北京: 科学出版社, 2004.
-
-[12] Jeng J T. Hybrid approach of selecting hyper- parameters of support vector machine for regression. IEEE Systems, Man, and Cybernetics Society: Part B, 2006, 36(3): 699- 709. [13] Cherkassky V, Ma Y Q. Practical selection of SVM parameters and noise estimation for SVM regression. Neural Networks, 2004, 17(1): 113- 126. [14] Fu Y M. Management of EGT margin of civil turbofan in the use and maintenance. Aviation Maintenance & Engineering, 2005(1): 44- 45. (in Chinese) 付尧明. 民用涡扇发动机在使用和维护中的 EGT 税控管理. 航空工程与维修, 2005(1): 44- 45. [15] Zhou J. Research on non- classical mathematics applied to nonlinear time series forecasting. Nanjing: Nanjing University of Aeronautics and Astronautics, 2006. (in Chinese) 周伽. 非经典数学方法在非线性时间序列预测中的应用研究. 南京: 南京航空航天大学, 2006.
-
-# 作者简介:
-
-许喆平 女, 硕士研究生. 主要研究方向: 机载设备的故障诊断与故障预报. Tel: 010- 82316486 E- mail: xuzheping@yahoo.cn
-
-# Uncertainty Analysis of Aircraft Flight Parameters Prediction
-
-XU Zheping, LANG Rongling*, DENG Xiaole
-
-School of Electronics and Information Engineering, Beihang University, Beijing 100191, China
-
-Abstract: Flight performance parameters can be used for fault prediction and condition monitoring, which is of great importance for the improvement of flight security and reduction of aircraft maintenance costs. Since the airplane is a complicated system, its performance parameter series are always nonlinear. In addition, affected by the operating environment, driving factors and noises generated by sensors, the performance parameters are often mixed with noises, which leads to uncertainty in prediction results. In order to deal with this problem, a new method is proposed to predict flight parameters by using a nonlinear support vector machine. By adding a new restriction, the uncertainty problem is properly solved. This method can not only enhance prediction precision, but also deal with problems involving large amounts of input data by using sequential minimal optimization. The method is evaluated by simulation data and actual flight performance parameters. Test results show that this new model which takes noise into consideration exhibits an improvement in precision as compared with the original model. Thus, this new method provides better precision for flight malfunction prediction, which is of great significance in enhancing flight safety.
-
-Key words: aircraft flight parameter; prediction; support vector machine; uncertainty; exhaust gas temperature; exhaust gas temperature margin

@@ -134,202 +134,100 @@
 {
   "entities": [
     {
-      "name": "数据挖掘技术",
-      "type": "技术"
+      "name": "现代信息技术",
+      "type": "理论基础"
     },
     {
-      "name": "航空发动机PHM",
-      "type": "应用领域"
+      "name": "人工智能技术",
+      "type": "理论基础"
     },
     {
-      "name": "神经网络",
-      "type": "算法"
+      "name": "PHM系统",
+      "type": "系统/部件"
     },
     {
-      "name": "时间序列分析",
-      "type": "方法"
+      "name": "数据采集",
+      "type": "研究方法"
     },
     {
-      "name": "模糊逻辑",
-      "type": "方法"
+      "name": "状态监测",
+      "type": "研究方法"
     },
     {
-      "name": "遗传算法",
-      "type": "算法"
-    },
-    {
-      "name": "证据理论",
-      "type": "理论"
-    },
-    {
-      "name": "支持向量机",
-      "type": "算法"
+      "name": "健康评估",
+      "type": "研究方法"
     },
     {
       "name": "故障预测",
-      "type": "问题"
+      "type": "研究方法"
     },
     {
-      "name": "健康管理",
-      "type": "问题"
+      "name": "航空发动机领域",
+      "type": "应用场景"
     },
     {
-      "name": "航空发动机",
+      "name": "航电测试性设计",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障检测/隔离",
+      "type": "研究方法"
+    },
+    {
+      "name": "剩余使用寿命预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "机载PHM",
       "type": "系统/部件"
     },
     {
-      "name": "EHM（发动机健康监控和管理）",
-      "type": "系统概念"
-    },
-    {
-      "name": "PHM",
-      "type": "系统概念"
-    },
-    {
-      "name": "异常检测",
-      "type": "功能"
-    },
-    {
-      "name": "故障诊断",
-      "type": "功能"
-    },
-    {
-      "name": "新一代电子产品密集型的飞机",
-      "type": "研究对象"
-    },
-    {
-      "name": "系统结构和失效机理复杂",
-      "type": "问题"
-    },
-    {
-      "name": "失效模式多样",
-      "type": "问题"
-    },
-    {
-      "name": "传统的方法",
-      "type": "研究方法"
-    },
-    {
-      "name": "有效健康管理",
-      "type": "任务"
-    },
-    {
-      "name": "基于海量数据挖掘的飞机PHM研究",
-      "type": "研究方向"
-    },
-    {
-      "name": "海量数据挖掘",
-      "type": "技术"
-    },
-    {
-      "name": "飞机PHM",
-      "type": "技术"
-    },
-    {
-      "name": "集成管理",
-      "type": "技术"
-    },
-    {
-      "name": "聚类",
-      "type": "算法"
-    },
-    {
-      "name": "分类",
-      "type": "算法"
-    },
-    {
-      "name": "关联",
-      "type": "算法"
-    },
-    {
-      "name": "预测",
-      "type": "算法"
-    },
-    {
-      "name": "基于私有云的飞机PHM海量数据挖掘平台",
-      "type": "平台/系统"
-    },
-    {
-      "name": "可靠性",
-      "type": "性能指标"
-    },
-    {
-      "name": "单一故障假设和单参数的故障诊断和预测方法",
-      "type": "研究方法"
-    },
-    {
-      "name": "基于大数据分析和人工智能相结合的飞机PHM系统",
+      "name": "综合航空电子PHM系统",
       "type": "系统/部件"
     },
     {
-      "name": "预测方法",
-      "type": "研究方法"
+      "name": "Open System Architecture for Condition- Based Maintenance",
+      "type": "系统/部件"
     },
     {
-      "name": "系统退化过程和失效模式",
-      "type": ""
+      "name": "分层融合式体系架构",
+      "type": "系统/部件"
+    },
+    {
+      "name": "传感器",
+      "type": "传感器/监测参数"
     }
   ],
   "relations": [
     {
-      "head": "数据挖掘技术",
-      "relation": "应用于",
-      "tail": "航空发动机PHM"
+      "head": "PHM系统",
+      "relation": "包含",
+      "tail": "数据采集"
     },
     {
-      "head": "数据挖掘技术",
-      "relation": "包括",
-      "tail": "神经网络"
+      "head": "PHM系统",
+      "relation": "包含",
+      "tail": "状态监测"
     },
     {
-      "head": "数据挖掘技术",
-      "relation": "包括",
-      "tail": "时间序列分析"
+      "head": "PHM系统",
+      "relation": "包含",
+      "tail": "健康评估"
     },
     {
-      "head": "数据挖掘技术",
-      "relation": "包括",
-      "tail": "模糊逻辑"
+      "head": "PHM系统",
+      "relation": "包含",
+      "tail": "故障预测"
     },
     {
-      "head": "数据挖掘技术",
-      "relation": "包括",
-      "tail": "遗传算法"
+      "head": "航电测试性设计",
+      "relation": "用于",
+      "tail": "故障检测/隔离"
     },
     {
-      "head": "数据挖掘技术",
-      "relation": "包括",
-      "tail": "证据理论"
-    },
-    {
-      "head": "数据挖掘技术",
-      "relation": "包括",
-      "tail": "支持向量机"
-    },
-    {
-      "head": "新一代电子产品密集型的飞机",
-      "relation": "面临问题",
-      "tail": "系统结构和失效机理复杂"
-    },
-    {
-      "head": "新一代电子产品密集型的飞机",
-      "relation": "面临问题",
-      "tail": "失效模式多样"
-    },
-    {
-      "head": "传统的方法",
-      "relation": "难以实现",
-      "tail": "有效健康管理"
-    },
-    {
-      "head": "基于私有云的飞机PHM海量数据挖掘平台",
-      "relation": "提供验证平台",
-      "tail": "飞机PHM"
-    },
-    {
-      "head": "单一故障假设和单参数的故障诊断和预测方法",
-      "relation": "难以描述",
-      "tail": "系统退化过程和失效模式"
+      "head": "综合航空电子PHM系统",
+      "relation": "由...组成",
+      "tail": "机载PHM"
     }
   ]
 }
@@ -360,21 +258,9 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 航空发动机PHM中的数据挖掘机遇与挑战
-
-# The Opportunities and Challenges of Data Mining in Gas Turbine Engine Prognostics and Health Management
-
-尉询楷，朱纪洪，陈良峰，冯悦，杨立WEIXun- kai\*，ZHU Ji- hong²，CHEN Liang- feng，FENG Yue，YANG Li11. 北京航空工程技术研究中心，北京100076；2. 清华大学计算机科学与技术系智能系统与技术国家重点实验室，北京100084）(1. Beijing Aeronautical Engineering Technology Research Center,Beijing 100076;2. State Key Laboratory of Intelligent Technologies and Systems,Department of Computer Science and Technology,Tsinghua University,Beijing 100084,China)
-
 摘要：预测与健康管理（PHM）是未来先进航空发动机确保飞行安全、实现二级视情维修的关键使能技术。数据挖掘是PHM实现发动机健康状态评估、诊断以及剩余寿命预测的核心技术。本文首先从军事需求入手，简要分析了PHM技术的作用和意义，阐述了数据挖掘在PHM技术中发挥的重要作用，简要分析了国内外在航空发动机PHM中数据挖掘的差距。接着，详细分析了在航空发动机PHM技术中的关键数据挖掘问题，指出了数据挖掘问题的难点和技术挑战。最后，提出了集计算机、航空宇航两大学科之力推动发动机PHM技术成熟的建议。
 
-Abstract: Prognostics and health management is an enabled supporting key technology for ensuring flight safety and two- level condition- based maintenance. Data mining is the core implementation technology for engine health status assessment, diagnostics and remaining useful life prediction. First, the military needs and the significance of the PHM technology accompanying with the role of data mining in PHM are briefly reviewed. Then, the key data mining problems and challenges in gas turbine PHM are detailed. Finally, it is argued that the maturing of PHM should be under the collaboration of the computer subject and the aerospace subject.
-
 # 关键词：预测与健康管理；视情维修；数据挖掘；机遇与挑战
-
-Key words: prognostics and health management; condition based maintenance; data mining; opportunities and challenges
-
-doi:10.3969/j.issn.1007- 130X,2012,04,018
 
 中图分类号：TP206
 
@@ -465,55 +351,3 @@ PHM技术实现的主要过程是将机载采集的传感器信息按不同特�
 # 3 结束语
 
 本文详细分析了航空发动机预测与健康管理中的数据挖掘典型问题。数据挖掘是航空发动机PHM技术的大脑中枢，是实现发动机健康状态评估、诊断隔离、关键部件寿命预测、自动故障推理的支撑技术。本文从学科交叉角度出发，抛砖引玉，以此希冀能够依托计算机学科、航空宇航科学与技术学科的资源优势，推动航空发动机PHM技术的加速成熟、孵化和技术转化应用。
-
-# 参考文献：
-
-[1] Vachtsevanos G,Lewis F,Roemer M,et al.Intelligent Fault Diagnosis and Prognosis for Engineering Systems [M]. Hoboken,NJ:John Wiley and Sons,2006. [2] 曾声奎，吴际，MichaelG P.故障预测与健康管理（PHM）技术的现状与发展[J]。航空学报，2005，26（5）：626- 632. [3] 姜彩虹，孙志岩，王曦，航空发动机预测健康管理系统设计的关键技术[J]。航空动力学报，2009，24（11）：2589- 2594. [4] 尉询楷，冯悦，刘芳，等，军用航空发动机PHM发展策略及关键技术[J]。航空动力学报，2011，26（9）：2107- 2115. [5] Link C J, Jack D M. Aircraft Engine Controls: Design, System Analysis，and Health Monitoring[M]. Reston，VA: AIAA，2009. [6] Gastineau Z D. Propulsion Technology Planning for Engine Health Management[DB/OL].[2011- 11- 17].http://www.netl. doe. gov/publications/proceedings/0/turbines/gastineau.pdf. [7] Brown E R, McCollom N N, Moore E, et al. Prognostics and Health Management A Data- Driven Approach to Supporting the F- 35 Lightning II [C] // Proc of the 2007 IEEE Aerospace Conference Proceedings，2007;1- 12. [8] SAE Committee E- 32. AIR1587B- 2007 Aircraft Gas Turbine Engine Health Management System Guide [S]. Warrendale, PA:SAE International，2007:3- 25. [9] http://www.aeronautics.nasa.gov/programs_avsafe.htm. [10] 张叔农，康锐.数据挖掘技术在航空发动机PHM中的应用 [J].弹箭与制导学报，2008，28（1）：167- 170.
-
-[11] Litt J, Simon D L, Meyer C, et al. NASA Aviation Safety Program Aircraft Engine Health Management Data Mining Tools Roadmap [R]. NSAA/TM- 2000- 210030, NASA, 2000. [12] Hess A, Frith P, Suarez E. Challenges, Issues, and Lessons Learned Implementing Prognostics For Propulsion Systems[R]. GT2006- 91279, ASME, 2006. [13] Heng A, Zhang S, Tan A C C, et al. Rotating Machinery Prognostics: State of the Art, Challenges and Opportunities [J]. Mechanical Systems and Signal Processing, 2009, 23(3):724- 739. [14] Hess A. PHM a Key Enabler for the JSF Autonomic Logistics Support Concept[C] // Proc of the 2004 IEEE Aerospace Conference Proceedings, 2004;3543- 3550. [15] SAE Committee E- 32. AIR4175A- 2005 A Guide to the Development of a Ground Station for Engine Condition Monitoring[S]. Warrendale, PA: SAE International, 2005; 1- 39. [16] Roemer M J, Byington C S, Kacprzynski G J. An Overview of Selected Prognostic Technologies with Application to Engine Health Management [R]. New York: ASME, GT2006- 90677, 2006. [17] Tim F, George D H, David A M, et al. Architectures for Integrated Vehicle Health Management [R]. Reston, VA: AIAA, AIAA 2010- 3433, 2010. [18] Dimitry G, Azary S, Robert M, et al. Open Architecture for Integrated Vehicle Health Management [R]. Reston, VA: AIAA 2010- 3434, 2010. [19] Keller K, Peek J, Swearingen K, et al. Architectures for Affordable Health Management [R]. Reston, VA: AIAA, AIAA 2010- 3435, 2010. [20] Glass B, Chun W, Lambor B, et al. Integrated System Health Management (ISHM) Architecture Design [R]. Reston, VA: AIAA, AIAA 2010- 3453, 2010. [21] SAE Committee E- 32. AIR5871- 2008 Prognostics for Gas Turbine Engines [S]. Warrendale, PA: SAE International, 2008; 3- 19. [22] Hess A, Calvello G. Challenges, Issues, and Lessons Learned Chasing the “Big P”, Real Predictive Prognostics. Part 1 [C] // Proc of the 2005 IEEE Aerospace Conference Proceedings, 2005; 1- 10. [23] Hess A, Calvello G, Frith P, et al. Challenges, Issues, and Lessons Learned Chasing the “Big P”: Real Predictive Prognostics Part 2 [C] // Proc of the 2006 IEEE Aerospace Conference, 2006; 1- 19. [24] Feather M S, Gobel K, Daigle M. Tackling Verification and Validation for Prognostics [R]. Reston, VA: AIAA, AIAA 2010- 2183, 2010. [25] Saxena A, Celaya J, Saha B, et al. Metrics for Offline Evaluation of Prognostic Performance [J]. International Journal of
-
-Prognostics and Health Management, 2010(1):1- 19. [26] SAE G- 11 Committee. ARP5580- 2001 Recommended Failure Modes and Effects Analysis (FMEA) Practices for Non- Automobile Applications [S]. Warrendale, PA: SAE International, 2001:4- 57. [27] Kacprzynski G, Byington C, Rommer M J, et al. Enhanced FMECA: Integrating Health Management Design and Traditional Failure Analysis [R]. Ft. Belvoir, VA: DTIC, ADP013499, 2001.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-09-11/32bedde4-61c3-46a6-a837-eee7792f73f3/47d15deec3a2a95c381451f9628161305c4ae99f821a4d761155154c24ccbdac.jpg)
-
-尉询楷（1981- ），男，山东莱阳人，博士，博士后，研究方向为航空发动机预测与健康管理、现代机器学习理论。E- mail:xunkai.wei@gmail.com
-
-WEI Xun- kai, born in 1981, PhD,
-
-post- doctoral, his research interests include aero engine prognostics and health management, and modern machine learning theory.
-
-# 第18届全国信息存储技术学术会议（中国无锡）征文通知
-
-为了促进我国信息存储技术的发展，加强学术交流、展示新产品，中国计算机学会信息存储技术专业委员会决定于2012年7月12日～15日在江苏无锡，召开第18届全国信息存储技术学术会议（The 18th National Conference of Information Storage 2012)NCIS'2012。会议由中国计算机学会主办，中国计算机学会信息存储技术专业委员会及江南计算技术研究所承办，华中科技大学协办。
-
-# 一、征文范围
-
-征文范围主要以信息存储技术相关领域（但不仅限于下列领域）所涉及的内容为主：信息存储理论的基础研究；信息存储系统研究与实现；云计算、云存储技术研究；信息系统应用技术；信息存储系统标准及测试技术。
-
-# 二、征文要求
-
-作者投往本届学术年会的稿件须是未发表的研究成果（并且也没有同时提交给其他刊物或者会议评审）。稿件请以中文撰写，采用Word2003文件格式提交，如果是CCF会员，请在投稿时注明CCF会员。来稿将由大会程序委员会组织专家评审并决定是否录用。
-
-论文格式：请参照《计算机工程与科学》杂志格式或录用期刊的格式要求。具体要求参见“第18届全国信息存储技术学术会议网站http://storage.hust.edu.cn/ncis2012"的要求。
-
-投稿方式：请将电子稿通过E- mail发至ncis2012@yeah.net。
-
-重要日期：论文提交截止日期：2012年5月5日
-
-录用通知发出日期：2012年5月30日
-
-本次会议录用的学术论文将推荐在《计算机研究与发展》《计算机工程与科学》《哈尔滨工业大学学报》《国防科技大学学报》《华中科技大学学报》《计算机科学》《高性能计算技术》等期刊的正刊上发表。此外会议还将评选出5一8篇优秀论文予以奖励。
-
-# 三、计算机信息存储服务产品参展
-
-为加强产业界、学术界和应用领域间的交流和联系，本次会议期间还将举办信息存储技术交流及产品展示活动，热忱欢迎国内外的各计算机及其存储厂家，或者经销单位前来参会和参展。
-
-四、第18届全国信息存储技术学术会议组委会联系方式
-
-联系人：董立平老师：0510—85155532（《高性能计算》编辑部）；华宇老师：027—87792450；白显毅老师：15961777520；E- mail:ncis2012@yeah.net
-
-# 五、中国计算机学会信息存储技术专业委员会联系方式
-
-联系人：周海芳副教授haifang_zhou@163. com，电话：（0731）84573638；
-
-方粮教授：L.fang_zq@163. com地址：410073湖南长沙国防科技大学计算机学院朱平研究员PingZhu2012@163. com地址：214083无锡市35信箱333号

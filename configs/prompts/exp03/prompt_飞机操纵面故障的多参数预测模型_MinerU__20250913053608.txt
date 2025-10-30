@@ -134,84 +134,147 @@
 {
   "entities": [
     {
-      "name": "核动力系统故障诊断方法",
-      "type": "方法"
+      "name": "飞机水/废水系统",
+      "type": "系统/部件"
     },
     {
-      "name": "核领域的实际应用",
-      "type": "应用领域"
+      "name": "数据驱动的故障预测算法",
+      "type": "算法"
     },
     {
-      "name": "两步走策略",
-      "type": "策略"
+      "name": "AMESim",
+      "type": "软件工具"
     },
     {
-      "name": "设备及故障诊断确定故障源设备",
-      "type": "步骤"
+      "name": "系统仿真模型",
+      "type": "模型"
     },
     {
-      "name": "具体设备的故障源诊断",
-      "type": "步骤"
-    },
-    {
-      "name": "粗糙集理论",
-      "type": "理论"
-    },
-    {
-      "name": "BP神经网络",
-      "type": "网络"
-    },
-    {
-      "name": "故障预测",
-      "type": "技术"
-    },
-    {
-      "name": "视情维修",
-      "type": "维修策略"
-    },
-    {
-      "name": "神经网络",
-      "type": "技术"
-    },
-    {
-      "name": "基于多模型融合的航空电子产品故障预测方法",
+      "name": "故障注入",
       "type": "研究方法"
     },
     {
-      "name": "航空电子产品故障预测",
-      "type": "问题"
+      "name": "空气压缩机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障数据",
+      "type": "数据集"
+    },
+    {
+      "name": "神经网络故障预测方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "系统性能衰退曲线",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "性能衰退趋势",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "产品剩余寿命",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障预测技术",
+      "type": "研究方法"
+    },
+    {
+      "name": "基于知识的故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "专家知识系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "组合预测方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "指数平滑法",
+      "type": "模型"
+    },
+    {
+      "name": "加权系数",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "航空设备",
+      "type": "系统/部件"
     }
   ],
   "relations": [
     {
-      "head": "核动力系统故障诊断方法",
-      "relation": "推广到",
-      "tail": "核领域的实际应用"
+      "head": "数据驱动的故障预测算法",
+      "relation": "应用于",
+      "tail": "飞机水/废水系统"
     },
     {
-      "head": "两步走策略",
-      "relation": "包括",
-      "tail": "设备及故障诊断确定故障源设备"
+      "head": "系统仿真模型",
+      "relation": "建立在",
+      "tail": "AMESim"
     },
     {
-      "head": "两步走策略",
-      "relation": "包括",
-      "tail": "具体设备的故障源诊断"
+      "head": "故障注入",
+      "relation": "用于获取",
+      "tail": "故障数据"
     },
     {
-      "head": "粗糙集理论",
+      "head": "神经网络故障预测方法",
+      "relation": "用于拟合",
+      "tail": "系统性能衰退曲线"
+    },
+    {
+      "head": "神经网络故障预测方法",
+      "relation": "预测",
+      "tail": "性能衰退趋势"
+    },
+    {
+      "head": "神经网络故障预测方法",
+      "relation": "预测",
+      "tail": "产品剩余寿命"
+    },
+    {
+      "head": "飞机水/废水系统",
+      "relation": "包含",
+      "tail": "空气压缩机"
+    },
+    {
+      "head": "故障预测技术",
+      "relation": "分为",
+      "tail": "基于知识的故障预测"
+    },
+    {
+      "head": "基于知识的故障预测",
+      "relation": "依赖于",
+      "tail": "专家知识系统"
+    },
+    {
+      "head": "组合预测方法",
+      "relation": "提出用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "组合预测方法",
       "relation": "结合",
-      "tail": "神经网络"
+      "tail": "指数平滑法"
     },
     {
-      "head": "故障预测",
-      "relation": "支持",
-      "tail": "视情维修"
+      "head": "组合预测方法",
+      "relation": "采用",
+      "tail": "加权系数"
     },
     {
-      "head": "基于多模型融合的航空电子产品故障预测方法",
-      "relation": "提出用于解决",
-      "tail": "航空电子产品故障预测"
+      "head": "组合预测方法",
+      "relation": "应用于",
+      "tail": "航空设备"
     }
   ]
 }
@@ -242,10 +305,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 飞机操纵面故障的多参数预测模型
-
-徐艳玲，张新国，朱容芳，王琳（1. 西北工业大学自动化学院，西安，710072;2. 中国一航西安飞行自动控制研究所，西安，710065）
-
 摘要：飞机突发性操纵面故障的准确预测对保障飞机安全可靠工作具有重要意义。对目前的飞机操纵面故障预测的主要方法均存在只考虑一个特征参数或单独考虑几个特征参数的不足，缺乏对各特征参数的统一考虑。基于操纵面故障往往表现为一种故障表征出多种特征信号，同一特征信号还可能反映了不同的故障的事实。借鉴灰色预测建模和信息融合的思想，提出了基于多故障特征参数的预测模型，使得多个相关特征参数时间序列不仅可以为各自的预测提供相关信息，也可为其他序列预测提供必要的信息，增加了预测的准确性；将模型应用于某飞机操纵面的故障预测中，经实例计算验证了模型的有效性。
 
 关键词：多参数；灰色预测；预测模型；故障；操纵面  中图分类号：TP391V557+1 文献标识码：A
@@ -253,10 +312,6 @@
 # Multi-Parameter Prediction Model of Flight Control Surface Fault
 
 XU Yan- ling,ZHANG X in- guo,ZHU Rong- fang,WAN Lin (l. School of Automation North- west Poly technical University Xf an 710072, China 2 AVIC IXI an Flight Automatic Control Research Institu XI an 710065, China)
-
-ABSTRACT; Predicting the fighter control surface effectiveness loss and lock- in- place during air combat accurately has great significance to ensuring aircraft safety. At present in the main fighter outburst configuration fault prediction methods only one characteristic parameter is considered or several characteristic parameters are considered in isolation, there is a lack of consideration of the characteristic parameters together. Because fighter control surface fault often characterize as a variety of feature signal and the same characteristic signal may also reflects the different faults, the multi- parameter prediction model is proposed based on the idea of grey forecast model and information fusion. Using this model, the relevant parameters of time- series can be not only to provide for their own forecast information but also to provide the necessary information for the others, so the accuracy of the forecast is increased. Finally, a good forecast effect is given through an fighter control surface fault prediction example, the obtained results show that the model is availability.
-
-KEYW ORDS: Multi- parameter Grey prediction, Prediction model: Fault: Flight control surface
 
 # 1 引言
 

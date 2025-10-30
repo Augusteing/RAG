@@ -1,0 +1,240 @@
+{
+  "entities": [
+    {
+      "name": "航空发动机健康管理系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "正向设计流程",
+      "type": "研究方法"
+    },
+    {
+      "name": "流程平台",
+      "type": "软件工具"
+    },
+    {
+      "name": "基于模型的系统工程",
+      "type": "理论基础"
+    },
+    {
+      "name": "面向对象的工程设计思路",
+      "type": "理论基础"
+    },
+    {
+      "name": "OOSEM",
+      "type": "理论基础"
+    },
+    {
+      "name": "MBSE",
+      "type": "理论基础"
+    },
+    {
+      "name": "SysML",
+      "type": "软件工具"
+    },
+    {
+      "name": "Rhapsody",
+      "type": "软件工具"
+    },
+    {
+      "name": "DOORS",
+      "type": "软件工具"
+    },
+    {
+      "name": "Simulink",
+      "type": "软件工具"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "FADEC",
+      "type": "系统/部件"
+    },
+    {
+      "name": "传感器",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "状态监控",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "剩余寿命预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "健康评估",
+      "type": "研究方法"
+    },
+    {
+      "name": "OSA-CBM",
+      "type": "研究领域"
+    },
+    {
+      "name": "SAE AIR1587B",
+      "type": "研究领域"
+    },
+    {
+      "name": "ACMS",
+      "type": "系统/部件"
+    },
+    {
+      "name": "需求捕获",
+      "type": "研究方法"
+    },
+    {
+      "name": "需求分析",
+      "type": "研究方法"
+    },
+    {
+      "name": "功能分配",
+      "type": "研究方法"
+    },
+    {
+      "name": "硬件设计",
+      "type": "研究方法"
+    },
+    {
+      "name": "联合仿真",
+      "type": "研究方法"
+    },
+    {
+      "name": "数据采集",
+      "type": "研究方法"
+    },
+    {
+      "name": "数据处理",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障报文生成",
+      "type": "研究方法"
+    },
+    {
+      "name": "机载功能架构",
+      "type": "系统/部件"
+    },
+    {
+      "name": "需求管理",
+      "type": "研究方法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "正向设计流程",
+      "relation": "用于",
+      "tail": "航空发动机健康管理系统"
+    },
+    {
+      "head": "正向设计流程",
+      "relation": "开发了",
+      "tail": "流程平台"
+    },
+    {
+      "head": "正向设计流程",
+      "relation": "引入",
+      "tail": "基于模型的系统工程"
+    },
+    {
+      "head": "正向设计流程",
+      "relation": "采用",
+      "tail": "面向对象的工程设计思路"
+    },
+    {
+      "head": "流程平台",
+      "relation": "实现",
+      "tail": "机载功能架构"
+    },
+    {
+      "head": "基于模型的系统工程",
+      "relation": "采用",
+      "tail": "OOSEM"
+    },
+    {
+      "head": "OOSEM",
+      "relation": "基于",
+      "tail": "SysML"
+    },
+    {
+      "head": "硬件设计",
+      "relation": "验证",
+      "tail": "基于模型的系统工程"
+    },
+    {
+      "head": "航空发动机健康管理系统",
+      "relation": "包含",
+      "tail": "状态监控"
+    },
+    {
+      "head": "航空发动机健康管理系统",
+      "relation": "包含",
+      "tail": "故障诊断"
+    },
+    {
+      "head": "航空发动机健康管理系统",
+      "relation": "包含",
+      "tail": "剩余寿命预测"
+    },
+    {
+      "head": "航空发动机健康管理系统",
+      "relation": "包含",
+      "tail": "健康评估"
+    },
+    {
+      "head": "航空发动机健康管理系统",
+      "relation": "基于",
+      "tail": "FADEC"
+    },
+    {
+      "head": "航空发动机健康管理系统",
+      "relation": "基于",
+      "tail": "OSA-CBM"
+    },
+    {
+      "head": "航空发动机健康管理系统",
+      "relation": "基于",
+      "tail": "SAE AIR1587B"
+    },
+    {
+      "head": "数据采集",
+      "relation": "使用",
+      "tail": "传感器"
+    },
+    {
+      "head": "硬件设计",
+      "relation": "使用",
+      "tail": "Rhapsody"
+    },
+    {
+      "head": "需求管理",
+      "relation": "使用",
+      "tail": "DOORS"
+    },
+    {
+      "head": "需求管理",
+      "relation": "使用",
+      "tail": "Rhapsody"
+    },
+    {
+      "head": "联合仿真",
+      "relation": "使用",
+      "tail": "Simulink"
+    },
+    {
+      "head": "状态监控",
+      "relation": "支持",
+      "tail": "故障诊断"
+    },
+    {
+      "head": "故障诊断",
+      "relation": "支持",
+      "tail": "剩余寿命预测"
+    }
+  ]
+}

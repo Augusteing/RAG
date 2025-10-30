@@ -1,19 +1,15 @@
 {
   "entities": [
     {
-      "name": "民机维修成本效益仿真评估方法",
-      "type": "研究方法"
+      "name": "航空维修",
+      "type": "研究领域"
     },
     {
       "name": "故障预测与健康管理(PHM)",
       "type": "研究领域"
     },
     {
-      "name": "航空维修",
-      "type": "研究领域"
-    },
-    {
-      "name": "基于PHM的维修模式",
+      "name": "PHM维修模式",
       "type": "研究方法"
     },
     {
@@ -30,7 +26,7 @@
     },
     {
       "name": "计算机仿真技术",
-      "type": "软件工具"
+      "type": "研究方法"
     },
     {
       "name": "维修工时",
@@ -42,252 +38,235 @@
     },
     {
       "name": "非计划维修事件",
-      "type": "故障模式"
+      "type": "性能指标"
     },
     {
       "name": "空调系统",
       "type": "系统/部件"
     },
     {
-      "name": "传统的预防性维修",
+      "name": "预防性维修",
       "type": "研究方法"
     },
     {
-      "name": "维修计划文件(MPD)",
-      "type": "数据集"
+      "name": "事后维修",
+      "type": "研究方法"
     },
     {
       "name": "视情维修(CBM)",
       "type": "研究方法"
     },
     {
-      "name": "PHM系统",
-      "type": "系统/部件"
+      "name": "诊断",
+      "type": "研究方法"
     },
     {
-      "name": "覆盖率(Pcov)",
-      "type": "性能指标"
+      "name": "预测",
+      "type": "研究方法"
     },
     {
-      "name": "故障检测率(Pue)",
-      "type": "性能指标"
+      "name": "状态监测",
+      "type": "研究方法"
     },
     {
-      "name": "虚警率(Pfa)",
-      "type": "性能指标"
+      "name": "MPD计划维修",
+      "type": "研究方法"
     },
     {
-      "name": "漏警率(Pmf)",
-      "type": "性能指标"
-    },
-    {
-      "name": "虚警",
+      "name": "部件失效",
       "type": "故障模式"
     },
     {
-      "name": "漏警",
+      "name": "PHM系统性能指标",
+      "type": "性能指标"
+    },
+    {
+      "name": "覆盖率",
+      "type": "性能指标"
+    },
+    {
+      "name": "故障检测率",
+      "type": "性能指标"
+    },
+    {
+      "name": "虚警率",
+      "type": "性能指标"
+    },
+    {
+      "name": "漏警率",
+      "type": "性能指标"
+    },
+    {
+      "name": "虚警事件",
       "type": "故障模式"
+    },
+    {
+      "name": "漏警事件",
+      "type": "故障模式"
+    },
+    {
+      "name": "非计划的检查工作",
+      "type": "研究方法"
+    },
+    {
+      "name": "非计划的拆换与送修",
+      "type": "研究方法"
     },
     {
       "name": "成本效益评估算法",
       "type": "算法"
     },
     {
-      "name": "关键部件失效",
-      "type": "故障模式"
+      "name": "本文",
+      "type": "其他"
     },
     {
-      "name": "空气循环机ACM",
-      "type": "系统/部件"
+      "name": "维修总工时",
+      "type": "性能指标"
     },
     {
-      "name": "热交换器",
-      "type": "系统/部件"
+      "name": "维修总成本",
+      "type": "性能指标"
     },
     {
-      "name": "TCV进口",
-      "type": "系统/部件"
+      "name": "传统检查工作",
+      "type": "研究方法"
     },
     {
-      "name": "冲压空气作动筒",
-      "type": "系统/部件"
-    },
-    {
-      "name": "回热器",
-      "type": "系统/部件"
-    },
-    {
-      "name": "冷凝器",
-      "type": "系统/部件"
-    },
-    {
-      "name": "除水过滤装置",
-      "type": "系统/部件"
-    },
-    {
-      "name": "过热电门OVHT",
-      "type": "系统/部件"
-    },
-    {
-      "name": "温度传感器",
-      "type": "系统/部件"
+      "name": "考虑PHM的维修模式的效益评估方法",
+      "type": "研究方法"
     }
   ],
   "relations": [
-    {
-      "head": "民机维修成本效益仿真评估方法",
-      "relation": "提出",
-      "tail": "基于PHM的维修模式"
-    },
-    {
-      "head": "民机维修成本效益仿真评估方法",
-      "relation": "利用",
-      "tail": "计算机仿真技术"
-    },
-    {
-      "head": "民机维修成本效益仿真评估方法",
-      "relation": "验证于",
-      "tail": "空调系统"
-    },
     {
       "head": "故障预测与健康管理(PHM)",
       "relation": "应用于",
       "tail": "航空维修"
     },
     {
-      "head": "基于PHM的维修模式",
-      "relation": "建立",
+      "head": "本文",
+      "relation": "提出了",
+      "tail": "考虑PHM的维修模式的效益评估方法"
+    },
+    {
+      "head": "本文",
+      "relation": "建立了",
       "tail": "计划维修优化模型"
     },
     {
-      "head": "基于PHM的维修模式",
-      "relation": "建立",
+      "head": "本文",
+      "relation": "建立了",
       "tail": "非计划维修可控模型"
     },
     {
-      "head": "基于PHM的维修模式",
-      "relation": "建立",
+      "head": "本文",
+      "relation": "建立了",
       "tail": "PHM错误影响分析模型"
     },
     {
-      "head": "基于PHM的维修模式",
+      "head": "PHM维修模式",
+      "relation": "基于",
+      "tail": "故障预测与健康管理(PHM)"
+    },
+    {
+      "head": "PHM维修模式",
+      "relation": "优于",
+      "tail": "预防性维修"
+    },
+    {
+      "head": "PHM维修模式",
       "relation": "减少",
       "tail": "维修工时"
     },
     {
-      "head": "基于PHM的维修模式",
+      "head": "PHM维修模式",
       "relation": "节约",
       "tail": "维修成本"
     },
     {
-      "head": "基于PHM的维修模式",
+      "head": "PHM维修模式",
       "relation": "减少",
       "tail": "非计划维修事件"
     },
     {
-      "head": "基于PHM的维修模式",
-      "relation": "优于",
-      "tail": "传统的预防性维修"
-    },
-    {
-      "head": "传统的预防性维修",
-      "relation": "依据",
-      "tail": "维修计划文件(MPD)"
-    },
-    {
-      "head": "PHM系统",
-      "relation": "评价指标是",
-      "tail": "覆盖率(Pcov)"
-    },
-    {
-      "head": "PHM系统",
-      "relation": "评价指标是",
-      "tail": "故障检测率(Pue)"
-    },
-    {
-      "head": "PHM系统",
-      "relation": "评价指标是",
-      "tail": "虚警率(Pfa)"
-    },
-    {
-      "head": "PHM系统",
-      "relation": "评价指标是",
-      "tail": "漏警率(Pmf)"
-    },
-    {
-      "head": "PHM系统",
-      "relation": "产生",
-      "tail": "虚警"
-    },
-    {
-      "head": "PHM系统",
-      "relation": "产生",
-      "tail": "漏警"
-    },
-    {
-      "head": "成本效益评估算法",
+      "head": "计算机仿真技术",
       "relation": "用于评估",
-      "tail": "基于PHM的维修模式"
+      "tail": "PHM维修模式"
     },
     {
-      "head": "关键部件失效",
+      "head": "空调系统",
+      "relation": "作为验证对象",
+      "tail": "PHM维修模式"
+    },
+    {
+      "head": "视情维修(CBM)",
+      "relation": "基于",
+      "tail": "状态监测"
+    },
+    {
+      "head": "故障预测与健康管理(PHM)",
+      "relation": "实现基础是",
+      "tail": "状态监测"
+    },
+    {
+      "head": "故障预测与健康管理(PHM)",
+      "relation": "关键在于",
+      "tail": "诊断"
+    },
+    {
+      "head": "故障预测与健康管理(PHM)",
+      "relation": "关键在于",
+      "tail": "预测"
+    },
+    {
+      "head": "PHM系统性能指标",
+      "relation": "包括",
+      "tail": "覆盖率"
+    },
+    {
+      "head": "PHM系统性能指标",
+      "relation": "包括",
+      "tail": "故障检测率"
+    },
+    {
+      "head": "PHM系统性能指标",
+      "relation": "包括",
+      "tail": "虚警率"
+    },
+    {
+      "head": "PHM系统性能指标",
+      "relation": "包括",
+      "tail": "漏警率"
+    },
+    {
+      "head": "虚警事件",
       "relation": "导致",
-      "tail": "非计划维修事件"
+      "tail": "非计划的检查工作"
     },
     {
-      "head": "空调系统",
-      "relation": "由...组成",
-      "tail": "空气循环机ACM"
+      "head": "漏警事件",
+      "relation": "导致",
+      "tail": "非计划的拆换与送修"
     },
     {
-      "head": "空调系统",
-      "relation": "由...组成",
-      "tail": "热交换器"
-    },
-    {
-      "head": "空调系统",
-      "relation": "由...组成",
-      "tail": "TCV进口"
-    },
-    {
-      "head": "空调系统",
-      "relation": "由...组成",
-      "tail": "冲压空气作动筒"
-    },
-    {
-      "head": "空调系统",
-      "relation": "由...组成",
-      "tail": "回热器"
-    },
-    {
-      "head": "空调系统",
-      "relation": "由...组成",
-      "tail": "冷凝器"
-    },
-    {
-      "head": "空调系统",
-      "relation": "由...组成",
-      "tail": "除水过滤装置"
-    },
-    {
-      "head": "空调系统",
-      "relation": "由...组成",
-      "tail": "过热电门OVHT"
-    },
-    {
-      "head": "空调系统",
-      "relation": "由...组成",
-      "tail": "温度传感器"
-    },
-    {
-      "head": "覆盖率(Pcov)",
+      "head": "故障检测率",
       "relation": "影响",
-      "tail": "维修成本"
+      "tail": "维修总成本"
     },
     {
-      "head": "故障检测率(Pue)",
+      "head": "覆盖率",
       "relation": "影响",
-      "tail": "维修成本"
+      "tail": "维修总工时"
+    },
+    {
+      "head": "故障检测率",
+      "relation": "负相关于",
+      "tail": "漏警率"
+    },
+    {
+      "head": "状态监测",
+      "relation": "可代替",
+      "tail": "传统检查工作"
     }
   ]
 }

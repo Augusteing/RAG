@@ -5,31 +5,35 @@
       "type": "系统/部件"
     },
     {
-      "name": "MAS",
+      "name": "多智能体系统(MAS)",
       "type": "理论基础"
-    },
-    {
-      "name": "3层Browser/Server体系结构",
-      "type": "系统/部件"
-    },
-    {
-      "name": "基于案例推理的预测方法",
-      "type": "研究方法"
-    },
-    {
-      "name": "基于规则的不确定性推理的预测方法",
-      "type": "研究方法"
     },
     {
       "name": "地面机务维护",
       "type": "应用场景"
     },
     {
-      "name": "减少地面维护时间",
-      "type": "性能指标"
+      "name": "3层Browser/Server体系结构",
+      "type": "模型"
     },
     {
-      "name": "增加飞机使用寿命",
+      "name": "基于案例推理",
+      "type": "研究方法"
+    },
+    {
+      "name": "基于规则的不确定性推理",
+      "type": "研究方法"
+    },
+    {
+      "name": "预测方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "飞机使用寿命",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "地面维护时间",
       "type": "性能指标"
     },
     {
@@ -37,87 +41,129 @@
       "type": "研究领域"
     },
     {
-      "name": "状态监测",
-      "type": "研究方法"
-    },
-    {
-      "name": "故障诊断",
-      "type": "研究方法"
-    },
-    {
       "name": "故障预测",
       "type": "研究方法"
-    },
-    {
-      "name": "决策",
-      "type": "研究方法"
-    },
-    {
-      "name": "基于案例的推理",
-      "type": "研究方法"
-    },
-    {
-      "name": "案例管理 Agent",
-      "type": "模型"
-    },
-    {
-      "name": "案例检索 Agent",
-      "type": "模型"
-    },
-    {
-      "name": "基于规则的推理",
-      "type": "研究方法"
-    },
-    {
-      "name": "导航Agent",
-      "type": "模型"
-    },
-    {
-      "name": "无线电Agent",
-      "type": "模型"
-    },
-    {
-      "name": "雷达Agent",
-      "type": "模型"
-    },
-    {
-      "name": "各专业对应Agent",
-      "type": "模型"
-    },
-    {
-      "name": "JessAgent",
-      "type": "模型"
     },
     {
       "name": "JADE",
       "type": "软件工具"
     },
     {
+      "name": "Tomcat",
+      "type": "软件工具"
+    },
+    {
+      "name": "SQLServer2000",
+      "type": "软件工具"
+    },
+    {
+      "name": "各专业对应Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "案例管理 Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "案例检索 Agent",
+      "type": "系统/部件"
+    },
+    {
       "name": "Jess",
       "type": "软件工具"
     },
     {
-      "name": "控制与反馈 Agent",
+      "name": "JessAgent",
+      "type": "软件工具"
+    },
+    {
+      "name": "专家系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "传统专家系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "最近邻搜索策略",
+      "type": "算法"
+    },
+    {
+      "name": "不确定性推理模型",
       "type": "模型"
+    },
+    {
+      "name": "确定性因子",
+      "type": "特征/健康指标"
     },
     {
       "name": "健康指数(HI)",
       "type": "特征/健康指标"
     },
     {
-      "name": "不确定性推理",
-      "type": "研究方法"
+      "name": "数据库",
+      "type": "系统/部件"
     },
     {
-      "name": "确定性因子",
+      "name": "历史飞行数据",
+      "type": "数据集"
+    },
+    {
+      "name": "机载飞行参数采集系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "知识库",
+      "type": "系统/部件"
+    },
+    {
+      "name": "规则与案例",
+      "type": "数据集"
+    },
+    {
+      "name": "模糊综合评判法",
+      "type": "算法"
+    },
+    {
+      "name": "定性指标",
       "type": "特征/健康指标"
+    },
+    {
+      "name": "定量指标",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "推理引擎",
+      "type": "系统/部件"
+    },
+    {
+      "name": "控制与反馈 Agent",
+      "type": "系统/部件"
+    },
+    {
+      "name": "本文",
+      "type": "研究工作"
+    },
+    {
+      "name": "飞机健康管理专家系统方案",
+      "type": "研究方法"
     }
   ],
   "relations": [
     {
+      "head": "本文",
+      "relation": "提出了",
+      "tail": "飞机健康管理专家系统方案"
+    },
+    {
+      "head": "飞机健康管理专家系统方案",
+      "relation": "开发了",
+      "tail": "飞机健康管理专家系统"
+    },
+    {
       "head": "飞机健康管理专家系统",
       "relation": "基于",
-      "tail": "MAS"
+      "tail": "多智能体系统(MAS)"
     },
     {
       "head": "飞机健康管理专家系统",
@@ -126,13 +172,18 @@
     },
     {
       "head": "飞机健康管理专家系统",
-      "relation": "引入",
-      "tail": "基于案例推理的预测方法"
+      "relation": "引入了",
+      "tail": "预测方法"
     },
     {
-      "head": "飞机健康管理专家系统",
-      "relation": "引入",
-      "tail": "基于规则的不确定性推理的预测方法"
+      "head": "预测方法",
+      "relation": "包含",
+      "tail": "基于案例推理"
+    },
+    {
+      "head": "预测方法",
+      "relation": "包含",
+      "tail": "基于规则的不确定性推理"
     },
     {
       "head": "飞机健康管理专家系统",
@@ -141,23 +192,13 @@
     },
     {
       "head": "飞机健康管理专家系统",
-      "relation": "实现了",
-      "tail": "减少地面维护时间"
+      "relation": "减少",
+      "tail": "地面维护时间"
     },
     {
       "head": "飞机健康管理专家系统",
-      "relation": "实现了",
-      "tail": "增加飞机使用寿命"
-    },
-    {
-      "head": "飞机健康管理",
-      "relation": "包括",
-      "tail": "状态监测"
-    },
-    {
-      "head": "飞机健康管理",
-      "relation": "包括",
-      "tail": "故障诊断"
+      "relation": "增加",
+      "tail": "飞机使用寿命"
     },
     {
       "head": "飞机健康管理",
@@ -165,34 +206,24 @@
       "tail": "故障预测"
     },
     {
-      "head": "飞机健康管理",
-      "relation": "包括",
-      "tail": "决策"
+      "head": "飞机健康管理专家系统",
+      "relation": "采用开发环境",
+      "tail": "JADE"
     },
     {
-      "head": "基于案例的推理",
-      "relation": "由...组成",
-      "tail": "案例管理 Agent"
+      "head": "数据库",
+      "relation": "存储",
+      "tail": "历史飞行数据"
     },
     {
-      "head": "基于案例的推理",
-      "relation": "由...组成",
-      "tail": "案例检索 Agent"
+      "head": "数据库",
+      "relation": "接收信息自",
+      "tail": "机载飞行参数采集系统"
     },
     {
-      "head": "基于规则的推理",
-      "relation": "由...组成",
-      "tail": "导航Agent"
-    },
-    {
-      "head": "基于规则的推理",
-      "relation": "由...组成",
-      "tail": "无线电Agent"
-    },
-    {
-      "head": "基于规则的推理",
-      "relation": "由...组成",
-      "tail": "雷达Agent"
+      "head": "知识库",
+      "relation": "存放",
+      "tail": "规则与案例"
     },
     {
       "head": "各专业对应Agent",
@@ -200,24 +231,44 @@
       "tail": "JessAgent"
     },
     {
-      "head": "JessAgent",
-      "relation": "利用",
-      "tail": "Jess"
+      "head": "各专业对应Agent",
+      "relation": "是",
+      "tail": "专家系统"
     },
     {
-      "head": "飞机健康管理专家系统",
-      "relation": "开发环境为",
-      "tail": "JADE"
+      "head": "各专业对应Agent",
+      "relation": "利用",
+      "tail": "推理引擎"
+    },
+    {
+      "head": "Jess",
+      "relation": "提供",
+      "tail": "推理引擎"
+    },
+    {
+      "head": "多智能体系统(MAS)",
+      "relation": "改善",
+      "tail": "传统专家系统"
+    },
+    {
+      "head": "案例检索 Agent",
+      "relation": "采用",
+      "tail": "最近邻搜索策略"
+    },
+    {
+      "head": "不确定性推理模型",
+      "relation": "使用",
+      "tail": "确定性因子"
+    },
+    {
+      "head": "模糊综合评判法",
+      "relation": "转化定性指标为",
+      "tail": "定量指标"
     },
     {
       "head": "控制与反馈 Agent",
       "relation": "反馈",
       "tail": "健康指数(HI)"
-    },
-    {
-      "head": "不确定性推理",
-      "relation": "使用",
-      "tail": "确定性因子"
     }
   ]
 }

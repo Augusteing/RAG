@@ -1,0 +1,320 @@
+{
+  "entities": [
+    {
+      "name": "民用航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "回归分析法",
+      "type": "研究方法"
+    },
+    {
+      "name": "ARIMA模型",
+      "type": "模型"
+    },
+    {
+      "name": "振动值",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "转速",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "振动故障",
+      "type": "故障模式"
+    },
+    {
+      "name": "发动机维护方案",
+      "type": "应用场景"
+    },
+    {
+      "name": "神经网络",
+      "type": "模型"
+    },
+    {
+      "name": "发动机模型",
+      "type": "模型"
+    },
+    {
+      "name": "最小熵解卷积法",
+      "type": "研究方法"
+    },
+    {
+      "name": "随机森林法",
+      "type": "算法"
+    },
+    {
+      "name": "小波变换",
+      "type": "算法"
+    },
+    {
+      "name": "发动机振动时频分析方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "快速存储记录器(QAR)",
+      "type": "系统/部件"
+    },
+    {
+      "name": "波音737—800型飞机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "低压转子转速N1",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "发动机低压涡轮(LPT)振动单位值TN1VIB",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "一元线性回归模型",
+      "type": "模型"
+    },
+    {
+      "name": "二次多项式回归模型",
+      "type": "模型"
+    },
+    {
+      "name": "三次多项式回归模型",
+      "type": "模型"
+    },
+    {
+      "name": "指数模型",
+      "type": "模型"
+    },
+    {
+      "name": "可决系数",
+      "type": "性能指标"
+    },
+    {
+      "name": "移动平均模型(MA)",
+      "type": "模型"
+    },
+    {
+      "name": "自回归模型(AR)",
+      "type": "模型"
+    },
+    {
+      "name": "自回归移动平均模型(ARMA)",
+      "type": "模型"
+    },
+    {
+      "name": "自回归积分移动平均模型(ARIMA)",
+      "type": "模型"
+    },
+    {
+      "name": "ADF检验法",
+      "type": "研究方法"
+    },
+    {
+      "name": "差分法",
+      "type": "研究方法"
+    },
+    {
+      "name": "自相关图(ACF)",
+      "type": "研究方法"
+    },
+    {
+      "name": "偏自相关图(PACF)",
+      "type": "研究方法"
+    },
+    {
+      "name": "贝叶斯信息准则值(BIC)",
+      "type": "性能指标"
+    },
+    {
+      "name": "三次指数平滑法",
+      "type": "研究方法"
+    },
+    {
+      "name": "均方根误差(RMSE)",
+      "type": "性能指标"
+    },
+    {
+      "name": "平均绝对误差(MAE)",
+      "type": "性能指标"
+    },
+    {
+      "name": "最大绝对误差(MaxAE)",
+      "type": "性能指标"
+    }
+  ],
+  "relations": [
+    {
+      "head": "ARIMA模型",
+      "relation": "应用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "回归分析法",
+      "relation": "用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "振动值",
+      "relation": "用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "转速",
+      "relation": "用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "故障预测",
+      "relation": "应用于",
+      "tail": "民用航空发动机"
+    },
+    {
+      "head": "振动故障",
+      "relation": "影响",
+      "tail": "民用航空发动机"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "优于",
+      "tail": "神经网络"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "优于",
+      "tail": "发动机模型"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "优于",
+      "tail": "最小熵解卷积法"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "优于",
+      "tail": "随机森林法"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "优于",
+      "tail": "小波变换"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "优于",
+      "tail": "发动机振动时频分析方法"
+    },
+    {
+      "head": "快速存储记录器(QAR)",
+      "relation": "用于",
+      "tail": "发动机维护方案"
+    },
+    {
+      "head": "波音737—800型飞机",
+      "relation": "包含",
+      "tail": "快速存储记录器(QAR)"
+    },
+    {
+      "head": "低压转子转速N1",
+      "relation": "用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "发动机低压涡轮(LPT)振动单位值TN1VIB",
+      "relation": "用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "一元线性回归模型",
+      "relation": "用于",
+      "tail": "回归分析法"
+    },
+    {
+      "head": "二次多项式回归模型",
+      "relation": "用于",
+      "tail": "回归分析法"
+    },
+    {
+      "head": "三次多项式回归模型",
+      "relation": "用于",
+      "tail": "回归分析法"
+    },
+    {
+      "head": "指数模型",
+      "relation": "用于",
+      "tail": "回归分析法"
+    },
+    {
+      "head": "可决系数",
+      "relation": "评估",
+      "tail": "回归分析法"
+    },
+    {
+      "head": "移动平均模型(MA)",
+      "relation": "属于",
+      "tail": "ARIMA模型"
+    },
+    {
+      "head": "自回归模型(AR)",
+      "relation": "属于",
+      "tail": "ARIMA模型"
+    },
+    {
+      "head": "自回归移动平均模型(ARMA)",
+      "relation": "属于",
+      "tail": "ARIMA模型"
+    },
+    {
+      "head": "自回归积分移动平均模型(ARIMA)",
+      "relation": "属于",
+      "tail": "ARIMA模型"
+    },
+    {
+      "head": "ADF检验法",
+      "relation": "用于",
+      "tail": "平稳性检验"
+    },
+    {
+      "head": "差分法",
+      "relation": "用于",
+      "tail": "数据预处理"
+    },
+    {
+      "head": "自相关图(ACF)",
+      "relation": "用于",
+      "tail": "模型定阶"
+    },
+    {
+      "head": "偏自相关图(PACF)",
+      "relation": "用于",
+      "tail": "模型定阶"
+    },
+    {
+      "head": "贝叶斯信息准则值(BIC)",
+      "relation": "评估",
+      "tail": "模型参数估计"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "优于",
+      "tail": "三次指数平滑法"
+    },
+    {
+      "head": "均方根误差(RMSE)",
+      "relation": "评估",
+      "tail": "ARIMA模型"
+    },
+    {
+      "head": "平均绝对误差(MAE)",
+      "relation": "评估",
+      "tail": "ARIMA模型"
+    },
+    {
+      "head": "最大绝对误差(MaxAE)",
+      "relation": "评估",
+      "tail": "ARIMA模型"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "entities": [
+    {
+      "name": "故障预测与健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "滑油光谱分析",
+      "type": "研究方法"
+    },
+    {
+      "name": "经验模态分解",
+      "type": "算法"
+    },
+    {
+      "name": "相关向量机",
+      "type": "模型"
+    },
+    {
+      "name": "自回归模型",
+      "type": "模型"
+    },
+    {
+      "name": "支持向量机",
+      "type": "模型"
+    },
+    {
+      "name": "量子粒子群优化",
+      "type": "算法"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "磨损故障",
+      "type": "故障模式"
+    },
+    {
+      "name": "油液光谱数据",
+      "type": "数据集"
+    },
+    {
+      "name": "Fe元素",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "Si元素",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "平均相对预测误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "最大相对误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "EMD+RVM-AR预测方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "镜像延拓法",
+      "type": "算法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "EMD+RVM-AR预测方法",
+      "relation": "基于",
+      "tail": "经验模态分解"
+    },
+    {
+      "head": "EMD+RVM-AR预测方法",
+      "relation": "基于",
+      "tail": "相关向量机"
+    },
+    {
+      "head": "EMD+RVM-AR预测方法",
+      "relation": "基于",
+      "tail": "自回归模型"
+    },
+    {
+      "head": "经验模态分解",
+      "relation": "用于分解",
+      "tail": "油液光谱数据"
+    },
+    {
+      "head": "量子粒子群优化",
+      "relation": "优化",
+      "tail": "相关向量机"
+    },
+    {
+      "head": "EMD+RVM-AR预测方法",
+      "relation": "用于预测",
+      "tail": "Fe元素"
+    },
+    {
+      "head": "EMD+RVM-AR预测方法",
+      "relation": "用于预测",
+      "tail": "Si元素"
+    },
+    {
+      "head": "EMD+RVM-AR预测方法",
+      "relation": "优于",
+      "tail": "自回归模型"
+    },
+    {
+      "head": "EMD+RVM-AR预测方法",
+      "relation": "优于",
+      "tail": "支持向量机"
+    },
+    {
+      "head": "镜像延拓法",
+      "relation": "改进",
+      "tail": "经验模态分解"
+    }
+  ]
+}

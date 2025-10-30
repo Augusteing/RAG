@@ -1,0 +1,182 @@
+{
+  "entities": [
+    {
+      "name": "故障诊断和健康管理(PHM)",
+      "type": "研究领域"
+    },
+    {
+      "name": "全生命周期管理(PLM)",
+      "type": "研究领域"
+    },
+    {
+      "name": "需求分析",
+      "type": "研究方法"
+    },
+    {
+      "name": "灰色关联法",
+      "type": "算法"
+    },
+    {
+      "name": "ARIMA模型",
+      "type": "模型"
+    },
+    {
+      "name": "质量屋(HOQ)",
+      "type": "模型"
+    },
+    {
+      "name": "QFD",
+      "type": "研究方法"
+    },
+    {
+      "name": "模糊理论",
+      "type": "理论基础"
+    },
+    {
+      "name": "灰色系统理论",
+      "type": "理论基础"
+    },
+    {
+      "name": "时间序列分析",
+      "type": "理论基础"
+    },
+    {
+      "name": "飞机PHM平台",
+      "type": "系统/部件"
+    },
+    {
+      "name": "航空系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "实时监控",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障诊断",
+      "type": "系统/部件"
+    },
+    {
+      "name": "维修决策",
+      "type": "系统/部件"
+    },
+    {
+      "name": "健康评估",
+      "type": "系统/部件"
+    },
+    {
+      "name": "传感器网络",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "RMSE",
+      "type": "性能指标"
+    },
+    {
+      "name": "MAPE",
+      "type": "性能指标"
+    },
+    {
+      "name": "MAE",
+      "type": "性能指标"
+    },
+    {
+      "name": "SPSS",
+      "type": "软件工具"
+    },
+    {
+      "name": "飞机健康管理",
+      "type": "应用场景"
+    },
+    {
+      "name": "客户需求",
+      "type": "需求"
+    },
+    {
+      "name": "服务资源",
+      "type": "资源"
+    }
+  ],
+  "relations": [
+    {
+      "head": "需求分析",
+      "relation": "应用于",
+      "tail": "飞机PHM平台"
+    },
+    {
+      "head": "灰色关联法",
+      "relation": "分析",
+      "tail": "客户需求"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "预测",
+      "tail": "客户需求"
+    },
+    {
+      "head": "QFD",
+      "relation": "映射",
+      "tail": "服务资源"
+    },
+    {
+      "head": "质量屋(HOQ)",
+      "relation": "用于",
+      "tail": "QFD"
+    },
+    {
+      "head": "飞机PHM平台",
+      "relation": "包含",
+      "tail": "实时监控"
+    },
+    {
+      "head": "飞机PHM平台",
+      "relation": "包含",
+      "tail": "故障诊断"
+    },
+    {
+      "head": "飞机PHM平台",
+      "relation": "包含",
+      "tail": "维修决策"
+    },
+    {
+      "head": "飞机PHM平台",
+      "relation": "包含",
+      "tail": "健康评估"
+    },
+    {
+      "head": "灰色关联法",
+      "relation": "基于",
+      "tail": "灰色系统理论"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "基于",
+      "tail": "时间序列分析"
+    },
+    {
+      "head": "SPSS",
+      "relation": "支持",
+      "tail": "ARIMA模型"
+    },
+    {
+      "head": "RMSE",
+      "relation": "评估",
+      "tail": "ARIMA模型"
+    },
+    {
+      "head": "MAPE",
+      "relation": "评估",
+      "tail": "ARIMA模型"
+    },
+    {
+      "head": "MAE",
+      "relation": "评估",
+      "tail": "ARIMA模型"
+    },
+    {
+      "head": "模糊理论",
+      "relation": "用于",
+      "tail": "客户需求"
+    }
+  ]
+}

@@ -1,32 +1,40 @@
 {
   "entities": [
     {
-      "name": "预测性维护模型",
-      "type": "模型"
-    },
-    {
-      "name": "长短期记忆网络(LSTM)分类器",
-      "type": "模型"
-    },
-    {
-      "name": "航空发动机",
-      "type": "系统/部件"
+      "name": "预测性维护",
+      "type": "研究领域"
     },
     {
       "name": "故障预测与健康管理(PHM)",
       "type": "研究领域"
     },
     {
-      "name": "传感器数据",
-      "type": "传感器/监测参数"
-    },
-    {
-      "name": "剩余使用寿命(RUL)预测",
+      "name": "剩余寿命预测",
       "type": "研究方法"
     },
     {
-      "name": "剩余使用寿命(RUL)预测准确性低",
-      "type": "问题"
+      "name": "剩余使用寿命分类",
+      "type": "研究方法"
+    },
+    {
+      "name": "滑动时间窗口",
+      "type": "研究方法"
+    },
+    {
+      "name": "二分类问题",
+      "type": "研究方法"
+    },
+    {
+      "name": "深度学习",
+      "type": "理论基础"
+    },
+    {
+      "name": "预测性维护模型",
+      "type": "模型"
+    },
+    {
+      "name": "LSTM分类器",
+      "type": "模型"
     },
     {
       "name": "长短期记忆网络(LSTM)",
@@ -37,44 +45,80 @@
       "type": "模型"
     },
     {
-      "name": "梯度消失现象",
-      "type": "问题"
+      "name": "二分类模型",
+      "type": "模型"
     },
     {
-      "name": "滑动时间窗口",
-      "type": "研究方法"
+      "name": "逻辑回归",
+      "type": "算法"
     },
     {
-      "name": "失效概率",
-      "type": "特征/健康指标"
+      "name": "决策树",
+      "type": "算法"
     },
     {
-      "name": "二分类问题",
-      "type": "研究方法"
+      "name": "随机森林(RF)",
+      "type": "算法"
     },
     {
-      "name": "C-MAPSS数据集",
-      "type": "数据集"
+      "name": "支持向量分类(SVC)",
+      "type": "算法"
     },
     {
-      "name": "维修决策",
-      "type": "应用场景"
+      "name": "K近邻(KNN)",
+      "type": "算法"
     },
     {
-      "name": "RUL值预测方法",
-      "type": "研究方法"
+      "name": "高斯朴素贝叶斯分类器(Gaussian NB)",
+      "type": "算法"
+    },
+    {
+      "name": "Adam优化算法",
+      "type": "算法"
     },
     {
       "name": "Dropout",
       "type": "算法"
     },
     {
-      "name": "过拟合",
-      "type": "问题"
+      "name": "航空发动机",
+      "type": "系统/部件"
     },
     {
-      "name": "Adam优化算法",
-      "type": "算法"
+      "name": "梯度消失现象",
+      "type": "故障模式"
+    },
+    {
+      "name": "过拟合",
+      "type": "故障模式"
+    },
+    {
+      "name": "C-MAPSS数据集",
+      "type": "数据集"
+    },
+    {
+      "name": "传感器数据",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "准确率",
+      "type": "性能指标"
+    },
+    {
+      "name": "精确率",
+      "type": "性能指标"
+    },
+    {
+      "name": "召回率",
+      "type": "性能指标"
+    },
+    {
+      "name": "F1分数",
+      "type": "性能指标"
+    },
+    {
+      "name": "AUC",
+      "type": "性能指标"
     },
     {
       "name": "Python",
@@ -87,142 +131,23 @@
     {
       "name": "TensorFlow",
       "type": "软件工具"
-    },
-    {
-      "name": "F1-score",
-      "type": "性能指标"
-    },
-    {
-      "name": "AUC",
-      "type": "性能指标"
-    },
-    {
-      "name": "概率混淆矩阵",
-      "type": "性能指标"
-    },
-    {
-      "name": "逻辑回归",
-      "type": "模型"
-    },
-    {
-      "name": "决策树",
-      "type": "模型"
-    },
-    {
-      "name": "随机森林(RF)",
-      "type": "模型"
-    },
-    {
-      "name": "支持向量分类(SVC)",
-      "type": "模型"
-    },
-    {
-      "name": "K近邻(KNN)",
-      "type": "模型"
-    },
-    {
-      "name": "高斯朴素贝叶斯分类器(Gaussian NB)",
-      "type": "模型"
-    },
-    {
-      "name": "预测性维护",
-      "type": "研究方法"
-    },
-    {
-      "name": "本文",
-      "type": "研究主体"
     }
   ],
   "relations": [
     {
-      "head": "本文",
-      "relation": "提出了",
-      "tail": "预测性维护模型"
+      "head": "预测性维护模型",
+      "relation": "提出用于",
+      "tail": "航空发动机"
     },
     {
       "head": "预测性维护模型",
       "relation": "基于",
-      "tail": "长短期记忆网络(LSTM)分类器"
+      "tail": "LSTM分类器"
     },
     {
       "head": "预测性维护模型",
-      "relation": "解决",
-      "tail": "剩余使用寿命(RUL)预测准确性低"
-    },
-    {
-      "head": "预测性维护模型",
-      "relation": "将RUL预测转化为",
+      "relation": "将RUL预测问题转化为",
       "tail": "二分类问题"
-    },
-    {
-      "head": "预测性维护模型",
-      "relation": "采用",
-      "tail": "滑动时间窗口"
-    },
-    {
-      "head": "预测性维护模型",
-      "relation": "采用",
-      "tail": "Adam优化算法"
-    },
-    {
-      "head": "预测性维护模型",
-      "relation": "采用",
-      "tail": "Dropout"
-    },
-    {
-      "head": "预测性维护模型",
-      "relation": "区别于",
-      "tail": "RUL值预测方法"
-    },
-    {
-      "head": "预测性维护模型",
-      "relation": "构建于",
-      "tail": "Python"
-    },
-    {
-      "head": "预测性维护模型",
-      "relation": "构建于",
-      "tail": "Keras"
-    },
-    {
-      "head": "预测性维护模型",
-      "relation": "构建于",
-      "tail": "TensorFlow"
-    },
-    {
-      "head": "长短期记忆网络(LSTM)分类器",
-      "relation": "预测",
-      "tail": "失效概率"
-    },
-    {
-      "head": "长短期记忆网络(LSTM)分类器",
-      "relation": "优于",
-      "tail": "逻辑回归"
-    },
-    {
-      "head": "长短期记忆网络(LSTM)分类器",
-      "relation": "优于",
-      "tail": "决策树"
-    },
-    {
-      "head": "长短期记忆网络(LSTM)分类器",
-      "relation": "优于",
-      "tail": "随机森林(RF)"
-    },
-    {
-      "head": "长短期记忆网络(LSTM)分类器",
-      "relation": "优于",
-      "tail": "支持向量分类(SVC)"
-    },
-    {
-      "head": "长短期记忆网络(LSTM)分类器",
-      "relation": "优于",
-      "tail": "K近邻(KNN)"
-    },
-    {
-      "head": "长短期记忆网络(LSTM)分类器",
-      "relation": "优于",
-      "tail": "高斯朴素贝叶斯分类器(Gaussian NB)"
     },
     {
       "head": "长短期记忆网络(LSTM)",
@@ -235,54 +160,89 @@
       "tail": "梯度消失现象"
     },
     {
-      "head": "循环神经网络(RNN)",
-      "relation": "存在问题",
-      "tail": "梯度消失现象"
-    },
-    {
       "head": "预测性维护",
-      "relation": "属于",
+      "relation": "是...的研究热点",
       "tail": "故障预测与健康管理(PHM)"
     },
     {
-      "head": "故障预测与健康管理(PHM)",
-      "relation": "应用于",
-      "tail": "航空发动机"
-    },
-    {
-      "head": "剩余使用寿命(RUL)预测",
+      "head": "剩余寿命预测",
       "relation": "依据",
       "tail": "传感器数据"
     },
     {
-      "head": "失效概率",
-      "relation": "指导",
-      "tail": "维修决策"
-    },
-    {
       "head": "C-MAPSS数据集",
-      "relation": "用于验证",
+      "relation": "验证了",
       "tail": "预测性维护模型"
     },
     {
+      "head": "预测性维护模型",
+      "relation": "采用",
+      "tail": "滑动时间窗口"
+    },
+    {
+      "head": "预测性维护模型",
+      "relation": "采用",
+      "tail": "Adam优化算法"
+    },
+    {
       "head": "Dropout",
-      "relation": "减少",
+      "relation": "用于减少",
       "tail": "过拟合"
     },
     {
-      "head": "F1-score",
-      "relation": "是...的评价指标",
+      "head": "F1分数",
+      "relation": "是...的性能指标",
       "tail": "预测性维护模型"
     },
     {
       "head": "AUC",
-      "relation": "是...的评价指标",
+      "relation": "是...的性能指标",
       "tail": "预测性维护模型"
     },
     {
-      "head": "本文",
-      "relation": "提出了",
-      "tail": "概率混淆矩阵"
+      "head": "LSTM分类器",
+      "relation": "优于",
+      "tail": "逻辑回归"
+    },
+    {
+      "head": "LSTM分类器",
+      "relation": "优于",
+      "tail": "决策树"
+    },
+    {
+      "head": "LSTM分类器",
+      "relation": "优于",
+      "tail": "随机森林(RF)"
+    },
+    {
+      "head": "LSTM分类器",
+      "relation": "优于",
+      "tail": "支持向量分类(SVC)"
+    },
+    {
+      "head": "LSTM分类器",
+      "relation": "优于",
+      "tail": "K近邻(KNN)"
+    },
+    {
+      "head": "LSTM分类器",
+      "relation": "优于",
+      "tail": "高斯朴素贝叶斯分类器(Gaussian NB)"
+    },
+    {
+      "head": "预测性维护模型",
+      "relation": "使用...构建",
+      "tail": "Python"
+    },
+    {
+      "head": "预测性维护模型",
+      "relation": "使用...构建",
+      "tail": "Keras"
+    },
+    {
+      "head": "预测性维护模型",
+      "relation": "使用...构建",
+      "tail": "TensorFlow"
     }
   ]
 }

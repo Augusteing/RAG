@@ -1,0 +1,238 @@
+{
+  "entities": [
+    {
+      "name": "直升机涡轮发动机健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "Caps-BiGRU-Attention模型",
+      "type": "模型"
+    },
+    {
+      "name": "直升机涡轮发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障模式识别",
+      "type": "研究方法"
+    },
+    {
+      "name": "扭矩裕度预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "胶囊层",
+      "type": "模型"
+    },
+    {
+      "name": "BiGRU层",
+      "type": "模型"
+    },
+    {
+      "name": "SE注意力机制",
+      "type": "模型"
+    },
+    {
+      "name": "直升机涡轮发动机数据集",
+      "type": "数据集"
+    },
+    {
+      "name": "故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "准确率",
+      "type": "性能指标"
+    },
+    {
+      "name": "平均绝对误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "特征分析",
+      "type": "研究方法"
+    },
+    {
+      "name": "扭矩裕度",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "概率分布拟合",
+      "type": "研究方法"
+    },
+    {
+      "name": "贝塔分布",
+      "type": "理论基础"
+    },
+    {
+      "name": "严重失效",
+      "type": "故障模式"
+    },
+    {
+      "name": "轻微失效",
+      "type": "故障模式"
+    },
+    {
+      "name": "健康状态",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "本文",
+      "type": "研究主体"
+    },
+    {
+      "name": "SHAP模型",
+      "type": "模型"
+    },
+    {
+      "name": "CNN-BiGRU-Attention",
+      "type": "模型"
+    },
+    {
+      "name": "CNN-BiLstm",
+      "type": "模型"
+    },
+    {
+      "name": "CNN-BiGRU",
+      "type": "模型"
+    },
+    {
+      "name": "RandomForest模型",
+      "type": "模型"
+    },
+    {
+      "name": "胶囊网络",
+      "type": "模型"
+    },
+    {
+      "name": "卷积神经网络(CNN)",
+      "type": "模型"
+    },
+    {
+      "name": "衰减状态",
+      "type": "故障模式"
+    }
+  ],
+  "relations": [
+    {
+      "head": "本文",
+      "relation": "提出了",
+      "tail": "Caps-BiGRU-Attention模型"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "用于",
+      "tail": "故障模式识别"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "用于",
+      "tail": "扭矩裕度预测"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "包含",
+      "tail": "胶囊层"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "包含",
+      "tail": "BiGRU层"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "包含",
+      "tail": "SE注意力机制"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "验证于",
+      "tail": "直升机涡轮发动机数据集"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "在故障诊断中评价指标是",
+      "tail": "准确率"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "在扭矩裕度预测中评价指标是",
+      "tail": "平均绝对误差"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "降低了",
+      "tail": "平均绝对误差"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "优于",
+      "tail": "CNN-BiGRU-Attention"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "优于",
+      "tail": "CNN-BiLstm"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "优于",
+      "tail": "CNN-BiGRU"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "优于",
+      "tail": "RandomForest模型"
+    },
+    {
+      "head": "胶囊网络",
+      "relation": "在特征提取方面优于",
+      "tail": "卷积神经网络(CNN)"
+    },
+    {
+      "head": "本文",
+      "relation": "利用",
+      "tail": "SHAP模型"
+    },
+    {
+      "head": "SHAP模型",
+      "relation": "用于",
+      "tail": "特征分析"
+    },
+    {
+      "head": "本文",
+      "relation": "进行",
+      "tail": "概率分布拟合"
+    },
+    {
+      "head": "概率分布拟合",
+      "relation": "应用于",
+      "tail": "扭矩裕度"
+    },
+    {
+      "head": "概率分布拟合",
+      "relation": "确定...为最优分布",
+      "tail": "贝塔分布"
+    },
+    {
+      "head": "贝塔分布",
+      "relation": "是...的最佳分布",
+      "tail": "严重失效"
+    },
+    {
+      "head": "贝塔分布",
+      "relation": "是...的最佳分布",
+      "tail": "轻微失效"
+    },
+    {
+      "head": "贝塔分布",
+      "relation": "是...的最佳分布",
+      "tail": "健康状态"
+    },
+    {
+      "head": "Caps-BiGRU-Attention模型",
+      "relation": "为...提供参考",
+      "tail": "直升机涡轮发动机健康管理"
+    }
+  ]
+}

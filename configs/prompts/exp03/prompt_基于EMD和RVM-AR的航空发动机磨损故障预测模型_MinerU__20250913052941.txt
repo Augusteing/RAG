@@ -134,104 +134,91 @@
 {
   "entities": [
     {
-      "name": "卡尔曼滤波算法",
-      "type": "算法"
+      "name": "航空发动机",
+      "type": "系统/部件"
     },
     {
-      "name": "粒子滤波（Particle Filter，PF）",
-      "type": "算法"
-    },
-    {
-      "name": "线性卡尔曼滤波",
-      "type": "算法"
-    },
-    {
-      "name": "卡尔曼滤波",
-      "type": "算法"
-    },
-    {
-      "name": "Unscented变换",
-      "type": "技术"
-    },
-    {
-      "name": "双卡尔曼滤波器",
-      "type": "算法"
-    },
-    {
-      "name": "状态估计",
-      "type": "诊断方法"
-    },
-    {
-      "name": "线性卡尔曼滤波（LKF）",
-      "type": "算法"
-    },
-    {
-      "name": "机载自适应模型",
+      "name": "时间序列分析",
       "type": "模型"
     },
     {
-      "name": "Dewallef和Leonard",
-      "type": ""
+      "name": "预测",
+      "type": "研究方法"
     },
     {
-      "name": "无迹卡尔曼滤波（UKF）算法",
-      "type": ""
+      "name": "发动机滑油监控、诊断和预测",
+      "type": "应用场景"
     },
     {
-      "name": "UKF",
-      "type": ""
+      "name": "AR模型",
+      "type": "模型"
     },
     {
-      "name": "EKF",
-      "type": ""
+      "name": "铁元素含量变化趋势",
+      "type": "特征/健康指标"
     },
     {
-      "name": "EKF和线性卡尔曼滤波算法",
-      "type": ""
+      "name": "健康参数",
+      "type": "特征/健康指标"
     },
     {
-      "name": "发动机气路故障诊断",
-      "type": ""
+      "name": "状态变量",
+      "type": "特征/健康指标"
     },
     {
-      "name": "LKF、EKF",
-      "type": ""
+      "name": "故障诊断",
+      "type": "研究领域"
     },
     {
-      "name": "Brotherton等",
-      "type": ""
+      "name": "麻雀搜索算法(SSA)",
+      "type": "算法"
+    },
+    {
+      "name": "NARX神经网络",
+      "type": "模型"
+    },
+    {
+      "name": "人工蜂群算法",
+      "type": "算法"
+    },
+    {
+      "name": "故障诊断率",
+      "type": "性能指标"
+    },
+    {
+      "name": "混合神经网络模型",
+      "type": "模型"
+    },
+    {
+      "name": "航空发动机剩余寿命预测",
+      "type": "研究方法"
     }
   ],
   "relations": [
     {
-      "head": "Dewallef和Leonard",
-      "relation": "提出",
-      "tail": "无迹卡尔曼滤波（UKF）算法"
+      "head": "时间序列分析",
+      "relation": "用于",
+      "tail": "发动机滑油监控、诊断和预测"
     },
     {
-      "head": "UKF",
-      "relation": "优于",
-      "tail": "EKF"
+      "head": "AR模型",
+      "relation": "用于预测",
+      "tail": "铁元素含量变化趋势"
     },
     {
-      "head": "UKF",
-      "relation": "精度更高于",
-      "tail": "EKF和线性卡尔曼滤波算法"
+      "head": "健康参数",
+      "relation": "扩展为",
+      "tail": "状态变量"
     },
     {
-      "head": "粒子滤波（Particle Filter，PF）",
-      "relation": "应用于",
-      "tail": "发动机气路故障诊断"
+      "head": "麻雀搜索算法(SSA)",
+      "relation": "优化",
+      "tail": "NARX神经网络"
     },
     {
-      "head": "UKF",
-      "relation": "计算量相对较大",
-      "tail": "LKF、EKF"
-    },
-    {
-      "head": "Brotherton等",
-      "relation": "提出了",
-      "tail": "机载自适应模型"
+      "head": "混合神经网络模型",
+      "relation": "用于",
+      "tail": "航空发动机剩余寿命预测"
     }
   ]
 }
@@ -262,16 +249,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-中图分类号：TP206+，3
-
-文献标识码：A
-
-# 基于EMD和RVM一AR的航空发动机磨损故障预测模型
-
-范庚，马登武
-
-（海军航空工程学院兵器科学与技术系，山东烟台 264001）
-
 摘要：针对滑油光谱数据的非线性非平稳特性及现有预测方法的不足，提出了一种基于经验模态分解（EMD）和相关向量机一自回归模型（RVM）的预测方法；首先，利用EMD算法将序列分解为若干固有模态函数（IMF）和残余函数（RF），分离原始数据中的趋势项和随机项；然后，建立各IMF分量的AR模型和RF分量的RVM模型，以留一交叉验证误差作为适应度函数，采用量子粒子群优化算法进化搜索RVM的最优核参数和嵌入维数；最后，将各AR模型和RVM模型的预测值叠加作为最终预测值；实验结果表明：相比AR和SVM方法，该方法具有较高的预测精度，Fe元素的平均相对预测误差分别提高了  $15\%$  和  $6\%$  ，Si元素的平均相对预测误差分别提高了  $49\%$  和  $23\%$  。
 
 关键词：故障预测；滑油光谱分析；经验模态分解；相关向量机；自回归模型；量子粒子群优化；航空发动机
@@ -279,10 +256,6 @@
 # Aero—Engine Wear Faults Prediction Based on EMD and RVM—AR
 
 Fan Geng，Ma Dengwu (Department of Oedname Science and Technology，Naval Aeronautical and Astronautical University，Yantai 264001，China)
-
-Abstract：To deal with the non- linearity and non- stationarity of oil spectrum data and overcome the deficiencies of current prediction methods，a prediction method based on empirical mode decomposition (EMD) and RVM- AR is proposed. Firstly，the original data were decomposed into several intrinsic mode functions (IMF) and a residual function (RF) by the EMD algorithm. Secondly, the AR models of IMFs and the RVM model of RF were established，and the kernel parameter and the embedding dimension were optimized by quantum- behaved particle swarm optimization algorithm，which used cross- validation error as the fitness function. Finally，the prediction results of AR models and the RVM model were added as the final prediction values. Experimental results show that the proposed method has better performance in prediction accuracy than current methods and can predict the trend of the lubrication metal content accurately.
-
-Key words: fault prognostic; oil spectral analysis; empirical mode decomposition; relevance vector machine; quantum- behaved particle swarm optimization; aero- engine
 
 # 0 引言
 
@@ -514,7 +487,3 @@ $$
 机滑油金属含量预测模型，结合了EMD多分辨的优势和RVM强大地非线性处理能力，具有优异的预测性能，能够实现滑油金属含量变化趋势的准确预测。
 
 2）采用基于QPSO的智能优化算法实现了模型参数的自适应选择，克服了人为设置RVM模型参数缺乏科学依据和推广性不强的缺点。
-
-# 参考文献：
-
-[1]姜彩虹，孙志岩，王．曦.航空发动机预测健康管理系统设计的关键技术[J].航空动力学报，2009，24（11）：2589- 2594. [2]尉询楷，冯悦，刘芳，等.军用航空发动机PHM发展策略及关键技术[J].航空动力学报，2011，26（9）：2107- 2115. [3]任国全，张培林，张英堂.装备油液智能监控原理[M].北京：国防工业出版社，2006. [4] Gan M L, Yang Z. Time- series modeling and fault forecast study on spectral analysis of lubricating oil[J]. Transactions of Nanjing University of Aeronautic & Astronautics, 2001, 18 (1): 86- 90. [5]尉询楷，李应红，王硕，等.基于支持向量机的航空发动机滑油监控分析[J].航空动力学报，2004，19（3）：392- 397. [6]李本威，张赞，孙涛.基于免疫粒子群算法的滑油周末支持向量机预测模型设计[J].航空动力学报，2009，24（7）：1639- 1643. [7]邓森，杨军锋，杨朴，等.基于混沌粒子群优化LS- SVM的发动机磨损状态监测研究[J].计算机测量与控制，2011，19（8）：1859- 1860. [8] Tipping M E. The relevance vector machine [A] // Advances in Neural Information Processing Systems [C]. Cambridge, USA: MIT Press, 2000: 652- 658. [9] Tipping M E. Sparse Bayesian learning and the relevance vector machine [J]. Journal of Machine Learning Research, 2001, 1 (3): 211- 244. [10]段青，赵建国，马艳.优化组合核函数相关向量机电力负荷预测模型[J].电机与控制学报，2010，14（6）：33- 38. [11] Huang N E, Shen Z, Long S R. The empirical mode decomposition and the Hilbert spectrum for nonlinear and non- stationary time series analysis [J]. Proceedings of the Royal Society London, 1998, 454 (1): 903- 995. [12]胡维平，莫家玲，龚英超，等.经验模态分解中多种边界处理方法的比较研究[J].电子与信息学报，2007，29（6）：1394- 1398. [13]黄大吉，赵进平，苏冠兰，希尔伯特- 莫变换的端点延拓[J].海洋学报，2003，25（1）：1- 11. [14] Sun J, Feng B, Xu W B. Particle Swarm Optimization with Particles Having Quantum Behavior [A] // Proceedings of IEEE 2004 Congress on Cybernetics and Intelligent Systems [C]. Portland, USA, 2004: 325- 331. [15]董春曦，杨绍全，饶鲜，等.支持向量机推广能力估计方法比较[J].电路与系统学报，2004，9（4）：86- 91. [16]周新立，钟新辉，李艳.基于灰色时序的航空发动机磨损故障预测模型[J].长沙航空职业技术学院学报，2004，4（1）：20- 21.

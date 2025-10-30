@@ -134,113 +134,164 @@
 {
   "entities": [
     {
-      "name": "xPC Target",
-      "type": "工具/平台"
+      "name": "航空发动机健康管理技术",
+      "type": "研究领域"
     },
     {
-      "name": "机载自适应模型",
-      "type": "模型"
+      "name": "迁移学习",
+      "type": "研究方法"
     },
     {
-      "name": "气路故障",
-      "type": "故障"
+      "name": "航空发动机",
+      "type": "系统/部件"
     },
     {
-      "name": "高涵道比民用涡扇发动机",
-      "type": "研究对象"
+      "name": "航空发动机气路故障诊断",
+      "type": "研究领域"
     },
     {
-      "name": "混合卡尔曼滤波算法",
-      "type": "算法"
+      "name": "传感器故障诊断",
+      "type": "研究领域"
     },
     {
-      "name": "非线性实时模型",
-      "type": "模型"
+      "name": "航空发动机建模",
+      "type": "研究方法"
     },
     {
-      "name": "卡尔曼滤波器",
-      "type": "算法"
+      "name": "航空发动机气路性能预测",
+      "type": "研究方法"
     },
     {
-      "name": "发动机故障诊断硬件实时仿真验证平台",
-      "type": "工具/平台"
+      "name": "传感器",
+      "type": "系统/部件"
     },
     {
-      "name": "发动机模拟数据",
-      "type": "数据"
+      "name": "传感器故障",
+      "type": "故障模式"
     },
     {
-      "name": "GSP",
-      "type": "软件"
+      "name": "发动机安全",
+      "type": "性能指标"
     },
     {
-      "name": "TERTS",
-      "type": "软件"
+      "name": "维修成本",
+      "type": "性能指标"
     },
     {
-      "name": "Gasturb",
-      "type": "软件"
+      "name": "航空发动机健康管理",
+      "type": "研究领域"
     },
     {
-      "name": "TMATS",
-      "type": "软件"
+      "name": "视情维修",
+      "type": "研究方法"
     },
     {
-      "name": "航空发动机在线综合诊断结构",
-      "type": "系统/结构"
+      "name": "健康管理系统",
+      "type": "系统/部件"
     },
     {
-      "name": "气路故障诊断系统",
-      "type": "系统/结构"
+      "name": "数据驱动的气路故障诊断方法",
+      "type": "研究方法"
     },
     {
-      "name": "在线综合诊断结构",
-      "type": "系统/结构"
+      "name": "诊断方法体系",
+      "type": "理论基础"
     },
     {
-      "name": "非线性实时模型与卡尔曼滤波器的混合结构",
-      "type": "方法"
+      "name": "性能预测",
+      "type": "研究方法"
     },
     {
-      "name": "发动机故障诊断",
+      "name": "信息融合",
+      "type": "研究方法"
+    },
+    {
+      "name": "过渡态气路故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "在线气路故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "提高发动机安全",
+      "type": ""
+    },
+    {
+      "name": "降低维修成本",
       "type": ""
     }
   ],
   "relations": [
     {
-      "head": "混合卡尔曼滤波算法",
-      "relation": "结合了",
-      "tail": "非线性实时模型"
+      "head": "航空发动机健康管理技术",
+      "relation": "应用于",
+      "tail": "航空发动机"
     },
     {
-      "head": "混合卡尔曼滤波算法",
-      "relation": "结合了",
-      "tail": "卡尔曼滤波器"
+      "head": "航空发动机健康管理技术",
+      "relation": "目标是",
+      "tail": "提高发动机安全"
     },
     {
-      "head": "发动机模拟数据",
-      "relation": "是...重要的数据来源",
-      "tail": "发动机故障诊断"
+      "head": "航空发动机健康管理技术",
+      "relation": "目标是",
+      "tail": "降低维修成本"
     },
     {
-      "head": "气路故障诊断系统",
-      "relation": "更早地检测和隔离",
-      "tail": "气路故障"
+      "head": "航空发动机健康管理技术",
+      "relation": "包含",
+      "tail": "航空发动机气路故障诊断"
     },
     {
-      "head": "在线综合诊断结构",
-      "relation": "由...组成",
-      "tail": "机载自适应模型"
+      "head": "航空发动机健康管理技术",
+      "relation": "包含",
+      "tail": "航空发动机气路性能预测"
     },
     {
-      "head": "在线综合诊断结构",
-      "relation": "由...组成",
-      "tail": "气路故障诊断系统"
+      "head": "航空发动机健康管理",
+      "relation": "是实现...的关键技术",
+      "tail": "视情维修"
     },
     {
-      "head": "机载自适应模型",
-      "relation": "采用",
-      "tail": "非线性实时模型与卡尔曼滤波器的混合结构"
+      "head": "航空发动机气路故障诊断",
+      "relation": "支撑",
+      "tail": "健康管理系统"
+    },
+    {
+      "head": "航空发动机气路故障诊断",
+      "relation": "发展为",
+      "tail": "诊断方法体系"
+    },
+    {
+      "head": "诊断方法体系",
+      "relation": "基于",
+      "tail": "数据驱动的气路故障诊断方法"
+    },
+    {
+      "head": "性能预测",
+      "relation": "是...的延伸",
+      "tail": "航空发动机气路故障诊断"
+    },
+    {
+      "head": "航空发动机气路故障诊断",
+      "relation": "发展方向包括",
+      "tail": "性能预测"
+    },
+    {
+      "head": "航空发动机气路故障诊断",
+      "relation": "发展方向包括",
+      "tail": "在线气路故障诊断"
+    },
+    {
+      "head": "航空发动机气路故障诊断",
+      "relation": "发展方向包括",
+      "tail": "信息融合"
+    },
+    {
+      "head": "航空发动机气路故障诊断",
+      "relation": "发展方向包括",
+      "tail": "过渡态气路故障诊断"
     }
   ]
 }
@@ -271,10 +322,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 航空发动机增强型机载自适应模型气路故障诊断方法
-
-王灿灿 $^{1}$ ，孔祥兴 $^{2}$ ，梁宁宁 $^{3}$ ，童志伟 $^{3}$ (1. 北京机械设备研究所，北京100854；2. 中国航空发动机研究院，北京101399；3. 南京航空航天大学江苏省航空动力系统重点实验室，南京210016)
-
 摘要：针对航空发动机在工程应用中气路健康状态的评估问题，提出一种基于增强型机载自适应模型的气路故障诊断方法。该方法在机载模型中加入神经网络补偿算法，在线修正机载模型的输出误差，提高了卡尔曼滤波器估计精度，以此为基础建立了发动机增强型自适应模型和性能基线模型。增强型自适应模型可实时评估健康参数状态，并指导性能基线模型跟踪发动机正常性能降级趋势，确保剪裁精准的故障信息用于检测和诊断。基于发动机性能仿真模型模拟故障特征数据库，采用RBF神经网络训练样本，完成了故障模式判定和故障隔离。通过构建某型涡轴发动机气路故障诊断平台进行仿真验证，结果表明：该方法能够有效监视发动机在全包线、全寿命周期的气路健康状况，在实际工作流程中具备可行性。
 
 关键词：气路故障诊断；增强型自适应模型；性能基线模型；健康管理；航空发动机
@@ -284,10 +331,6 @@
 # Research on Gas Path Fault Diagnosis of Aeroengine Enhanced Self Tuning on-board Real-time Model
 
 WANG Can- can $^{1}$ ，KONG Xiang- xing $^{2}$ ，LIANG Ning- ning $^{2}$ ，TONG Zhi- wei $^{3}$ (1. Beijing Machinery Research Institute, Beijing 100854, China;2. Aero Engine Academy of China, Beijing 101399, China;3. JiangSu Province Key Laboratory of Aerospace Power System, Nanjing University of Aeronautics and Astronautics, Nanjing, 210016, China)
-
-Abstract: A gas path fault diagnosis approach based on enhanced self tuning on- board real- time model was proposed for aeroengine gas path health assessment in engineering application. In this method, neural network compensation algorithm was introduced into onboard model for declining output errors and improving Kalman filter's accuracy, as well as establishing enhanced self tuning model and performance baseline model. The enhanced self tuning model evaluated health parameters in real time, which provided normal performance degradation trend for performance baseline model to ensure the accurate information was used in detection and diagnosis. Fault feature database was established based on the engine performance simulation model, and the RBF neural network was used to train samples to achieve fault mode determination and fault isolation. The simulation results of a turbo- shaft engine gas path fault diagnosis platform show that it can monitor gas path health status effectively in full flight envelope and life cycle, and it is feasible in practical engineering process.
-
-Key words: gas path fault diagnosis; enhanced self tuning on- board real- time model; performance baseline model; health management; aeroengine
 
 # 0 引言
 
@@ -509,9 +552,3 @@ $$
 # 5 总结
 
 本文针对航空发动机在全包线、全寿命周期范围内气路健康管理问题，提出一种面向工程化应用的基于增强型自适应模型气路故障诊断设计方法。该方法在发动机线性机载模型基础上增加神经网络补偿模块，以此为核心构建增强型自适应模型和性能基线模型。增强型机载自适应模型能够在线评估发动机正常性能降级状况，并指导性能基线模型追踪退化趋势，剪裁故障征兆量用于诊断模块。仿真结果验证了气路故障诊断平台的有效性。
-
-# 参考文献：
-
-[1] Litt J S, Simon D L, Garg S. A Survey of intelligent control and health management technologies for aircraft propulsion system[J]. Journal of Aerospace Computing, Information, and Communication, 2004, 1: 543- 563. [2] Simon D L. An integrated architecture for on- board aircraft engine performance trend monitoring and gas path fault diagnosis[R]. NASA- TM- 2010- 216358. [3] 王占学, 刘增文, 叶新农. 某型涡扇发动机部件老化对性能影响的分析与计算[J]. 航空动力学报, 2007(5): 792- 796. WANG Zhanxue, LIU Zengwen, YE Xinrong. Effect of component deterioration on turbofan engine performance [J]. Journal of Aerospace Power, 2007(5): 792- 796. (in Chinese) [4] Armstrong J B, Simon D L. Implementation of an integrated on- board aircraft engine diagnostic architecture [R]. AIAA- 2011- 5859. [5] 尉询楷. 航空发动机预测与健康管理 [M]. 北京: 国防工业出版社, 2014: 1- 290. WEI Xunkai. Aeroengine prediction and health management [M]. Beijing: National Defense Industry Press, 2014: 1- 290. (in Chinese) [6] Luppold R H, Roman J R, Gallops G W, et al. Estimating in flight engine performance variations using kalman filter concepts[R]. AIAA- 89- 2584. [7] Brotherton T, Volponi A, Luppold R, et al. ESTORM: enhanced self tuning on- board real- time engine model[C]//2003 IEEE Aerospace Conference Proceedings. Big Sky, MT: IEEE, 2003: 78- 86. [8] Volponi A. Enhanced self tuning on- board real- time model (ESTORM) for aircraft engine performance health tracking[R]. NASA- CR- 2008- 215272. [9] Volponi A, Brotherton T, Luppold R. Empirical tuning of an on- board gas turbine engine model for real- time module performance estimation
-
-[J]. Journal of Engineering for Gas Turbines and Power, 2008, 130 (4): 1- 10. [10] 黄伟斌, 黄金泉. 航空发动机故障诊断的机载自适应模型[J]. 航空动力学报, 2008, 23(3): 581- 584. HUANG Weibin, HUANJi, Ququan. On board self- tuning model for aeroengine fault diagnostics[J]. Journal of Aerospace Power, 2008, 23 (3): 581- 584. (in Chinese) [11] 鲁峰, 黄金泉. 基于遗传算法的航空发动机机载模型支持向量机修正方法[J]. 航空动力学报, 2009, 24(4): 880- 885. LU Feng, HUANG Jinquan. AGA- LSSVR compensation for onboard self- tuning model of aeroengine model[J]. Journal of Aerospace Power, 2009, 24(4): 880- 885. (in Chinese) [12] 余云峰. 涡轴发动机自适应机载实时性能估计技术研究[D]. 南京: 南京航空航天大学, 2010. SHE Yunfeng. Research on performance estimation of adaptive onboard model for turbo- shaft engine [D]. Nanjing: Nanjing University of Aeronautics and Astronautics, 2010. (in Chinese) [13] 冯正平, 孙建国. 航空发动机小偏差状态变量模型的建立方法究[J]. 推进技术, 2001, 22(1): 54- 57. FENG Zhengping, SUN Jiaguo. Modeling of small perturbation state variable model for aeroengines[J]. Journal of Propulsion Technology, 2001, 22(1): 54- 57. (in Chinese) [14] Takahisa K, Simon D. Aircraft engine on- line diagnostics through dual- channel sensor measurements- development of an enhanced system[R]. NASA- TM- 2008- 215229. [15] Volponi A J. The use of kalyan filter and neural network methodologies in gas turbine performance diagnostics: a comparative study[J]. Journal of Engineering for Gas Turbine and power, 2003, 125: 917- 924. (编辑: 程海)

@@ -1,0 +1,241 @@
+{
+  "entities": [
+    {
+      "name": "故障时间序列预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "长短期记忆(LSTM)循环神经网络",
+      "type": "模型"
+    },
+    {
+      "name": "循环神经网络(RNN)",
+      "type": "模型"
+    },
+    {
+      "name": "门限循环单元(GRU)模型",
+      "type": "模型"
+    },
+    {
+      "name": "多层网格搜索",
+      "type": "算法"
+    },
+    {
+      "name": "LSTM预测模型参数优选算法",
+      "type": "算法"
+    },
+    {
+      "name": "预测误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "均方根误差(RMSE)",
+      "type": "性能指标"
+    },
+    {
+      "name": "准确性",
+      "type": "性能指标"
+    },
+    {
+      "name": "深度学习",
+      "type": "理论基础"
+    },
+    {
+      "name": "系统级故障时间序列",
+      "type": "数据集"
+    },
+    {
+      "name": "民航飞机整机故障时间序列",
+      "type": "数据集"
+    },
+    {
+      "name": "波音737飞机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "梯度消失问题",
+      "type": "故障模式"
+    },
+    {
+      "name": "梯度爆炸问题",
+      "type": "故障模式"
+    },
+    {
+      "name": "Adam优化算法",
+      "type": "算法"
+    },
+    {
+      "name": "AdaGrad算法",
+      "type": "算法"
+    },
+    {
+      "name": "RMSProp算法",
+      "type": "算法"
+    },
+    {
+      "name": "Holt-Winters模型",
+      "type": "模型"
+    },
+    {
+      "name": "自回归移动平均(ARIMA)模型",
+      "type": "模型"
+    },
+    {
+      "name": "奇异谱分析(SSA)",
+      "type": "研究方法"
+    },
+    {
+      "name": "多元线性回归(MLR)",
+      "type": "研究方法"
+    },
+    {
+      "name": "支持向量回归(SVR)模型",
+      "type": "模型"
+    },
+    {
+      "name": "学习率",
+      "type": "模型参数"
+    },
+    {
+      "name": "分割窗口长度",
+      "type": "模型参数"
+    },
+    {
+      "name": "状态向量大小",
+      "type": "模型参数"
+    },
+    {
+      "name": "Python",
+      "type": "软件工具"
+    },
+    {
+      "name": "TensorFlow",
+      "type": "软件工具"
+    },
+    {
+      "name": "R",
+      "type": "软件工具"
+    },
+    {
+      "name": "基于LSTM循环神经网络的故障时间序列预测方法",
+      "type": "研究方法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "基于LSTM循环神经网络的故障时间序列预测方法",
+      "relation": "基于",
+      "tail": "长短期记忆(LSTM)循环神经网络"
+    },
+    {
+      "head": "长短期记忆(LSTM)循环神经网络",
+      "relation": "应用于",
+      "tail": "故障时间序列预测"
+    },
+    {
+      "head": "LSTM预测模型参数优选算法",
+      "relation": "基于",
+      "tail": "多层网格搜索"
+    },
+    {
+      "head": "多层网格搜索",
+      "relation": "用于优选",
+      "tail": "长短期记忆(LSTM)循环神经网络"
+    },
+    {
+      "head": "长短期记忆(LSTM)循环神经网络",
+      "relation": "改进了",
+      "tail": "循环神经网络(RNN)"
+    },
+    {
+      "head": "长短期记忆(LSTM)循环神经网络",
+      "relation": "解决了",
+      "tail": "梯度消失问题"
+    },
+    {
+      "head": "长短期记忆(LSTM)循环神经网络",
+      "relation": "解决了",
+      "tail": "梯度爆炸问题"
+    },
+    {
+      "head": "门限循环单元(GRU)模型",
+      "relation": "是...的简化版本",
+      "tail": "长短期记忆(LSTM)循环神经网络"
+    },
+    {
+      "head": "Adam优化算法",
+      "relation": "融合了",
+      "tail": "AdaGrad算法"
+    },
+    {
+      "head": "Adam优化算法",
+      "relation": "融合了",
+      "tail": "RMSProp算法"
+    },
+    {
+      "head": "长短期记忆(LSTM)循环神经网络",
+      "relation": "的训练采用",
+      "tail": "Adam优化算法"
+    },
+    {
+      "head": "故障时间序列预测",
+      "relation": "使用数据集",
+      "tail": "民航飞机整机故障时间序列"
+    },
+    {
+      "head": "民航飞机整机故障时间序列",
+      "relation": "来源于",
+      "tail": "波音737飞机"
+    },
+    {
+      "head": "长短期记忆(LSTM)循环神经网络",
+      "relation": "预测精度优于",
+      "tail": "循环神经网络(RNN)"
+    },
+    {
+      "head": "长短期记忆(LSTM)循环神经网络",
+      "relation": "预测精度优于",
+      "tail": "门限循环单元(GRU)模型"
+    },
+    {
+      "head": "长短期记忆(LSTM)循环神经网络",
+      "relation": "预测精度优于",
+      "tail": "Holt-Winters模型"
+    },
+    {
+      "head": "长短期记忆(LSTM)循环神经网络",
+      "relation": "预测精度优于",
+      "tail": "自回归移动平均(ARIMA)模型"
+    },
+    {
+      "head": "长短期记忆(LSTM)循环神经网络",
+      "relation": "预测精度优于",
+      "tail": "支持向量回归(SVR)模型"
+    },
+    {
+      "head": "均方根误差(RMSE)",
+      "relation": "是...的性能指标",
+      "tail": "故障时间序列预测"
+    },
+    {
+      "head": "多层网格搜索",
+      "relation": "用于优选",
+      "tail": "学习率"
+    },
+    {
+      "head": "多层网格搜索",
+      "relation": "用于优选",
+      "tail": "分割窗口长度"
+    },
+    {
+      "head": "多层网格搜索",
+      "relation": "用于优选",
+      "tail": "状态向量大小"
+    },
+    {
+      "head": "长短期记忆(LSTM)循环神经网络",
+      "relation": "使用软件实现",
+      "tail": "TensorFlow"
+    }
+  ]
+}

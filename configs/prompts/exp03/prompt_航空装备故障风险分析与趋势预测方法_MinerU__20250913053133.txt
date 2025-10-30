@@ -134,67 +134,107 @@
 {
   "entities": [
     {
-      "name": "核动力系统故障诊断方法",
-      "type": "方法"
-    },
-    {
-      "name": "核领域的实际应用",
-      "type": "应用领域"
-    },
-    {
-      "name": "两步走策略",
-      "type": "策略"
-    },
-    {
-      "name": "设备及故障诊断确定故障源设备",
-      "type": "步骤"
-    },
-    {
-      "name": "具体设备的故障源诊断",
-      "type": "步骤"
-    },
-    {
-      "name": "基于多模型融合的航空电子产品故障预测方法",
+      "name": "组合预测方法",
       "type": "研究方法"
     },
     {
-      "name": "航空电子产品故障预测",
-      "type": "问题"
+      "name": "指数平滑法",
+      "type": "模型"
     },
     {
-      "name": "人工免疫系统",
-      "type": "技术领域"
+      "name": "故障预测",
+      "type": "研究方法"
     },
     {
-      "name": "故障诊断",
-      "type": "应用领域"
+      "name": "航空设备",
+      "type": "系统/部件"
+    },
+    {
+      "name": "歼击机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "结构故障",
+      "type": "故障模式"
+    },
+    {
+      "name": "结构故障诊断",
+      "type": "研究领域"
+    },
+    {
+      "name": "故障检测",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障隔离",
+      "type": "研究方法"
+    },
+    {
+      "name": "非线性系统辨识方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "飞行器健康管理系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "单一预测方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "加权系数",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "预测系统",
+      "type": "系统/部件"
     }
   ],
   "relations": [
     {
-      "head": "核动力系统故障诊断方法",
-      "relation": "推广到",
-      "tail": "核领域的实际应用"
+      "head": "组合预测方法",
+      "relation": "提出用于",
+      "tail": "故障预测"
     },
     {
-      "head": "两步走策略",
+      "head": "组合预测方法",
+      "relation": "结合",
+      "tail": "指数平滑法"
+    },
+    {
+      "head": "组合预测方法",
+      "relation": "应用于",
+      "tail": "航空设备"
+    },
+    {
+      "head": "结构故障诊断",
       "relation": "包括",
-      "tail": "设备及故障诊断确定故障源设备"
+      "tail": "故障检测"
     },
     {
-      "head": "两步走策略",
+      "head": "结构故障诊断",
       "relation": "包括",
-      "tail": "具体设备的故障源诊断"
+      "tail": "故障隔离"
     },
     {
-      "head": "基于多模型融合的航空电子产品故障预测方法",
-      "relation": "提出用于解决",
-      "tail": "航空电子产品故障预测"
+      "head": "组合预测方法",
+      "relation": "采用",
+      "tail": "加权系数"
     },
     {
-      "head": "人工免疫系统",
-      "relation": "应用到",
-      "tail": "故障诊断"
+      "head": "组合预测方法",
+      "relation": "弥补...不足",
+      "tail": "单一预测方法"
+    },
+    {
+      "head": "组合预测方法",
+      "relation": "提高...性能",
+      "tail": "预测系统"
+    },
+    {
+      "head": "故障预测",
+      "relation": "是...的一部分",
+      "tail": "飞行器健康管理系统"
     }
   ]
 }
@@ -225,16 +265,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 【基础理论与应用研究】
-
-doi:10.11809/bqzbgcxb2021.02.019
-
-# 航空装备故障风险分析与趋势预测方法
-
-李飞敏
-
-（中国飞行试验研究院，西安 710089）
-
 摘要：针对近来系统形成飞行试验故障风险分析与趋势预测方法的问题，提出基于可拓学的飞行试验故障后果定量分析方法，综合应用蒙特卡洛抽样以及层次分析法的飞行试验故障可能性评定方法以及基于灰色波形的故障风险综合预警信号预测方法；通过实例验证结果表明：基于灰色波形的故障风险综合预警信号预测方法预测航空装备故障风险趋势有效，并且更适合于短期预测；飞行试验期间可以根据装备故障发生的时间先后，建立设备、系统或整机的风险综合预警指数曲线，实现实时监控与短期内的趋势预测，该方法为后续飞行试验故障风险监测与预警提供了一种可行的思路。
 
 关键词：航空装备；飞行试验；风险等级；故障风险；趋势预测本文引用格式：李飞敏.航空装备故障风险分析与趋势预测方法[J].兵器装备工程学报，2021，42(02)：102- 107. Citation format: LI Feimin. Fault Risk Analysis and Trend Prediction Method of Aviation Equipment [J]. Journal of Ordnance Equipment Engineering,2021,42(02):102- 107. 中图分类号：V217;E926.3;U8 文献标识码：A 文章编号：2096- 2304(2021)02- 0102- 06
@@ -244,10 +274,6 @@ doi:10.11809/bqzbgcxb2021.02.019
 LI Feimin
 
 （China Flight Test Research Institute，Xi'an 710089，China)
-
-Abstract: In order to solve the problem that the method of fault risk analysis and trend prediction of flight test has not been formed systematically, a quantitative analysis method of flight test fault consequence based on extenics method, the flight test fault possibility assessment method based on Monte Carlo sampling and analytic hierarchy process (AHP) and the comprehensive early warning signal prediction method of fault risk based on Grey waveform were proposed. The results show that the method based on Grey waveform is effective in the trend prediction of aviation equipment fault risk, and it is more suitable for short- term prediction. During the flight test, the comprehensive early warning index curve of the fault risk of equipment, system or whole aircraft can be established according to the time sequence of fault, so as to realize real- time monitoring and short- term trend prediction. This method provides a feasible idea for subsequent flight test fault risk monitoring and early warning.
-
-Key words: aviation equipment; flight test; risk level; fault risk; trend prediction
 
 飞行试验是航空器充分暴露故障的一个必经阶段，具有高风险性，被人们称为“刀尖上的舞蹈”。飞行试验故障风险评估手段和方法的不到位，无形中给试飞员、试飞航空装备
 
@@ -481,23 +507,3 @@ $$
 # 4 结论
 
 针对航空装备试飞阶段风险评定及趋势预测问题，采用本文方法得到每一故障的可能性等级和故障后果等级，进而得到每一故障的风险等级及综合预警指数。最后根据故障发生的时间先后顺序，建立设备，系统或整机的风险综合预警指数曲线，根据发展趋势，实现实时监控与短期内的趋势预测，为后续飞行试验故障风险监测与预警提供了一种技术方法。
-
-# 参考文献：
-
-[1] 李飞敏，顾仁碗.基于可拓学的航空装备外场故障后果定量分析方法，机械科学技术，2015（11）：23- 26. [2] 卫生部职业卫生标准专业委员会. GBZ230—2010职业
-
-性接触毒物危害程度分级[S].北京：中国人民共和国卫生部，2010. [3] 程凌，潘彤，徐辉波.基于可拓学石化装置故障后果严重度评估方法研究[J].中国安全生产科学技术，2009(03):186- 190. [4] GB/T26610.4—2012承压设备系统基于风险的检验实施导则第5部分故障后果定量分析方法[S].北京：国家质检总局.[5] 苏多，李岩.GJB900A—2012装备安全性工作通用要求[S].北京：中国人民解放军总装备部，2012:2- 4. [6] Amoco，Ashland.API581—2000基于风险的检验[S].美国石油协会，2000:73- 98. [7] GB/T26610.4—2012承压设备系统基于风险的检验实施导则第4部分故障可能性定量分析方法[S].北京：国家质检总局.[8] FAN Chongqing,LU Zhenzhou,SHI Yan. Time- dependent failure possibility analysis under consideration of fuzzy un- certainty[J].Fuzzy Sets and Systems,2019(10):19- 35. [9] 王立涛，武权，张建昌等.定量风险评价中管道失效可能
-
-性的计算方法[J].油气田地面工程，2019（S1）：116- 118. [10] 胡疑超，杨亮.燃气管道失效可能性评价[J].石化技术，2019:91- 93. [11] LU H,KOLARIKW J,LU S S.Real- time performance reliability prediction [J].IEEE Transactions on Reliability,2001,50(4):353- 357. [12] 魏麟，马玉猛，王冲.基于层次分析法（AHP）的航空装备维修影响因素分析[J].科技创新导报，2015（19）：12- 13. [13] 李建华，张雪胭，王秀华，等.基于灰色理论的维修经费投入预测模型[J].兵器装备工程学报，2020，41（1）：145- 148. [14] 李天梅，邱静，刘冠军.基于故障率的测试性验证试验故障样本分配方案[J].航空学报，2009，30（9）：1661- 1665.
-
-# 科学编辑 吴军博士（华中科技大学教授、博导）责任编辑 杨梅梅
-
-# （上接第46页）
-
-# 参考文献：
-
-[1] 李炜昕，张合，丁立波.基于记数数测速的定距修正系统[J].测试技术学报，2013，27(2):104- 108. [2] 何振才.引信空炸炸点精确控制技术研究[D].中国知网服务平台，2006. [3] 孙全意，丁立波，张河.小口径空炸引信地磁计转数原理研究[J].探测与控制学报，2001，23（4）：14- 17. [4] 姚则武.计转数定距弹炸点控制影响因素分析[J].四川兵工学报，2018，29（1）：22- 25.
-
-[5] 裴东兴，王文武，崔春生.利用转速测试弹丸炮口速度的方法研究[J].兵工学报，2013，34（1）：125- 128. [6] 齐晓红，潘宗仁，张晓炜.基于地磁传感器的引信自测初速技术研究[J].弹箭与制导学报，2010，30（6）：128- 130. [7] 姚强，陆通.铝基复合材料抗拉强度测量不确定度评定[J].计量与测试技术，2016，43（12）：1- 2.
-
-科学编辑 张云峰博士（陆军工程大学石家庄校区）责任编辑 周江川

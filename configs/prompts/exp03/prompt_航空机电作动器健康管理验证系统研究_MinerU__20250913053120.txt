@@ -134,62 +134,79 @@
 {
   "entities": [
     {
-      "name": "飞机液压泵",
+      "name": "机载燃油测量系统",
       "type": "系统/部件"
     },
     {
-      "name": "液压系统",
+      "name": "机载燃油测量系统PHM测试床",
       "type": "系统/部件"
     },
     {
       "name": "故障注入",
-      "type": "方法"
+      "type": "研究方法"
     },
     {
-      "name": "故障诊断",
-      "type": "技术"
+      "name": "本文",
+      "type": "研究工作"
+    },
+    {
+      "name": "PHM系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "验证与适航认证",
+      "type": "研究方法"
+    },
+    {
+      "name": "专家系统",
+      "type": "模型"
     },
     {
       "name": "故障预测",
-      "type": "技术"
-    },
-    {
-      "name": "故障预测方法",
-      "type": "方法"
-    },
-    {
-      "name": "综合化",
-      "type": "特征"
+      "type": "研究方法"
     },
     {
       "name": "健康管理",
-      "type": ""
+      "type": "研究方法"
     },
     {
-      "name": "航空电子系统",
-      "type": ""
+      "name": "传感器",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "扩展微粒子群优化算法",
+      "type": "算法"
+    },
+    {
+      "name": "传感器优化配置模型",
+      "type": "模型"
     }
   ],
   "relations": [
     {
-      "head": "飞机液压泵",
-      "relation": "是...的关键部件",
-      "tail": "液压系统"
+      "head": "本文",
+      "relation": "提出了",
+      "tail": "机载燃油测量系统PHM测试床"
     },
     {
-      "head": "健康管理",
-      "relation": "以...为主要手段",
-      "tail": "故障诊断"
+      "head": "机载燃油测量系统PHM测试床",
+      "relation": "以...为例",
+      "tail": "机载燃油测量系统"
     },
     {
-      "head": "健康管理",
-      "relation": "以...为主要手段",
-      "tail": "故障预测"
+      "head": "机载燃油测量系统PHM测试床",
+      "relation": "实现",
+      "tail": "故障注入"
     },
     {
-      "head": "航空电子系统",
-      "relation": "发展方向为",
-      "tail": "综合化"
+      "head": "PHM系统",
+      "relation": "需要",
+      "tail": "验证与适航认证"
+    },
+    {
+      "head": "扩展微粒子群优化算法",
+      "relation": "用于求解",
+      "tail": "传感器优化配置模型"
     }
   ]
 }
@@ -220,12 +237,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 航空机电作动器健康管理验证系统研究
-
-于劲松 $^{1,4}$ , 刘浩 $^{1,3}$ , 张平 $^{1}$ , 廖灿星 $^{2}$ , 李芳亮 $^{3}$
-
-（1. 北京航空航天大学自动化科学与电气工程学院，北京 100191；2. 解放军93478部队，重庆 401329；3. 解放军95927部队14分队，河北沧州 061036；4. 先进航空发动机协同创新中心，北京 100191）
-
 摘要：针对健康管理智能算法与生理模型性能的验证与评估需求，设计了一种航空机电作动器健康管理验证系统；通过分析航空机电作动器的故障机理，提出了电机、控制器、齿轮减速器的数学建模方法和对应的主要失效模式的故障注入方法，设计了验证系统硬件平台、基于组件模式的通用软件运行环境及支持实时显示功能的验证与评估模块；仿真结果表明，该平台能够支持各种健康管理算法与系统模型的加载和调用，并能够实现验证与评估信息的在线显示。
 
 关键词：航空机电作动器；健康管理；验证系统
@@ -233,10 +244,6 @@
 # Study on Validation System of Prognostic and Health Management System for Aviation Electromechanical Actuator
 
 Yu Jinsong $^{1,4}$ , Liu Hao $^{1,3}$ , Zhang Ping $^{1}$ , Liao Canxing $^{2}$ , Li Fangliang $^{3}$  (1. School of Automation Science and Electrical Engineering, Beihang University, Beijing 100191, China; 2. Unit 91, Army 95478 of PLA, Chongqing 401329, China; 3. Unit 14, Army 95927 of PLA, Cangzhou 061036, China; 4. Collaborative Innovation Center of Advanced Aero- Engine, Beijing 100191, China)
-
-Abstract: A validation system of prognostic and health management system for aviation electromechanical actuator (AEMA) was designed for validating and evaluating the intelligent algorithms and reasoning models of prognostic and health management (PHM) system. By analyzing the failure mechanism of AEMA, the modeling and fault injection methods of electrical machine, common fault data source were presented as well as the hardware architecture and general software operating environment based on component- based architecture of the verification prototype system were designed, in which various PHM algorithms and system models could be loaded, called and evaluated, simultaneously, the information of verification and evaluation could be online real- time displayed.
-
-Key words: aviation electromechanical actuator; prognostic and health management; validation system
 
 # 0 引言
 
@@ -396,11 +403,3 @@ RLS算法运行及验证与评估结果如图6所示。
 （2）通过比较PHM算法的性能评估结果，可以为PHM算法用户选取算法提供客观依据，同时也为PHM算法设计人员改善算法提供参考；
 
 （3）通过对比半实物仿真与全数字仿真的输出结果，可以不断完善系统的建模与故障注入能力。
-
-# 参考文献：
-
-参考文献：[1]景博，杨洲，张劼，等.故障预测与健康管理系统验证与确认方法综述[J].计算机工程与应用，2011，47（21）：23- 27. [2] Poll S, Patterson- Hine A, Camisa J, et al. Advanced diagnostics and prognostics test bed [A]. Proceedings of the 18th International Workshop on Principles of Diagnosis [C]. 2007. [3] Dzakowic J E, Valentine G S. Advanced techniques for the verification and validation of prognostics & health management capabilities [A]. Proceedings of Machinery Failure Prevention Technologies (MFPT 60) [C]. 2007. [4] Paul B H, Delbert T. Condition based Maintenance for Intelligent Electromechanical Actuators [R]. The University of Texas at Austin, 2004: 54- 58. [5] Brotherton T, Grabill P, et al. A testbed for data fusion for helicopter diagnostics and prognostics [A]. Proceedings of the 2003 IEEE Aerospace Conference [C]. 2003. [6] Roemer M J, Kacprzynski G J, Orsagh R F. Assessment of Data and Knowledge Fusion Strategies for Prognostics and Health Management [J]. IEEE, 2001, 11 (6): 2979- 2988. [7]吴豪.机电传动器故障预测与健康管理关键技术研究[D].北京航空航天大学，2012. [8] Arulampalam M S, Maskell S, Gordon N, et al. A tutorial on particle filters for online nonlinear/non- gaussian Bayesian tracking [J]. IEEE Transactions on Signal Processing, 2002, 50 (2): 174- 188. [9] Simon D. Optimal State Estimations [M]. John Wiley & Sons, Inc., Hoboken, New Jersey, 2006.
-
-# 参考文献：
-
-参考文献：[1]王迎，陈仕彬，朱洁.污水处理厂远程监控系统的设计[J].计算机测量与控制，2011，19（10）：2433- 2436. [2]郑魁敬，袁磊，周鑫.基于C/S结构的数控设备网络监控系统[J].机械设计，2012，8：5- 10. [3]张方，武鹏，霍锐，等.基于C/S结构的气象信息网络综合监控系统的设计与实现[J].气象与环境科学，2009，S1：279- 282. [4]厉玉昇，申双和，冶林茂，等.基于C/S架构的紫外线网络监控系统[J].计算机应用与软件，2008，7：154- 155. [5]彭小军.基于小波变换的变频器异常定位检测技术[J].科技通报，2012，10（28）：107- 109.

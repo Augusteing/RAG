@@ -1,24 +1,28 @@
 {
   "entities": [
     {
-      "name": "ARIMA模型",
-      "type": "模型"
-    },
-    {
-      "name": "民用航空发动机",
-      "type": "系统/部件"
-    },
-    {
-      "name": "低压转子",
-      "type": "系统/部件"
-    },
-    {
-      "name": "振动故障",
-      "type": "故障模式"
+      "name": "故障分析方法",
+      "type": "研究方法"
     },
     {
       "name": "回归分析法",
       "type": "研究方法"
+    },
+    {
+      "name": "ARIMA模型",
+      "type": "模型"
+    },
+    {
+      "name": "CFM56-7B发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "振动值",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "转速",
+      "type": "传感器/监测参数"
     },
     {
       "name": "指数模型",
@@ -29,23 +33,31 @@
       "type": "特征/健康指标"
     },
     {
-      "name": "振动故障征兆",
+      "name": "振动故障",
       "type": "故障模式"
+    },
+    {
+      "name": "发动机维护方案",
+      "type": "应用场景"
     },
     {
       "name": "航空发动机振动故障预测",
       "type": "研究领域"
     },
     {
-      "name": "快速存储记录器(QAR)",
-      "type": "系统/部件"
-    },
-    {
       "name": "QAR数据",
       "type": "数据集"
     },
     {
+      "name": "振动-转速拟合系数",
+      "type": "特征/健康指标"
+    },
+    {
       "name": "时间序列分析",
+      "type": "研究方法"
+    },
+    {
+      "name": "差分法",
       "type": "研究方法"
     },
     {
@@ -53,105 +65,76 @@
       "type": "数据类型"
     },
     {
-      "name": "平稳序列",
-      "type": "数据类型"
+      "name": "三次指数平滑法",
+      "type": "研究方法"
+    },
+    {
+      "name": "可决系数R²",
+      "type": "性能指标"
+    },
+    {
+      "name": "均方根误差RMSE",
+      "type": "性能指标"
+    },
+    {
+      "name": "平均绝对误差MAE",
+      "type": "性能指标"
+    },
+    {
+      "name": "振动故障征兆",
+      "type": "故障模式"
     },
     {
       "name": "专家建模器",
       "type": "软件工具"
     },
     {
-      "name": "ARIMA(2,1,3)模型",
+      "name": "ARIMA(2,1,3)",
       "type": "模型"
     },
     {
-      "name": "ARIMA(1,1,2)模型",
+      "name": "ARIMA(1,1,2)",
       "type": "模型"
     },
     {
-      "name": "三次指数平滑法",
-      "type": "研究方法"
+      "name": "本文",
+      "type": "文献"
     },
     {
-      "name": "均方根误差(RMSE)",
-      "type": "性能指标"
-    },
-    {
-      "name": "平均绝对误差(MAE)",
-      "type": "性能指标"
-    },
-    {
-      "name": "可决系数R^2",
-      "type": "性能指标"
-    },
-    {
-      "name": "振动-转速特性",
+      "name": "振动值和转速之间的关系",
       "type": "特征/健康指标"
-    },
-    {
-      "name": "CFM56-7B发动机",
-      "type": "系统/部件"
-    },
-    {
-      "name": "低压涡轮振动单位值(TN1VIB)",
-      "type": "传感器/监测参数"
-    },
-    {
-      "name": "低压转子转速(N1)",
-      "type": "传感器/监测参数"
-    },
-    {
-      "name": "基于ARIMA模型的振动故障分析方法",
-      "type": "研究方法"
-    },
-    {
-      "name": "差分法",
-      "type": "算法"
-    },
-    {
-      "name": "ADF检验法",
-      "type": "算法"
-    },
-    {
-      "name": "发动机维护方案",
-      "type": "应用场景"
     }
   ],
   "relations": [
     {
-      "head": "基于ARIMA模型的振动故障分析方法",
+      "head": "本文",
+      "relation": "提出了",
+      "tail": "故障分析方法"
+    },
+    {
+      "head": "故障分析方法",
       "relation": "基于",
       "tail": "回归分析法"
     },
     {
-      "head": "基于ARIMA模型的振动故障分析方法",
+      "head": "故障分析方法",
       "relation": "基于",
       "tail": "ARIMA模型"
     },
     {
-      "head": "ARIMA模型",
+      "head": "故障分析方法",
       "relation": "应用于",
-      "tail": "航空发动机振动故障预测"
+      "tail": "CFM56-7B发动机"
     },
     {
       "head": "回归分析法",
       "relation": "用于拟合",
-      "tail": "振动-转速特性"
-    },
-    {
-      "head": "指数模型",
-      "relation": "用于描述",
-      "tail": "振动-转速特性"
-    },
-    {
-      "head": "指数模型",
-      "relation": "生成",
-      "tail": "指数模型系数a"
+      "tail": "振动值和转速之间的关系"
     },
     {
       "head": "ARIMA模型",
-      "relation": "用于分析",
-      "tail": "指数模型系数a"
+      "relation": "建立在",
+      "tail": "振动-转速拟合系数"
     },
     {
       "head": "ARIMA模型",
@@ -159,73 +142,53 @@
       "tail": "振动故障"
     },
     {
-      "head": "指数模型系数a",
-      "relation": "表征",
-      "tail": "振动故障征兆"
-    },
-    {
-      "head": "快速存储记录器(QAR)",
-      "relation": "记录",
-      "tail": "QAR数据"
-    },
-    {
-      "head": "QAR数据",
-      "relation": "包含",
-      "tail": "低压转子转速(N1)"
-    },
-    {
-      "head": "QAR数据",
-      "relation": "包含",
-      "tail": "低压涡轮振动单位值(TN1VIB)"
+      "head": "ARIMA模型",
+      "relation": "描述趋势",
+      "tail": "振动-转速拟合系数"
     },
     {
       "head": "差分法",
-      "relation": "将",
+      "relation": "用于处理",
       "tail": "非平稳序列"
     },
     {
-      "head": "非平稳序列",
-      "relation": "转化为",
-      "tail": "平稳序列"
-    },
-    {
-      "head": "ADF检验法",
-      "relation": "用于判断",
-      "tail": "序列平稳性"
-    },
-    {
       "head": "ARIMA模型",
-      "relation": "优于",
+      "relation": "性能优于",
       "tail": "三次指数平滑法"
     },
     {
+      "head": "ARIMA(2,1,3)",
+      "relation": "评价指标是",
+      "tail": "均方根误差RMSE"
+    },
+    {
+      "head": "ARIMA(2,1,3)",
+      "relation": "评价指标是",
+      "tail": "平均绝对误差MAE"
+    },
+    {
       "head": "专家建模器",
-      "relation": "生成",
-      "tail": "ARIMA(1,1,2)模型"
-    },
-    {
-      "head": "ARIMA(2,1,3)模型",
-      "relation": "是...的一种",
-      "tail": "ARIMA模型"
-    },
-    {
-      "head": "均方根误差(RMSE)",
-      "relation": "评估",
-      "tail": "ARIMA模型"
-    },
-    {
-      "head": "平均绝对误差(MAE)",
-      "relation": "评估",
-      "tail": "ARIMA模型"
-    },
-    {
-      "head": "可决系数R^2",
-      "relation": "评估",
-      "tail": "ARIMA模型"
+      "relation": "得出",
+      "tail": "ARIMA(1,1,2)"
     },
     {
       "head": "ARIMA模型",
-      "relation": "为...提供依据",
+      "relation": "监测",
+      "tail": "振动故障征兆"
+    },
+    {
+      "head": "QAR数据",
+      "relation": "用于",
+      "tail": "时间序列分析"
+    },
+    {
+      "head": "指数模型",
+      "relation": "用于生成",
+      "tail": "指数模型系数a"
+    },
+    {
+      "head": "ARIMA模型",
+      "relation": "提供依据",
       "tail": "发动机维护方案"
     }
   ]

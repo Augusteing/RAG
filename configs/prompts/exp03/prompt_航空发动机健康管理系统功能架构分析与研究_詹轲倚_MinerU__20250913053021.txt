@@ -134,62 +134,78 @@
 {
   "entities": [
     {
-      "name": "人工免疫系统",
-      "type": "技术领域"
+      "name": "地面综合诊断",
+      "type": "功能模块"
+    },
+    {
+      "name": "寿命管理",
+      "type": "功能模块"
+    },
+    {
+      "name": "数字孪生",
+      "type": "理论基础"
     },
     {
       "name": "故障诊断",
-      "type": "应用领域"
-    },
-    {
-      "name": "基于多模型融合的航空电子产品故障预测方法",
       "type": "研究方法"
     },
     {
-      "name": "航空电子产品故障预测",
-      "type": "问题"
+      "name": "预测",
+      "type": "研究方法"
     },
     {
-      "name": "多源异构数据",
-      "type": "数据"
-    },
-    {
-      "name": "飞机",
+      "name": "地面综合诊断系统",
       "type": "系统/部件"
     },
     {
-      "name": "发动机",
+      "name": "寿命管理模块",
+      "type": "功能模块"
+    },
+    {
+      "name": "罗·罗公司",
+      "type": "研究机构"
+    },
+    {
+      "name": "全面呵护（TotalCare）计划",
+      "type": "应用场景"
+    },
+    {
+      "name": "视情维修",
+      "type": "研究方法"
+    },
+    {
+      "name": "航空发动机",
       "type": "系统/部件"
     },
     {
-      "name": "数据融合",
-      "type": "概念"
+      "name": "状态监控与故障诊断技术",
+      "type": "研究方法"
     },
     {
-      "name": "双向循环神经网络",
-      "type": "网络"
+      "name": "发动机健康管理技术",
+      "type": "研究方法"
     }
   ],
   "relations": [
     {
-      "head": "人工免疫系统",
-      "relation": "应用到",
+      "head": "数字孪生",
+      "relation": "用于",
       "tail": "故障诊断"
     },
     {
-      "head": "基于多模型融合的航空电子产品故障预测方法",
-      "relation": "提出用于解决",
-      "tail": "航空电子产品故障预测"
+      "head": "罗·罗公司",
+      "relation": "推行了",
+      "tail": "全面呵护（TotalCare）计划"
     },
     {
-      "head": "飞机",
-      "relation": "产生",
-      "tail": "多源异构数据"
+      "head": "全面呵护（TotalCare）计划",
+      "relation": "覆盖了",
+      "tail": "航空发动机"
     },
     {
-      "head": "数据融合",
-      "relation": "分为四个阶段",
-      "tail": "数据融合"
+      "head": "状态监控与故障诊断技术",
+      "relation": "发展为",
+      "tail": "发动机健康管理技术"
     }
   ]
 }
@@ -220,40 +236,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 《图学学报》网络首发论文
-
-题目：
-
-作者：
-
-收稿日期：
-
-网络首发日期：
-
-引用格式：
-
-航空发动机健康管理系统功能架构分析与研究
-
-詹柯倩，黄维娜，淳道勇，桂咏涛，张椿林
-
-2024- 11- 01
-
-2025- 04- 29
-
-詹柯倩，黄维娜，淳道勇，桂咏涛，张椿林．航空发动机健康管理系统功能架构分析与研究[J/OL]．图学学报.
-
-https://link.cnki.net/urlid/10.1034. t.20250428.1802.004
-
-网络首发：在编辑部工作流程中，稿件从录用到出版要经历录用定稿、排版定稿、整期汇编定稿等阶段。录用定稿指内容已经确定，且通过同行评议、主编终审同意刊用的稿件。排版定稿指录用定稿按照期刊特定版式（包括网络呈现版式）排版后的稿件，可暂不确定出版年、卷、期和页码。整期汇编定稿指出版年、卷、期、页码均已确定的印刷或数字出版的整期汇编稿件。录用定稿网络首发稿件内容必须符合《出版管理条例》和《期刊出版管理规定》的有关规定；学术研究成果具有创新性、科学性和先进性，符合编辑部对刊文的录用要求，不存在学术不端行为及其他侵权行为；稿件内容应基本符合国家有关书刊编辑、出版的技术标准，正确使用和统一规范语言文字、符号、数字、外文字母、法定计量单位及地图标注等。为确保录用定稿网络首发的严肃性，录用定稿一经发布，不得修改论文题目、作者、机构名称和学术内容，只可基于编辑规范进行少量文字的修改。
-
-出版确认：纸质期刊编辑部通过与《中国学术期刊（光盘版）》电子杂志社有限公司签约，在《中国学术期刊（网络版）》出版传播平台上创办与纸质期刊内容一致的网络版，以单篇或整期出版形式，在印刷出版之前刊发论文的录用定稿、排版定稿、整期汇编定稿。因为《中国学术期刊（网络版）》是国家新闻出版广电总局批准的网络连续型出版物（ISSN 2096- 4188，CN 11- 6037/Z），所以签约期刊的网络版上网络首发论文视为正式出版。
-
-# 航空发动机健康管理系统功能架构分析与研究
-
-詹轲倚1,2,3，黄维娜1,2，淳道勇4，桂咏涛1,2，张椿林1,2
-
-(1)中国航发贵阳发动机设计研究所，贵州贵阳550081；2.贵州省转子结构完整性重点实验室，贵州贵阳550081；3.清华大学航空发动机研究院，北京100084；4.海装广州局驻贵阳地区军事代表室，贵州贵阳550081)
-
 摘要：针对复杂系统需求边界模糊与架构动态优化难题，融合MagicGrid方法论，提出了"场景- 需求- 功能- 逻辑- 物理"五层协同建模框架。基于系统建模语言在MagicDraw平台在航空发动机健康管理系统中开展了基于模型的系统工程实践：1)通过内部块图建立利益相关方交互关系拓扑，实现场景驱动的系统边界定义；2)利用需求图构建可追溯性矩阵，完成场景验证与需求完整性分析；3)基于用例图- 活动图动态组合建模功能行为，经模块化分解形成技术独立的逻辑架构；4)通过块定义图与内部块图构建物理模型，借助接口标准化实现逻辑组件与物理实体的解耦设计。案例验证表明，该方法在降低功能重叠率、提升预测效率、敏捷评估状态影响并降低虚警率上具有显著成效。研究成果不仅构建了航空发动机健康管理系统的全生命周期建模范式，实现了场景- 需求- 功能- 物理全链条追溯，拓展了图学方法在MBSE领域的工程应用场景，其多视图协同建模机制对复杂装备系统设计具有普适参考价值。
 
 关键词：航空发动机；健康管理系统；基于模型的系统工程；系统建模语言；功能架构中图分类号：TP391文献标识码：A
@@ -263,10 +245,6 @@ https://link.cnki.net/urlid/10.1034. t.20250428.1802.004
 ZHAN Keyi1,2,3, HUANG Weina1,2, CHUN Daoyong4, GUI Yongtao1,2, ZHANG Chunlin1,2
 
 (1. ABCC Guiyang Engine Research Institute, Guiyang Guizhou 550081, China; 2. Guizhou Province Key Laboratory of Rotor Structural Integrity, Guiyang Guizhou 550081, China; 3. The Institute for Aero Engine, Tsinghua University, Beijing 100084, China; 4. Naval Equipment Department, Guangzhou Bureau, Military Representative Office in Guiyang Area, Guiyang Guizhou 550081, China)
-
-Abstract: To address the challenges of ambiguous requirement boundaries and dynamic architecture optimization in complex systems, integrates the MagicGrid methodology to establish a five- layer collaborative modeling framework encompassing "scenario- requirement- function- logic- physical" domain. Implementing Model- Based Systems Engineering MBSE with Systems Modeling Language on the MagicDraw platform, we conduct systematic modeling practices for an aero- engine health management system. The methodology comprises four critical phases: 1) Scenario- driven system boundary definition through internal block diagrams that model stakeholder interaction topology; 2) Scenario verification and requirement integrity analysis using traceability matrices constructed from requirement diagrams; 3) Dynamic functional behavior modeling via combined use case- activity diagrams, where modular decomposition establishes technology- neutral logical architectures; 4) Physical implementation modeling employing block definition diagrams and internal block diagram achieving logic- physical decoupling through standardized interface design. The case validation demonstrates that the proposed method achieves significant effectiveness in reducing functional overlap rate, improving prediction efficiency, enabling agile assessment of state impacts, and lowering the false alarm rate. The research achievements not only establish a full- lifecycle modeling paradigm for aero- engine health management systems, achieved end- to- end traceability spanning scenarios, requirements, functions, and physical components, but also expand the engineering application scenarios of graphic methodologies in the MBSE domain. The multi- view collaborative modeling mechanism exhibits universal reference value for complex equipment system design, particularly in resolving
-
-cross- domain requirement conflicts and supporting traceable architecture evolution. Keywords: aero- engine; health management system; model- based systems engineering; system modeling language; functional architecture
 
 航空发动机是实现国防现代化、确保国家安全的重大战略装备，其安全性、可靠性、维护性、经济性是各方关注的热点。航空发动机健康管理技术是提升航空发动机安全性、可靠性、维护性与经济性的必由之路，近年来受到各方青睐并取得了长足的进步，国外将配装健康管理系统作为先进四代及以上代次发动机的重要标志，诸如F119发动机、EJ200发动机和F135发动机均配备了健康管理系统并逐渐发展成熟[1]。作为一项新兴的技术，系统功能架构设计是一项重要工作[2]。目前，针对健康管理中气路故障诊断、振动诊断、健康状态评估等具体技术点研究较多[3- 8]，针对其功能架构设计却鲜有论述，开展健康管理系统功能架构研究有利于厘清系统内、外部功能、接口及交互关系，牵引工程设计，可有效支撑以需求为驱动的技术创新。国外航空发动机相关组织与制造厂商对于健康管理系统架构较为重视，SAE提出了基于信息流处理，由征兆、诊断、预测组成的架构[9]；GE Global提出了由粗略判定、健康状况评估与定位故障的架构，对于飞行中故障告警做出战术控制，与后勤决策系统一同实现可用架构重构，完好率评估，可用资产离线规划，最佳维修决策等功能[10]；Impact公司采用应用故障等级推理机的架构，定义部件级、子系统三层级健康管理分布式架构，各层级配备了相应数据库与知识库，能够有效提升错误信息的包容能力[11]；洛克希德马丁公司提出了一种由传感器层，区域管理器层，飞机推理机层组成的基于区域管理器体系架构[12]；Honeywell公司提出了一种集成健康管理系统(Integrated System Health Management，ISHM)架构用于确定执行任务情况下任务状态，采用可扩展标记语言(eXtensible Markup Language，XML)方法开发了通用数据交互采集[13- 14]。
 
@@ -498,11 +476,3 @@ Table 2 Functional differences analysis between health management systems and co
 随着近年来人工智能技术的发展，航空发动机设计正面临深刻变革，功能架构作为系统设计的核心牵引，其科学性直接影响后续技术选代的效率与质量。在航空发动机健康管理领域，基于数字孪生技术的智能模型构建已显著提升了状态监测和故障诊断与预测的精度，而面向快速原型设计的服务化架构则大幅缩短的研制周期，为算法优化提供了支撑。未来，功能架构需近一步强化模块化与可拓展性，MBSE
 
 方法可通过需求量化与功能分配确保人工智能算法与物理系统的深度耦合，这种架构驱动的设计范式不仅能够整合多技术，还将通过全生命周期协作平台促进全流程数据的双相贯通，最终形成“感知- 分析- 决策- 验证”的敏捷高效闭环，为航空发动机健康管理的数智化升级提供可持续的技术底座。
-
-# 参考文献（References）
-
-[1] Volponi AJ, Gas turbine engine health management: past, present, and future trends[J]. Journal of Engineering for Gas Turbines and Power, 2014, 136(5): 051201. [2] 杨天策，张瑞，蔡景．航空发动机机载健康管理系统设计方法[J]. 航空发动机，2023，49(6)：6- 13. YANG Tiance, ZHANG Rui, CAI Jing. Design method of airborne health management system for aeroengine[J]. Aeroengine, 2023, 49(6): 6- 13 (in Chinese). [3] 李少尘，陈敏、胡金涛，等，航空燃气涡轮发动机气路故障诊断进展综述[J]. 航空发动机，2022, 48(2): 33- 49. LI Shaochen, CHEN Min, HU Jintao, et al. A review of research progress on aircraft gas turbine engines gas path fault diagnosis[J]. Aeroengine, 2022, 48(2): 13- 49(in Chinese). [4] 孙瑞谦，橡林峰，韩小宝，等，考虑性能退化的航空发动机故障诊断量化评估[J]. 推进技术，2022，43(8): 337- 348. SUN Rui- qian, GOU Linfeng, HAN Xiaobao, et al. Quantitative Evaluation of Fault Diagenosability for Degraded Aero- Engine [J]. Journal of Propulsion Technology, 2022, 43 (8): 337- 348. (in Chinese) [5] 尉谢梅，刘芳，陈良峰，等，航空发动机健康管理用户的诊断预测指标体系[J]. 航空发动机，2012, 38(5): 27- 35. WEI Xunkai, LIUFang, CHEN Liangfeng, et al. Diagnostic and Prognostic Metrics of Aeroengine Health Management Users[J]. Aeroengine, 2012, 38(5): 27- 35. (in Chinese) [6] 费成巍，艾延廷，航空发动机健康管理系统设计技术[J]. 航空发动机，2009, 35(5): 24- 29. FEI Chengwei, AI Yanting.Design Technology of Aircraft Engine Health Management System[J]. Aeroengine, 2009, 35(5): 24- 29. [7] 曹明，黄金泉，周健，等，民用航空发动机故障诊断与健康管理现状、挑战与机遇I：气路、机械和FADEC系统故障诊断与预测[J]. 航空学报，2023，A3(9): 91- 41+2. CAO Ming, HUANG Jinquan, ZHOU Jian, et al. Civil Aero- Engine Fault Diagnosis and Health Management: Current Status, Challenges, and Opportunities I: Fault Diagnosis and Prediction of Gas Path, Mechanical, and FADEC Systems[J]. Acta Aeronauticaet Astronautica Sinica, 2022, 43(9): 91- 41+2 (in Chinese). [8] 林京，张博瑶，张大义，等，航空燃气涡轮发动机故障诊断研究现状与展望[J]. 航空学报，2022, 43(8): 7- 20. LIN Jing, Zhang Boya, Zhang Dayi, et al. Research Status and Prospects of Fault Diagnosis for Gas Turbine Aeroengines[J]. Acta Aeronauticaet Astronautica Sinica. 2022, 43(8): 7- 20(in Chinese). [9] SAE Committee E- 32. AIR1587B- 2007 Aircraft gas turbine engine healthy management system guide. Warrendale,[S]. PA: SAE International 2007. [10] Bonissone P P. Prognostics and health management[EB/OL]. [2010- 1- 10]. http://www.drc.mil/ndia/2000logistics/bonissone.pdf. [11] Roemer M J, Byington C S, Kacprzynski G J, et al. An Overview of Selected Prognostic Technologies With Application to Engine
-
-Health Management[C]//Asme Turbo Expo: Power for Land, Sea, & Air. American Society of Mechanical Engineers, 2006. [12] Hess A, Calvello G, Dabney T. PHM: a key enabler for the JSF autonomic logistics support concept[C]//IEEE Aerospace Conference. IEEE, 2004. [13] Blaser R, Nigoghosian B. Integrated System Health Management (ISHM) and Affordable Logistics[C]//Aiaa Space Conference & Exposition.[14] Glass B, Jambor B, Chun W, et al. Integrated System Health Management Architecture Design[C]//AIAA Infotech@Aerospace 2010. [15] Parker K I, Guo T H. Development of a turbofan engine simulation in a graphical simulation environment[R]. NASA- TM- 2003- 212543. [16] Frederick D K, DeCastro J S. User's guide for the commercial modular aero- propulsion system simulation(C- MAPSS)[R]. NASA- TM- 2007- 215026. [17] Conroy M, MazzoneR, Lin W. NASA integrated model- centric architecture(nima)model use and reuse[C]// 2013 IEEE Aerospace Conference. Piscataway: IEEE Press, 2013, 1- 15. [18] 张有山, 杨雷, 王平, 等. 基于模型的系统工程方法在载人航天任务中的应用探讨[J]. 航天器工程, 2014, 23(5): 121- 128. ZHANG Youshan, YANG Lei, WANG Ping, et al. Discussion on Application of Model- based Systems Engineering Methods to Human Spaceflight Missions [J]. Spacecraft Engineering, 2014, 23(5): 121- 128 (in Chinese).[19] Hoffmann H P. SysML- based systems engineering using a model- driven development approach[J]. INCOSE International Symposium, 2006, 16(1): 804- 814. [20] Bone M, Cloutier R. The current state of model based systems engineering: Results from the omgTM SysML request for information 2009[C]// Proceedings of the 8th conference on systems engineering research, March 17, 2010, Hoboke, NJ.[21] 尉南楷, 杨立, 刘芳, 等. 航空发动机预测与健康管理[M]. 北京: 国防工业出版社, 2014. WEIXunkai, Yang Li, Liu Fang, et al. Aviation engine prediction and health management[M]. Beijing: National Defense Industry Press, 2014. (in Chinese)
-
-[22] 兰小平, 姚志强, 吴绶宏等. 面向 MBSE 的复杂系统研发模型追溯管理方法[J]. 系统工程学报, 2023, 38(03): 289- 303. LAN Xiaoping, YAO Zhiqiang, WU Shouxuan, et al. Traceability management approach of complex system development on MBSE [J]. Journal of System Engineering, 2023, 38(03): 289- 303 (in Chinese).[23] 马彦丽, 张继忠, 赖冀斌, 梁巍. 李秀春. 基于 MBSE 的柴油机系统设计建模方法[J]. 国学学报, 2024, 45(2): 355- 362. MA Yanli, ZHANG Jizhong, HAO Jibin, LIANG Wei, LI Xiuchun. Modeling method for design of diesel engine system based on MBSE[J]. Journal of Graphics, 2024, 45(2): 355- 362 (in Chinese).[24] 王海芳, 张雷, 刘慧军, 卢益明, 孙铭栋. 基于 DoDAF 的动车组 MBSE 的研制方法[J]. 国学学报, 2024, 45(2): 339- 346. WANG Haifang, ZHANG Lei, LIU Huijun, LU Yiming, SUN Minghui. A DoDAF- based method for developing MBSE for EMU[J]. Journal of Graphics, 2024, 45(2): 339- 346 (in Chinese).[25] 闫佳宁, 张安, 黄湛钧, 王逸鸣. 基于 SysML 的民机系统功能设计方法及应用[J]. 国学学报, 2024, 45(2): 277- 283. YAN Jianing, ZHANG An, HUANG Zhanjun, WANG Yiming. Function design method and application of civil aircraft system based on SysML[J]. Journal of Graphics, 2024, 45(2): 277- 283 (in Chinese).[26] 侯雄, 李东方. MBSE 技术及其在航天控制中的应用[J]. 航天控制, 2023, 41(05): 3- 13. HOU Xiong, LI Dongfang. MBSE Technology and Its application in Aerospace Control [J]. Aerospace Control, 2023, 41(05): 3- 13 (in Chinese).[27] Hoffmann H P. Model- based systems engineering with rational rhapsody and rational harmony for systems engineering[J]. Deskbook Release, 2011, 3(2).[28] Morkevicius A, Aleksandraviciene A, Mazeika D, et al. MBSE Grid: A Simplified SysML - Based Approach for Modeling Complex Systems[C]//INCOSE International Symposium. 2017, 27(1): 136- 150.

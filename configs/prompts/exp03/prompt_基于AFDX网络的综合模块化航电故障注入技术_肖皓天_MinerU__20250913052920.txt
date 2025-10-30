@@ -134,62 +134,122 @@
 {
   "entities": [
     {
-      "name": "故障注入",
-      "type": "方法"
+      "name": "故障诊断技术",
+      "type": "研究方法"
     },
     {
-      "name": "故障诊断",
-      "type": "技术"
+      "name": "预测与健康管理(PHM)系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "航电系统的综合化",
+      "type": "研究领域"
+    },
+    {
+      "name": "航空电子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "综合模块化航空电子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障预测与健康管理系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "飞机安全性",
+      "type": "性能指标"
+    },
+    {
+      "name": "分层结构",
+      "type": "系统/部件"
+    },
+    {
+      "name": "标准化",
+      "type": "性能指标"
+    },
+    {
+      "name": "层次化",
+      "type": "性能指标"
+    },
+    {
+      "name": "模块化",
+      "type": "性能指标"
+    },
+    {
+      "name": "开放性",
+      "type": "性能指标"
+    },
+    {
+      "name": "电子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "综合化航空电子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "健康管理体系",
+      "type": "系统/部件"
+    },
+    {
+      "name": "增强诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "健康评估",
+      "type": "研究方法"
     },
     {
       "name": "故障预测",
-      "type": "技术"
+      "type": "研究方法"
     },
     {
-      "name": "故障预测方法",
-      "type": "方法"
-    },
-    {
-      "name": "飞机液压泵",
-      "type": "系统/部件"
-    },
-    {
-      "name": "液压系统",
-      "type": "系统/部件"
-    },
-    {
-      "name": "人工免疫系统",
-      "type": "技术领域"
-    },
-    {
-      "name": "故障诊断",
-      "type": "应用领域"
-    },
-    {
-      "name": "健康管理",
-      "type": ""
+      "name": "贝叶斯网络",
+      "type": "模型"
     }
   ],
   "relations": [
     {
-      "head": "健康管理",
-      "relation": "以...为主要手段",
-      "tail": "故障诊断"
+      "head": "故障诊断技术",
+      "relation": "发展为",
+      "tail": "预测与健康管理(PHM)系统"
     },
     {
-      "head": "健康管理",
-      "relation": "以...为主要手段",
-      "tail": "故障预测"
+      "head": "故障预测与健康管理系统",
+      "relation": "应用于",
+      "tail": "综合模块化航空电子系统"
     },
     {
-      "head": "飞机液压泵",
-      "relation": "是...的关键部件",
-      "tail": "液压系统"
+      "head": "综合模块化航空电子系统",
+      "relation": "按功能划分为",
+      "tail": "分层结构"
     },
     {
-      "head": "人工免疫系统",
-      "relation": "应用到",
-      "tail": "故障诊断"
+      "head": "故障预测与健康管理系统",
+      "relation": "满足要求",
+      "tail": "标准化"
+    },
+    {
+      "head": "故障预测与健康管理系统",
+      "relation": "满足要求",
+      "tail": "层次化"
+    },
+    {
+      "head": "故障预测与健康管理系统",
+      "relation": "满足要求",
+      "tail": "模块化"
+    },
+    {
+      "head": "故障预测与健康管理系统",
+      "relation": "满足要求",
+      "tail": "开放性"
+    },
+    {
+      "head": "健康管理体系",
+      "relation": "应用于",
+      "tail": "综合化航空电子系统"
     }
   ]
 }
@@ -220,12 +280,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-引用格式：肖皓天，熊华钢，李峭，等.基于AFDX网络的综合模块化航电故障注入技术  $\mathbb{I}$  .电光与控制，2017，24（10）：75- 79，84. XIAOH T，XIONGH G,LI Q,et al.AFDX based fault injection technology for integrated modular avionics system .Electronics Optics & Control,2017,24(10) :75- 79,84.
-
-# 基于AFDX网络的综合模块化航电故障注入技术
-
-肖皓天，熊华钢，李峭，李静（北京航空航天大学，北京100191）
-
 摘要：为了对综合模块化航空电子（IMA）系统的健康管理功能进行验证，给出了通过航空电子全双工交换式以太网（AFDX）进行故障注入的技术解决方案。在该方案下，提出了故障数据的配置管理方法，以及一种解决主机数据更新间隔、发送间隔与AFDX端系统定时器周期不匹配的发送策略，搭建了相应故障注入装置，开发了故障注入软件，通过实验测试说明了上述方法和策略的有效性。
 
 关键词：综合模块化航空电子；AFDX；故障注入技术；定时器；数据速率  中图分类号：TP393.03 文献标志码：A doi:10.3969/j.issn.1671- 637X.2017.10.015
@@ -233,10 +287,6 @@
 # AFDX Based Fault Injection Technology for Integrated Modular Avionics System
 
 XIAO Hao- tian， XIONG Hua- gang， LI Qiao， LI Jing ( Beihang University,Beijing 100191,China)
-
-Abstract: In order to verify the function of health management of Integrated Modular Avionics (IMA), a method of fault injection through AFDX network is proposed. This method contains a way to configure fault data and a data transmission strategy to solve the mismatching problem between the data rate and the period of the timer on PC. The environment for fault injection is established and the corresponding software is developed. The experiments conducted verifies the validity of the way and the strategy.
-
-Key words: Integrated Modular Avionics(IMA); AFDX; fault injection; timer; data rate
 
 # 0 引言
 
@@ -431,29 +481,3 @@ Table 1 Data received by Copilot (before optimization)
 # 5 总结
 
 本文的故障注入方案包含故障数据配置和故障数据发送功能，使用PC主机端和API编程对嵌入式平台进行故障注入，能够在一定程度上解决主机应用数据更新率与AFDX端系统定时器周期不匹配的问题，适用于对嵌入式平台的IMA系统健康管理功能进行实验验证。相应的软件界面和数据管理方式，可以使用户根据IMA系统的故障模式设计不同的故障场景，进行故障注入半物理仿真。
-
-# 参考文献
-
-熊华钢，王中华.先进航空电子综合技术[M].北京：国防工业出版社，2009. 陈冬英，宋东，陈杰.航空电子全双工交换式以太网故障注入方法研究Ⅱ.测控技术，2015，34（1）：91- 94. 周庆，刘斌，余正伟，等.综合模块化航电软件仿真测试环境研究Ⅱ.航空学报，2012，33（4）：722- 733. 會声奎，PECHT M G，吴际.故障预测与健康管理（PHM）技术的现状与发展Ⅱ.航空学报，2005，26(5)：626- 632.
-
-（下转第84页）
-
-在地面定点  $4.2\mathrm{km}$  距离、转台模拟飞机机动的条件下，通过衰减发射功率的方式，进行了与空中  $20\mathrm{km}$  距离等效的通信试验验证，实现双向  $1.25\mathrm{Gb}\cdot \mathrm{s}^{- 1} / 155\mathrm{Mb}\cdot \mathrm{s}^{- 1}$  速率的视频通信。并在  $2.5\mathrm{Gb}\cdot \mathrm{s}^{- 1} / 155\mathrm{Mb}\cdot \mathrm{s}^{- 1}$  的速率下，进行多次  $60\mathrm{s}$  以上的误码测试，误码率在  $1.7\times 10^{- 8} / 1.2\times 10^{- 7}$  以下，满足考核指标要求；同时对跟踪性能进行了测试，粗、精跟踪精度分别为  $20\mu \mathrm{rad}$  和  $5\mu \mathrm{rad}$  ，满足性能要求。由于激光器为大功率激光器，难以衰减至与  $100\mathrm{km}$  距离等效的低功率；但实际测试时，  $20\mathrm{km}$  等效衰减通信时接收孔径处光功率约为  $- 15\mathrm{dBm}$  ，而通信机接收灵敏度在- 32 $\mathrm{dBm}$  以下，链路余量在  $17\mathrm{dB}$  以上，理论通信距离大于 $100\mathrm{km}$  ，满足系统设计要求。
-
-另外，还进行了外场通信拉距等效试验，受试验条件限制，最终拉距距离约  $6.8\mathrm{km},1.25\mathrm{Gb}\cdot \mathrm{s}^{- 1} / 155\mathrm{Mb}\cdot \mathrm{s}^{- 1}$  速率的通信画面图像清晰，通信效果良好，误码率满足指标要求。
-
-# 4 结束语
-
-本文结合机载平台特点，分析了机载激光通信系统的关键技术，并通过系统设计研制了一套样机，完成了等效地面试验；未来还需在系统小型化、相干通信体制、自适应光学等新技术方面开展研究，以进一步改进现有系统。随着机载平台重要性的逐渐提高，各国均已开始发展高带宽、高保密、抗干扰的机载激光通信系统，其与射频通信相互配合，将能有效提升战机的通信保障能力和体系对抗下各武器平台的作战效能，发展前景广阔。
-
-# 参考文献
-
-[1] 姜会林，刘志刚，佟首峰，等.机载激光通信环境适应
-
-[1] 姜会林，刘志刚，佟首峰，等.机载激光通信环境适应性及关键技术分析 [1].红外与激光工程，2007，36(s):299- 302. [2] 赵鑫，王世峰，佟首峰，等.飞机- 地面间激光通信天线的初始对准 [1].光学精密工程，2008，16(7):1190- 1195. [3] 刘庭杰，陈玉茹.机载激光通信特点与应用简介 [1].硅谷，2012(12):117- 118. [4] 姜会林，佟首峰.空间激光通信技术与系统 [M].北京：国防工业出版社，2010. [5] 付强，姜会林，王晓曼，等.空间激光通信研究现状及发展趋势 [1].中国光学，2012，5(2):116- 125. [6] 會飞，高世杰，宋晓刚，等.机载激光通信系统发展现状与趋势 [1].中国光学，2016，9(1):65- 73. [7] 孟立新.机载激光通信捕获与跟踪技术研究 [1].吉林：吉林大学，2014. [8] BISWAS A, PACE N, NEAL J, et al. Airborne optical communications demonstrator design and pre- flight test results [1] //Proceedings of SPIE 5712,2005:205- 216. [9] MAYNARD J A, BEGLEY D. Airborne laser communications: past, present and future [1] //Free- Space Laser Communications V, Proceedings of SPIE 5892,2005. doi: 10.1117/12.621222. [10] FLETCHER T M, CUNNINGHAM J, BABER D, et al. Observations of atmospheric effects for FALCON laser- communication system flight test [1] //Atmospheric Propagation VIII, Proceedings of SPIE 8038,2011. doi: 10.1117/12.887407. [11] 刘红军.美军机载射频与FSO混合通信发展述评 [1].电讯技术，2014，54(12):1711- 1716. [12] 孟立新，赵丁选，张立中，等.机载激光通信稳瞄吊舱设计与跟踪精度测试 [1].兵工学报，2015，36(10):1916- 1923.
-
-# （上接第79页）
-
-[1] ARINC. Aircraft data network. Part 7: Avionics Full- Duplex Switched Ethernet (AFDX) network [1]. Annapolis: Aero-
-
-nautical Radio,2005:9- 18. [1] 洪锡军，陈彩贞，李从心. Windows下高精度定时的实现 [1].计算机应用研究，2000，17(3):96- 97.

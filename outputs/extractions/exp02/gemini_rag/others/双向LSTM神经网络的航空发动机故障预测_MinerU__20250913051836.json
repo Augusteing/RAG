@@ -9,12 +9,8 @@
       "type": "模型"
     },
     {
-      "name": "航空发动机",
-      "type": "系统/部件"
-    },
-    {
-      "name": "传感器数据",
-      "type": "传感器/监测参数"
+      "name": "故障预测方法",
+      "type": "研究方法"
     },
     {
       "name": "故障预测模型",
@@ -37,6 +33,10 @@
       "type": "模型"
     },
     {
+      "name": "时间序列模型",
+      "type": "模型"
+    },
+    {
       "name": "预测精度",
       "type": "性能指标"
     },
@@ -45,11 +45,15 @@
       "type": "性能指标"
     },
     {
-      "name": "数据驱动的预测方法",
-      "type": "研究方法"
+      "name": "航空发动机",
+      "type": "系统/部件"
     },
     {
-      "name": "基于物理模型的故障预测方法",
+      "name": "传感器数据",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "数据驱动的预测方法",
       "type": "研究方法"
     },
     {
@@ -57,24 +61,24 @@
       "type": "特征/健康指标"
     },
     {
-      "name": "梯度弥散",
-      "type": "问题"
-    },
-    {
       "name": "梯度消失",
-      "type": "问题"
+      "type": "技术问题"
     },
     {
       "name": "梯度爆炸",
-      "type": "问题"
+      "type": "技术问题"
     },
     {
-      "name": "长期依赖问题",
-      "type": "问题"
+      "name": "梯度弥散",
+      "type": "技术问题"
     },
     {
-      "name": "本文",
-      "type": "研究领域"
+      "name": "长期依赖的问题",
+      "type": "技术问题"
+    },
+    {
+      "name": "双向LSTM故障预测模型",
+      "type": "模型"
     },
     {
       "name": "数据预处理",
@@ -85,19 +89,11 @@
       "type": "模型"
     },
     {
-      "name": "Min-Max归一化方法",
-      "type": "算法"
+      "name": "Min-Max方法",
+      "type": "研究方法"
     },
     {
-      "name": "过拟合",
-      "type": "问题"
-    },
-    {
-      "name": "Dropout",
-      "type": "模型"
-    },
-    {
-      "name": "全连接层",
+      "name": "Dropout层",
       "type": "模型"
     },
     {
@@ -109,83 +105,62 @@
       "type": "性能指标"
     },
     {
+      "name": "非对称评分函数",
+      "type": "性能指标"
+    },
+    {
       "name": "多种工作条件",
       "type": "应用场景"
     },
     {
-      "name": "混合故障模式",
+      "name": "混合故障",
       "type": "故障模式"
     },
     {
-      "name": "时间序列数据",
-      "type": "传感器/监测参数"
+      "name": "维修决策",
+      "type": "应用场景"
     }
   ],
   "relations": [
     {
       "head": "本文",
       "relation": "提出了",
-      "tail": "故障预测模型"
+      "tail": "基于双向LSTM神经网络的故障预测方法"
     },
     {
-      "head": "故障预测模型",
+      "head": "双向LSTM故障预测模型",
       "relation": "基于",
       "tail": "双向LSTM神经网络"
     },
     {
-      "head": "故障预测模型",
+      "head": "双向LSTM故障预测模型",
       "relation": "应用于",
       "tail": "航空发动机故障预测"
     },
     {
-      "head": "航空发动机故障预测",
-      "relation": "依据",
-      "tail": "传感器数据"
-    },
-    {
       "head": "C-MAPSS数据集",
       "relation": "用于验证",
-      "tail": "故障预测模型"
+      "tail": "双向LSTM故障预测模型"
     },
     {
-      "head": "双向LSTM神经网络",
+      "head": "双向LSTM故障预测模型",
       "relation": "优于",
       "tail": "RNN"
     },
     {
-      "head": "双向LSTM神经网络",
+      "head": "双向LSTM故障预测模型",
       "relation": "优于",
       "tail": "GRU"
     },
     {
-      "head": "双向LSTM神经网络",
+      "head": "双向LSTM故障预测模型",
       "relation": "优于",
       "tail": "LSTM"
     },
     {
-      "head": "双向LSTM神经网络",
-      "relation": "提高了",
-      "tail": "预测精度"
-    },
-    {
-      "head": "双向LSTM神经网络",
-      "relation": "降低了",
-      "tail": "非对称评分"
-    },
-    {
-      "head": "数据驱动的预测方法",
-      "relation": "优于",
-      "tail": "基于物理模型的故障预测方法"
-    },
-    {
       "head": "航空发动机故障预测",
-      "relation": "使用...表征",
+      "relation": "使用",
       "tail": "剩余使用寿命(RUL)"
-    },
-    {
-      "head": "LSTM",
-      "relation": "解决了",
-      "tail": "梯度弥散"
     },
     {
       "head": "RNN",
@@ -198,29 +173,24 @@
       "tail": "梯度爆炸"
     },
     {
-      "head": "双向LSTM神经网络",
-      "relation": "解决了",
-      "tail": "长期依赖问题"
+      "head": "LSTM",
+      "relation": "解决",
+      "tail": "梯度弥散"
     },
     {
       "head": "双向LSTM神经网络",
-      "relation": "处理",
-      "tail": "时间序列数据"
+      "relation": "解决",
+      "tail": "长期依赖的问题"
     },
     {
-      "head": "故障预测模型",
+      "head": "双向LSTM神经网络",
+      "relation": "改进了",
+      "tail": "LSTM"
+    },
+    {
+      "head": "双向LSTM故障预测模型",
       "relation": "包含",
       "tail": "数据预处理"
-    },
-    {
-      "head": "故障预测模型",
-      "relation": "包含",
-      "tail": "Dropout"
-    },
-    {
-      "head": "故障预测模型",
-      "relation": "包含",
-      "tail": "全连接层"
     },
     {
       "head": "数据预处理",
@@ -230,37 +200,47 @@
     {
       "head": "数据预处理",
       "relation": "采用",
-      "tail": "Min-Max归一化方法"
+      "tail": "Min-Max方法"
     },
     {
-      "head": "Dropout",
-      "relation": "用于防止",
-      "tail": "过拟合"
+      "head": "双向LSTM故障预测模型",
+      "relation": "采用",
+      "tail": "Dropout层"
     },
     {
-      "head": "故障预测模型",
-      "relation": "使用...作为损失函数",
+      "head": "双向LSTM故障预测模型",
+      "relation": "的损失函数是",
       "tail": "均方误差(MSE)"
     },
     {
-      "head": "故障预测模型",
-      "relation": "评价指标是",
+      "head": "双向LSTM故障预测模型",
+      "relation": "的评价指标是",
       "tail": "均方根误差(RMSE)"
     },
     {
-      "head": "故障预测模型",
-      "relation": "评价指标是",
-      "tail": "非对称评分"
+      "head": "双向LSTM故障预测模型",
+      "relation": "的评价指标是",
+      "tail": "非对称评分函数"
     },
     {
-      "head": "双向LSTM神经网络",
-      "relation": "适用于",
+      "head": "双向LSTM故障预测模型",
+      "relation": "预测",
+      "tail": "剩余使用寿命(RUL)"
+    },
+    {
+      "head": "双向LSTM故障预测模型",
+      "relation": "能够识别和学习",
       "tail": "多种工作条件"
     },
     {
-      "head": "双向LSTM神经网络",
-      "relation": "能够识别",
-      "tail": "混合故障模式"
+      "head": "双向LSTM故障预测模型",
+      "relation": "能够识别和学习",
+      "tail": "混合故障"
+    },
+    {
+      "head": "航空发动机故障预测",
+      "relation": "为",
+      "tail": "维修决策"
     }
   ]
 }

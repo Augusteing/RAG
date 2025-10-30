@@ -1,0 +1,136 @@
+{
+  "entities": [
+    {
+      "name": "长短期记忆（LSTM）循环神经网络",
+      "type": "模型"
+    },
+    {
+      "name": "故障时间序列预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "多层网格搜索",
+      "type": "算法"
+    },
+    {
+      "name": "民航飞机故障数据",
+      "type": "数据集"
+    },
+    {
+      "name": "均方根误差（RMSE）",
+      "type": "性能指标"
+    },
+    {
+      "name": "Holt-Winters模型",
+      "type": "模型"
+    },
+    {
+      "name": "自回归移动平均（ARIMA）",
+      "type": "模型"
+    },
+    {
+      "name": "奇异谱分析（SSA）",
+      "type": "模型"
+    },
+    {
+      "name": "支持向量回归（SVR）",
+      "type": "模型"
+    },
+    {
+      "name": "人工神经网络（ANN）",
+      "type": "模型"
+    },
+    {
+      "name": "循环神经网络（RNN）",
+      "type": "模型"
+    },
+    {
+      "name": "门限循环单元（GRU）",
+      "type": "模型"
+    },
+    {
+      "name": "深度学习",
+      "type": "理论基础"
+    },
+    {
+      "name": "系统级故障时间序列数据",
+      "type": "数据集"
+    },
+    {
+      "name": "Adam优化算法",
+      "type": "算法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "长短期记忆（LSTM）循环神经网络",
+      "relation": "应用于",
+      "tail": "故障时间序列预测"
+    },
+    {
+      "head": "故障时间序列预测",
+      "relation": "基于",
+      "tail": "系统级故障时间序列数据"
+    },
+    {
+      "head": "长短期记忆（LSTM）循环神经网络",
+      "relation": "改进了",
+      "tail": "循环神经网络（RNN）"
+    },
+    {
+      "head": "长短期记忆（LSTM）循环神经网络",
+      "relation": "优于",
+      "tail": "Holt-Winters模型"
+    },
+    {
+      "head": "长短期记忆（LSTM）循环神经网络",
+      "relation": "优于",
+      "tail": "自回归移动平均（ARIMA）"
+    },
+    {
+      "head": "长短期记忆（LSTM）循环神经网络",
+      "relation": "优于",
+      "tail": "奇异谱分析（SSA）"
+    },
+    {
+      "head": "长短期记忆（LSTM）循环神经网络",
+      "relation": "优于",
+      "tail": "支持向量回归（SVR）"
+    },
+    {
+      "head": "长短期记忆（LSTM）循环神经网络",
+      "relation": "优于",
+      "tail": "人工神经网络（ANN）"
+    },
+    {
+      "head": "长短期记忆（LSTM）循环神经网络",
+      "relation": "优于",
+      "tail": "门限循环单元（GRU）"
+    },
+    {
+      "head": "长短期记忆（LSTM）循环神经网络",
+      "relation": "基于",
+      "tail": "深度学习"
+    },
+    {
+      "head": "长短期记忆（LSTM）循环神经网络",
+      "relation": "采用",
+      "tail": "Adam优化算法"
+    },
+    {
+      "head": "多层网格搜索",
+      "relation": "用于",
+      "tail": "长短期记忆（LSTM）循环神经网络"
+    },
+    {
+      "head": "长短期记忆（LSTM）循环神经网络",
+      "relation": "评估指标是",
+      "tail": "均方根误差（RMSE）"
+    },
+    {
+      "head": "民航飞机故障数据",
+      "relation": "支持",
+      "tail": "故障时间序列预测"
+    }
+  ]
+}

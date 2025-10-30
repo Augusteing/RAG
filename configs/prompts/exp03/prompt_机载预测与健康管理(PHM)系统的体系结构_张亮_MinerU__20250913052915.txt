@@ -134,172 +134,176 @@
 {
   "entities": [
     {
-      "name": "飞机PHM系统",
-      "type": "系统"
+      "name": "大型飞机机载系统",
+      "type": "系统/部件"
     },
     {
-      "name": "机载PHM系统",
-      "type": "系统"
+      "name": "飞机",
+      "type": "系统/部件"
     },
     {
-      "name": "地面PHM系统",
-      "type": "系统"
-    },
-    {
-      "name": "分层智能推理机构",
-      "type": "架构"
-    },
-    {
-      "name": "综合智能故障诊断方法",
-      "type": "方法"
-    },
-    {
-      "name": "维修任务预测算法",
+      "name": "智能故障诊断算法",
       "type": "算法"
     },
     {
-      "name": "飞机多机种自主式保障设计",
-      "type": "研究方向"
+      "name": "故障诊断",
+      "type": "研究方法"
     },
     {
-      "name": "故障诊断",
-      "type": "任务"
+      "name": "故障预测算法",
+      "type": "算法"
+    },
+    {
+      "name": "失效物理",
+      "type": "理论基础"
+    },
+    {
+      "name": "可靠性",
+      "type": "性能指标"
+    },
+    {
+      "name": "安全性",
+      "type": "性能指标"
+    },
+    {
+      "name": "维修保障性",
+      "type": "性能指标"
+    },
+    {
+      "name": "PHM系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "航空电子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "命令与数据处理子系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "电源系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "故障预测与健康管理(PHM)",
+      "type": "研究领域"
+    },
+    {
+      "name": "军用飞机PHM技术",
+      "type": "研究领域"
+    },
+    {
+      "name": "军用飞机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "装备PHM工程应用",
+      "type": "应用场景"
+    },
+    {
+      "name": "装备测试性设计与验证",
+      "type": "研究方法"
+    },
+    {
+      "name": "多源故障信息交互与管理",
+      "type": "研究方法"
+    },
+    {
+      "name": "寿命预测与维修支持",
+      "type": "研究方法"
+    },
+    {
+      "name": "验证评估",
+      "type": "研究方法"
+    },
+    {
+      "name": "标准制定",
+      "type": "研究方法"
+    },
+    {
+      "name": "瓶颈问题",
+      "type": "General Concept"
+    },
+    {
+      "name": "测试性试验技术",
+      "type": "研究方法"
+    },
+    {
+      "name": "智能信息处理与融合技术",
+      "type": "研究方法"
+    },
+    {
+      "name": "航空装备与信息标准化管理技术",
+      "type": "研究方法"
+    },
+    {
+      "name": "数据挖掘与平台构建技术",
+      "type": "研究方法"
+    },
+    {
+      "name": "状态监测",
+      "type": "研究方法"
     },
     {
       "name": "故障预测",
-      "type": "任务"
-    },
-    {
-      "name": "自主式保障",
-      "type": "目标"
-    },
-    {
-      "name": "故障检测",
-      "type": "技术"
-    },
-    {
-      "name": "隔离",
-      "type": "技术"
-    },
-    {
-      "name": "预测",
-      "type": "技术"
-    },
-    {
-      "name": "状态管理",
-      "type": "技术"
-    },
-    {
-      "name": "故障预测与健康管理系统概念",
-      "type": "概念"
-    },
-    {
-      "name": "视情维修",
-      "type": "技术"
-    },
-    {
-      "name": "虚警率高",
-      "type": "问题"
-    },
-    {
-      "name": "数据质量差",
-      "type": "问题"
-    },
-    {
-      "name": "知识工程混沌化",
-      "type": "问题"
-    },
-    {
-      "name": "结构设计模糊化",
-      "type": "问题"
-    },
-    {
-      "name": "工程实现碎片化",
-      "type": "问题"
-    },
-    {
-      "name": "PHM技术",
-      "type": "技术"
-    },
-    {
-      "name": "故障不可复现率",
-      "type": "性能指标"
-    },
-    {
-      "name": "维修人力",
-      "type": "成本"
-    },
-    {
-      "name": "后勤规模",
-      "type": "成本"
-    },
-    {
-      "name": "出动架次率",
-      "type": "性能指标"
-    },
-    {
-      "name": "使用与保障费用",
-      "type": "成本"
-    },
-    {
-      "name": "健康与使用监控系统（HUMS）",
-      "type": "系统"
-    },
-    {
-      "name": "任务完好率",
-      "type": "性能指标"
+      "type": "研究方法"
     }
   ],
   "relations": [
     {
-      "head": "飞机PHM系统",
-      "relation": "划分为",
-      "tail": "机载PHM系统"
-    },
-    {
-      "head": "飞机PHM系统",
-      "relation": "划分为",
-      "tail": "地面PHM系统"
-    },
-    {
-      "head": "机载PHM系统",
+      "head": "故障诊断",
       "relation": "采用",
-      "tail": "分层智能推理机构"
+      "tail": "智能故障诊断算法"
     },
     {
-      "head": "故障预测与健康管理系统概念",
-      "relation": "促进",
-      "tail": "视情维修"
+      "head": "故障预测算法",
+      "relation": "结合",
+      "tail": "失效物理"
     },
     {
-      "head": "PHM技术",
-      "relation": "降低",
-      "tail": "故障不可复现率"
+      "head": "PHM系统",
+      "relation": "由...组成",
+      "tail": "子系统"
     },
     {
-      "head": "PHM技术",
-      "relation": "减少",
-      "tail": "维修人力"
+      "head": "子系统",
+      "relation": "包括",
+      "tail": "航空电子系统"
     },
     {
-      "head": "PHM技术",
-      "relation": "减少",
-      "tail": "后勤规模"
+      "head": "航空电子系统",
+      "relation": "包括",
+      "tail": "命令与数据处理子系统"
     },
     {
-      "head": "PHM技术",
-      "relation": "提高",
-      "tail": "出动架次率"
+      "head": "航空电子系统",
+      "relation": "包括",
+      "tail": "电源系统"
     },
     {
-      "head": "PHM技术",
-      "relation": "减少",
-      "tail": "使用与保障费用"
+      "head": "军用飞机PHM技术",
+      "relation": "面临",
+      "tail": "瓶颈问题"
     },
     {
-      "head": "健康与使用监控系统（HUMS）",
-      "relation": "提高",
-      "tail": "任务完好率"
+      "head": "军用飞机PHM技术",
+      "relation": "发展瓶颈包括",
+      "tail": "装备测试性设计与验证"
+    },
+    {
+      "head": "军用飞机PHM技术",
+      "relation": "发展瓶颈包括",
+      "tail": "验证评估"
+    },
+    {
+      "head": "军用飞机PHM技术",
+      "relation": "发展瓶颈包括",
+      "tail": "标准制定"
     }
   ]
 }
@@ -330,10 +334,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 机载预测与健康管理（PHM）系统的体系结构
-
-张亮，张凤鸣，李俊涛，李永宾（空军工程大学工程学院，陕西西安 710038）
-
 摘要：故障预测与健康管理（Prognostics and Health Management PHM）系统对于推动作战飞机从“事后维修”、“定时维修”向“视情维修”转变具有十分重要的意义。针对新一代作战飞机的技术特点以及在维修保障方面的需求，对机载PHM系统体系结构的3种备选方案进行了对比分析，提出了一种由模块单元层PHM、子系统级PHM、区域级PHM和平台级PHM等4层集成的层次化体系结构，并着重从层次的划分、组成要素的功能描述、信息传输和外部逻辑等几个方面进行了论述。
 
 关键词：作战飞机；机载PHM；预测与健康管理；体系结构
@@ -428,15 +428,3 @@ PHM是由机上部分（简称机载PHM）和机下部分（简称机下PHM）�
 # 3 结束语
 
 PHM是我军新一代作战飞机故障诊断体系的发展方向，对提高飞机安全性能、提高维修保障效率、降低寿命周期费用、提高战斗力将起到重要作用。本文结合美军在JSF项目提出的PHM以及波音公司提出的综合飞行器健康管理（IVHM）总体方案，提出了面向机载PHM的层次化体系结构，并对其进行了初步研究。由于下一代战机高度智能、高度复杂，分层融合式体系结构最适用于下一代战机机载PHM采用。PHM作为一个复杂的系统工程，必须在新机型号设计中就加以考虑，加之在国内研究还处于一个起步阶段，因此，从PHM的提出到实现，今后无疑还要做大量深入的技术研究和开发工作。
-
-# 参考文献：
-
-[1]潘泉，景小宁.美军新机的综合诊断技术及启示[J].空军工程大学学报：自然科学版，2005,6(2)：1—4. PAN Quan JING Xiaoning The Integrated Diagnosis Technique for the New Operational Aircraft of American and the Enlightenment to Us[J]. Journal of Air Force Engineering University, Nature Science Edition 2005,6(2):1—4. (in Chinese)[2]徐萍，康锐.预测与状态管理系统（PHM）技术研究[J].测控技术，2004,23，(12)：58—60. XU Ping KANG Rui Research on Prognostic and Health Management (PHM) Technology[J]. Test and Control technique 2004,23, (12):58—60. (in Chinese)[3]张宝珍，曾天翔.先进的故障预测与状态管理技术[J].测控技术，2003,22(11):4—6. ZHANG Baozhen ZENG Tianxiang Advanced Prognostics and Health Management Technology[J]. Test and Control technique 2003,22(11):4—6. (in Chinese)[4] Andy Hess. The Joint Strike Fighter (JSF) Prognostics and Health Management National Defense Industrial Association 4th Annual Systems Engineering Conference[EB/OL].[2008—01—15]. http://www.dtic- mil/ndia/2001sgstems/hess.pdf.[5] Hess A. Fila L. The Joint Strike Fighter (JSF) PHM Concept Potential Impact on Aging Aircraft Problems Aerospace Conference Proceedings[C]. Piscataway: IEEE Inc 2002: 3021—3026. [6]万明.面向第四代战斗机的机载自主式故障诊断方法研究[D].西安：空军工程大学，2006. WAN Ming Study of Automatic Fault Diagnosis Method for Airborne System Orienting the Fourth Generation Operational Aircraft[D]. Xi'an Air Force Engineering University 2006. (in Chinese)[7] Aaseng G. Gordon B. Blueprint for An Integrated Vehicle Health Management System: The 20th Conference on Digital Avionics Systems[C]. Orlando: ALR International 2001, 1: 14—18. [8] Keller K. Wiegand D. An Architecture to Implement Integrated Vehicle Health Management Systems: IEEE Systems Readiness Technology Conference[C]. Piscataway: IEEE Inc 2001: 2—15. [9] Przytula K W. Reasoning Framework for Diagnosis and Prognosis: IEEE Aerospace Conference 2007[C]. Big Sky Mountain [s.n.]. 2007: 1—10. [10] Hardman W, Hess A. Blunt D. et al. A USN Development Strategy and Demonstration Results for Propulsion and Mechanical Systems Diagnostics, Prognostics and Health Management: Proceedings of the 2000 IEEE Aerospace Conference[C]. Piscataway: IEEE Inc 2001: 3059—3068.
-
-（编辑：姚树峰）
-
-# Research on On—board Prognostics and Health Management System Architecture for Operational Aircraft
-
-ZHANG Liang ZHANG Feng—ming LI Jun—tao LI Yong—bin (Engineering Institute: Air Force Engineering University Xi'an 710038, China)
-
-Abstract The prognostics and health management (PHM) system is now playing an important role in promoting transition of the operational aircraft from nun—to—failure scheduled preventive maintenance to condition—based maintenance Considering technique characteristics and maintenance demand of the new generation operational aircraft three different backup blue prints of on—board prognostics and health management system architectures are contrasted and then a layered architecture is presented which include vehicle level PHM, area level PHM, subsystem level PHM and module / component PHM. Finally the division of hierarchy function description of elements information transmission and external logic are discussed Key words operational aircraft on—board prognostics and health management architecture

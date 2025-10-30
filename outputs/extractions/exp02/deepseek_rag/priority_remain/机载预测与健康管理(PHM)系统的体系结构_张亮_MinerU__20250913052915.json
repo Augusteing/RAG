@@ -1,0 +1,258 @@
+{
+  "entities": [
+    {
+      "name": "故障预测与健康管理(PHM)",
+      "type": "研究领域"
+    },
+    {
+      "name": "机载PHM",
+      "type": "系统/部件"
+    },
+    {
+      "name": "作战飞机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "集中式体系结构",
+      "type": "模型"
+    },
+    {
+      "name": "分布式体系结构",
+      "type": "模型"
+    },
+    {
+      "name": "分层融合式体系结构",
+      "type": "模型"
+    },
+    {
+      "name": "模块单元层PHM",
+      "type": "系统/部件"
+    },
+    {
+      "name": "子系统级PHM",
+      "type": "系统/部件"
+    },
+    {
+      "name": "区域级PHM",
+      "type": "系统/部件"
+    },
+    {
+      "name": "平台级PHM",
+      "type": "系统/部件"
+    },
+    {
+      "name": "异常检测推理机(AR)",
+      "type": "模型"
+    },
+    {
+      "name": "故障诊断推理机(DR)",
+      "type": "模型"
+    },
+    {
+      "name": "故障预测推理机(PR)",
+      "type": "模型"
+    },
+    {
+      "name": "综合推理管理器(IRM)",
+      "type": "模型"
+    },
+    {
+      "name": "传感器",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "Gabor变换",
+      "type": "算法"
+    },
+    {
+      "name": "快速傅里叶变换",
+      "type": "算法"
+    },
+    {
+      "name": "离散傅里叶变换",
+      "type": "算法"
+    },
+    {
+      "name": "专家系统",
+      "type": "模型"
+    },
+    {
+      "name": "神经网络",
+      "type": "模型"
+    },
+    {
+      "name": "模糊逻辑",
+      "type": "模型"
+    },
+    {
+      "name": "健康状态",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "剩余寿命",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "异常检测",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "状态监测",
+      "type": "研究方法"
+    },
+    {
+      "name": "寿命预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "机下PHM",
+      "type": "系统/部件"
+    },
+    {
+      "name": "自主式保障信息系统(ALIS)",
+      "type": "系统/部件"
+    },
+    {
+      "name": "维修保障",
+      "type": "应用场景"
+    },
+    {
+      "name": "预测维修",
+      "type": "应用场景"
+    },
+    {
+      "name": "自主式维修保障",
+      "type": "应用场景"
+    }
+  ],
+  "relations": [
+    {
+      "head": "故障预测与健康管理(PHM)",
+      "relation": "应用于",
+      "tail": "作战飞机"
+    },
+    {
+      "head": "分层融合式体系结构",
+      "relation": "用于",
+      "tail": "机载PHM"
+    },
+    {
+      "head": "机载PHM",
+      "relation": "包含",
+      "tail": "模块单元层PHM"
+    },
+    {
+      "head": "机载PHM",
+      "relation": "包含",
+      "tail": "子系统级PHM"
+    },
+    {
+      "head": "机载PHM",
+      "relation": "包含",
+      "tail": "区域级PHM"
+    },
+    {
+      "head": "机载PHM",
+      "relation": "包含",
+      "tail": "平台级PHM"
+    },
+    {
+      "head": "异常检测推理机(AR)",
+      "relation": "用于",
+      "tail": "异常检测"
+    },
+    {
+      "head": "故障诊断推理机(DR)",
+      "relation": "用于",
+      "tail": "故障诊断"
+    },
+    {
+      "head": "故障预测推理机(PR)",
+      "relation": "用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "综合推理管理器(IRM)",
+      "relation": "管理",
+      "tail": "异常检测推理机(AR)"
+    },
+    {
+      "head": "综合推理管理器(IRM)",
+      "relation": "管理",
+      "tail": "故障诊断推理机(DR)"
+    },
+    {
+      "head": "综合推理管理器(IRM)",
+      "relation": "管理",
+      "tail": "故障预测推理机(PR)"
+    },
+    {
+      "head": "传感器",
+      "relation": "用于",
+      "tail": "状态监测"
+    },
+    {
+      "head": "机载PHM",
+      "relation": "利用",
+      "tail": "传感器"
+    },
+    {
+      "head": "机载PHM",
+      "relation": "借助",
+      "tail": "Gabor变换"
+    },
+    {
+      "head": "机载PHM",
+      "relation": "借助",
+      "tail": "快速傅里叶变换"
+    },
+    {
+      "head": "机载PHM",
+      "relation": "借助",
+      "tail": "离散傅里叶变换"
+    },
+    {
+      "head": "机载PHM",
+      "relation": "借助",
+      "tail": "专家系统"
+    },
+    {
+      "head": "机载PHM",
+      "relation": "借助",
+      "tail": "神经网络"
+    },
+    {
+      "head": "机载PHM",
+      "relation": "借助",
+      "tail": "模糊逻辑"
+    },
+    {
+      "head": "分层融合式体系结构",
+      "relation": "优于",
+      "tail": "集中式体系结构"
+    },
+    {
+      "head": "分层融合式体系结构",
+      "relation": "优于",
+      "tail": "分布式体系结构"
+    },
+    {
+      "head": "故障预测与健康管理(PHM)",
+      "relation": "导致",
+      "tail": "预测维修"
+    },
+    {
+      "head": "故障预测与健康管理(PHM)",
+      "relation": "导致",
+      "tail": "自主式维修保障"
+    }
+  ]
+}

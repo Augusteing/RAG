@@ -134,117 +134,58 @@
 {
   "entities": [
     {
-      "name": "飞机健康管理",
-      "type": "研究领域"
+      "name": "健康状况趋势分析及预测模块",
+      "type": "系统/部件"
     },
     {
-      "name": "状态监测",
-      "type": "技术"
+      "name": "航后下载数据",
+      "type": "数据集"
     },
     {
-      "name": "故障诊断",
-      "type": "技术"
+      "name": "飞机管理器",
+      "type": "系统/部件"
     },
     {
-      "name": "故障预测",
-      "type": "技术"
-    },
-    {
-      "name": "决策",
-      "type": "功能"
-    },
-    {
-      "name": "飞机健康管理系统",
-      "type": "系统"
-    },
-    {
-      "name": "诊断和预测",
-      "type": "管理活动"
-    },
-    {
-      "name": "健康",
-      "type": "状态"
-    },
-    {
-      "name": "使用维护成本",
-      "type": "成本"
-    },
-    {
-      "name": "飞行器健康管理系统",
-      "type": "系统"
-    },
-    {
-      "name": "数据采集",
-      "type": "技术"
-    },
-    {
-      "name": "数据预处理",
-      "type": "技术"
+      "name": "状态监控",
+      "type": "研究方法"
     },
     {
       "name": "健康评估",
-      "type": "技术"
+      "type": "研究方法"
     },
     {
-      "name": "决策支持",
-      "type": "技术"
+      "name": "计划维修",
+      "type": "研究方法"
+    },
+    {
+      "name": "预测性维修",
+      "type": "研究领域"
+    },
+    {
+      "name": "飞机",
+      "type": "系统/部件"
     }
   ],
   "relations": [
     {
-      "head": "飞机健康管理",
-      "relation": "包括",
-      "tail": "状态监测"
+      "head": "健康状况趋势分析及预测模块",
+      "relation": "数据来源于",
+      "tail": "航后下载数据"
     },
     {
-      "head": "飞机健康管理",
-      "relation": "包括",
-      "tail": "故障诊断"
+      "head": "飞机管理器",
+      "relation": "实现",
+      "tail": "状态监控"
     },
     {
-      "head": "飞机健康管理",
-      "relation": "包括",
-      "tail": "故障预测"
-    },
-    {
-      "head": "飞机健康管理",
-      "relation": "包括",
-      "tail": "决策"
-    },
-    {
-      "head": "飞机健康管理系统",
-      "relation": "降低",
-      "tail": "使用维护成本"
-    },
-    {
-      "head": "飞行器健康管理系统",
-      "relation": "包含",
-      "tail": "数据采集"
-    },
-    {
-      "head": "飞行器健康管理系统",
-      "relation": "包含",
-      "tail": "数据预处理"
-    },
-    {
-      "head": "飞行器健康管理系统",
-      "relation": "包含",
-      "tail": "状态监测"
-    },
-    {
-      "head": "飞行器健康管理系统",
-      "relation": "包含",
+      "head": "飞机管理器",
+      "relation": "实现",
       "tail": "健康评估"
     },
     {
-      "head": "飞行器健康管理系统",
-      "relation": "包含",
-      "tail": "故障预测"
-    },
-    {
-      "head": "飞行器健康管理系统",
-      "relation": "包含",
-      "tail": "决策支持"
+      "head": "计划维修",
+      "relation": "演变为",
+      "tail": "预测性维修"
     }
   ]
 }
@@ -275,12 +216,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 飞机健康监测与预测系统的发展及展望
-
-莫固良，汪慧云，李兴旺，单添敏
-
-（中航工业上海航空测控技术研究所 上海，201601）
-
 摘要作为新一代飞机所采用的先进维护管理系统，健康监测与预测系统是一种全面的故障检测、预测与状态管理系统。阐述了健康监测与预测系统的含义，介绍了健康监测与预测系统的发展过程，对当前飞机健康监测与预测系统的应用状态进行了全面的概述，分析了健康监测与预测系统涉及的主要关键技术，包括先进传感器技术、故障诊断与健康评估技术、故障预测技术、数据融合技术和系统验证与评价技术，并对未来的发展方向进行了展望。
 
 关键词 故障诊断；状态监测；健康管理；故障预测  中图分类号 TP277；TH16
@@ -425,35 +360,3 @@ d.如何把LCM与故障征兆(precursor)技术相结合，提高LCM的置信度�
 虽然健康监测与预测系统已逐步开始得到应用，但距离工程实用还有一定的差距。目前，仅能覆
 
 盖部分关键系统和部件，并且对已覆盖的系统和部件中的一些故障机理的研究还不够透彻，只能实现故障诊断，而不具备预测的能力。此外，如何正确有效地评估系统的健康状态，并做出优化的维修决策等都需要进行大量的进一步的研究工作。
-
-# 参考文献
-
-[1] Dickson B, Cronkhite J, Bielefeld S, et al. Feasibility study of a rotorcraft health and usage monitoring system (HUMS): usage and structural life monitoring evaluation: phase 2[R]. For Worth, Texas, USA: Bell Helicopter Textron Inc Fort Worth tx, 1996. [2] Hess A, Calvello G, Dabney T. PHM a key enabler for the JSF autonomic logistics support concept[C]// Proceedings of IEEE Aerospace Conference, Piscataway, New Jersey, USA: IEEE, 2004:3543- 3550. [3] 曾声奎, Michael G P, 吴际. 故障预测与健康管理技术的现状与发展[J]. 航空学报, 2005, 26(5): 626- 632. Zeng Shengkui, Michael G P, Wu Ji. Status and perspectives of prognostics and health management technologies[J]. ACTA Aeronautica et Astronautica Sinica, 2005, 26(5): 626- 632. (in Chinese)[4] Derriso M, Pratt D M, Homaa D B, et al. Integrated vehicle health management: the key to future aerospace systems[C]// Proceedings of the Fourth International Workshop on Structural Health Monitoring. Pennsylvania, USA: DEStech Publications Inc., 2003:3- 11. [5] Tumer I Y, Bajwa A. A survey of aircraft engine health monitoring systems[C]// Proceedings of the  $35^{\text{th}}$  Joint Propulsion Conference, Los Angeles, USA: AIAA, 1999. [6] Roemer M J, Kacprzynski G J. Advanced diagnostics and prognostics for gas turbine engine risk assessment[C]// Proceedings of IEEE Aerospace Conference. Piscataway, New Jersey, USA: IEEE, 2000: 345- 353. [7] Nickerson B, Lally R. Development of a smart wireless networkable sensor for aircraft engine health management[C]// Aerospace Conference, 2001, IEEE Proceedings. Piscataway, New Jersey, USA: IEEE, 2001: 3255- 3262. [8] Zhang G, Lee S, Propes N, et al. A novel architecture for an integrated fault diagnostic/prognostic system[C]// AAAI Symposium. Stanford, California: The Association for the Advancement of Artificial Intelligence, 2002. [9] Murphy B P. Machinery monitoring technology design methodology for determining the information and sensors required for reduced manning of ships [R]. Monterey, California, USA: Massachusetts Inst of
-
-Tech Cambridge, 2000. [10] Hess A, Fila L. The joint strike fighter (JSF) PHM concept: potential impact on aging aircraft problems[C]// Proceedings of IEEE Aerospace Conference, Piscataway, New Jersey, USA: IEEE, 2002: 3021- 3026. [11] 张宝珍, 曾天翔. PHM: 实现 F- 35 经济可承受性目标的关键使能技术[J]. 航空维修与工程, 2005, 17(6): 20- 23. Zhang Beshan, Zen Tianxing. PHM, the key encoder to F- 35's affordability[J]. Aviation Maintenance & Engineering, 2005, 17(6): 20- 23. (in Chinese)[12] Byington C S, Roemer M J, Galie T. Prognostic enhancements to diagnostic systems for improved condition- based maintenance[C]// Proceedings of IEEE Aerospace Conference. Piscataway, New Jersey, USA: IEEE, 2002: 2815- 2824. [13] 姜兴旺, 景博, 张劼, 等. 综合飞行器故障预测与健康管理系统研究[J]. 航空维修与工程, 2008(5): 37- 40. Jiang Xingwang, Jing Bo, Zhang Jie, et al. Integrated vehicle prognostic and health management system[J]. Aviation Maintenance & Engineering, 2008(5): 37- 40. (in Chinese)[14] 能泽涛, 邱雷, 刘彬. 飞机结构 PHM 及其关键技术[J]. 测控技术, 2012, 31: 198- 201. Xiong Zetao, Qiu Lei, Liu Bin. The prognostic and health management of aircraft structure and its key technologies[J]. Measurement & Control Technology, 2012, 31: 198- 201. (in Chinese)[15] Scandura Jr P A. Integrated vehicle health management as a system engineering discipline[C]// Digital Avionics Systems Conference. Piscataway, New Jersey, USA: IEEE, 2005: 10- 14. [16] 杨洲, 景博, 张劼, 等. 机载系统故障预测与健康管理验证与评估方法[J]. 测控技术, 2012, 31(3): 101- 104. Yang Zhou, Jing Bo, Zhang Jie, et al. Verification and evaluation method of airborne PHM system[J]. Measurement & Control Technology, 2012, 31(3): 101- 104. (in Chinese)
-
-第一作者简介: 莫固良, 男, 1955 年 5 月生, 研究员。主要研究方向为故障诊断与健康管理。曾发表《采用设备故障诊断技术, 为航空工业服务》《第十届全国设备监测与诊断学术会议论文集》2000 年等论文。E- mail: pcbsh@citiz.net
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-09-13/3f2f1320-2bef-4416-8c70-3180f3bb5188/0df929f16c2b38f4418090685a8416eb4af2784172706d016cd3b300a6ce2de9.jpg)
-
-# Health Monitoring and Prognostics System for Aircraft
-
-Mo Guliang, Wang Huiyun, Li Xingwang, Shan Tianmin (AVIC Shanghai Aero Measurement- Controlling Research Institute Shanghai, 201601, China)
-
-Abstract As an advanced maintenance management system of new generation aircraft, a health monitoring and prediction system is a comprehensive fault detection, prediction and state management system. The meaning and development of this system are described, and its applications is also summarized. The key technologies of this system involve advanced sensors, fault diagnosis and health assessment, failure prediction, data fusion and system verification and evaluation. Finally, the future directions in its development are discussed.
-
-Keywords fault diagnosis, condition monitoring, health management, fault prognostic
-
-# Influence of Axial Milling Force and Gyroscopic Effect on Milling Chatter Stability
-
-Wu Shi, Qu Da, Liu Xianli, Xiao Fei (School of Mechanical and Power Engineering, Harbin University of Science and Technology Harbin, 150080, China)
-
-Abstract Firstly, the influences of alternating axial milling force and gyroscopic effect on the natural frequency of ball- end mill shank is analyzed. Secondly, based on the full- discrete method, that influences on chatter stability lobes of ball- end mill is also studied. Finally, the experimental results verified that the model can accurately predict the milling chatter stability lobes. With the increase of alternating axial milling force and gyroscopic effect, the steady critical cutting depth of milling system shows a downward trend. But it is a nonlinear relationship, because there would be local augmentation of steady- state critical cutting depth, and the gyroscopic effect only influences the system stable region of the high- speed part, not on the low- speed one.
-
-Keywords chatter stability, axial force, gyroscopic effect, full- discrete method
-
-# Resonance Suppression Method Based on  $H_{\infty}$  Mix Sensitivity of CMG Gimbal System
-
-Han Bangcheng $^{1,2}$ , Yang Lianhui $^{1,2}$ , Li Haitao $^{1,2}$  (1, Science and Technology on Inertial Laboratory, Beijing University of Aeronautics and Astronautics Beijing, 100191, China) (2, Fundamental Science on Novel Inertial Instrument and Navigation System Technology Laboratory Beijing, 100191, China)
-
-Abstract Aiming at the issue of mechanical resonance of the control moment gyro (CMG) gimbal system caused by the harmonic drive due to its flexibility and low damping characteristics, a vibration suppression method based on  $H_{\infty}$  mix sensitivity is presented. According to the dynamic model of gimbal system, the theoretical analysis of mechanical resonance is achieved and the resonance frequency point of gimbal system is described. At the same time, regarding of the torsion torque introduced by the harmonic drive as a load torque disturbance, a  $H_{\infty}$  mix sen-

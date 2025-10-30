@@ -5,16 +5,16 @@
       "type": "系统/部件"
     },
     {
-      "name": "航空发动机机载健康管理系统设计方法",
-      "type": "研究方法"
-    },
-    {
       "name": "正向设计流程",
       "type": "研究方法"
     },
     {
-      "name": "需求不明确问题",
-      "type": "问题"
+      "name": "需求分析",
+      "type": "研究方法"
+    },
+    {
+      "name": "功能分配",
+      "type": "研究方法"
     },
     {
       "name": "航空发动机健康管理正向设计流程平台",
@@ -25,51 +25,59 @@
       "type": "系统/部件"
     },
     {
-      "name": "基于模型的系统工程(MBSE)",
+      "name": "基于模型的系统工程",
       "type": "理论基础"
     },
     {
-      "name": "面向对象的系统工程方法(OOSEM)",
-      "type": "理论基础"
+      "name": "面向对象的系统工程方法",
+      "type": "研究方法"
     },
     {
       "name": "硬件设计",
-      "type": "研究方法"
+      "type": "应用场景"
     },
     {
       "name": "航空发动机",
       "type": "系统/部件"
     },
     {
-      "name": "航空发动机健康管理(EHM)",
+      "name": "航空发动机健康管理",
       "type": "研究领域"
     },
     {
-      "name": "剩余寿命预测",
+      "name": "基于文档的系统工程",
       "type": "研究方法"
     },
     {
-      "name": "SysML模型",
-      "type": "模型"
+      "name": "SysML",
+      "type": "软件工具"
     },
     {
-      "name": "Simulink模型",
-      "type": "模型"
+      "name": "联合仿真",
+      "type": "研究方法"
     },
     {
-      "name": "开放体系架构(OSA-CBM)",
-      "type": "标准/规范"
+      "name": "Simulink",
+      "type": "软件工具"
     },
     {
-      "name": "SAE AIR1587B EHM架构体系",
-      "type": "标准/规范"
-    },
-    {
-      "name": "全权限数字电子控制器(FADEC)",
+      "name": "机载EHM系统",
       "type": "系统/部件"
     },
     {
-      "name": "状态监控",
+      "name": "OSA-CBM",
+      "type": "理论基础"
+    },
+    {
+      "name": "SAE AIR1587B",
+      "type": "理论基础"
+    },
+    {
+      "name": "FADEC",
+      "type": "系统/部件"
+    },
+    {
+      "name": "发动机状态监控功能",
       "type": "研究方法"
     },
     {
@@ -77,197 +85,174 @@
       "type": "传感器/监测参数"
     },
     {
-      "name": "需求分析",
-      "type": "研究方法"
+      "name": "Rhapsody",
+      "type": "软件工具"
     },
     {
-      "name": "地面/机载功能分配",
-      "type": "研究方法"
+      "name": "ACMS",
+      "type": "系统/部件"
+    },
+    {
+      "name": "排气温度",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "Modelica",
+      "type": "软件工具"
+    },
+    {
+      "name": "逻辑决断法",
+      "type": "算法"
     },
     {
       "name": "模糊层次分析法",
       "type": "算法"
     },
     {
-      "name": "SysML语言",
+      "name": "DOORS",
       "type": "软件工具"
     },
     {
-      "name": "Rhapsody",
-      "type": "软件工具"
-    },
-    {
-      "name": "飞机状态监控系统(ACMS)",
-      "type": "系统/部件"
-    },
-    {
-      "name": "Modelica模型",
+      "name": "硬件设计模型",
       "type": "模型"
     },
     {
-      "name": "地面EHM系统",
-      "type": "系统/部件"
-    },
-    {
-      "name": "图形化设计方法",
+      "name": "模型设计方法",
       "type": "研究方法"
     },
     {
-      "name": "硬件架构设计",
+      "name": "剩余寿命预测",
       "type": "研究方法"
     },
     {
-      "name": "功能架构",
+      "name": "分布式架构体系",
       "type": "系统/部件"
     },
     {
-      "name": "硬件模块",
-      "type": "系统/部件"
-    },
-    {
-      "name": "需求",
-      "type": "其他"
-    },
-    {
-      "name": "功能性需求",
-      "type": "其他"
-    },
-    {
-      "name": "非功能性需求",
-      "type": "其他"
-    },
-    {
-      "name": "设计约束",
-      "type": "其他"
-    },
-    {
-      "name": "正向流程平台",
-      "type": "软件工具"
-    },
-    {
-      "name": "需求管理",
-      "type": "研究方法"
-    },
-    {
-      "name": "架构设计",
+      "name": "传感器告警测试",
       "type": "研究方法"
     }
   ],
   "relations": [
     {
-      "head": "航空发动机机载健康管理系统设计方法",
-      "relation": "解决",
-      "tail": "需求不明确问题"
-    },
-    {
-      "head": "航空发动机机载健康管理系统设计方法",
-      "relation": "开发了",
-      "tail": "航空发动机健康管理正向设计流程平台"
-    },
-    {
-      "head": "航空发动机健康管理正向设计流程平台",
-      "relation": "实现",
-      "tail": "机载功能架构"
-    },
-    {
-      "head": "航空发动机机载健康管理系统设计方法",
-      "relation": "采用",
-      "tail": "基于模型的系统工程(MBSE)"
-    },
-    {
-      "head": "航空发动机机载健康管理系统设计方法",
-      "relation": "提供参考",
+      "head": "正向设计流程",
+      "relation": "应用于",
       "tail": "航空发动机机载健康管理系统"
     },
     {
-      "head": "航空发动机健康管理(EHM)",
-      "relation": "为...提供基础",
+      "head": "航空发动机健康管理正向设计流程平台",
+      "relation": "实现了",
+      "tail": "机载功能架构"
+    },
+    {
+      "head": "正向设计流程",
+      "relation": "引入",
+      "tail": "基于模型的系统工程"
+    },
+    {
+      "head": "硬件设计",
+      "relation": "采用",
+      "tail": "面向对象的系统工程方法"
+    },
+    {
+      "head": "基于模型的系统工程",
+      "relation": "是...的演进",
+      "tail": "基于文档的系统工程"
+    },
+    {
+      "head": "联合仿真",
+      "relation": "结合",
+      "tail": "SysML"
+    },
+    {
+      "head": "联合仿真",
+      "relation": "结合",
+      "tail": "Simulink"
+    },
+    {
+      "head": "航空发动机健康管理",
+      "relation": "提供基础",
       "tail": "剩余寿命预测"
     },
     {
-      "head": "SysML模型",
-      "relation": "与...联合仿真",
-      "tail": "Simulink模型"
+      "head": "分布式架构体系",
+      "relation": "发展自",
+      "tail": "FADEC"
     },
     {
-      "head": "航空发动机机载健康管理系统",
-      "relation": "以...为基础数据源",
-      "tail": "全权限数字电子控制器(FADEC)"
+      "head": "机载EHM系统",
+      "relation": "基于",
+      "tail": "FADEC"
     },
     {
-      "head": "状态监控",
+      "head": "发动机状态监控功能",
       "relation": "监控",
       "tail": "发动机振动"
     },
     {
-      "head": "地面/机载功能分配",
+      "head": "功能分配",
+      "relation": "采用",
+      "tail": "逻辑决断法"
+    },
+    {
+      "head": "功能分配",
       "relation": "采用",
       "tail": "模糊层次分析法"
     },
     {
-      "head": "面向对象的系统工程方法(OOSEM)",
-      "relation": "基于",
-      "tail": "基于模型的系统工程(MBSE)"
-    },
-    {
-      "head": "面向对象的系统工程方法(OOSEM)",
+      "head": "面向对象的系统工程方法",
       "relation": "利用",
-      "tail": "SysML语言"
+      "tail": "SysML"
     },
     {
-      "head": "硬件架构设计",
-      "relation": "采用",
-      "tail": "Rhapsody"
-    },
-    {
-      "head": "硬件架构设计",
+      "head": "硬件设计",
       "relation": "参考",
-      "tail": "飞机状态监控系统(ACMS)"
+      "tail": "ACMS"
     },
     {
       "head": "Rhapsody",
-      "relation": "支持集成",
-      "tail": "Modelica模型"
+      "relation": "支持",
+      "tail": "Modelica"
     },
     {
-      "head": "航空发动机机载健康管理系统设计方法",
-      "relation": "适用于",
-      "tail": "地面EHM系统"
+      "head": "Rhapsody",
+      "relation": "连接",
+      "tail": "DOORS"
     },
     {
-      "head": "功能架构",
-      "relation": "实现依托于",
-      "tail": "硬件模块"
+      "head": "机载功能架构",
+      "relation": "基于",
+      "tail": "OSA-CBM"
     },
     {
-      "head": "航空发动机机载健康管理系统设计方法",
-      "relation": "建立",
-      "tail": "图形化设计方法"
+      "head": "机载功能架构",
+      "relation": "基于",
+      "tail": "SAE AIR1587B"
     },
     {
-      "head": "需求",
-      "relation": "分为",
-      "tail": "功能性需求"
+      "head": "硬件设计模型",
+      "relation": "基于",
+      "tail": "模型设计方法"
     },
     {
-      "head": "需求",
-      "relation": "分为",
-      "tail": "非功能性需求"
-    },
-    {
-      "head": "需求",
-      "relation": "分为",
-      "tail": "设计约束"
-    },
-    {
-      "head": "正向流程平台",
+      "head": "正向设计流程",
       "relation": "包含",
-      "tail": "需求管理"
+      "tail": "需求分析"
     },
     {
-      "head": "正向流程平台",
+      "head": "正向设计流程",
       "relation": "包含",
-      "tail": "架构设计"
+      "tail": "功能分配"
+    },
+    {
+      "head": "传感器告警测试",
+      "relation": "监控",
+      "tail": "排气温度"
+    },
+    {
+      "head": "Rhapsody",
+      "relation": "用于",
+      "tail": "硬件设计"
     }
   ]
 }

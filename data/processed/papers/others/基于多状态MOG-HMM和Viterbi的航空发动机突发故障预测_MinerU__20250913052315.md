@@ -187,29 +187,3 @@ Tab.1 Evaluating result of blade fracture abrupt failure prognosis
 # 4 结束语
 
 提出了多状态 MOG- HMM 模型和 Viterbi 算法相结合的航空发动机突发故障预测方法。对模拟的航空发动机突发故障进行训练和预测, 通过建立多状态的 MOG- HMM 模型观察其对突发故障的预测效果。仿真和实验结果表明, 本研究方法能够用于航空发动机突发故障的预测, 符合标准预测指标的要求, 为航空发动机的健康监控提供了一定的参考。
-
-# 参考文献
-
-[1] 徐亚森, 王仲生, 姜洪开. 基于能量演化的航空发动机突发性故障预示模型设计[J]. 测控技术, 2012, 31(8): 140- 143. Xu Yasen, Wang Zhongsheng, Jiang Hongkai. Research on catastrophic fault prediction model based on energy feature revolution[J]. Measurement and Control Technology, 2012, 31(8): 140- 143. (in Chinese) [2] Wang Zhongsheng. Research on correlation of sudden failure of aircraft with human- machine- environment[C] //2011 Second International Conference on Mechanic Automation and Control Engineering (MACE). Inner Mongolia, China: IEEE, 2011; 6735- 6738. [3] 周英, 李森, 张泉南, 等. GB/T 23713.1—2009 机器状态监测与诊断、预测第 1 部分: 一般指南[S]. 北京: 中国标准出版社, 2009. [4] 续媛君, 潘宏侠. 设备故障趋势预测的分析与应用[J]. 振动、测试与诊断, 2006, 26(4): 305- 308. Xu Yuanjun, Pan Hongxia. Diagnosis of working conditions of aluminum reduction cells based on wavelet- neural network[J]. Journal of Vibration. Measurement & Diagnosis, 2006, 26(4): 305- 308. (in Chinese) [5] Heng A, Zhang S, Tan A C, et al. Rotating machinery prognostics: state of the art, challenges and opportunities[J]. Mechanical Systems and Signal Processing, 2009, 23(3): 724- 739.
-
-[6] 从飞云, 陈进, 董广明. 基于谱维度和 AR 模型的滚动轴承故障诊断[J]. 振动、测试与诊断, 2012, 32(4): 538- 541. Cong Yunfei, Chen Jin, Dong Guangming. Spectral kurtosis and AR model based method for fault diagnosis of rolling bearings[J]. Journal of Vibration, Measurement & Diagnosis, 2012, 32(4): 538- 541. (in Chinese) [7] Murphy K P. Dynamic bayesian networks: representation, inference and learning[D]. California: University of California, 2002. [8] Rabiner L R. A tutorial on hidden markov models and selected applications in speech recognition[J]. Proceedings of the IEEE, 1989, 77(2): 257- 286. [9] Tobon- Mejia D A, Kamal M, Noureddine Z, et al. A data- driven failure prognostics method based on mixture of gaussian hidden markov models[J]. IEEE Transactions on Reliability, 2012, 61(2): 491- 503. [10] 李航. 统计学习方法[M]. 北京: 清华大学出版社, 2012: 180- 184. [11] Dijkstra E W. A note on two problems in connexion with graphs[J]. Mannerische Mathematik, 1959, 1(1): 269- 271. [12] Baum L E, Petrie T, Soules G, et al. A maximization technique occurring in the statistical analysis of probabilistic functions of Markov chains[J]. Ann Math Statist, 1970, 41(1): 164- 171. [13] Tobon- Mejia D A, Medjaher K, Zerhouni N, et al. A mixture of gaussian hidden Markov model for failure diagnostic and prognostic[C] //2010 IEEE Conference on Automation Science and Engineering. Toronto, Ontario, Canada: IEEE, 2010: 338- 343. [14] Saxena A, Celaya J, Balaban E, et al. Metrics for evaluating performance of prognostics techniques[C] // International Conference on Prognostics and Health Management (PHM08). Danver: IEEE, 2008: 1- 17.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-09-13/84100434-e542-4d30-a78a-fa65c312c590/2a71b40f778d89d61e2054192770e29deacb4aeeecd8d7ba0b8718c743458e24.jpg)
-
-第一作者简介: 李丽敏, 女, 1985 年 6 月生, 博士研究生。主要研究方向为机械故障诊断与预测的智能方法。曾发表《Feature selection of sudden failure based on affinity propagation clustering》(《Advanced Materials Research》2012, Vol. 586) 等论文。E- mail: liliminxiaomi@mail. nwpu. edu. cn
-
-ic Motors Technology Co. Ltd as the test specimen. Because the output frequency and output voltage are regulated independently in the system, mechanical characteristics and regulation characteristics of the ultrasonic motor can be measured. Test results show that both characteristics are uniform functions, which can satisfy the requirements of the servo motor's operation characteristics. The rotary ultrasonic motor can thus be used as a servo motor.
-
-Keywords ultrasonic motor; drive and control; operation characteristic; mechanical characteristic; regulation characteristic; servo motor
-
-# Aero-engine Abrupt Failure Prognosis Based on Multi-states MOG-HMM and Viterbi Algorithm
-
-Li Limin, Wang Zhongsheng, Jiang Hongkai (School of Aeronautics, Northwestern Polytechnical University Xi'an, 710072, China)
-
-Keywords multi- states MOG- HMM; Viterbi algorithm; abrupt failure prognosis; aero- engine
-
-# Optimal Sensor Placement for the Balance System of LAMOST
-
-Hu Na $^{1,2,3}$ , Cui Xiangqun $^{1,2}$ , Yang Dehua $^{1,2}$ , Lu Qishuai $^{1,2}$  (1. National Astronomical Observatories, Nanjing Institute of Astronomical Optics & Technology, Chinese Academy of Sciences Nanjing, 210042, China) (2. Key Laboratory of Astronomical Optics & Technology, Chinese Academy of Sciences Nanjing, 210042, China) (3. Graduate University of Chinese Academy of Sciences Beijing, 100049, China)
-
-Keywords optimal sensor placement; principal component analysis; effective independence method; modal kinetic energy; QR decomposition; modal assurance criteria; large area multi- object spectroscopic telescope (LAMOST)

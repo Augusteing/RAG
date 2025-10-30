@@ -1,11 +1,7 @@
 {
   "entities": [
     {
-      "name": "基于GA-AANN神经网络的SDQ算法",
-      "type": "算法"
-    },
-    {
-      "name": "航空发动机传感器数据预处理",
+      "name": "航空发动机传感器数据预处理方法",
       "type": "研究方法"
     },
     {
@@ -21,36 +17,40 @@
       "type": "研究方法"
     },
     {
-      "name": "航空发动机",
-      "type": "系统/部件"
-    },
-    {
       "name": "SDQ算法",
       "type": "算法"
     },
     {
-      "name": "合理性检验",
-      "type": "研究方法"
-    },
-    {
-      "name": "解析冗余检验",
-      "type": "研究方法"
-    },
-    {
-      "name": "遗传算法(GA)",
+      "name": "遗传算法",
       "type": "算法"
     },
     {
-      "name": "自联想神经网络(AANN)",
+      "name": "AANN神经网络",
       "type": "模型"
+    },
+    {
+      "name": "航空涡扇发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "合理性检验模块",
+      "type": "系统/部件"
+    },
+    {
+      "name": "解析冗余检验模块",
+      "type": "系统/部件"
+    },
+    {
+      "name": "蒙特卡罗仿真方法",
+      "type": "研究方法"
     },
     {
       "name": "基于最小二乘法的SDQ算法",
       "type": "算法"
     },
     {
-      "name": "蒙特卡罗仿真方法",
-      "type": "研究方法"
+      "name": "基于GA-AANN的SDQ算法",
+      "type": "算法"
     },
     {
       "name": "阶跃故障",
@@ -61,28 +61,28 @@
       "type": "故障模式"
     },
     {
-      "name": "故障隔离的平均正确率",
+      "name": "间歇故障",
+      "type": "故障模式"
+    },
+    {
+      "name": "平均正确率",
       "type": "性能指标"
-    },
-    {
-      "name": "多传感器故障诊断",
-      "type": "研究方法"
-    },
-    {
-      "name": "除噪",
-      "type": "研究方法"
     },
     {
       "name": "平均信噪比",
       "type": "性能指标"
     },
     {
-      "name": "传感器解析冗余网络",
-      "type": "模型"
-    },
-    {
       "name": "健康管理系统",
       "type": "系统/部件"
+    },
+    {
+      "name": "传感器解析冗余网络",
+      "type": "系统/部件"
+    },
+    {
+      "name": "前馈神经网络",
+      "type": "模型"
     },
     {
       "name": "网络训练时间",
@@ -91,108 +91,131 @@
     {
       "name": "网络精度",
       "type": "性能指标"
+    },
+    {
+      "name": "多故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "噪声信号",
+      "type": "传感器/监测参数"
     }
   ],
   "relations": [
     {
       "head": "本文",
       "relation": "提出了",
-      "tail": "基于GA-AANN神经网络的SDQ算法"
+      "tail": "航空发动机传感器数据预处理方法"
     },
     {
-      "head": "基于GA-AANN神经网络的SDQ算法",
-      "relation": "用于",
-      "tail": "航空发动机传感器数据预处理"
-    },
-    {
-      "head": "航空发动机传感器数据预处理",
+      "head": "航空发动机传感器数据预处理方法",
       "relation": "实现",
       "tail": "数据鉴定"
     },
     {
-      "head": "航空发动机传感器数据预处理",
+      "head": "航空发动机传感器数据预处理方法",
       "relation": "实现",
       "tail": "故障诊断"
     },
     {
-      "head": "航空发动机传感器数据预处理",
+      "head": "航空发动机传感器数据预处理方法",
       "relation": "实现",
       "tail": "去除噪声信号干扰"
     },
     {
-      "head": "遗传算法(GA)",
+      "head": "基于GA-AANN的SDQ算法",
+      "relation": "是本文提出的",
+      "tail": "航空发动机传感器数据预处理方法"
+    },
+    {
+      "head": "遗传算法",
       "relation": "优化了",
-      "tail": "自联想神经网络(AANN)"
+      "tail": "AANN神经网络"
     },
     {
-      "head": "自联想神经网络(AANN)",
-      "relation": "用于实现",
-      "tail": "解析冗余检验"
-    },
-    {
-      "head": "SDQ算法",
-      "relation": "包含",
-      "tail": "合理性检验"
+      "head": "基于GA-AANN的SDQ算法",
+      "relation": "实现了",
+      "tail": "解析冗余检验模块"
     },
     {
       "head": "SDQ算法",
       "relation": "包含",
-      "tail": "解析冗余检验"
+      "tail": "合理性检验模块"
     },
     {
-      "head": "基于GA-AANN神经网络的SDQ算法",
-      "relation": "对比",
+      "head": "SDQ算法",
+      "relation": "包含",
+      "tail": "解析冗余检验模块"
+    },
+    {
+      "head": "基于GA-AANN的SDQ算法",
+      "relation": "对比了",
       "tail": "基于最小二乘法的SDQ算法"
     },
     {
-      "head": "蒙特卡罗仿真方法",
-      "relation": "用于验证",
-      "tail": "基于GA-AANN神经网络的SDQ算法"
-    },
-    {
-      "head": "基于GA-AANN神经网络的SDQ算法",
-      "relation": "优于",
-      "tail": "基于最小二乘法的SDQ算法"
-    },
-    {
-      "head": "基于GA-AANN神经网络的SDQ算法",
+      "head": "基于GA-AANN的SDQ算法",
       "relation": "提高了",
-      "tail": "故障隔离的平均正确率"
+      "tail": "平均正确率"
     },
     {
-      "head": "基于GA-AANN神经网络的SDQ算法",
+      "head": "基于GA-AANN的SDQ算法",
       "relation": "提高了",
       "tail": "平均信噪比"
     },
     {
-      "head": "基于GA-AANN神经网络的SDQ算法",
-      "relation": "具有优异性能",
-      "tail": "多传感器故障诊断"
+      "head": "基于GA-AANN的SDQ算法",
+      "relation": "隔离",
+      "tail": "阶跃故障"
     },
     {
-      "head": "基于GA-AANN神经网络的SDQ算法",
-      "relation": "具有优异性能",
-      "tail": "除噪"
+      "head": "基于GA-AANN的SDQ算法",
+      "relation": "隔离",
+      "tail": "漂移故障"
     },
     {
-      "head": "遗传算法(GA)",
+      "head": "基于GA-AANN的SDQ算法",
+      "relation": "可用于",
+      "tail": "多故障诊断"
+    },
+    {
+      "head": "基于GA-AANN的SDQ算法",
+      "relation": "可滤除",
+      "tail": "噪声信号"
+    },
+    {
+      "head": "蒙特卡罗仿真方法",
+      "relation": "用于验证",
+      "tail": "基于GA-AANN的SDQ算法"
+    },
+    {
+      "head": "数据鉴定",
+      "relation": "是基础",
+      "tail": "故障诊断"
+    },
+    {
+      "head": "数据鉴定",
+      "relation": "应用于",
+      "tail": "健康管理系统"
+    },
+    {
+      "head": "AANN神经网络",
+      "relation": "是一种",
+      "tail": "前馈神经网络"
+    },
+    {
+      "head": "遗传算法",
       "relation": "缩短了",
       "tail": "网络训练时间"
     },
     {
-      "head": "遗传算法(GA)",
+      "head": "遗传算法",
       "relation": "提高了",
       "tail": "网络精度"
     },
     {
-      "head": "自联想神经网络(AANN)",
-      "relation": "构建",
+      "head": "基于GA-AANN的SDQ算法",
+      "relation": "构建了",
       "tail": "传感器解析冗余网络"
-    },
-    {
-      "head": "航空发动机传感器数据预处理",
-      "relation": "应用于",
-      "tail": "健康管理系统"
     }
   ]
 }

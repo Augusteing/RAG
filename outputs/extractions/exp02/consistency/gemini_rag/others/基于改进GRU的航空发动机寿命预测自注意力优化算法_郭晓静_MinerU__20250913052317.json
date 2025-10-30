@@ -1,0 +1,192 @@
+{
+  "entities": [
+    {
+      "name": "改进GRU的自注意力优化算法",
+      "type": "算法"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "航空发动机性能参数",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "常规模型",
+      "type": "模型"
+    },
+    {
+      "name": "梯度消失",
+      "type": "故障模式"
+    },
+    {
+      "name": "门控循环单元(GRU)",
+      "type": "模型"
+    },
+    {
+      "name": "自注意力机制",
+      "type": "理论基础"
+    },
+    {
+      "name": "预测精度",
+      "type": "性能指标"
+    },
+    {
+      "name": "发动机寿命预测数据集(C-MAPSS)",
+      "type": "数据集"
+    },
+    {
+      "name": "方均根误差(RMSE)",
+      "type": "性能指标"
+    },
+    {
+      "name": "超前预测分值(score)",
+      "type": "性能指标"
+    },
+    {
+      "name": "传统方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "发动机寿命预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "超前维护",
+      "type": "应用场景"
+    },
+    {
+      "name": "剩余使用寿命(RUL)",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "预测与健康管理(PHM)",
+      "type": "研究领域"
+    },
+    {
+      "name": "循环神经网络(RNN)",
+      "type": "模型"
+    },
+    {
+      "name": "卷积神经网络(CNN)",
+      "type": "模型"
+    },
+    {
+      "name": "CNN-GRU-自注意力机制模型",
+      "type": "模型"
+    },
+    {
+      "name": "主成分分析法",
+      "type": "算法"
+    },
+    {
+      "name": "标识列数据增维",
+      "type": "研究方法"
+    },
+    {
+      "name": "RNN Auto-Encoder",
+      "type": "模型"
+    },
+    {
+      "name": "Multi-Head CNN-LSTM",
+      "type": "模型"
+    },
+    {
+      "name": "TCAN",
+      "type": "模型"
+    }
+  ],
+  "relations": [
+    {
+      "head": "改进GRU的自注意力优化算法",
+      "relation": "提出了",
+      "tail": "CNN-GRU-自注意力机制模型"
+    },
+    {
+      "head": "CNN-GRU-自注意力机制模型",
+      "relation": "融合",
+      "tail": "卷积神经网络(CNN)"
+    },
+    {
+      "head": "CNN-GRU-自注意力机制模型",
+      "relation": "融合",
+      "tail": "门控循环单元(GRU)"
+    },
+    {
+      "head": "CNN-GRU-自注意力机制模型",
+      "relation": "融合",
+      "tail": "自注意力机制"
+    },
+    {
+      "head": "改进GRU的自注意力优化算法",
+      "relation": "利用",
+      "tail": "标识列数据增维"
+    },
+    {
+      "head": "标识列数据增维",
+      "relation": "基于",
+      "tail": "主成分分析法"
+    },
+    {
+      "head": "门控循环单元(GRU)",
+      "relation": "减缓",
+      "tail": "梯度消失"
+    },
+    {
+      "head": "循环神经网络(RNN)",
+      "relation": "导致",
+      "tail": "梯度消失"
+    },
+    {
+      "head": "改进GRU的自注意力优化算法",
+      "relation": "用于预测",
+      "tail": "剩余使用寿命(RUL)"
+    },
+    {
+      "head": "改进GRU的自注意力优化算法",
+      "relation": "在...上验证",
+      "tail": "发动机寿命预测数据集(C-MAPSS)"
+    },
+    {
+      "head": "改进GRU的自注意力优化算法",
+      "relation": "降低",
+      "tail": "方均根误差(RMSE)"
+    },
+    {
+      "head": "改进GRU的自注意力优化算法",
+      "relation": "降低",
+      "tail": "超前预测分值(score)"
+    },
+    {
+      "head": "改进GRU的自注意力优化算法",
+      "relation": "优于",
+      "tail": "传统方法"
+    },
+    {
+      "head": "改进GRU的自注意力优化算法",
+      "relation": "优于",
+      "tail": "RNN Auto-Encoder"
+    },
+    {
+      "head": "改进GRU的自注意力优化算法",
+      "relation": "优于",
+      "tail": "Multi-Head CNN-LSTM"
+    },
+    {
+      "head": "改进GRU的自注意力优化算法",
+      "relation": "优于",
+      "tail": "TCAN"
+    },
+    {
+      "head": "发动机寿命预测",
+      "relation": "属于",
+      "tail": "预测与健康管理(PHM)"
+    },
+    {
+      "head": "改进GRU的自注意力优化算法",
+      "relation": "应用于",
+      "tail": "超前维护"
+    }
+  ]
+}

@@ -134,62 +134,68 @@
 {
   "entities": [
     {
-      "name": "飞机液压泵",
+      "name": "基于知识的故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "专家知识系统",
       "type": "系统/部件"
     },
     {
-      "name": "液压系统",
-      "type": "系统/部件"
+      "name": "故障预测技术",
+      "type": "研究方法"
     },
     {
-      "name": "故障注入",
-      "type": "方法"
+      "name": "组合预测方法",
+      "type": "研究方法"
     },
     {
-      "name": "故障诊断",
-      "type": "技术"
+      "name": "指数平滑法",
+      "type": "模型"
     },
     {
       "name": "故障预测",
-      "type": "技术"
+      "type": "研究方法"
     },
     {
-      "name": "故障预测方法",
-      "type": "方法"
+      "name": "加权系数",
+      "type": "特征/健康指标"
     },
     {
-      "name": "综合化",
-      "type": "特征"
-    },
-    {
-      "name": "健康管理",
-      "type": ""
-    },
-    {
-      "name": "航空电子系统",
-      "type": ""
+      "name": "航空设备",
+      "type": "系统/部件"
     }
   ],
   "relations": [
     {
-      "head": "飞机液压泵",
-      "relation": "是...的关键部件",
-      "tail": "液压系统"
+      "head": "基于知识的故障预测",
+      "relation": "依赖于",
+      "tail": "专家知识系统"
     },
     {
-      "head": "健康管理",
-      "relation": "以...为主要手段",
-      "tail": "故障诊断"
+      "head": "故障预测技术",
+      "relation": "分为",
+      "tail": "基于知识的故障预测"
     },
     {
-      "head": "健康管理",
-      "relation": "以...为主要手段",
+      "head": "组合预测方法",
+      "relation": "提出用于",
       "tail": "故障预测"
     },
     {
-      "head": "航空电子系统",
-      "relation": "发展方向为",
-      "tail": "综合化"
+      "head": "组合预测方法",
+      "relation": "结合",
+      "tail": "指数平滑法"
+    },
+    {
+      "head": "组合预测方法",
+      "relation": "采用",
+      "tail": "加权系数"
+    },
+    {
+      "head": "组合预测方法",
+      "relation": "应用于",
+      "tail": "航空设备"
     }
   ]
 }
@@ -220,10 +226,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 航空电子设备故障预测框架与方法
-
-李斌，胡雷刚，肖明清（1. 空军工程大学工程学院，陕西西安710038；2. 空军驻江苏地区军事代表室，江苏南京210016)
-
 摘要针对环境应力对电子产品造成的累积损伤，提出了覆盖电子设备全寿命周期的故障预测框架与方法。首先提出了可预测性的概念，在设备设计阶段采用辅助软件eXpress进行可预测性设计，跟踪实际环境中设备的工作数据，采用3种改进神经网络进行特征参数的趋势预测。基于信息熵理论，采用多指标评价准则融合单项预测方法，实现了对某型电子设备的故障组合预测。预测框架在某型电子设备上的实践验证了框架的可行性，预测结果表明了组合预测方法较单项预测方法具有更强的鲁棒性和稳定性。
 
 关键词故障预测；可预测性；信息熵；组合预测DOI 10.3969/j. issn.1009- 3516.2011.02.002
@@ -429,33 +431,3 @@ Tab 4 Targets of combine prognostic result
 信息熵理论，采用多指标评价进行某型电子设备的故障组合预测，结果表明组合预测方法增强了预测结果的可靠性与稳定性，同时预测实例也验证了在预测框架内开展故障预测研究的可行性，且基于信息熵的组合预测方法具有较强的鲁棒性。
 
 但本文提出的可预测性与可预测性设计概念仍然很单薄，进一步丰富可预测性概念、在更广泛的装备中开展可预测性设计是下一步研究的重点。
-
-# 参考文献：
-
-[1] 孙博，康锐，谢劲松．故障预测与健康管理系统研究和应用现状综述[J]．系统工程与电子技术，2007，29(10)：1762—1767. SUN Bo KANG Rui XIE Jinsong Research and application of the prognostic and health managem ent system [J]． System s engineering and electronics 2007, 29(10): 1762—1767. （in Chinese）[2] 曾声奎，MichaelG Pecht吴际．故障预测与健康管理技术的现状与发展[J]．航空学报，2005，26(5)：626—632. ZENG Shengkui PechtM ichaelG. WU Ji Status and perspectives of prognostics and health managem ent technology[J]． Acta aeronautics et astronautica sinica 2005, 26(5): 626—632. （in Chinese）[3] Tuchband Brian A. In plmenation of prognostics and health managem ent for electronic systems[D]． Park: University ofMar-yland 2007. [4] 许丽佳．电子系统的故障预测与健康管理技术研究[D]．成都：电子科技大学，2009. XU Lijia Study on fault prognostic and health managem ent for electronic system[D]． Chengdu: University of electronic science and technology of China 2009. （in Chinese）[5] PechtM ichaelG. Prognostics and health managem ent of electronics[M]． Hoboken: John wiley & sons ino 2008. [6] George Vachtsevanos Frank Lewis Michael Roemer et al Intelligent fault diagnosis and prognosis for engineering system s [M]． Hoboken: John wiley & sons ino 2006. [7] Vichare NikhilM. Prognostics and health managem ent of electronics by utilizing envirom ental and usage loads[D]． Park: University ofMaryland 2006. [8] Alan Yu Prognostics demonstration of electron ic components subjected to vibration envirom ent of a lightm ilitary tactical vehi cle[D]． Park: University ofMaryland 2007. [9] Yili Hong Reliability prediction based on complicated data and dynamic data[D]． Ames: Iowa state university 2009. [10] Dsi Staff From diagnostics to prognostics with express[EB /OL] .(2010—1—5): http://articles dsinl com /Articles/19/2/ From_Diagnostic_to_Prognostics with- express aspx[11] Jie Gu. Prognostics of solder joint reliability under vibration loading using physics of failure approach[D]． Park: University ofMaryland 2009. [12] 高尚，张绍彪，梅亮．基于相对误差的线性组合预测研究[J]．系统工程与电子技术，2008，30(3)：481—484. GAO Shang ZHANG Shaobiao MEI Liang Study on linear combined forecast based on relative error[J]． Systems engineering and electronics 2007, 30(3): 481—484. （in Chinese）[13] 苗艳姝．城市燃气负荷预测的研究[D]．哈尔滨：哈尔滨工业大学，2006. MIAO Yanshu Study on the forecast of city gas load[D]． Harbin: Harbin industry university 2006. （in Chinese）[14] 方甲永，肖明清，黄宏伟，等．电子装备故障预测参数选取与设置[J]．空军工程大学学报：自然科学版，2010，11(4)：11—15. FANG Jiayong XIAO Mingqing HUANG Hongwei et al Fault prognosis parameters selection and setting in electronic equipment[J]． Journal of air force engineering university: natural science edition 2010, 11(4): 11—15. （in Chinese）[15] 程进军，夏智勋，胡雷刚，等．基于遗传神经网络的航空设备故障预测研究[J]．空军工程大学学报：自然科学版，2011, 12(1): 11—15. CHENG Jinjun XIA Zhixun HU Leigang et al Prognostics for aeronautic equipments based on genetic neural network [J]． Journal of air force engineering university: natural science edition 2011, 12(1): 11—15. （in Chinese）[16] 胡雷刚，肖明清．基于BP神经网络的航空设备故障预测[J]．仪器仪表学报，2008，29(增4)：521—523. HU Leigang XIAO Mingqing Prognostics for aeronautic equipments based on BP neural network [J]． Chinese joumal of scientific instrument 2008, 29(S4): 521—523. （in Chinese）
-
-中国知网 https://www.cnki.net
-
-（下转第56页）
-
-communication[C] //A ir force engineering university the telecommunication engineering institute academic annual Xi'an Air force engineering university. 2009: 94- 97. (in Chinese)
-
-[8] 李勇军, 赵尚弘, 晋杰, 等. 瑞利振动下空间光通信误码率研究 [J]. 空军工程大学学报: 自然科学版, 2006, 7(5): 48- 50. LI Yongjun, ZHAO Shanghong XU Jie et al. Research on BER of laser satellite communication system under Rayleigh vibration [J]. Journal of air force engineering university, natural science edition, 2006, 7(5): 48- 50. (in Chinese)
-
-(编辑: 徐楠楠)
-
-# Analysis of Fault Tolerance of the Acquisition Technology Based on Beam Scanning of Laser Satellite Communication
-
-ZHAO Gu- hao, ZHAO Shang- hong, MENG Wen, WANG Xiang, ZHU Zi- hang, CHEN Chen (1. Telecommunication Engineering Institute Air Force Engineering University Xian 710077, China 2. Xian Institute of Measurement and Testing Technology Xi'an 710068, China)
-
-Abstract. The systematical error of the multi- beam continuum scanning of laser satellite communication mainly arises from the time information feedback and detection part. By analyzing the formula for computing the distance between the target location and the scanning centre, the variation trend of the detection probabilities on different scanning locations with the trend of MSE and the step length is drawn. A conclusion is found that arranging the area of the largest probability of the target satellite appearing on the later position of the scanning tracks can reduce errors happening. The digital simulation of identification probability in a scanning cycle shows that when the system time detection precision reaches  $4 \times 10^{- 3}$ , the error probability will be less than  $1\%$ . Keywords satellite communication; acquisition; fault tolerance; identification probability
-
-(上接第11页)
-
-# Prognostic Framework and Approach for Electronic Equipments
-
-LIBin, HU Lei- gang, XIOMing- ding (1. Engineering Institute Air Force Engineering University, Xi'an 710038, China 2 Military Representative Office of Air Force Jiangsu Nanjing 210016, China)
-
-Abstract. To treat with accumulative damage brought by environmental stress, a prognostic framework and a prediction method for electronic equipments are proposed which cover the whole life cycle of the electronic equipments. The conception of prognostic capability is part forward for the first time. The design for prognostic ability is carried out by adopting auxiliary software expression at the design phase of equipment. With the working data of equipment in practical environment, three improved neural networks are studied to predict the developing trend of characteristic parameters. By fusing single prediction methods with multi- rules one combined fault prediction method based on information entropy theory is proposed to enhance the reliability of prediction results. The application of prognostic framework to one type of electronic equipment has verified the feasibility of the framework. And the prediction results show that the combined prediction method is stronger than single prediction methods in robust ability and stability.
-
-Key words: fault prediction; prognostic capability; information entropy; combined forecast

@@ -134,185 +134,107 @@
 {
   "entities": [
     {
-      "name": "时间同步平均法（TSA）",
-      "type": "算法"
+      "name": "组合预测方法",
+      "type": "研究方法"
     },
     {
-      "name": "快速傅里叶变换法（FFT）",
-      "type": "算法"
-    },
-    {
-      "name": "轴承包络分析法（BEA）",
-      "type": "算法"
-    },
-    {
-      "name": "基于剩余寿命预测信息的人工神经网络优化算法",
-      "type": "算法"
-    },
-    {
-      "name": "灰色模型",
+      "name": "指数平滑法",
       "type": "模型"
-    },
-    {
-      "name": "进化神经网络",
-      "type": "模型"
-    },
-    {
-      "name": "基于不确定性的故障预测方法",
-      "type": "方法"
-    },
-    {
-      "name": "进化傅里叶变换算法",
-      "type": "算法"
-    },
-    {
-      "name": "LDA",
-      "type": "分类技术"
-    },
-    {
-      "name": "QDA",
-      "type": "分类技术"
-    },
-    {
-      "name": "SVM",
-      "type": "分类技术"
-    },
-    {
-      "name": "故障",
-      "type": "问题"
-    },
-    {
-      "name": "测试性",
-      "type": "技术"
-    },
-    {
-      "name": "信息融合",
-      "type": "技术"
-    },
-    {
-      "name": "智能传感技术",
-      "type": "技术"
-    },
-    {
-      "name": "涡流叶片末端传感器",
-      "type": "部件"
-    },
-    {
-      "name": "盘裂缝检测",
-      "type": "功能"
-    },
-    {
-      "name": "静电排气碎片检测",
-      "type": "技术"
-    },
-    {
-      "name": "发动机叶片磨擦检测",
-      "type": "功能"
-    },
-    {
-      "name": "先进的综合模型",
-      "type": "模型"
-    },
-    {
-      "name": "故障模型",
-      "type": "模型"
-    },
-    {
-      "name": "故障诊断",
-      "type": "技术"
     },
     {
       "name": "故障预测",
-      "type": "技术"
+      "type": "研究方法"
     },
     {
-      "name": "故障机理",
-      "type": "概念"
+      "name": "航空设备",
+      "type": "系统/部件"
     },
     {
-      "name": "失效模型",
-      "type": "模型"
+      "name": "飞行器健康管理系统",
+      "type": "系统/部件"
     },
     {
-      "name": "故障建模",
-      "type": "技术"
+      "name": "单一预测方法",
+      "type": "研究方法"
     },
     {
-      "name": "剩余寿命预测",
-      "type": "概念"
+      "name": "加权系数",
+      "type": "特征/健康指标"
     },
     {
-      "name": "嵌入式PHM技术",
-      "type": ""
+      "name": "预测系统",
+      "type": "系统/部件"
     },
     {
-      "name": "李梦妍等人",
-      "type": ""
+      "name": "歼击机",
+      "type": "系统/部件"
     },
     {
-      "name": "Watson等人",
-      "type": ""
+      "name": "结构故障",
+      "type": "故障模式"
     },
     {
-      "name": "故障预测与剩余寿命预测",
-      "type": ""
+      "name": "结构故障诊断",
+      "type": "研究领域"
+    },
+    {
+      "name": "故障检测",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障隔离",
+      "type": "研究方法"
+    },
+    {
+      "name": "非线性系统辨识方法",
+      "type": "研究方法"
     }
   ],
   "relations": [
     {
-      "head": "嵌入式PHM技术",
-      "relation": "常用算法包括",
-      "tail": "时间同步平均法（TSA）"
+      "head": "组合预测方法",
+      "relation": "提出用于",
+      "tail": "故障预测"
     },
     {
-      "head": "嵌入式PHM技术",
-      "relation": "常用算法包括",
-      "tail": "快速傅里叶变换法（FFT）"
+      "head": "组合预测方法",
+      "relation": "结合",
+      "tail": "指数平滑法"
     },
     {
-      "head": "嵌入式PHM技术",
-      "relation": "常用算法包括",
-      "tail": "轴承包络分析法（BEA）"
+      "head": "组合预测方法",
+      "relation": "应用于",
+      "tail": "航空设备"
     },
     {
-      "head": "李梦妍等人",
-      "relation": "运用",
-      "tail": "灰色模型"
+      "head": "组合预测方法",
+      "relation": "采用",
+      "tail": "加权系数"
     },
     {
-      "head": "李梦妍等人",
-      "relation": "运用",
-      "tail": "进化神经网络"
+      "head": "组合预测方法",
+      "relation": "弥补...不足",
+      "tail": "单一预测方法"
     },
     {
-      "head": "Watson等人",
-      "relation": "运用",
-      "tail": "LDA"
+      "head": "组合预测方法",
+      "relation": "提高...性能",
+      "tail": "预测系统"
     },
     {
-      "head": "Watson等人",
-      "relation": "运用",
-      "tail": "QDA"
+      "head": "故障预测",
+      "relation": "是...的一部分",
+      "tail": "飞行器健康管理系统"
     },
     {
-      "head": "Watson等人",
-      "relation": "运用",
-      "tail": "SVM"
+      "head": "结构故障诊断",
+      "relation": "包括",
+      "tail": "故障检测"
     },
     {
-      "head": "涡流叶片末端传感器",
-      "relation": "用于",
-      "tail": "盘裂缝检测"
-    },
-    {
-      "head": "静电排气碎片检测",
-      "relation": "用于",
-      "tail": "发动机叶片磨擦检测"
-    },
-    {
-      "head": "故障建模",
-      "relation": "是...关键",
-      "tail": "故障预测与剩余寿命预测"
+      "head": "结构故障诊断",
+      "relation": "包括",
+      "tail": "故障隔离"
     }
   ]
 }
@@ -645,17 +567,3 @@ $$
 1）通过综合模块化航电系统电源转换单元的仿真和实验验证本文提出的方法提取的故障特征能有效判断早期故障，该方法不仅可以应用于故障预测和健康评估，也可以应用于故障诊断的特征提取。
 
 2）由于故障预测是根据历史数据以及当前时刻数据预测下一个时刻数据，无论在预测算法上进行如何改进，预测值和真实存在一定的误差。因此为了提高故障预测精度要求，要求故障预测的特征参数最好是相近状态聚合，不同状态分离度比较大。这样预测的故障特征值虽然有一定误差，但是不会影响故障预测和健康评估结果，提高故障预测算法的鲁棒性。
-
-# 参考文献：
-
-[1] 王少萍.大型飞机机载系统预测与健康管理关键技术.航空学报，2014，35(6)：1459- 1472 Wang Shaoping. Prognostics and Health Management Key Technology of Aircraft Airborne System . Acta Aeronautica et Astro- nautica Sinica，2014，35(6)：1459- 1472（in Chinese) [2] 范度，马登武.基于组合优化相关向量机的航空发动机性能参数概率预测方法.航空学报，2013，34(9)：2110- 2121 Fan Geng, Ma Dengwu. Probabilistic Prediction Method for Aeroengine Performance Parameters Based on Combined Optimum Relevance Vector Machine . Acta Aeronautica et Astronautica Sinica，2013，34(9)：2110- 2121 ( in Chinese) [3] 陈雄姿，于劲松，陆文高，等.基于综合健康指数与RVM的系统级失效预测.系统工程与电子技术，2015，37(10)：2298- 2305 Chen Xiongzi，Yu Jinsong，Lu Wengao，et al. System- Level Failure Prognostics Using Synthesized Health Index and Relevance Vector Machine . Systems Engineering & Electronics，2015，37(10) :2298- 2305 ( in Chinese) [4] 吴祎，王友仁，姜媛媛，等.基于特征参数退化的DC/DC变换器故障预测.仪器仪表学报，2013，34(6)：1380- 1387 Wu Yi，Wang Youren，Jiang Yuanyuan，et al. Fault Prediction Method of DC/DC Converter Based on Characteristic Parameter Degradation . Chinese Journal of Scientific Instrument，2013，34(6) :1380- 1387 ( in Chinese) [5] 徐宇亮，孙际哲，陈西宏，等.电子设备健康状态评估与故障预测方法.系统工程与电子技术，2012，34(5)：1068- 1072 Xu Yuliang, Sun Jizhe, Chen Xihong, et al. Method of Health Performance Evaluation and Fault Prognostics for Electronic Equipment . Systems Engineering & Electronics，2012，34(5) :1068- 1072 ( in Chinese) [6] Xu J, Xu L. Health Management Based on Fusion Prognostics for Avionics Systems . Journal of Systems Engineering and Electronics，2011，22(3)：428- 436
-
-[1] 孙健，王成华，杜庆波. 基于小波包能量谱和 NPE 的模拟电路故障诊断. 仪器仪表学报，2013，34(9)：2021- 2027Sun Jian, Wang Chenghua, Du Qingbo. Analog Circuit Fault Diagnosis Based on Wavelet Packet Energy Spectrum and NPE. Chinese Journal of Scientific Instrument, 2013, 34(9) : 2021- 2027 ( in Chinese)黄艳秋，蒲鹏. 基于能量熵对 SVM 的电路故障诊断. 计算机仿真，2011，28(4)：199- 202Huang Yanqiu, Pu Peng. Circuit Fault Diagnosis Based on Energy Entropy and SVM. Computer Simulation, 2011, 28(4) : 199- 202 ( in Chinese)Long B, Tian S, Wang H. Feature Vector Selection Method Using Mahalanobis Distance for Diagnostics of Analog Circuits Based on LS- SVM. Journal of Electronic Testing, 2012, 28(5) : 745- 755汤巍，景博，黄以锋，等. 振动载荷下面向电子设备 PHM 的板级封装潜在故障分析方法. 电子学报，2016，44(4)：944- 951Tang Wei, Jing Bo, Huang Yifeng, et al. Latent Fault Analysis of Board- Level Package for Electronics PHM Subjected to Vibration. Acta Electronica Sinica, 2016, 44(4) : 944- 951 ( in Chinese)Zhu B, Song Z H. A Novel Fault Diagnosis System Using Pattern Classification on Kernel Fda Subspace. Expert Systems with Applications An International Journal, 2011, 38(6) : 6895- 6905Govindan A, Deng G, Kalman J, et al. Independent Component Analysis Applied to Electrogram Classification during Atrial Fibrillation. Fourteenth International Conference on Pattern Recognition, 1998: 1662- 1664Xiao Y, He Y. A Novel Approach for Analog Fault Diagnosis Based on Neural Networks and Improved Kernel PCA. Neurocomputing, 2011, 74(7) : 1102- 1115Hinton G E, Salakhutdinov R R. Reducing the Dimensionality of Data with Neural Networks. Science, 2006, 313(5786): 504- 507Vincent P, Larochelle H, Bengio Y, et al. Extracting and Composing Robust Features with Denaturing Autoencoders. Proceedings of the 25th International Conference on Machine Learning, 2008: 1096- 1103Maaten L J P V D, Postma E O, Herik H J V D. Dimensionality Reduction: A Comparative Review. Journal of Machine Learning Research, 2009, 10: 66- 70Levina E, Bickel P J. Maximum Likelihood Estimation of Intrinsic Dimension. Advances in Neural Information Processing Systems, 2004, 17: 777- 784Rozza A, Lombardi G, Ceruti C, et al. Novel High Intrinsic Dimensionality Estimators. Machine Learning, 2012, 89(1/2): 37- 65Zhang Y. Enhanced Statistical Analysis of Nonlinear Processes Using KPCA, KICA and SVM. Chemical Engineering Science, 2009, 64(5): 801- 811Alwan M, Beydoun B, Ketata K, et al. Bias Temperature Instability From Gate Charge Characteristics Investigations in N- Channel Power MOSFET. Microelectronics Journal, 2007, 38(6): 727- 734Alwitt R, Hills R. The Chemistry of Failure of Aluminum Electrolytic Capacitors. IEEE Trans on Parts, Materials and Packaging, 1965, 1(2): 28- 34Mantooth H Alan, Perry R Glenn. A Unified Diode Model for Circuit Simulation. The 26th IEEE Power Electronics Specialists Conference, Atlanta, GA, USA, 1993: 851- 857Lahyani A, Venet P, Grellet G, et al. Failure Prediction of Electrolytic Capacitors during Operation of a Switch Mode Power Supply. IEEE Trans on Power Electronics, 1998, 13(6): 1199- 1207
-
-# Research on Feature Extraction Method for Fault Prediction of Avionics
-
-Chen Huakun $^{1}$ , Zhang Weiguo $^{1}$ , Shi Jingping $^{1}$ , He Qizhi $^{1}$ , Zhan Zhengyong $^{2}$ $^{1}$ School of Automation, Northwestern Polytechnical University, Xi'an 710072, China;   $^{2}$ Science and Technology on Aircraft Control Laboratory, FACRI, Xi'an 710065, China)
-
-Abstract. Feature extraction is the key technique for fault prediction of avionics, Wavelet transform, Fourier transform, empirical mode decomposition methods can be used to extract fault features of the electronic equipment with few test points. Due to the fact that the avionics is large- scale integrated circuits which includes many test points, fault features extracted based on the method above may be mixed with each other and the number is large, which will seriously affect the accuracy and speed of fault prediction. It is a difficult problem to extract fault features from many fault information. In this paper, we propose the method based on denoising autoencoder and maximum likelihood to extract fault features from a large number of fault information. First of all, maximum likelihood is taken to analyze the high dimensional data comprised of the fault information which were extracted from many test points and historical degradation process, and to estimate the intrinsic dimension of fault features; Then, the high dimensional data is mapped to the specified dimension data space by using denoising autoencoder method. The key fault features are extracted from the data, and the redundant information is removed. Finally, taking the avionics power system as an example, through the fault feature visualization and health assessment demonstrate that the method proposed in the paper which can extract fault features is effective.
-
-Keywords: integrated modular avionics; prognostics and health management; feature extraction; denoising autoencoder; maximum likelihood; dimension estimation; DC- DC converters; support vector machines

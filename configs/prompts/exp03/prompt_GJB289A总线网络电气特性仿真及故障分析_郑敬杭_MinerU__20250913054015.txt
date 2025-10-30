@@ -134,75 +134,49 @@
 {
   "entities": [
     {
-      "name": "核动力系统故障诊断方法",
-      "type": "方法"
-    },
-    {
-      "name": "核领域的实际应用",
-      "type": "应用领域"
-    },
-    {
-      "name": "两步走策略",
-      "type": "策略"
-    },
-    {
-      "name": "设备及故障诊断确定故障源设备",
-      "type": "步骤"
-    },
-    {
-      "name": "具体设备的故障源诊断",
-      "type": "步骤"
-    },
-    {
-      "name": "基于多模型融合的航空电子产品故障预测方法",
-      "type": "研究方法"
-    },
-    {
-      "name": "航空电子产品故障预测",
-      "type": "问题"
-    },
-    {
-      "name": "SDQ算法",
-      "type": "算法"
-    },
-    {
-      "name": "遗传算法",
-      "type": "算法"
-    },
-    {
-      "name": "AANN神经网络",
-      "type": "网络"
+      "name": "知识图谱",
+      "type": "理论基础"
     },
     {
       "name": "故障诊断",
-      "type": "任务"
+      "type": "研究方法"
+    },
+    {
+      "name": "问答系统",
+      "type": "应用场景"
+    },
+    {
+      "name": "角度差值",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "襟翼不对称故障",
+      "type": "故障模式"
+    },
+    {
+      "name": "数据融合技术",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障诊断",
+      "type": "研究领域"
     }
   ],
   "relations": [
     {
-      "head": "核动力系统故障诊断方法",
-      "relation": "推广到",
-      "tail": "核领域的实际应用"
+      "head": "知识图谱",
+      "relation": "应用于",
+      "tail": "问答系统"
     },
     {
-      "head": "两步走策略",
-      "relation": "包括",
-      "tail": "设备及故障诊断确定故障源设备"
+      "head": "角度差值",
+      "relation": "用于推测",
+      "tail": "襟翼不对称故障"
     },
     {
-      "head": "两步走策略",
-      "relation": "包括",
-      "tail": "具体设备的故障源诊断"
-    },
-    {
-      "head": "基于多模型融合的航空电子产品故障预测方法",
-      "relation": "提出用于解决",
-      "tail": "航空电子产品故障预测"
-    },
-    {
-      "head": "遗传算法",
-      "relation": "优化了",
-      "tail": "AANN神经网络"
+      "head": "数据融合技术",
+      "relation": "是...发展趋势",
+      "tail": "故障诊断"
     }
   ]
 }
@@ -233,10 +207,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# GJB289A总线网络电气特性仿真及故障分析
-
-郑敬杭 $^{1,2}$ , 江志东 $^{1}$ , 霍立平 $^{1}$ , 张弟 $^{1}$ (1. 海军航空大学青岛校区航空电子工程与指挥系, 青岛206041)(2. 中国人民解放军92975部队, 宁波315000)
-
 摘要：机载GJB289A总线用于实现各类航空电子设备之间的物理连接，其可靠性直接影响着飞机航电系统的正常运行。为了分析GJB289A总线网络典型电气故障特性，根据GJB289A总线网络变压器、终端电阻分布参数及有损耦合传输线模型，在ADS软件中构建包含两个耦合变压器的两端口GJB289A总线网络模型；并通过理论推导和实验室实测对比分析，验证该模型的有效性。依托两端口网络分布参数模型分析梳理典型电气故障类型的特征波形和参数，实现典型电气故障的快速判断。结果表明：结合实装GJB289A总线网络拓扑结构、物理尺寸和分布参数，利用该模型可仿真获取测试端口精确波形和典型电气故障的特征参数，为总线检测设备的优化设计及总线网络状态健康管理提供技术支撑。
 
 关键词：GJB289A总线；电气特性；仿真；电气故障；有损耦合传输线模型
@@ -250,10 +220,6 @@
 # Simulation and Fault Analysis on Electrical Characteristics of the GJB289A Bus Network
 
 ZHENG Jinghang $^{1,2}$ , JIANG Zhidong $^{1}$ , HUO Liping $^{1}$ , ZHANG Di $^{1}$ (1. Avionics Engineering and Command Department, Qingdao Branch, Naval Aviation University, Qingdao 266041, China)(2.92975 Unit of the Chinese People's Liberation Army, Ningbo 315000, China)
-
-Abstract: Airborne GJB289A bus is used to realize the physical connection between various avionics equipment, and its reliability directly affects the normal operation of aircraft avionics system. In order to analyze the typical electrical fault characteristics of GJB289A bus network, according to the transformer, terminal resistance distribution parameters and lossy coupling transmission line model of GJB289A bus network, building a two port GJB289A bus network model including two coupling transformers in ADS (advanced design system) software; The validity of the model is verified by theoretical derivation and comparative analysis of laboratory measurement. Based on the two port network distributed parameter model, the characteristic waveforms and parameters of typical electrical fault types are analyzed and sorted out, so as to realize the rapid judgment of typical electrical faults. The results show that: combined with the topology, physical size and distribution parameters of the actual GJB289A bus network, the accurate waveforms of the test port and the characteristic parameters of typical electrical faults can be simulated by using this method, which provides technical support for optimal design of bus detection equipment and the health management of the bus network state.
-
-Key words: GJB289A bus; electrical characteristics; simulation; electrical fault; lossy coupled transmission line model
 
 # 0 引言
 
@@ -437,17 +403,3 @@ Table 5 Check list of characteristic parameters for typical electrical faults
 模型进行典型电气故障的仿真，并与实测结果对比，分析梳理典型电气故障类型的特征波形和参数，构建了故障判断检查表，可以实现两端口GJB289A总线网络典型电气故障的唯一性判断。
 
 （3）结合实装GJB289A总线网络拓扑结构、物理尺寸和分布参数，利用本文方法可仿真获取实装GJB289A总线网络测试端口精确波形和典型电气故障的特征参数，为总线检测设备的优化改进和总线网络状态健康管理提供数据支撑。
-
-# 参考文献
-
-[1] 何锋．机载网络技术基础[M].北京：国防工业出版社，2018. HE Feng. Fundamentals of airborne network technology[M]. Beijing: National Defense Industry Press, 2018. (in Chinese)[2] 江志东，霍立平，张弟，等．基于SoC芯片的1553B总线仿真平台设计与实现[J].电子设计工程，2020，28（24）：152- 157. JIANG Zhidong, HUO Liping, ZHANG Di, et al. Design and implementation of 1553B bus simulation platform based on SOC chip[J]. Electronic Design Engineering, 2020, 28(24):152- 157. (in Chinese)[3] 王研．1553B总线现场测试仪的研究及设计[D].西安：西安科技大学，2013. WANG Yan. The research and design of field tester of
-
-1553B bus[D]. Xi'an: Xi'an University of Science and Technology, 2013. (in Chinese)[4] 曾亮亮, 朱江雷, 吕欣. 机载系统测试性设计体系研究[J]. 航空工程进展, 2020, 11(4): 591- 602. ZENG Liangliang, ZHU Jianglei, LYU Xin. Research on the testability design system of airborne system[J]. Advances in Aeronautical Science and Engineering, 2020, 11(4): 591- 602. (in Chinese)[5] 张创. 机上故障诊断系统研究与设计[D]. 西安: 西安电子科技大学, 2020. ZHANG Chuang. Research and design of on- board fault diagnosis system[D]. Xi'an: Xidian University, 2020. (in Chinese)[6] 党小红. GJB289A总线电缆故障分析与研究[J]. 航空维修与工程, 2017(2): 64- 65. DANG Xianhong. Analysis and research on GJB289A bus cable fault[J]. Aviation Maintenance and Engineering, 2017(2): 64- 65. (in Chinese)[7] 李绪忠, 李素琴. 舰载飞机电线电缆选用技术分析[J]. 航空工程进展, 2015, 6(4): 507- 511. LI Xuzhong, LI Suqin. Technical analysis of wire and cable selection for shipborne aircraft[J]. Advances in Aeronautical Science and Engineering, 2015, 6(4): 507- 511. (in Chinese)[8] 寻建晖. 1553B总线系统的建模与仿真[D]. 西安: 西安电子科技大学, 2011. XUN Jianhui. Modeling and simulation of 1553B bus system[D]. Xi'an: Xidian University, 2011. (in Chinese)[9] 昶旭曦. 基于ADS的时分制指令/响应型1553B总线系统建模[D]. 西安: 西安电子科技大学, 2011. CHANG Xuxi. Modeling of time division command/response 1553B bus system based on ADS[D]. Xi'an: Xidian University, 2011. (in Chinese)[10] FEHLHABER G L. Resistance integrated coupler between databus and terminal device having databus windings with high resistance wire with resistance being 1.5 times databus cable nominal characteristic impedance: US06314481B1[P]. 2001- 11- 06. [11] America Department of Defense United. Multiplex applications handbook: MIL- HDBR- 1553A[S]. USA: America Department of Defense United, 1988. [12] 李文娟, 马存宝, 贺尔铭. 综合飞行器健康管理系统组成框架及关键技术研究[J]. 航空工程进展, 2011, 2(3): 330- 334. LI Wenjuan, MA Cunbao, HE Erming. Research on the framework and key technologies of integrated aircraft health management system[J]. Advances in Aeronautical Science and Engineering, 2011, 2(3): 330- 334. (in Chinese)[13] 国防科学技术工业委员会. 数字式时分制指令、响应型多路传输数据总线. GJB289A—1997[S]. 北京: 国防科学技术工业委员会, 1997. National Defense Science, Technology and Industry Commission. Digital time division command and response multiplex data bus: GJB289A—1997[S]. Beijing: National Defense Science, Technology and Industry Commission, 1997. (in Chinese)[14] 国防科学技术工业委员会. 数字式时分制指令响应型多路传输数据总线测试方法(第5部分)——系统测试方法: GJB5186.5—2004[S]. 北京: 国防科学技术工业委员会, 2005. National Defense Science, Technology and Industry Commission. Test methods for digital time division command response multiplex data bus (Part 5)—system test methods: GJB5186.5—2004[S]. Beijing: National Defense Science, Technology and Industry Commission, 2005. (in Chinese)[15] 贾艳梅, 张东伟, 李峰, 等. 1553B总线特性分析及非标准连接的影响[J]. 载人航天, 2015, 21(1): 53- 57. JIA Yanmei, ZHANG Dongwei, LI Feng, et al. Characteristic analysis of 1553B bus and the influence of non- standard connection[J]. Manned Spaceflight, 2015, 21(1): 53- 57. (in Chinese)
-
-框架及关键技术研究[J]. 航空工程进展, 2011, 2(3): 330- 334. LI Wenjuan, MA Cunbao, HE Erming. Research on the framework and key technologies of integrated aircraft health management system[J]. Advances in Aeronautical Science and Engineering, 2011, 2(3): 330- 334. (in Chinese)[13]国防科学技术工业委员会. 数字式时分制指令、响应型多路传输数据总线. GJB289A—1997[S]. 北京: 国防科学技术工业委员会, 1997. National Defense Science, Technology and Industry Commission. Digital time division command and response multiplex data bus: GJB289A—1997[S]. Beijing: National Defense Science, Technology and Industry Commission, 1999. (in Chinese)[14]国防科学技术工业委员会. 数字式时分制指令响应型多路传输数据总线测试方法(第5部分)——系统测试方法: GJB5186.5—2004[S]. 北京: 国防科学技术工业委员会, 2005. National Defense Science, Technology and Industry Commission. Test methods for digital time division command response multiplex data bus (Part 5)—system test methods: GJB5186, 5—2004[S]. Beijing: National Defense Science, Technology and Industry Commission, 2005. (in Chinese)[15]贾艳梅, 张东伟, 李峰, 等. 1553B总线特性分析及非标准连接的影响[J]. 载人航天, 2015, 21(1): 53- 57. JIA Yanmei, ZHANG Dongwei, LI Feng, et al. Characteristic analysis of 1553B bus and the influence of non- standard connection[J]. Mannered Spaceflight, 2015, 21(1): 53- 57. (in Chinese)
-
-# 作者简介：
-
-郑敬杭（1998- ），男，学士，助理工程师。主要研究方向：航空电子装备保障、机载总线网络技术。江志东（1985- ），男，博士，讲师。主要研究方向：航空电子装备保障、航空电子综合化技术、机载总线网络技术。霍立平（1981- ），男，硕士，讲师。主要研究方向：航空电子装备保障、航空电子综合化技术。张弟（1989- ），女，硕士，讲师。主要研究方向：机载总线网络技术。
-
-（编辑：马文静）

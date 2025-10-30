@@ -1,12 +1,32 @@
 {
   "entities": [
     {
-      "name": "故障诊断与健康管理(PHM)",
+      "name": "故障诊断与健康管理(PHM)技术",
       "type": "研究领域"
+    },
+    {
+      "name": "系统可用性",
+      "type": "性能指标"
+    },
+    {
+      "name": "维修效率",
+      "type": "性能指标"
+    },
+    {
+      "name": "寿命周期成本",
+      "type": "性能指标"
     },
     {
       "name": "综合航空电子系统",
       "type": "系统/部件"
+    },
+    {
+      "name": "Prognostic and Health Management",
+      "type": "研究领域"
+    },
+    {
+      "name": "传感器数据",
+      "type": "传感器/监测参数"
     },
     {
       "name": "神经网络",
@@ -17,11 +37,19 @@
       "type": "模型"
     },
     {
-      "name": "视情维修",
+      "name": "健康状况评估",
       "type": "研究方法"
     },
     {
-      "name": "定期维修",
+      "name": "故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "维修保障方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "视情维修",
       "type": "研究方法"
     },
     {
@@ -29,7 +57,31 @@
       "type": "研究方法"
     },
     {
+      "name": "定期维修",
+      "type": "研究方法"
+    },
+    {
+      "name": "联合攻击机(JSF)",
+      "type": "系统/部件"
+    },
+    {
+      "name": "F-35飞机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "航电系统故障诊断技术",
+      "type": "研究方法"
+    },
+    {
+      "name": "机载PHM",
+      "type": "系统/部件"
+    },
+    {
       "name": "健康与使用监控系统(HUMS)",
+      "type": "系统/部件"
+    },
+    {
+      "name": "Health and Using Monitor System",
       "type": "系统/部件"
     },
     {
@@ -37,11 +89,27 @@
       "type": "系统/部件"
     },
     {
-      "name": "机载PHM",
-      "type": "系统/部件"
+      "name": "状态监测",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障诊断定位",
+      "type": "研究方法"
+    },
+    {
+      "name": "健康管理",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障预测模型",
+      "type": "模型"
     },
     {
       "name": "地面PHM",
+      "type": "系统/部件"
+    },
+    {
+      "name": "Open System Architecture for Condition- Based Maintenance",
       "type": "系统/部件"
     },
     {
@@ -53,60 +121,12 @@
       "type": "系统/部件"
     },
     {
-      "name": "综合式体系结构",
-      "type": "系统/部件"
-    },
-    {
-      "name": "集中式体系结构",
-      "type": "系统/部件"
-    },
-    {
-      "name": "分布式体系结构",
+      "name": "综合航电机载PHM系统体系结构",
       "type": "系统/部件"
     },
     {
       "name": "数据采集层",
       "type": "系统/部件"
-    },
-    {
-      "name": "传感器",
-      "type": "传感器/监测参数"
-    },
-    {
-      "name": "设备剩余能力评估",
-      "type": "研究方法"
-    },
-    {
-      "name": "HMM计算方法",
-      "type": "算法"
-    },
-    {
-      "name": "贝叶斯网络计算方法",
-      "type": "算法"
-    },
-    {
-      "name": "故障预测",
-      "type": "研究方法"
-    },
-    {
-      "name": "累积损伤预测法",
-      "type": "研究方法"
-    },
-    {
-      "name": "失效物理数学模型",
-      "type": "模型"
-    },
-    {
-      "name": "故障诊断",
-      "type": "研究方法"
-    },
-    {
-      "name": "状态监测",
-      "type": "研究方法"
-    },
-    {
-      "name": "健康管理",
-      "type": "研究方法"
     },
     {
       "name": "数据处理层",
@@ -127,53 +147,185 @@
     {
       "name": "健康管理层",
       "type": "系统/部件"
+    },
+    {
+      "name": "传感器",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "剩余使用寿命预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "设备剩余能力评估",
+      "type": "研究方法"
+    },
+    {
+      "name": "基于HMM的计算方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "基于贝叶斯网络的计算方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "累积损伤预测法",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障征兆监测法",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障预警监测法",
+      "type": "研究方法"
+    },
+    {
+      "name": "设备故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "相关性模型方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "专家系统推理方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "多种故障预测算法结合",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障预测可靠性",
+      "type": "性能指标"
+    },
+    {
+      "name": "故障虚警率",
+      "type": "性能指标"
+    },
+    {
+      "name": "工作电流",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "工作温度",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "湿度应力",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "扩展微粒子群优化算法",
+      "type": "算法"
+    },
+    {
+      "name": "传感器优化配置模型",
+      "type": "模型"
+    },
+    {
+      "name": "间歇性故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "安全性",
+      "type": "性能指标"
+    },
+    {
+      "name": "战备完好率",
+      "type": "性能指标"
+    },
+    {
+      "name": "使用与保障费用",
+      "type": "性能指标"
     }
   ],
   "relations": [
     {
-      "head": "故障诊断与健康管理(PHM)",
-      "relation": "是...的关键技术",
+      "head": "故障诊断与健康管理(PHM)技术",
+      "relation": "用于提高",
+      "tail": "系统可用性"
+    },
+    {
+      "head": "故障诊断与健康管理(PHM)技术",
+      "relation": "用于提高",
+      "tail": "维修效率"
+    },
+    {
+      "head": "故障诊断与健康管理(PHM)技术",
+      "relation": "用于降低",
+      "tail": "寿命周期成本"
+    },
+    {
+      "head": "故障诊断与健康管理(PHM)技术",
+      "relation": "是关键技术",
       "tail": "综合航空电子系统"
     },
     {
-      "head": "故障诊断与健康管理(PHM)",
+      "head": "Prognostic and Health Management",
+      "relation": "是...的英文",
+      "tail": "故障诊断与健康管理(PHM)技术"
+    },
+    {
+      "head": "故障诊断与健康管理(PHM)技术",
+      "relation": "基于",
+      "tail": "传感器数据"
+    },
+    {
+      "head": "故障诊断与健康管理(PHM)技术",
       "relation": "利用",
       "tail": "神经网络"
     },
     {
-      "head": "故障诊断与健康管理(PHM)",
+      "head": "故障诊断与健康管理(PHM)技术",
       "relation": "利用",
       "tail": "专家系统"
     },
     {
+      "head": "故障诊断与健康管理(PHM)技术",
+      "relation": "用于",
+      "tail": "故障预测"
+    },
+    {
+      "head": "维修保障方法",
+      "relation": "从...转变为",
+      "tail": "视情维修"
+    },
+    {
       "head": "视情维修",
-      "relation": "发展自",
+      "relation": "区别于",
       "tail": "事后维修"
     },
     {
       "head": "视情维修",
-      "relation": "发展自",
+      "relation": "区别于",
       "tail": "定期维修"
     },
     {
-      "head": "健康与使用监控系统(HUMS)",
-      "relation": "是...的别称",
-      "tail": "故障诊断与健康管理(PHM)"
+      "head": "故障诊断与健康管理(PHM)技术",
+      "relation": "应用于",
+      "tail": "联合攻击机(JSF)"
     },
     {
-      "head": "综合航空电子PHM系统",
-      "relation": "由...组成",
+      "head": "故障诊断与健康管理(PHM)技术",
+      "relation": "应用于",
+      "tail": "F-35飞机"
+    },
+    {
+      "head": "航电系统故障诊断技术",
+      "relation": "发展为",
       "tail": "机载PHM"
     },
     {
-      "head": "综合航空电子PHM系统",
-      "relation": "由...组成",
-      "tail": "地面PHM"
+      "head": "故障诊断与健康管理(PHM)技术",
+      "relation": "也称为",
+      "tail": "健康与使用监控系统(HUMS)"
     },
     {
-      "head": "综合航空电子PHM系统",
-      "relation": "采用",
-      "tail": "OSA-CBM开放式体系架构"
+      "head": "Health and Using Monitor System",
+      "relation": "简称",
+      "tail": "健康与使用监控系统(HUMS)"
     },
     {
       "head": "综合航空电子PHM系统",
@@ -183,7 +335,7 @@
     {
       "head": "综合航空电子PHM系统",
       "relation": "包含功能",
-      "tail": "故障诊断"
+      "tail": "故障诊断定位"
     },
     {
       "head": "综合航空电子PHM系统",
@@ -196,49 +348,44 @@
       "tail": "健康管理"
     },
     {
+      "head": "故障预测",
+      "relation": "借助",
+      "tail": "故障预测模型"
+    },
+    {
+      "head": "综合航空电子PHM系统",
+      "relation": "由...组成",
+      "tail": "机载PHM"
+    },
+    {
+      "head": "综合航空电子PHM系统",
+      "relation": "由...组成",
+      "tail": "地面PHM"
+    },
+    {
+      "head": "Open System Architecture for Condition- Based Maintenance",
+      "relation": "简称",
+      "tail": "OSA-CBM开放式体系架构"
+    },
+    {
       "head": "OSA-CBM开放式体系架构",
       "relation": "是",
       "tail": "分层融合式体系架构"
     },
     {
-      "head": "综合式体系结构",
-      "relation": "结合",
-      "tail": "集中式体系结构"
+      "head": "综合航电机载PHM系统体系结构",
+      "relation": "参考",
+      "tail": "OSA-CBM开放式体系架构"
     },
     {
-      "head": "综合式体系结构",
-      "relation": "结合",
-      "tail": "分布式体系结构"
-    },
-    {
-      "head": "机载PHM",
-      "relation": "包含",
+      "head": "综合航电机载PHM系统体系结构",
+      "relation": "由...组成",
       "tail": "数据采集层"
     },
     {
-      "head": "机载PHM",
-      "relation": "包含",
-      "tail": "数据处理层"
-    },
-    {
-      "head": "机载PHM",
-      "relation": "包含",
-      "tail": "状态监测层"
-    },
-    {
-      "head": "机载PHM",
-      "relation": "包含",
-      "tail": "健康评估层"
-    },
-    {
-      "head": "机载PHM",
-      "relation": "包含",
+      "head": "综合航电机载PHM系统体系结构",
+      "relation": "由...组成",
       "tail": "故障预测层"
-    },
-    {
-      "head": "机载PHM",
-      "relation": "包含",
-      "tail": "健康管理层"
     },
     {
       "head": "数据采集层",
@@ -246,24 +393,79 @@
       "tail": "传感器"
     },
     {
-      "head": "设备剩余能力评估",
-      "relation": "采用",
-      "tail": "HMM计算方法"
+      "head": "故障预测层",
+      "relation": "用于",
+      "tail": "剩余使用寿命预测"
     },
     {
       "head": "设备剩余能力评估",
-      "relation": "采用",
-      "tail": "贝叶斯网络计算方法"
+      "relation": "采用方法",
+      "tail": "基于HMM的计算方法"
+    },
+    {
+      "head": "设备剩余能力评估",
+      "relation": "采用方法",
+      "tail": "基于贝叶斯网络的计算方法"
     },
     {
       "head": "故障预测",
-      "relation": "包括",
+      "relation": "包含方法",
       "tail": "累积损伤预测法"
     },
     {
-      "head": "累积损伤预测法",
-      "relation": "基于",
-      "tail": "失效物理数学模型"
+      "head": "故障预测",
+      "relation": "包含方法",
+      "tail": "故障征兆监测法"
+    },
+    {
+      "head": "故障预测",
+      "relation": "包含方法",
+      "tail": "故障预警监测法"
+    },
+    {
+      "head": "设备故障诊断",
+      "relation": "采用方法",
+      "tail": "相关性模型方法"
+    },
+    {
+      "head": "设备故障诊断",
+      "relation": "采用方法",
+      "tail": "专家系统推理方法"
+    },
+    {
+      "head": "多种故障预测算法结合",
+      "relation": "提高",
+      "tail": "故障预测可靠性"
+    },
+    {
+      "head": "多种故障预测算法结合",
+      "relation": "降低",
+      "tail": "故障虚警率"
+    },
+    {
+      "head": "综合航空电子PHM系统",
+      "relation": "采用监测参数",
+      "tail": "工作电流"
+    },
+    {
+      "head": "综合航空电子PHM系统",
+      "relation": "采用监测参数",
+      "tail": "工作温度"
+    },
+    {
+      "head": "综合航空电子PHM系统",
+      "relation": "采用监测参数",
+      "tail": "湿度应力"
+    },
+    {
+      "head": "扩展微粒子群优化算法",
+      "relation": "用于求解",
+      "tail": "传感器优化配置模型"
+    },
+    {
+      "head": "间歇性故障预测",
+      "relation": "是难题",
+      "tail": "故障预测"
     }
   ]
 }

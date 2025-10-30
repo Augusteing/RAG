@@ -134,66 +134,104 @@
 {
   "entities": [
     {
-      "name": "故障注入",
-      "type": "方法"
-    },
-    {
-      "name": "故障诊断",
-      "type": "技术"
-    },
-    {
-      "name": "故障预测",
-      "type": "技术"
-    },
-    {
-      "name": "故障预测方法",
-      "type": "方法"
-    },
-    {
-      "name": "飞机液压泵",
+      "name": "航空装备",
       "type": "系统/部件"
     },
     {
-      "name": "液压系统",
+      "name": "PHM验证与确认",
+      "type": "研究方法"
+    },
+    {
+      "name": "PHM系统",
       "type": "系统/部件"
     },
     {
-      "name": "健康评估",
-      "type": "技术"
+      "name": "验证数据",
+      "type": "数据集"
     },
     {
-      "name": "劣化度",
-      "type": "指标"
+      "name": "试验验证环境",
+      "type": "系统/部件"
     },
     {
-      "name": "贝叶斯网络",
-      "type": "模型"
+      "name": "标准化的验证评价工具",
+      "type": "软件工具"
     },
     {
-      "name": "健康管理",
-      "type": ""
+      "name": "PHM技术成果工程转化",
+      "type": "应用场景"
+    },
+    {
+      "name": "PHM系统全寿命周期",
+      "type": "研究领域"
+    },
+    {
+      "name": "验证流程",
+      "type": "研究方法"
+    },
+    {
+      "name": "航电PHM",
+      "type": "研究领域"
+    },
+    {
+      "name": "机电/动力PHM",
+      "type": "研究领域"
+    },
+    {
+      "name": "结构SHM",
+      "type": "研究领域"
+    },
+    {
+      "name": "预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "先进的传感器",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "算法",
+      "type": "算法"
+    },
+    {
+      "name": "系统集成",
+      "type": "研究方法"
     }
   ],
   "relations": [
     {
-      "head": "健康管理",
-      "relation": "以...为主要手段",
-      "tail": "故障诊断"
+      "head": "PHM验证与确认",
+      "relation": "需要",
+      "tail": "试验验证环境"
     },
     {
-      "head": "健康管理",
-      "relation": "以...为主要手段",
-      "tail": "故障预测"
+      "head": "PHM验证与确认",
+      "relation": "需要",
+      "tail": "标准化的验证评价工具"
     },
     {
-      "head": "飞机液压泵",
-      "relation": "是...的关键部件",
-      "tail": "液压系统"
+      "head": "PHM系统",
+      "relation": "分为",
+      "tail": "航电PHM"
     },
     {
-      "head": "贝叶斯网络",
-      "relation": "是...的健康评估方法",
-      "tail": "健康评估"
+      "head": "PHM系统",
+      "relation": "分为",
+      "tail": "机电/动力PHM"
+    },
+    {
+      "head": "PHM系统",
+      "relation": "分为",
+      "tail": "结构SHM"
+    },
+    {
+      "head": "诊断",
+      "relation": "转向",
+      "tail": "预测"
     }
   ]
 }
@@ -224,12 +262,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 飞机起落架液压收放系统多故障仿真与健康评估
-
-和麟，梁丽媛，马存宝
-
-（1. 西北工业大学航空学院，陕西西安 710072；2. 西安飞豹科技发展公司仿真部，陕西阎良 710089)
-
 摘要：起落架不能正常收放严重威胁飞行安全，迫切需要掌握其健康状态以便提前预防故障发生。以典型支线客机的起落架收放系统为研究对象，探索了对不同故障模式下的健康程度进行评估的方法。利用AMESim软件建立了该系统的仿真模型，研究液压回路中元件参数性能变化对系统工作性能的影响。选取系统输出参数，提取故障特征，利用神经网络算法实现了系统的健康评估。结论表明该方法是可行的，为新一代飞机起落架液压收放系统的健康评估提供了思路。
 
 关键词：飞机液压系统；起落架收放；故障模式；AMESim仿真；健康评估；神经网络  中图分类号：TP3 文献标志码：A 文章编号：1000- 2758（2016）06- 0990- 06
@@ -366,17 +398,3 @@ $$
 4 结论本文根据典型支线客机起落架收放系统的结构和参数，通过AMESim软件建立系统模型，仿真了电磁换向阀开口量不足、作动筒泄漏、液压泵泄漏等问
 
 题引起的输出参数变化，从中选取典型故障和参数进行了健康评估。结果证明，对起落架收放系统的故障特征选取合理，健康评估结果较理想。通过该方法可以及时掌握系统的健康状态，从而为视情维修提供依据，提前预防故障发生。本文对新研飞机起落架液压收放系统的健康评估提供了一种思路和方法。
-
-# 参考文献：
-
-参考文献：[1] Zhang Huiguo, Kang Rui, Recht Michael. A Hybrid Prognostics and Health Management Approach for Condition- Based Maintenance [J] //IEEE International Conference on Industrial Engineering and Engineering Management, 2009: 1165- 1169[2] Ahmadi Alireza, Fransson Torbjorn, Crona Anneli, et al. Integration of RCM and PHM for the Next Generation of Aircraft [J] //IEEE Aerospace Conference, 2009: 1- 9[3] 曹惠玲，黄乐腾，李志伟，庞思凯. 基于SOM神经网络的航空发动机滑油系统健康评估. 中国民航大学学报，2014，32(6):19- 22Cao Huiling, Huang Leteng, Li Zhiwei, Pang Sikai. Health Assessment Study of Aero- Engine Oil System Based on SOM Neural Network [J]. Journal of Civil Aviation University of China, 2014, 32(6):19- 22 (in Chinese)[4] 赵四军，王少萍，尚耀星. 飞机液压泵源预测与健康管理系统. 北京航空航天大学学报，2010，36(1):14- 17Zhao Sijun, Wang Shaoping, Shang Yaoxing. Prognostics and Health Management System of Hydraulic Power Supply [J]. Journal of Beijing University of Aeronautics and Astronautics, 2010, 36(1):14- 17 (in Chinese)[5] 张金春，张继军，曹彪. 基于HMM的机载设备状态健康评估方法研究. 计算机测量与控制，2015，23(2):491- 493Zhang Jinchun, Zhang Jijun, Cao Biao. Research on State Health Evaluation Method of Airborne Equipment Based on HMM [J]. Computer Measurement & Control. 2015, 23(2):491- 493 (in Chinese)[6] 崔建国，林泽力，陈希成，等. 飞机液压系统健康状态综合评估技术研究. 控制工程，2014，21(3):446- 449Cui Jianguo, Lin Zeli, Chen Xicheng, et al. Research on Health Assessment of the Aircraft Hydraulic System [J]. Control Engineering of China, 2014, 21(3):446- 449 (in Chinese)[7] Phillips Paul, Diston Dominic, Starr Andrew. Perspectives on the Commercial Development of Landing Gear Health Monitoring Systems [J]. Transportation Research Part C, 2011, 19:1339- 1352[8] Yang Yang. Aircraft Landing Gear Extension and Retraction Control System Diagnostics Prognostics and Health Management [J]. United Kingdom, Cranfield University, 2012[9] Gokdere L U, Chiu S L, Keller K J, et al. Lifetime Control of Electromechanical Actuators [J]. //IEEE Aerospace conference, United States, 2005:3523- 3531[10] Batzel T D, Swanson D C. Prognostic Health Management of Aircraft Power Generators [J]. IEEE Trans on Aerospace & Electronic Systems. 2009, 45(2):473- 483[11] 展毅，肖翔，李楠. 大型飞机起落架收放控制系统仿真. 北京航空航天大学学报，2013，39(5):595- 599Tu Yi, Xiao Xiang, Li Nan. Computer Analysis of Large- scale Aircraft Landing Gear Retraction and Extension Control System [J]. Journal of Beijing University of Aeronautics and Astronautics, 2013, 39(5):595- 599 (in Chinese)[12] 朱武峰，李旭东，丁文勇，林明. 飞机起落架液压收放系统仿真分析与维修应用. 液压与气动，2013(6):87- 90Zhu Wufeng, Li Xudong, Ding Wenyong, Lin Ming. Simulation and Maintenance of Aircraft Landing Gear Hydraulic System [J]. Chinese Hydraulics & Pneumatics, 2013(6):87- 90 (in Chinese)[13] 于方圆，高永，程钊. 起落架液压收放系统建模与故障仿真. 液压与气动，2012(4):45- 48Yu Fangyuan, Gao Yong, Cheng Zhao. Modeling and Fault Simulation of Landing Gear Retraction System [J]. Chinese Hydraulics & Pneumatics, 2013(4):45- 48 (in Chinese)
-
-[4]张强，于辉，童明波.某型飞机起落架收放过程仿真.流体传动与控制，2009，2:29- 31 Zhang Qiang, Yu Hui, Tong Mingbo. Simulation of Extending and Retracting Process for Aircraft Landing Gear . Fluid Power Transmission and Control,2009,2:29- 31 (in Chinese) [5]周小军，姜乐华，高经纬.基于AMESim的液压缸内泄漏仿真分析.机床与液压，2012，40(23)：147- 150 Zhou Xiaojun, Jiang Lehua, Gao Jingwei. Simulation Analysis for Inner Leakage of Hydraulic Cylinder Based on AMESim Machine Tool & Hydraulics,2012,40(23) :147- 150 (in Chinese) [6]夏鹤鸣，王鸿鑫.基于AMESim飞机液压能源系统用户可用压力仿真计算.机械设计与制造工程.2014，43(7)： 20- 23 Xia Heming, Wang Hongxin. The Simulation of Pressure Available to the User in Aircraft Hydraulic Energy System Based on AMESim . Machine Design and Manufacturing Engineering,2012,40(23) :147- 150 ( in Chinese) [7]梁丽媛.飞机起落架收放系统仿真与健康评估.西安：西北工业大学，2014 Liang Liai. Aircraft Landing Gear Retraction/Extension System Simulation and Health Assessment [D]. Xi'an, Northwestern Polytechnical University,2014 ( in Chinese) [8任占勇.航空电子产品预测与健康管理技术M.北京：国防工业出版社，2013 Ren Zhanyong. Prognostics and Health Management Technology for Avionics [M. Beijing, National Defence Industry Press, 2013 ( in Chinese) [9史峰，王辉，郁磊等.MATLAB智能算法30个案例分析M.北京：北京航空航天大学出版社，2011 Shi Feng, Wang Hui, Yu Lei, et al. 30 Cases Analysis of MATLAB Intelligence Algorithms [M. Beijing, Beihang University Press,2011 ( in Chinese)
-
-# Multiple Failure Simulation and Health Evaluation of Aircraft Landing Gear Hydraulic Retraction/Extension System
-
-He Lin, Liang Liai, Ma Cunbao 1. School of Aeronautics, Northwestern Polytechnical University, Xi'an 710072, China 2. Xi'an Feibao Technology Development Company, Yanliang 710089, China
-
-Abstract: Abnormal landing gear retraction/extension (R/E) will make the aircraft unable to land and endanger the flight safety. It is necessary to prevent the failure and avoid the accident by knowing its health condition. A multiple failure modes based health evaluation of aircraft landing gear hydraulic R/E system is developed. For typical regional aircraft, a simulation model of this system is built by AMESim software. The effects of degradation of different component parameters in the hydraulic loop are calculated and fault characteristics are extracted. Health evaluation is performed through neural network algorithm. Simulation and calculation results show that the fault characteristics are reasonable and this method is feasible, which provide a way for health evaluation of new generation aircraft landing gear hydraulic R/E system.
-
-Keywords: aircraft hydraulic system; landing gear retraction/extension, failure mode, AMESim, health evaluation; neural network

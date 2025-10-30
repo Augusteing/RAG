@@ -1,0 +1,204 @@
+{
+  "entities": [
+    {
+      "name": "航空发动机健康状态预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "发动机健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "EnsembleBRB-SHAP模型",
+      "type": "模型"
+    },
+    {
+      "name": "数据驱动法",
+      "type": "研究方法"
+    },
+    {
+      "name": "置信规则库 (BRB)",
+      "type": "模型"
+    },
+    {
+      "name": "集成置信规则库 (EnsembleBRB)",
+      "type": "模型"
+    },
+    {
+      "name": "沙普利加性解释 (SHAP)",
+      "type": "理论基础"
+    },
+    {
+      "name": "C-MAPSS数据集",
+      "type": "数据集"
+    },
+    {
+      "name": "低压涡轮机冷却液泄漏量 (LPT_CB)",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "风扇转速 (PFS)",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "高压压缩机出口燃料流量与静压比 (R_FL_P)",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "均方误差 (MSE)",
+      "type": "性能指标"
+    },
+    {
+      "name": "基于物理模型 (PbMs)",
+      "type": "研究方法"
+    },
+    {
+      "name": "基于数据驱动模型 (DDMs)",
+      "type": "研究方法"
+    },
+    {
+      "name": "集成学习",
+      "type": "算法"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "健康状态 (HS)",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "剩余使用寿命 (RUL)",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "Bagging框架",
+      "type": "算法"
+    },
+    {
+      "name": "KernelSHAP",
+      "type": "算法"
+    },
+    {
+      "name": "Python",
+      "type": "软件工具"
+    },
+    {
+      "name": "SHAP库",
+      "type": "软件工具"
+    },
+    {
+      "name": "支持向量机",
+      "type": "算法"
+    },
+    {
+      "name": "决策树",
+      "type": "算法"
+    },
+    {
+      "name": "梯度提升回归",
+      "type": "算法"
+    },
+    {
+      "name": "Lasso算法",
+      "type": "算法"
+    },
+    {
+      "name": "多层感知机",
+      "type": "算法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "EnsembleBRB-SHAP模型",
+      "relation": "用于",
+      "tail": "航空发动机健康状态预测"
+    },
+    {
+      "head": "数据驱动法",
+      "relation": "用于训练",
+      "tail": "置信规则库 (BRB)"
+    },
+    {
+      "head": "集成置信规则库 (EnsembleBRB)",
+      "relation": "基于",
+      "tail": "置信规则库 (BRB)"
+    },
+    {
+      "head": "沙普利加性解释 (SHAP)",
+      "relation": "用于分析",
+      "tail": "集成置信规则库 (EnsembleBRB)"
+    },
+    {
+      "head": "C-MAPSS数据集",
+      "relation": "用于验证",
+      "tail": "EnsembleBRB-SHAP模型"
+    },
+    {
+      "head": "低压涡轮机冷却液泄漏量 (LPT_CB)",
+      "relation": "影响",
+      "tail": "健康状态 (HS)"
+    },
+    {
+      "head": "风扇转速 (PFS)",
+      "relation": "影响",
+      "tail": "健康状态 (HS)"
+    },
+    {
+      "head": "高压压缩机出口燃料流量与静压比 (R_FL_P)",
+      "relation": "影响",
+      "tail": "健康状态 (HS)"
+    },
+    {
+      "head": "集成学习",
+      "relation": "用于",
+      "tail": "集成置信规则库 (EnsembleBRB)"
+    },
+    {
+      "head": "Bagging框架",
+      "relation": "用于",
+      "tail": "集成置信规则库 (EnsembleBRB)"
+    },
+    {
+      "head": "KernelSHAP",
+      "relation": "用于",
+      "tail": "沙普利加性解释 (SHAP)"
+    },
+    {
+      "head": "Python",
+      "relation": "用于实现",
+      "tail": "SHAP库"
+    },
+    {
+      "head": "集成置信规则库 (EnsembleBRB)",
+      "relation": "优于",
+      "tail": "支持向量机"
+    },
+    {
+      "head": "集成置信规则库 (EnsembleBRB)",
+      "relation": "优于",
+      "tail": "决策树"
+    },
+    {
+      "head": "集成置信规则库 (EnsembleBRB)",
+      "relation": "优于",
+      "tail": "梯度提升回归"
+    },
+    {
+      "head": "集成置信规则库 (EnsembleBRB)",
+      "relation": "优于",
+      "tail": "Lasso算法"
+    },
+    {
+      "head": "集成置信规则库 (EnsembleBRB)",
+      "relation": "优于",
+      "tail": "多层感知机"
+    },
+    {
+      "head": "均方误差 (MSE)",
+      "relation": "评价指标是",
+      "tail": "航空发动机健康状态预测"
+    }
+  ]
+}

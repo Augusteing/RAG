@@ -17,7 +17,11 @@
       "type": "理论基础"
     },
     {
-      "name": "长短记忆神经网络模型 (LSTM)",
+      "name": "关键参量",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "长短记忆神经网络 (LSTM)",
       "type": "模型"
     },
     {
@@ -41,6 +45,22 @@
       "type": "传感器/监测参数"
     },
     {
+      "name": "Simulink",
+      "type": "软件工具"
+    },
+    {
+      "name": "喘振仿真模型",
+      "type": "模型"
+    },
+    {
+      "name": "深度循环神经网络",
+      "type": "模型"
+    },
+    {
+      "name": "反向传播算法 (BPTT)",
+      "type": "算法"
+    },
+    {
       "name": "均方根误差 (RMSE)",
       "type": "性能指标"
     },
@@ -53,19 +73,19 @@
       "type": "性能指标"
     },
     {
-      "name": "Simulink",
-      "type": "软件工具"
+      "name": "预测模型",
+      "type": "模型"
     },
     {
-      "name": "仿真数据",
-      "type": "数据集"
+      "name": "基于模型的系统仿真方法",
+      "type": "研究方法"
     },
     {
-      "name": "BPTT算法",
-      "type": "算法"
+      "name": "双轴混合排气涡轮风扇发动机",
+      "type": "系统/部件"
     },
     {
-      "name": "M-G模型",
+      "name": "Greitzer模型",
       "type": "模型"
     },
     {
@@ -73,23 +93,15 @@
       "type": "故障模式"
     },
     {
-      "name": "双轴混合排气涡轮风扇发动机",
-      "type": "系统/部件"
-    },
-    {
-      "name": "关键参量",
-      "type": "传感器/监测参数"
-    },
-    {
-      "name": "发动机运行稳定",
-      "type": "特征/健康指标"
+      "name": "M-G模型",
+      "type": "模型"
     }
   ],
   "relations": [
     {
       "head": "喘振故障",
-      "relation": "破坏",
-      "tail": "发动机运行稳定"
+      "relation": "是...的故障",
+      "tail": "航空发动机"
     },
     {
       "head": "发动机整体仿真模型",
@@ -98,78 +110,93 @@
     },
     {
       "head": "发动机整体仿真模型",
-      "relation": "使用工具",
-      "tail": "Simulink"
-    },
-    {
-      "head": "发动机整体仿真模型",
       "relation": "模拟",
-      "tail": "喘振故障"
-    },
-    {
-      "head": "关键参量",
-      "relation": "表征",
-      "tail": "喘振故障"
-    },
-    {
-      "head": "压气机出口压力",
-      "relation": "是",
       "tail": "关键参量"
     },
     {
-      "head": "燃烧室出口温度",
-      "relation": "是",
-      "tail": "关键参量"
-    },
-    {
-      "head": "长短记忆神经网络模型 (LSTM)",
+      "head": "长短记忆神经网络 (LSTM)",
       "relation": "用于",
       "tail": "趋势预测"
     },
     {
-      "head": "长短记忆神经网络模型 (LSTM)",
+      "head": "长短记忆神经网络 (LSTM)",
       "relation": "预测",
       "tail": "压气机出口压力"
     },
     {
-      "head": "长短记忆神经网络模型 (LSTM)",
+      "head": "长短记忆神经网络 (LSTM)",
       "relation": "预测",
       "tail": "燃烧室出口温度"
     },
     {
-      "head": "仿真数据",
-      "relation": "用于验证",
-      "tail": "长短记忆神经网络模型 (LSTM)"
+      "head": "压气机出口压力",
+      "relation": "是...的关键参量",
+      "tail": "喘振故障"
     },
     {
-      "head": "BPTT算法",
-      "relation": "用于训练",
-      "tail": "长短记忆神经网络模型 (LSTM)"
+      "head": "燃烧室出口温度",
+      "relation": "是...的关键参量",
+      "tail": "喘振故障"
     },
     {
-      "head": "长短记忆神经网络模型 (LSTM)",
+      "head": "喘振仿真模型",
+      "relation": "采用",
+      "tail": "Simulink"
+    },
+    {
+      "head": "长短记忆神经网络 (LSTM)",
+      "relation": "是一种",
+      "tail": "深度循环神经网络"
+    },
+    {
+      "head": "长短记忆神经网络 (LSTM)",
+      "relation": "训练采用",
+      "tail": "反向传播算法 (BPTT)"
+    },
+    {
+      "head": "长短记忆神经网络 (LSTM)",
+      "relation": "对比",
+      "tail": "BP神经网络"
+    },
+    {
+      "head": "长短记忆神经网络 (LSTM)",
+      "relation": "对比",
+      "tail": "SVM网络"
+    },
+    {
+      "head": "长短记忆神经网络 (LSTM)",
       "relation": "预测精度高于",
       "tail": "BP神经网络"
     },
     {
-      "head": "长短记忆神经网络模型 (LSTM)",
+      "head": "长短记忆神经网络 (LSTM)",
       "relation": "预测精度高于",
       "tail": "SVM网络"
     },
     {
       "head": "均方根误差 (RMSE)",
-      "relation": "用于评估",
-      "tail": "长短记忆神经网络模型 (LSTM)"
+      "relation": "是...的评价指标",
+      "tail": "预测模型"
     },
     {
       "head": "平均绝对误差 (MAE)",
-      "relation": "用于评估",
-      "tail": "长短记忆神经网络模型 (LSTM)"
+      "relation": "是...的评价指标",
+      "tail": "预测模型"
     },
     {
       "head": "平均相对误差 (MAPE)",
-      "relation": "用于评估",
-      "tail": "长短记忆神经网络模型 (LSTM)"
+      "relation": "是...的评价指标",
+      "tail": "预测模型"
+    },
+    {
+      "head": "基于模型的系统仿真方法",
+      "relation": "用于模拟",
+      "tail": "喘振故障"
+    },
+    {
+      "head": "Greitzer模型",
+      "relation": "用于分析",
+      "tail": "压缩机失稳现象"
     },
     {
       "head": "M-G模型",

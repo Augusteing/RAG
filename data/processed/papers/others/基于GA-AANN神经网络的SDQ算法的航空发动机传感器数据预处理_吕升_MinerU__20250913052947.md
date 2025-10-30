@@ -188,13 +188,3 @@ Fig.7 GA-AANN network filter noise results
 满足实际性能需求
 
 （4）本文提出的优化后的SDQ算法在多故障诊断和除噪方面性能优异，处理后的传感器信号平均信噪比提高了8.27dB
-
-# 参考文献：
-
-[1] 龚志飞，郭迎清，基于主元分析法的航空发动机传感器故障诊断研究[J].计算机测量与控制，2012，20(8). [2] 叶志锋，孙建国，应用神经网络诊断航空发动机气路故障的前景[J].推进技术，2002，23（1）：1- 4.（YE Zhi- feng，SUN Jian- guo. Prospect for Neural Networks Used Aeroengine Fault Diagnosis Technology[J]. Journal of Propulsion Technology，2002，23（1）:1- 4.） [3] 张书刚，郭迎清，陈小磊，航空发动机故障诊断系统性能评价与仿真验证[J].推进技术，2013，34（8）：1121- 1127. （ZHANG Shu- gang，GUO Ying- qing，CHEN Xiao- lei. Performance Evaluation and Simula-
-
-tion Validation of Fault Diagnosis System for Aircraft Engine [J]. Journal of Propulsion Technology, 2013, 34 (8):1121- 1127. [4] Maul W A, Melcher K J, Chicatelli A K, et al. Sensor Data Qualification for Autonomous Operation of Space Systems[R]. AIAA FS- 06- 07. [5] Melcher K J, Fulton C E, Maul W A, et al. Development and Application of a Portable Health Algorithms Test System[R]. NASA/TM 2007- 214840. [6] Hines J, Uhrig R. Use of Autoassociative Neural Networks for Signal Validation[J]. Journal of Intelligent & Robotic Systems, 1998, 21(2):143- 154. [7] 崔文斌, 叶志锋, 彭利方. 基于信息融合遗传算法的航空发动机气路故障诊断[J]. 航空动力学报, 2015, 30(5):1275- 1280. [8] Wong E, Fulton C E, Maul W A, et al. Sensor Data Qualification System (SDQS) Implementation Study [R]. NASA/TM 2009- 215442. [9] Guo- Jian H, Gui- Xiong L, Geng- Xin C, et al. Self- Recovery Method Based on Auto- Associative Neural Network for Intelligent Sensors[C]. Jinan: 8th World Congress on Intelligent Control and Automation (WCI- C4), 2010. [10] Reyes J, Vellasco M, Tanscheit R. Measurement Correction for Multiple Sensors Using Modified Autoassociative Neural Networks[J]. Neural Computing & Applications, 2013, 24(7- 8).
-
-[11] 刘浩然. 一种基于改进遗传算法的神经网络优化算法研究[J]. 仪器仪表学报, 2016, 37(7):1573- 1580. [12] 张书刚, 郭迎清, 陆军. 基于GasTurb/MATLAB的航空发动机部件级模型研究[J]. 航空动力学报, 2012, 27(12):2850- 2856. [13] Guo T, Mattern D, Jaw L, et al. Model- Based Sensor Validation for a Turbofan Engine Using Autoassociative Neural Networks[J]. International Journal of Smart Engineering System Design, 2003, 5(1):21- 32. [14] Meskin N. Multiple- Model Sensor and Components Fault Diagnosis in Gas Turbine Engines Using Autoassociative Neural Networks[J]. Neural Computing & Applications, 2013, 24(7- 8). [15] 王清, 招启军. 基于遗传算法的旋翼翼型综合气动优化设计[J]. 航空动力学报, 2016, 31(6):1486- 1495. [16] Jeffrey T Csank, Donald L Simon. Sensor Data Qualification Technique Applied to Gas Turbine Engines [R]. NASA/TM 2013- 216609. [17] Simon D L, Bird J, Davison C, et al. Benchmarking Gas Path Diagnostic Methods: A Public Approach [R]. ASME 2008- GT- 51360. [18] Simon D L. Propulsion Diagnostic Method Evaluation Strategy (ProDIMES) User S Guide [R]. NASA/TM 2010- 21.
-
-（编辑：朱立影）

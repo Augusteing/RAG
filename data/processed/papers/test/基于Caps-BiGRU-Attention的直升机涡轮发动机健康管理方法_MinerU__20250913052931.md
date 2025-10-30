@@ -8,8 +8,6 @@ ZHANG Zhenliang $^{1,2}$ ，BI Junxi $^{3}$ ，HE Rongrong $^{1}$ ，CUI Zhe $^{
 
 (1. Ordos Institute of Technology, Comac Aviation College, Ordos, 017000, China;2. Inner Mongolia University of Technology, College of Science, Hohhot, 010051, China3. Inner Mongolia University of Technology, College of Aeronautics, Hohhot, 010051, China)
 
-are beta distributions, providing important references for the health management of helicopter turbo engines.
-
 通用航空作为航空产业的重要组成部分，近年来在全球范围内得到了迅速发展。在紧急医疗救援、搜索与救援、运输与巡逻任务中，直升机由于其独特的垂直起降能力和灵活的机动性能，在其中扮演着不可或缺的角色。
 
 直升机的可靠运行在很大程度上依赖于其发动机的健康状态。发动机作为直升机的核心部件之一，其故障不仅会影响飞行任务的完成，还可能对飞行安全构成威胁。特别是发动机扭矩的异常变化，常常预示着潜在的机械问题。因此，对直升机发动机进行故障诊断与健康管理，是确保其高效运行的关键。
@@ -288,50 +286,3 @@ Table 4 Table of fitting parameters for the probability density function of segm
 文章使用胶囊网络替代传统卷积网络用于提取特征，结合SE注意力机制以及BiGRU网络用于直升机发动机故障诊断及扭矩裕度预测并达到了良好的效果，利用SHAP量化了不同特征对于故障以及健康指标的影响程度，总结了有利于直升机涡轮发动机健康管理的环境条件以及运行环境，揭示了特征对于发动机故障和扭矩裕度的影响机理，最后针对验证集和测试集的扭矩裕度的分布进行了拟合，得到了最优分布贝塔分布以及涡轮发动机严重失效、轻微失效、衰减状态以及健康状态四种状态的区间，可用于维修方案设计以及健康管理。
 
 后续将尝试寻找符合全寿命周期的概率密度函数分布，归纳衰减状态的故障规律，将概率密度函数结合深度学习模型来完善健康管理方案，并结合有限元分析方法、材料弹塑性理论以及热机耦合理论，建立面向直升机发动机健康管理的时变参数模型、结构失效模型和维修管理体系，揭示涡轮发动机失效的相互作用机理，为科学评估和预报涡轮发动机系统的服役性能提供方法与理论支撑。
-
-# 参考文献：
-
-[1]侯波，徐冠峰，闫慧娟，等.某型直升机主桨叶大梁断裂故障分析[J].航空动力学报.2023，38(6):1489- 1495. Hou Bo，X U. Guanfeng，Yan Hujuan, et al. Fracture fault analysis of main blades girder on a helicopter[J].Journal of Aerospace Power.2023,38(6):1489- 1495. (in Chinese) [2]Leoni J, Tanelli M, Palman A. A new comprehensive monitoring and diagnostic approach for early detection of mechanical degradation in helicopter transmission systems[J]. Expert Systems with Applications. 2022,210:118412. [3]Mironov A, Doronkin P. The Demonstrator of Structural Health Monitoring System of Helicopter Composite Blades[J]. Procedia Structural Integrity. 2022, 37: 241- 249. [4]万安平，龚志鹏，王景霖，等.多工况直升机附
-
-件齿轮箱振动故障诊断[J].振动、测试与诊断.2024， 44(2):246- 252.
-
-Wan Anping，Gong Zhipeng，Wang Jinglin, et al. Vibration Fault Diagnosis of Helicopter Accessory Gearbox Under Multi- operating Conditions[J]. Journal of Vibration. Measurement & Diagnosis.2024,44(2): 246- 252. (in Chinese) [5] Sun K, Yin A, Lu S. Domain distribution variation learning via adversarial adaption for helicopter transmission system fault diagnosis[J]. Mechanical Systems and Signal Processing.2024,215:111419. [6]Mironov A, Doronkin P, Priklonsky A, et al. The Role of Advanced Technologies of Vibration Diagnostics to Provide Efficiency of Helicopter Life Cycle[J]. Procedia Engineering.2017,178:96- 106. [7]Ouyang L, Jin N, Bai L, et al. Soft measurement of oil - water two- phase flow using a multi- task sequence- based CapsNet[J]. ISA Transactions.2023,137:629- 645. [8]Moudgil A, Singh S, Rani S, et al. Deep learning for ancient scripts recognition: A CapsNet- LSTM based approach[J]. Alexandria Engineering Journal.2024,103:169- 179. [9]Li X, Jiang H, Liu Y, et al. An integrated deep multiscale feature fusion network for aeroengine remaining useful life prediction with multisensor data[J]. Knowledge- Based Systems.2022,235:107652. [10]Lyu F, Liu J, Chen L, et al. 3D in- situ stress prediction for shale reservoirs based on the CapsNet- BiLSTM hybrid model[J]. International Journal of Rock Mechanics and Mining Sciences.2024,183:105937.
-
-[11]Nizarudeen S, Shanmughavel G R. Comparative analysis of ResNet, ResNet- SE, and attention- based RaNet for hemorrhage classification in CT images using deep learning[J]. Biomedical Signal Processing and Control.2024,88:105672.
-
-[12]管智峰.基于特征优选和ESPBO- HKELM的变压器故障诊断研究[D].阜新：辽宁工程技术大学，2023.
-
-Zhi Feng Guan. Research on Transformer Fault Diagnosis Based on Feature Selection and ESPBO- HKELM. Fuxin: Liaoning Technical University, 2023. (in Chinese) [13]Wen H, Liu B, Di M, et al. A SHAP- enhanced XGBoost model for interpretable prediction of coseismic landslides[J]. Advances in Space Research. 2024, 74(8):3826- 3854.
-
-[14] Lu Y, Tang L, Liu Z, et al. Unsupervised quantitative structural damage identification method based on BiLSTM networks and probability distribution model[J]. Journal of Sound and Vibration. 2024, 590:118597.
-
-[15]张雄，张逸轩，张明，等.基于小波包散布熵与Meanshift概率密度估计的轴承故障识别方法研究[J].湖南大学学报（自然科学版）.2021，48(8)：
-
-133- 140.
-
-Zhang Xiong, Zhang Yixuan, Zhang Ming, et al. Research on Bearing Fault Identification Method Based on Wavelet Packet Dispersion Entropy and Meanshift Probability Density Estimation[J]. Journal of Hunan University(Natural Sciences). 2021, 48(8): 133- 140. (in Chinese)
-
-[16] Zhang G, Wang Y, Li X, et al. Health indicator based on signal probability distribution measures for machinery condition monitoring[J]. Mechanical Systems and Signal Processing. 2023, 108: 110460.
-
-[17] Zhang S, Liang W, Zhao W, et al. Electro hydraulic SBW fault diagnosis method based on novel 1DCNN- LSTM with attention mechanisms and transfer learning[J]. Mechanical Systems and Signal Processing. 2024, 220: 111644.
-
-[18] Chen R, Shen H, Zhao Z, et al. Global routing between capsules[J]. Pattern Recognition. 2024, 148: 110142.
-
-[19] Zhang T, Jia J, Chen C, et al. BiGRUD- SA: Protein S- sulfenylation sites prediction based on BiGRU and self- attention[J]. Computers in Biology and Medicine. 2023, 163: 107145.
-
-[20] Saad Shakeel M. CAAM: A calibrated augmented attention module for masked face recognition[J]. Journal of Visual Communication and Image Representation. 2024, 104: 104315.
-
-[21] Zhou G, Hu G, Zhang D, et al. A novel algorithm system for wind power prediction based on RANSAC data screening and Seq2Seq- Attention- BiGRU model[J]. Energy. 2023, 283: 128986.
-
-[22] Ye M, Li L, Yoo D, et al. Prediction of shear strength in UHPC beams using machine learning- based models and SHAP interpretation[J]. Construction and Building Materials. 2023, 408: 133752.
-
-[23] Kashifi M T. Investigating two- wheelers risk factors for severe crashes using an interpretable machine learning approach and SHAP analysis[J]. IATSS Research. 2023, 47(3): 357- 371.
-
-[24] Serafini J, Bernardini G, Porcelli R, et al. In- flight health monitoring of helicopter blades via differential analysis[J]. Aerospace Science and Technology. 2019, 88: 436- 443.
-
-[25] Lin Z, Cai Y, Liu W, et al. Estimating the state of health of lithium- ion batteries based on a probability density function[J]. International Journal of Electrochemical Science. 2023, 18(6): 100137.
-
-[26] 吴涵, 袁越, 侯语涵, 等. 配电网理论线损概率分布函数的计算与分析[J]. 中国电机工程学报. 2024, 44(16): 6444- 6454.
-
-W. 
-U. Han, Yuan Yue, Hou Yuhan, et al. Computation and Analysis of Theoretic Line Loss Probability Distribution Function of Distribution Network[J]. Proceedings of the CSEE. 2024, 44(16): 6444-6454. (in Chinese)

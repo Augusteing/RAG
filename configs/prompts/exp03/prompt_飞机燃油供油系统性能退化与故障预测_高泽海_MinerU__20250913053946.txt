@@ -138,178 +138,58 @@
       "type": "系统/部件"
     },
     {
-      "name": "健康参数",
-      "type": "参数"
+      "name": "健康管理技术",
+      "type": "研究方法"
     },
     {
-      "name": "性能退化",
-      "type": "概念"
+      "name": "第四代发动机",
+      "type": "系统/部件"
     },
     {
-      "name": "推力的减少",
-      "type": "研究结果"
+      "name": "健康管理系统",
+      "type": "系统/部件"
     },
     {
-      "name": "耗油率的增加",
-      "type": "研究结果"
+      "name": "维修建议",
+      "type": "研究方法"
     },
     {
-      "name": "转子部件效率的降低",
-      "type": "研究结果"
+      "name": "健康评估服务",
+      "type": "系统/部件"
     },
     {
-      "name": "参数估计",
-      "type": "技术"
+      "name": "故障诊断",
+      "type": "研究方法"
     },
     {
-      "name": "部件健康参数",
-      "type": "参数"
+      "name": "健康评估",
+      "type": "研究方法"
     },
     {
-      "name": "健康参数变化速率",
-      "type": "参数"
-    },
-    {
-      "name": "故障预测",
-      "type": "研究问题"
-    },
-    {
-      "name": "非线性特性",
-      "type": "问题特性"
-    },
-    {
-      "name": "故障监控模型",
-      "type": "模型"
-    },
-    {
-      "name": "基于遗传算法的小波神经网络故障预测模型",
-      "type": "模型"
-    },
-    {
-      "name": "遗传算法",
-      "type": "算法"
-    },
-    {
-      "name": "小波神经网络",
-      "type": "网络"
-    },
-    {
-      "name": "遗传算法全局优化搜索能力",
-      "type": "能力"
-    },
-    {
-      "name": "小波神经网络良好局部特性",
-      "type": "能力"
-    },
-    {
-      "name": "BP神经网络",
-      "type": "网络"
-    },
-    {
-      "name": "BP神经网络缺陷",
-      "type": "问题"
-    },
-    {
-      "name": "管道压力",
-      "type": "监控参数"
-    },
-    {
-      "name": "温度",
-      "type": "监控参数"
-    },
-    {
-      "name": "过度维修",
-      "type": "问题"
-    },
-    {
-      "name": "基于模型的控制和健康管理",
-      "type": "技术领域"
-    },
-    {
-      "name": "推进控制系统",
-      "type": "系统"
-    },
-    {
-      "name": "健康管理",
-      "type": "技术"
-    },
-    {
-      "name": "高精度自适应发动机模型",
-      "type": "模型"
-    },
-    {
-      "name": "自适应发动机模型",
-      "type": "模型"
-    },
-    {
-      "name": "航空发动机故障",
-      "type": ""
-    },
-    {
-      "name": "不可测量的状态参数",
-      "type": ""
+      "name": "状态监测",
+      "type": "研究方法"
     }
   ],
   "relations": [
     {
-      "head": "性能退化",
-      "relation": "反映在",
-      "tail": "推力的减少"
+      "head": "航空发动机",
+      "relation": "需要",
+      "tail": "健康管理技术"
     },
     {
-      "head": "性能退化",
-      "relation": "反映在",
-      "tail": "耗油率的增加"
+      "head": "第四代发动机",
+      "relation": "配备",
+      "tail": "健康管理系统"
     },
     {
-      "head": "耗油率的增加",
-      "relation": "反映出",
-      "tail": "转子部件效率的降低"
+      "head": "健康管理系统",
+      "relation": "提出",
+      "tail": "维修建议"
     },
     {
-      "head": "参数估计",
-      "relation": "用于得到",
-      "tail": "部件健康参数"
-    },
-    {
-      "head": "健康参数变化速率",
-      "relation": "用于预测",
-      "tail": "航空发动机故障"
-    },
-    {
-      "head": "基于遗传算法的小波神经网络故障预测模型",
-      "relation": "提出用于",
-      "tail": "故障预测"
-    },
-    {
-      "head": "基于遗传算法的小波神经网络故障预测模型",
-      "relation": "结合",
-      "tail": "遗传算法全局优化搜索能力"
-    },
-    {
-      "head": "基于遗传算法的小波神经网络故障预测模型",
-      "relation": "结合",
-      "tail": "小波神经网络良好局部特性"
-    },
-    {
-      "head": "遗传算法",
-      "relation": "优化",
-      "tail": "小波神经网络"
-    },
-    {
-      "head": "基于遗传算法的小波神经网络故障预测模型",
-      "relation": "避免",
-      "tail": "BP神经网络缺陷"
-    },
-    {
-      "head": "基于模型的控制和健康管理",
-      "relation": "在...实时运行",
-      "tail": "高精度自适应发动机模型"
-    },
-    {
-      "head": "高精度自适应发动机模型",
-      "relation": "利用...估计",
-      "tail": "不可测量的状态参数"
+      "head": "健康评估服务",
+      "relation": "执行",
+      "tail": "健康评估"
     }
   ]
 }
@@ -340,12 +220,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 飞机燃油供油系统性能退化与故障预测
-
-高泽海，马存宝，宋东
-
-（西北工业大学航空学院，陕西西安 710072）
-
 摘要：飞机燃油系统对飞机的安全性有着重大的影响。在飞机燃油系统中应用健康管理技术，可以达到有效保证飞机飞行安全的目的。通过分析飞机燃油供油系统的工作状况，研究了飞机燃油供油系统因供油增压泵叶片磨损导致性能退化的过程，并利用Simulink建立了相应的性能退化模型，仿真了整个性能退化历程。给出了相应的飞机燃油供油系统健康状态指数；并利用灰色预测模型进行了故障预测。为飞机燃油系统的健康管理打下了基础，具有理论和实际的工程应用价值。
 
 关键词：飞机燃油供油系统；性能退化；健康状态指数；故障预测  中图分类号：V241.07 文献标志码：A 文章编号：1000- 2758（2015）02- 0209- 07
@@ -576,21 +450,3 @@ $$
 # 5结论
 
 5 结论本文针对飞机燃油供油系统，就其供油重要部件增压泵进行了详细的研究。分析了因增压泵叶片磨损导致增压泵性能退化的具体过程，利用Simulink建立了相应的模型，仿真得到了在不同燃油密度下的性能退化结果，并给出了相应的健康状态曲线。最后，利用灰色模型进行了预测。为飞机燃油系统的健康管理打下了基础。
-
-# 参考文献：
-
-参考文献：Shen T, Wan F Y, Cui W M, Song B F. Application of Prognostic and Health Management Technology on Aircraft Fuel System [J] //Proceedings of 2010 Prognostics & System Health Management Conference, 2010Narasimhan Sriram, Biswas Gautam. Model- Based Diagnosis of Hybrid Systems [J]. IEEE Trans on Systems Man Cybernetics: Systems, 2007, 37(3): 348- 361Ana Del Amo, Kirby Keller & Kevin Swearingen. General Reasoning System for Health Management [J] //Annual Meeting of the North American Fuzzy Information Processing Society, 2005: 19- 24冯震宙，高行山，刘永寿，岳珠峰.某型飞机燃油系统数值建模方法与仿真分析[.飞机设计，2007，27（5）：65- 71Feng Zhenzhou, Gao Hangshan, Liu Yongshou, Yue Zhufeng. Modeling and Simulation Analysis of an Airplane Fuel System [J. Aircraft Design, 2007, 27(5): 65- 71 (in Chinese)万婧，万方义，宋笔锋.虚拟仪器技术在飞机燃油系统健康监控中的应用[.机械设计与制造，2005，11：153- 154Wan Jing, Wan Fangyi, Song Bifeng. Applied Virtual Instrument Technology to Monitor the Health of Fuel System [J. Machinery Design & Manufacture, 2005, 11: 153- 154 (in Chinese)Matthew Daigle, Anibal Bregon, Indranil Roychoudhury. Distributed Damage Estimation for Prognostics Based on Structural Model Decomposition [J] //Annual Conference of the Prognostics and Health Management Society, 2011Matthew Daigle, Kai Goebel. Multiple Damage Progression Paths in Model- Based Prognostics [J] //Aerospace Conference, 2011: 1- 10Zhang R, Mahadevan S. Reliability- Based Reassessment of Corrosion Fatigue Life [J. Structural Safety, 2001, 23(11): 77- 91Gautam Biswas. A Hierarchical Model- Based Approach to Systems Health Management [J] //Aerospace Conference, 2007: 1- 14Patrick W Kalgren, Carl S, Byington P E, et al, Defining PHM, A Lexical Evolution of Maintenance and Logistics Autotestcon [J] //A UTOTESTCON 2006 Conference Record, 2006: 353- 358
-
-# Aircraft Fuel Feeding System Performance degradation and Failure Prediction
-
-Gao Zehai, Ma Cunbao, Song Dong (College of Aeronautics, Northwestern Polytechnical University, Xi'an 710072, China)
-
-Abstract: Aircraft fuel system has a major impact on the safety of a plane. In order to guarantee the safety of aircraft, a technology of PHM was used for aircraft fuel feeding system. The working conditions of aircraft fuel feeding system are analyzed; the process of performance degradation caused by the erosion of boost pump vane is studied. A corresponding simulation model is built with Simulink software and the process of performance degradation is simulated. The corresponding health indication of aircraft fuel feeding system is offered. According to the method above, failure is predicted with grey model. The research provides a foundation for the failure prediction of aircraft fuel feeding system. We believe that our research has some theoretical and practical engineering application value.
-
-Key words: aircraft, computer simulation, corrosion, erosion, errors, failure (mechanical), flow rate, flowcharting, forecasting, fuels, mathematical models, MATLAB, pressure, pumps, safety engineering, structural health, monitoring; aircraft fuel feeding system, boost pump vane failure prediction, health indication, grey model, performance degradation model, PHM (prognostic and health management)
-
-# 《机械科学与技术》2015年第3期英文摘要关键词平均使用2001年以后出现的Ei主题词1,697个
-
-《机械科学与技术》2015年第3期（第34卷第3期）共刊载33篇论文，英文摘要关键词共使用56个2001年以后（含2001年）出现的Ei主题词：1篇达到5个，2篇各达到4个，4篇各达到3个，13篇各达到2个，5篇各达到1个，8篇无。平均每篇1.697个  $(56\div 33)$  。
-
-胡沛泉  2015年4月

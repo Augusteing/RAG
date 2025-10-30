@@ -1,0 +1,140 @@
+{
+  "entities": [
+    {
+      "name": "涡扇发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "飞行试验数据",
+      "type": "数据集"
+    },
+    {
+      "name": "三层前向人工神经网络",
+      "type": "模型"
+    },
+    {
+      "name": "NNARX模型",
+      "type": "模型"
+    },
+    {
+      "name": "高压转子转速",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "低压涡轮出口总温",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "高压压气机出口压力",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "滑油回油温度",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "系统辨识",
+      "type": "研究方法"
+    },
+    {
+      "name": "实时监控",
+      "type": "应用场景"
+    },
+    {
+      "name": "健康管理",
+      "type": "研究领域"
+    },
+    {
+      "name": "LM算法",
+      "type": "算法"
+    },
+    {
+      "name": "MSE",
+      "type": "性能指标"
+    },
+    {
+      "name": "回归系数R",
+      "type": "性能指标"
+    },
+    {
+      "name": "NMSE",
+      "type": "性能指标"
+    },
+    {
+      "name": "最大相对误差",
+      "type": "性能指标"
+    }
+  ],
+  "relations": [
+    {
+      "head": "NNARX模型",
+      "relation": "基于",
+      "tail": "三层前向人工神经网络"
+    },
+    {
+      "head": "NNARX模型",
+      "relation": "使用",
+      "tail": "飞行试验数据"
+    },
+    {
+      "head": "NNARX模型",
+      "relation": "应用于",
+      "tail": "实时监控"
+    },
+    {
+      "head": "系统辨识",
+      "relation": "使用",
+      "tail": "三层前向人工神经网络"
+    },
+    {
+      "head": "三层前向人工神经网络",
+      "relation": "使用",
+      "tail": "LM算法"
+    },
+    {
+      "head": "NNARX模型",
+      "relation": "预测",
+      "tail": "高压转子转速"
+    },
+    {
+      "head": "NNARX模型",
+      "relation": "预测",
+      "tail": "低压涡轮出口总温"
+    },
+    {
+      "head": "NNARX模型",
+      "relation": "预测",
+      "tail": "高压压气机出口压力"
+    },
+    {
+      "head": "NNARX模型",
+      "relation": "预测",
+      "tail": "滑油回油温度"
+    },
+    {
+      "head": "NNARX模型",
+      "relation": "评价指标是",
+      "tail": "MSE"
+    },
+    {
+      "head": "NNARX模型",
+      "relation": "评价指标是",
+      "tail": "回归系数R"
+    },
+    {
+      "head": "NNARX模型",
+      "relation": "评价指标是",
+      "tail": "NMSE"
+    },
+    {
+      "head": "NNARX模型",
+      "relation": "评价指标是",
+      "tail": "最大相对误差"
+    },
+    {
+      "head": "系统辨识",
+      "relation": "提供参考",
+      "tail": "健康管理"
+    }
+  ]
+}

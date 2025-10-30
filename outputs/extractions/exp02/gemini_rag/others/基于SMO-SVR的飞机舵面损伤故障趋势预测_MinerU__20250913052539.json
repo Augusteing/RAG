@@ -1,32 +1,44 @@
 {
   "entities": [
     {
-      "name": "SMO-SVR预测方法",
-      "type": "模型"
-    },
-    {
-      "name": "飞机舵面损伤故障趋势预测",
+      "name": "改进的序贯最小优化支持向量回归预测方法",
       "type": "研究方法"
     },
     {
-      "name": "支持向量回归 (SVR)",
-      "type": "模型"
+      "name": "故障趋势预测",
+      "type": "研究领域"
     },
     {
-      "name": "序贯最小优化 (SMO) 算法",
-      "type": "算法"
+      "name": "状态参量",
+      "type": "传感器/监测参数"
     },
     {
       "name": "改进C-C平均方法",
       "type": "研究方法"
     },
     {
-      "name": "C-C方法",
-      "type": "研究方法"
+      "name": "多元时间序列",
+      "type": "数据集"
     },
     {
       "name": "相空间重构",
       "type": "研究方法"
+    },
+    {
+      "name": "最优嵌入维数 m",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "延迟时间 τd",
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "加权SVR预测模型",
+      "type": "模型"
+    },
+    {
+      "name": "SMO算法的停机准则",
+      "type": "算法"
     },
     {
       "name": "区间自适应粒子群算法 (IAPSO)",
@@ -34,43 +46,47 @@
     },
     {
       "name": "SVR参数",
-      "type": "模型"
+      "type": "特征/健康指标"
+    },
+    {
+      "name": "飞机方向舵损伤故障",
+      "type": "故障模式"
     },
     {
       "name": "径向基函数神经网络 (RBFNN)",
       "type": "模型"
     },
     {
-      "name": "飞机舵面损伤",
+      "name": "SMO-SVR预测模型",
+      "type": "模型"
+    },
+    {
+      "name": "飞控系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "舵面故障",
       "type": "故障模式"
     },
     {
-      "name": "多元时间序列",
-      "type": "数据集"
-    },
-    {
-      "name": "嵌入维数m",
-      "type": "特征/健康指标"
-    },
-    {
-      "name": "延迟时间τd",
-      "type": "特征/健康指标"
-    },
-    {
-      "name": "SMO算法的停机准则",
+      "name": "支持向量回归 (SVR)",
       "type": "算法"
     },
     {
       "name": "局部极小值问题",
-      "type": "问题"
+      "type": "理论基础"
+    },
+    {
+      "name": "C-C方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "神经网络方法",
+      "type": "研究方法"
     },
     {
       "name": "过学习问题",
-      "type": "问题"
-    },
-    {
-      "name": "偏航角速度r",
-      "type": "传感器/监测参数"
+      "type": "理论基础"
     },
     {
       "name": "平均绝对百分比误差 (eMAPE)",
@@ -79,60 +95,22 @@
     {
       "name": "均方根误差 (eRMSE)",
       "type": "性能指标"
-    },
-    {
-      "name": "加权SVR预测模型",
-      "type": "模型"
-    },
-    {
-      "name": "加权系数ρ",
-      "type": "模型"
     }
   ],
   "relations": [
     {
-      "head": "SMO-SVR预测方法",
-      "relation": "应用于",
-      "tail": "飞机舵面损伤故障趋势预测"
-    },
-    {
-      "head": "SMO-SVR预测方法",
-      "relation": "建立了",
-      "tail": "加权SVR预测模型"
-    },
-    {
-      "head": "加权SVR预测模型",
-      "relation": "基于",
-      "tail": "支持向量回归 (SVR)"
-    },
-    {
-      "head": "加权SVR预测模型",
-      "relation": "采用",
-      "tail": "序贯最小优化 (SMO) 算法"
-    },
-    {
-      "head": "加权SVR预测模型",
-      "relation": "引入",
-      "tail": "加权系数ρ"
-    },
-    {
-      "head": "SMO-SVR预测方法",
-      "relation": "改进了",
-      "tail": "SMO算法的停机准则"
-    },
-    {
-      "head": "SMO-SVR预测方法",
-      "relation": "采用",
-      "tail": "改进C-C平均方法"
-    },
-    {
-      "head": "改进C-C平均方法",
-      "relation": "改进了",
-      "tail": "C-C方法"
-    },
-    {
-      "head": "改进C-C平均方法",
+      "head": "改进的序贯最小优化支持向量回归预测方法",
       "relation": "用于",
+      "tail": "故障趋势预测"
+    },
+    {
+      "head": "改进的序贯最小优化支持向量回归预测方法",
+      "relation": "预测",
+      "tail": "状态参量"
+    },
+    {
+      "head": "改进C-C平均方法",
+      "relation": "应用于",
       "tail": "相空间重构"
     },
     {
@@ -141,19 +119,29 @@
       "tail": "多元时间序列"
     },
     {
-      "head": "相空间重构",
-      "relation": "确定",
-      "tail": "嵌入维数m"
+      "head": "改进C-C平均方法",
+      "relation": "用于确定",
+      "tail": "最优嵌入维数 m"
     },
     {
-      "head": "相空间重构",
-      "relation": "确定",
-      "tail": "延迟时间τd"
+      "head": "改进C-C平均方法",
+      "relation": "用于确定",
+      "tail": "延迟时间 τd"
     },
     {
-      "head": "SMO-SVR预测方法",
-      "relation": "采用",
-      "tail": "区间自适应粒子群算法 (IAPSO)"
+      "head": "加权SVR预测模型",
+      "relation": "基于",
+      "tail": "最优嵌入维数 m"
+    },
+    {
+      "head": "加权SVR预测模型",
+      "relation": "基于",
+      "tail": "延迟时间 τd"
+    },
+    {
+      "head": "改进的序贯最小优化支持向量回归预测方法",
+      "relation": "调整了",
+      "tail": "SMO算法的停机准则"
     },
     {
       "head": "区间自适应粒子群算法 (IAPSO)",
@@ -161,37 +149,47 @@
       "tail": "SVR参数"
     },
     {
-      "head": "SMO-SVR预测方法",
-      "relation": "预测",
-      "tail": "偏航角速度r"
+      "head": "改进的序贯最小优化支持向量回归预测方法",
+      "relation": "应用于",
+      "tail": "飞机方向舵损伤故障"
     },
     {
-      "head": "SMO-SVR预测方法",
+      "head": "SMO-SVR预测模型",
       "relation": "对比",
       "tail": "径向基函数神经网络 (RBFNN)"
     },
     {
-      "head": "SMO-SVR预测方法",
+      "head": "SMO-SVR预测模型",
       "relation": "优于",
       "tail": "径向基函数神经网络 (RBFNN)"
     },
     {
       "head": "支持向量回归 (SVR)",
-      "relation": "避免了",
+      "relation": "避免",
       "tail": "局部极小值问题"
     },
     {
-      "head": "支持向量回归 (SVR)",
-      "relation": "避免了",
+      "head": "改进C-C平均方法",
+      "relation": "改进了",
+      "tail": "C-C方法"
+    },
+    {
+      "head": "SMO-SVR预测模型",
+      "relation": "克服了",
       "tail": "过学习问题"
     },
     {
-      "head": "飞机舵面损伤故障趋势预测",
+      "head": "SMO-SVR预测模型",
+      "relation": "克服了",
+      "tail": "局部极小值问题"
+    },
+    {
+      "head": "故障趋势预测",
       "relation": "评价指标是",
       "tail": "平均绝对百分比误差 (eMAPE)"
     },
     {
-      "head": "飞机舵面损伤故障趋势预测",
+      "head": "故障趋势预测",
       "relation": "评价指标是",
       "tail": "均方根误差 (eRMSE)"
     }

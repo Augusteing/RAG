@@ -134,49 +134,123 @@
 {
   "entities": [
     {
-      "name": "综合化",
-      "type": "特征"
+      "name": "故障预测",
+      "type": "研究方法"
     },
     {
-      "name": "健康评估",
-      "type": "技术"
+      "name": "间歇性故障预测",
+      "type": "研究方法"
     },
     {
-      "name": "劣化度",
-      "type": "指标"
-    },
-    {
-      "name": "贝叶斯网络",
-      "type": "模型"
-    },
-    {
-      "name": "飞机液压泵",
+      "name": "大型飞机机载系统",
       "type": "系统/部件"
     },
     {
-      "name": "液压系统",
+      "name": "飞机",
       "type": "系统/部件"
     },
     {
-      "name": "航空电子系统",
-      "type": ""
+      "name": "智能故障诊断算法",
+      "type": "算法"
+    },
+    {
+      "name": "故障诊断",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障预测算法",
+      "type": "算法"
+    },
+    {
+      "name": "失效物理",
+      "type": "理论基础"
+    },
+    {
+      "name": "可靠性",
+      "type": "性能指标"
+    },
+    {
+      "name": "安全性",
+      "type": "性能指标"
+    },
+    {
+      "name": "维修保障性",
+      "type": "性能指标"
+    },
+    {
+      "name": "特种飞机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "综合化任务系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "PHM系统",
+      "type": "系统/部件"
+    },
+    {
+      "name": "实时监控系统健康状态",
+      "type": "功能"
+    },
+    {
+      "name": "快速故障隔离",
+      "type": "功能"
+    },
+    {
+      "name": "故障定位至模块内部芯片",
+      "type": "功能"
+    },
+    {
+      "name": "飞机再次出动执行任务的间隔时间",
+      "type": "性能指标"
     }
   ],
   "relations": [
     {
-      "head": "航空电子系统",
-      "relation": "发展方向为",
-      "tail": "综合化"
+      "head": "间歇性故障预测",
+      "relation": "是难题",
+      "tail": "故障预测"
     },
     {
-      "head": "贝叶斯网络",
-      "relation": "是...的健康评估方法",
-      "tail": "健康评估"
+      "head": "故障诊断",
+      "relation": "采用",
+      "tail": "智能故障诊断算法"
     },
     {
-      "head": "飞机液压泵",
-      "relation": "是...的关键部件",
-      "tail": "液压系统"
+      "head": "故障预测算法",
+      "relation": "结合",
+      "tail": "失效物理"
+    },
+    {
+      "head": "PHM系统",
+      "relation": "应用于",
+      "tail": "综合化任务系统"
+    },
+    {
+      "head": "综合化任务系统",
+      "relation": "是组成部分",
+      "tail": "特种飞机"
+    },
+    {
+      "head": "PHM系统",
+      "relation": "实现",
+      "tail": "实时监控系统健康状态"
+    },
+    {
+      "head": "PHM系统",
+      "relation": "实现",
+      "tail": "快速故障隔离"
+    },
+    {
+      "head": "PHM系统",
+      "relation": "实现",
+      "tail": "故障定位至模块内部芯片"
+    },
+    {
+      "head": "PHM系统",
+      "relation": "缩短",
+      "tail": "飞机再次出动执行任务的间隔时间"
     }
   ]
 }
@@ -207,18 +281,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 飞机电源多Agent预测与健康管理系统研究
-
-张莉 $^{1,2}$ ,袁海文 $^{2}$ ZHANG Li $^{1,2}$ ,YUAN Hai- wen $^{2}$
-
-1. 陕西师范大学计算机科学学院，西安7100622.北京航空航天大学自动化科学与电气工程学院，北京1001911.College of Computer Science,Shaanxi Normal University,Xi'an 710062,China2.School of Automation Science & Electrical Engineering,Beihang University,Beijing 100191,ChinaE-mail:zhangli@snnu.edu.cn
-
-ZHANG Li, YUAN Hai- wen.Research on prognostic and health management system for aircraft electrical power system using multi- agent.Computer Engineering and Applications,2010,46(19):227- 230.
-
-Abstract: Aiming at the requirements of complex and multi- mission in AEPHM(Aircraft Electrical Power Prognostic and Health Management System) and using the OSA- CBM(Open System Architecture for Condition- Based Maintenance) model as the standard structure,the architecture based on multi- agent is proposed.Different agents and their correlations are described by using the example of the prototype system.The system model of AEPHM is constructed by using AUML(Agent Unified Modeling Language).The details of the main interaction of each agent with the other agents are described by AUML protocol diagram.Practice shows that a novel mode to the design and development of PHM system for aircraft airborne equipment is provided.
-
-Key words: Prognostic and Health Management(PHM); Multi- Agent System; Aircraft Electrical Power(AEF) system; Agent Unified Modeling Language(AUML)
-
 摘要：针对复杂多任务的飞机电源预测与健康管理的需求，以状态维护开放系统体系结构OSA- CBM模型为标准架构，提出一种基于多Agent的飞机电源故障预测与健康管理系统体系结构模型。结合原型系统开发实例，详细阐述了各Agent的功能及相互关系。采用AUML技术构建基于多Agent的AEPHM系统模型，通过AUML协议图描述了Agent之间的主要交互活动。实践表明，该体系结构为航空机载设备预测与健康管理系统建设提供了一种新的设计开发模式。
 
 关键词：预测与健康管理；多智能体系统；飞机电源系统；AUML技术
@@ -326,17 +388,3 @@ ings of Offshore Technology Conference,Houston,USA,2005: 171- 172. [3]付亮.基
 库，将状态数据、故障信息、诊断知识与预测方法进行全方位集成，高效地实现了信息交互和共享。每个Agent根据统一接口实现即插即用，能够很容易地修改、添加或从系统中退出，不仅可以满足目前故障诊断与预测方法的知识要求，也可以方便地对各种故障诊断与预测方法进行不断完善以满足将来的需求，有效解决了PHM系统的可重构性和可扩展性，增加了系统的灵活性、鲁棒性。由于Agent的自治性，使系统在整个生命周期得以连续，一致完成CBM任务，人工干预大大减少，有效地降低了系统的使用成本，也提高了系统的可靠性。
 
 基于Agent的体系结构的提出以及建模为实际应用系统的研制开发提供了理论指导、实现途径和具体方法的依据。
-
-# 参考文献：
-
-[1]米新宇，沈颂华.飞机电源系统故障诊断专家系统[J].北京航空航天大学学报，2001，27（6）：706- 708. [2] Keller K,Swearingen K,Sheahan J,et al.Aircraft electrical power systems prognostics and health management[C]//IEEE Aero
-
-space Conference Proceedings,2006:3737- 3748. [3]胡静涛，徐恺冬，于海斌.CBM标准化研究现状及发展趋势[J].仪器仪表学报，2007，28（3）：569- 576. [4] Swearingen,K,Majkowski,W,Bruggeman,B,et al.An open system architecture for condition based maintenance overview[C]// IEEE Aerospace Conference Proceedings,2007:4161- 4168. [5] Chidambaram B,Gilbertson D D,Keller K,Condition- based monitoring of an electro- hydraulic system using open software architectures[C]//IEEE Aerospace Conference Proceedings,2005:3532- 3539. [6] Thurston M G.Am open standard for Web- based condition- based maintenance systems[C]//IEEE Systems Readiness Technology Conference Autotestcon Proceedings,2001:401- 415. [7]刘芳，姚莉，张维明，等.一种BDI Agent的多线程实现方法[J].计算机科学，2006，33（9）：143- 145. [8] Zhang Li,Yuan Haiwen,Yuan Haibin,et al.Research and application of atml for aircraft electric power diagnosis and prognostic system[C]//Proceedings of 8th International Conference on Electronic Measurement and Instruments,2007:3615- 3618. [9]朱大奇，纪志成.基于多智能体的复杂工程系统故障诊断研究[J].计算机集成制造系统，2004，10（6）：699- 703.
-
-# （上接240页）
-
-# 参考文献：
-
-[1] ESRI Shape file Technical Description, an ESRI White Paper [S].1998- 07. [2]崔勇，王志良，孙畅.基于道路信息交互的最短路径算法研究[J].微计算机信息，2008，24（2/3）：228- 229.
-
-[3]王景存，张晓彤，陈彬，等.一种基于Dijkstra算法的启发式最优路径搜索算法[J].北京科技大学学报，2007，29（3）：346- 348. [4]严蔚敏，吴伟民.数据结构[M].北京：清华大学出版社，1997：227- 238. [5]张雪燕，黄寅，杨晟刚.一种改进的Dijkstra算法应用于嵌入式GIS系统[J].计算机工程与设计，2007，28（2）：412- 413. [6]陈玉敏，龚健雅，史文中.多级道路网的最优路径算法研究[J].武汉大学学报，2006，31（1）：70- 73.

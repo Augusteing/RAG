@@ -134,316 +134,111 @@
 {
   "entities": [
     {
-      "name": "空军工程大学",
-      "type": "机构"
+      "name": "复杂系统健康管理",
+      "type": "研究领域"
     },
     {
-      "name": "浙江大学",
-      "type": "机构"
+      "name": "人工智能",
+      "type": "理论基础"
     },
     {
-      "name": "哈尔滨工业大学",
-      "type": "机构"
+      "name": "信息技术",
+      "type": "理论基础"
     },
     {
-      "name": "北京航空航天大学",
-      "type": "机构"
+      "name": "机载雷达",
+      "type": "系统/部件"
     },
     {
-      "name": "南京航空航天大学",
-      "type": "机构"
+      "name": "预测与健康管理（PHM）技术",
+      "type": "研究领域"
     },
     {
-      "name": "中国电子学会电子测量与仪器分会",
-      "type": "机构"
+      "name": "机载雷达传统BIT和状态监控功能",
+      "type": "研究方法"
     },
     {
-      "name": "景博教授",
-      "type": "人物"
-    },
-    {
-      "name": "空军工程大学航空航天工程学院",
-      "type": "机构"
-    },
-    {
-      "name": "李学仁院长",
-      "type": "人物"
-    },
-    {
-      "name": "黄志尧教授",
-      "type": "人物"
-    },
-    {
-      "name": "彭宇教授",
-      "type": "人物"
-    },
-    {
-      "name": "于劲松教授",
-      "type": "人物"
-    },
-    {
-      "name": "王莉教授",
-      "type": "人物"
-    },
-    {
-      "name": "中国科学院自动化所",
-      "type": "机构"
-    },
-    {
-      "name": "王健教授",
-      "type": "人物"
-    },
-    {
-      "name": "何宇廷教授",
-      "type": "人物"
-    },
-    {
-      "name": "中国飞行试验研究院",
-      "type": "机构"
-    },
-    {
-      "name": "张联禾主任",
-      "type": "人物"
-    },
-    {
-      "name": "中国航空无线电电子研究所",
-      "type": "机构"
-    },
-    {
-      "name": "池程芝主任",
-      "type": "人物"
-    },
-    {
-      "name": "中航工业南京机电液压工程研究中心",
-      "type": "机构"
-    },
-    {
-      "name": "徐红专部长",
-      "type": "人物"
-    },
-    {
-      "name": "交流报告",
-      "type": "活动"
-    },
-    {
-      "name": "PHM技术",
-      "type": "技术"
-    },
-    {
-      "name": "军用飞机PHM技术",
-      "type": "技术"
-    },
-    {
-      "name": "工程应用",
-      "type": "概念"
-    },
-    {
-      "name": "无人系统PHM技术",
-      "type": "技术"
-    },
-    {
-      "name": "PHM",
-      "type": "技术"
-    },
-    {
-      "name": "综合航电PHM系统",
-      "type": "系统"
-    },
-    {
-      "name": "专家系统",
-      "type": "方法"
-    },
-    {
-      "name": "4层集成的PHM系统层次化体系结构",
-      "type": "体系架构"
-    },
-    {
-      "name": "基于可用度模型的PHM方法",
-      "type": "方法"
-    },
-    {
-      "name": "广义随机Petri网",
-      "type": "模型"
-    },
-    {
-      "name": "连续马尔可夫链",
-      "type": "模型"
-    },
-    {
-      "name": "传感器优化配置模型",
-      "type": "模型"
-    },
-    {
-      "name": "扩展微粒子群优化算法",
-      "type": "算法"
+      "name": "雷达寿命周期费用",
+      "type": "性能指标"
     },
     {
       "name": "故障预测",
-      "type": "功能"
+      "type": "研究方法"
     },
     {
-      "name": "健康评估技术",
-      "type": "技术"
+      "name": "预测",
+      "type": "研究方法"
     },
     {
-      "name": "装备故障预测与健康管理(PHM)",
-      "type": "技术"
+      "name": "健康管理",
+      "type": "研究方法"
     },
     {
-      "name": "五层结构的健康评估总体技术框架",
-      "type": "模型/框架"
+      "name": "诊断",
+      "type": "研究方法"
     },
     {
-      "name": "导弹武器装备",
-      "type": "应用案例"
+      "name": "状态监控",
+      "type": "研究方法"
     },
     {
-      "name": "航天器",
-      "type": "应用案例"
+      "name": "嵌入式诊断技术",
+      "type": "研究方法"
     },
     {
-      "name": "文献[18]",
-      "type": ""
+      "name": "机载预测与健康管理（PHM）",
+      "type": "系统/部件"
     },
     {
-      "name": "文献[9]",
-      "type": ""
-    },
-    {
-      "name": "文献[20]",
+      "name": "降低雷达寿命周期费用",
       "type": ""
     }
   ],
   "relations": [
     {
-      "head": "景博教授",
-      "relation": "任职于",
-      "tail": "空军工程大学"
+      "head": "复杂系统健康管理",
+      "relation": "综合应用",
+      "tail": "人工智能"
     },
     {
-      "head": "李学仁院长",
-      "relation": "任职于",
-      "tail": "空军工程大学航空航天工程学院"
+      "head": "复杂系统健康管理",
+      "relation": "综合应用",
+      "tail": "信息技术"
     },
     {
-      "head": "黄志尧教授",
-      "relation": "任职于",
-      "tail": "浙江大学"
+      "head": "复杂系统健康管理",
+      "relation": "应用于",
+      "tail": "机载雷达"
     },
     {
-      "head": "彭宇教授",
-      "relation": "任职于",
-      "tail": "哈尔滨工业大学"
+      "head": "预测与健康管理（PHM）技术",
+      "relation": "拓展了",
+      "tail": "机载雷达传统BIT和状态监控功能"
     },
     {
-      "head": "于劲松教授",
-      "relation": "任职于",
-      "tail": "北京航空航天大学"
+      "head": "预测与健康管理（PHM）技术",
+      "relation": "用于",
+      "tail": "降低雷达寿命周期费用"
     },
     {
-      "head": "王莉教授",
-      "relation": "任职于",
-      "tail": "南京航空航天大学"
-    },
-    {
-      "head": "王健教授",
-      "relation": "任职于",
-      "tail": "中国科学院自动化所"
-    },
-    {
-      "head": "何宇廷教授",
-      "relation": "任职于",
-      "tail": "空军工程大学"
-    },
-    {
-      "head": "张联禾主任",
-      "relation": "任职于",
-      "tail": "中国飞行试验研究院"
-    },
-    {
-      "head": "池程芝主任",
-      "relation": "任职于",
-      "tail": "中国航空无线电电子研究所"
-    },
-    {
-      "head": "徐红专部长",
-      "relation": "任职于",
-      "tail": "中航工业南京机电液压工程研究中心"
-    },
-    {
-      "head": "交流报告",
-      "relation": "围绕",
-      "tail": "PHM技术"
-    },
-    {
-      "head": "交流报告",
-      "relation": "围绕",
-      "tail": "军用飞机PHM技术"
-    },
-    {
-      "head": "交流报告",
-      "relation": "围绕",
-      "tail": "工程应用"
-    },
-    {
-      "head": "交流报告",
-      "relation": "涵盖",
-      "tail": "无人系统PHM技术"
-    },
-    {
-      "head": "文献[18]",
-      "relation": "提出了",
-      "tail": "4层集成的PHM系统层次化体系结构"
-    },
-    {
-      "head": "文献[9]",
-      "relation": "提出了",
-      "tail": "基于可用度模型的PHM方法"
-    },
-    {
-      "head": "基于可用度模型的PHM方法",
-      "relation": "建立了",
-      "tail": "广义随机Petri网"
-    },
-    {
-      "head": "基于可用度模型的PHM方法",
-      "relation": "建立了",
-      "tail": "连续马尔可夫链"
-    },
-    {
-      "head": "文献[20]",
-      "relation": "建立了",
-      "tail": "传感器优化配置模型"
-    },
-    {
-      "head": "传感器优化配置模型",
-      "relation": "采用...求解",
-      "tail": "扩展微粒子群优化算法"
-    },
-    {
-      "head": "综合航电PHM系统",
+      "head": "预测与健康管理（PHM）技术",
       "relation": "包括",
       "tail": "故障预测"
     },
     {
-      "head": "健康评估技术",
-      "relation": "是...的核心技术之一",
-      "tail": "装备故障预测与健康管理(PHM)"
+      "head": "诊断",
+      "relation": "转向",
+      "tail": "预测"
     },
     {
-      "head": "健康评估技术",
-      "relation": "提出了",
-      "tail": "五层结构的健康评估总体技术框架"
+      "head": "状态监控",
+      "relation": "向...转变",
+      "tail": "健康管理"
     },
     {
-      "head": "导弹武器装备",
-      "relation": "是...典型应用案例",
-      "tail": "健康评估技术"
-    },
-    {
-      "head": "航天器",
-      "relation": "是...典型应用案例",
-      "tail": "健康评估技术"
+      "head": "嵌入式诊断技术",
+      "relation": "向...发展演变",
+      "tail": "机载预测与健康管理（PHM）"
     }
   ]
 }
@@ -474,12 +269,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-# 基于PHM的航空装备可用度影响因素分析方法
-
-刘瑞 马麟 康锐 邹莹芝
-
-（北京航空航天大学可靠性与系统工程学院，北京100191） （北京强度环境研究所，北京100076）
-
 摘要：对已有的航空装备可用度分析方法进行了综述，将航空装备可用度影响因素分为三类.通过PHM（PrognosticsandHealthManagement）技术对航空装备保障过程的影响分析，梳理了基于PHM的航空装备可用度影响因素，并将这些因素按照其来源分为使用影响因素和设计影响因素两大类.给出了4个合理的仿真假设条件以简化仿真过程，并进一步将设计影响因素分为5种，并结合一个实例给出了基于PHM的航空装备可用度影响因素仿真过程中的输入.提出给定装备系统及其保障系统参数条件下的稳态可用度为仿真的输出，并给出与仿真输入相符的解析计算公式.详细描述了仿真程序的构成及其流程图.最后，以图形的方式给出了仿真结果，给出了案例的单因素分析及多因素耦合分析的过程及结论，验证了所提出的分析方法的可行性.
 
 关键词：可用度分析；预测与健康管理；仿真方法；航空装备；影响因素分析中图分类号：TB114.3文献标识码：A 文章编号：1001- 5965（2011)10- 1238- 07
@@ -491,10 +280,6 @@ Liu Rui Ma Lin Kang Rui (School of Reliability and Systems Engineering, Beijing 
 Zou Yingzhi
 
 ( Beijing Institute of Strength and Environment, Beijing 100076, China)
-
-Abstract: The aviation equipment availability analysis method was reviewed and the influential factors of aviation equipment availability were classified as three categories. The newly increased influential factors of aviation equipment availability were analyzed through analyzing in the influence of prognostics and health management (PHM) technology to the availability. These factors were specified in term of the sources as two categories: the operate factors and the design factors. Four reasonable assumptions to simplify the simulation process. were provided. Furthermore, the design factors were divided into five categories. Combined with an example, the definitions of the simulation inputs of aviation equipment availability were given with the values of them. And the output of the simulation process is the steady- state availability under given conditions. Simultaneously, the analytical algorithm of it is pressed. Then the compositions simulation program and its flow chart were detailed described. The simulation results of the example were given by graph. At the same time the processes and conclusions of univariate analysis and multi- coupling analysis were given to verify the feasibility of the analysis mentioned.
-
-Key words: availability analysis; prognostics and health management(PHM); simulation method; aviation equipment; influential factors analysis
 
 装备的可用性是装备可靠性、测试性、维修性和保障性等设计特性的综合表征，也是装备使用部门所关心的重要的装备使用参数.装备可用性所描述的是装备在规定的时间内、规定的条件下以及具有规定的资源时能够开始执行任务的能力- 1. 可用性常用可用度来度量，可用度是武器装备作战效能评价的重要指标，已被广泛运用于各种装备中B- 1.
 
@@ -695,31 +480,3 @@ $11$  当  $y > r_{\mathrm{PA}}$  时，表示当前LRU发生故障且PHM系统�
 4）通过实例验证，证实了本文提出的方法的可行性
 
 致谢感谢黄兆东博士生在论文仿真程序设计过程中提出的建议，有效地提高了仿真的效率
-
-# 参考文献（References）
-
-杨为民.可靠性维侧性保障性总论M.北京：国防工业出版社，1995:20- 22
-
-Yang Weimin. Reliability, maintainability and supporability [M]. Beijing: National Defense Industry Press, 1995: 20 - 22 (in Chinese)
-
-Benjamin S Blanchard, Wolter K Fabrycky. System engineering and analysis [M]. Beijing: Tsinghua University Press, 2002: 359 - 360
-
-Alexander H Levis, Paul K Houpt, Stamatios K Andreadakis. Effectiveness analysis of automotive systems [D] //1985 American Control Conference. Boston: American Automatic Control Council, 1985: 1432 - 1437
-
-高尚，娄寿春.武器系统效能评定方法综述.系统工程理论与实践，1998（7）：109- 114
-
-Gao Shang, Lou Shouchun. Progress in assessing the effectiveness of weapon system [D]. Systems Engineering- Theory & Practice, 1998(7): 109 - 144 (in Chinese)
-
-谈斌，周海云，张己化.基于HLA的装备作战效能评估仿真框架研究.计算机仿真，2008，25（5）：11- 14
-
-Tan Bin, Zhou Haiyun, Zhang Jihua. A weapon equipment simulation framework for efficiency evaluation based on HLA [D]. Computer Simulation, 2008, 25(5): 11 - 14 (in Chinese)
-
-王正元，刘靖旭，谭跃进，等.基于作战仿真的装甲车辆作战效能评估方法.国防科学技术大学学报，2004，26（2）：106 - 109
-
-Wang Zhengyuan, Liu Jingku, Tan Yuejin, et al. Combat effec
-
-tiveness evaluation of the armored vehicle based on combat simulation [J. Journal of National University of Defense Technology, 2004,26(2):106- 109 (in Chinese)Fashandi A. System availability and operation support modeling [C] //The 28th International Electronics Manufacturing Technology Symposium. California: IEEE Press,2003:347- 350F.汪民乐,高晓光,蔡付东.作战飞机效能分析研究综述 [J. 飞行力学,2001,19(4):1- 5Wang Minle, Gao Xiaoguang, Cai Fulong. Overview of research on military aircraft combat effectiveness analysis [J. Flight Dynamics,2001,19(4):1- 5 (in Chinese)F.贾跃,宋保维,梁庆卫.鱼雷武器系统效能评估模型及其仿真 [J.兵工学报,2006,27(3):475- 479Jia Yue, Song Baowei, Liangqingwei. Mathematical model and simulation of torpedo weapon system effectiveness evaluation [J. Acta Armamentarii,2006,27(3):475- 479 (in Chinese)F.于小红,蔡远文,杨仁保.运载火箭发射过程效能评估方法 [J. 导弹与航天运载技术,2005(1):19- 22Yu Xiaohong, Cai Yuanwen, Yang Renbao. Research on effectiveness evaluation for launch process [J. Missiles and Space Vehicles,2005(3):19- 22 (in Chinese)F. Kirmani E, Hood C S. A new approach to analysis of interval availability [J. //The 3rd International Conference on Availability, Reliability and Security. California: IEEE Computer Society,2008:479- 483F.王立超.系统可用度匹配分析与设计 [J. 南京:南京理工大学自动化学院,2008Wang Lichao. The analysis and design of the matchinglization for system availability [J. Nanjing: School of Automatic, Nanjing University of Science & Technology,2008 (in Chinese)F. Zheng Z H, Cui L R, Hawkes A G. A study on a single- unit Marko repairable system with repair time omission [J. IEEE Transaction on Reliability,2006,55(5):182- 188F.赵冰化,王勇.军用飞机可用度概率模型及仿真 [J. 火力与指挥控制,2007,32(6):80- 83Zhao Binghua, Wang Yong. A research on conceptual model and simulation for the military aircraft availability [J. Fire Control and Command Control,2007,32(6):80- 83 (in Chinese)F.高文,祝明发,徐志伟.基于维修时间约束的机群系统可用度的仿真算法 [J. 计算机学报,2001,24(8):876- 880Gao Wen, Zhu Mingfa, Xu Zhiwei. A simulation algorithm of cluster system s availability within repair time constrains [J. Chinese Journal of Computers,2001,24(8):876- 880 (in Chinese)
-
-[6] Nicola V F, Shahabuddin P, Heidelberger P, et al, Fast simulation of steady- state availability in non- Markovian highly dependable systems [J. //The 23rd International Symposium on Fault- Tolerant Computing. France: IEEE Computer Society, 1993:38- 47[7] Nebel S, Bertsche B. Modeling and simulation methodology of the operational availability and logistics using extended colored stochastic petri netc an astronautics case study [J. //2008 Reliability and Maintainability Symposium. Nevada: IEEE Press, 2008:434- 439[8] Bazargan M, McGrath R N. Discrete event simulation to improve aircraft availability and maintainability [J. //2003 Reliability and Maintainability Symposium. Florida: IEEE, 2003:63- 67[9] 冯旭中, 张振友.基于任务的复杂武器系统可用性仿真研究 [J.兵工自动化,2009,28(2):71- 73Feng Xuzhong, Zhang Zhenyou. Availability simulation on complex weapon systems based on mission [J. Ordnance Industry Automation,2009,28(2):71- 73 (in Chinese)[10] 曾声奎, Michael G. Pecht, 吴际, 故障预测与健康管理技术的现状与发展 [J. 航空学报,2005,26(5):626- 632Zen Shengkui, Michael G. Pecht, Wu Ji. Status and perspectives of prognostics and health management technologies [J. Acta Aeronautica et Astronautica Sinica, 2005,26(5):626- 632 (in Chinese)[11] John W Sheppard, Mark A Kaufman, Timothy J Wilmering. IEEE standards for prognostics and health management [J. IEEE Aerospace and Electronic Systems Magazine, 2009, 24(9):34- 41[12] Fatih Camci. System maintenance scheduling with prognostics information using genetic algorithm [J. IEEE Transactions on Reliability,2009,58(3):539- 552[13] Eva L Suarez, Michael J Duffy, Robert N Gamache, et al. Jet engine life prediction system integrated with prognostics and health management [J. //2004 IEEE Aerospace Conference Proceedings. Montana: AIAA, 2004:3596- 3602[14] Todd D Batzel, David C Swanson. Prognostics and health management of aircraft power generators [J. IEEE Transactions on Aerospace and Electronic System,2009,24(2):473- 483[15] Jon Dunsdon, Mark Huntington. The application of open system architecture for condition based maintenance to complete IVHM [J. //2008 IEEE Aerospace Conference. Montana: AIAA, 2008:1- 9
-
-(编 辑:娄 嘉)

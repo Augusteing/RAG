@@ -134,51 +134,83 @@
 {
   "entities": [
     {
+      "name": "航空发动机故障预测",
+      "type": "研究领域"
+    },
+    {
+      "name": "故障预测方法",
+      "type": "研究方法"
+    },
+    {
+      "name": "故障预测模型",
+      "type": "模型"
+    },
+    {
+      "name": "RNN",
+      "type": "模型"
+    },
+    {
+      "name": "GRU",
+      "type": "模型"
+    },
+    {
+      "name": "LSTM",
+      "type": "模型"
+    },
+    {
+      "name": "时间序列模型",
+      "type": "模型"
+    },
+    {
+      "name": "预测精度",
+      "type": "性能指标"
+    },
+    {
+      "name": "非对称评分",
+      "type": "性能指标"
+    },
+    {
+      "name": "航空发动机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "传感器数据",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "双向LSTM故障预测模型",
+      "type": "模型"
+    },
+    {
+      "name": "数据预处理",
+      "type": "研究方法"
+    },
+    {
+      "name": "多种工作条件",
+      "type": "应用场景"
+    },
+    {
+      "name": "维修决策",
+      "type": "应用场景"
+    },
+    {
       "name": "航空电子产品故障预测",
-      "type": "问题"
-    },
-    {
-      "name": "退化趋势差异大",
-      "type": "问题"
-    },
-    {
-      "name": "训练数据样本量小",
-      "type": "问题"
-    },
-    {
-      "name": "集成学习框架",
-      "type": "框架"
-    },
-    {
-      "name": "Dropout机制",
-      "type": "技术"
-    },
-    {
-      "name": "数据驱动模型训练过拟合问题",
-      "type": "问题"
-    },
-    {
-      "name": "时序信息记忆问题",
-      "type": "问题"
+      "type": "研究领域"
     },
     {
       "name": "Adaboosting算法",
       "type": "算法"
     },
     {
-      "name": "多模型融合的性能差异问题",
-      "type": "问题"
+      "name": "模型过拟合问题",
+      "type": "技术问题"
     },
     {
-      "name": "NASA公开的锂电池退化数据集",
-      "type": "数据集"
+      "name": "时序信息记忆问题",
+      "type": "技术问题"
     },
     {
-      "name": "BP神经网络",
-      "type": "网络"
-    },
-    {
-      "name": "LSTM基模型",
+      "name": "经典LSTM模型",
       "type": "模型"
     },
     {
@@ -186,92 +218,74 @@
       "type": "性能指标"
     },
     {
-      "name": "预测精度",
-      "type": "性能指标"
-    },
-    {
-      "name": "长短期记忆（LSTM）神经网络",
-      "type": "网络"
-    },
-    {
-      "name": "时间序列预测",
-      "type": "任务"
-    },
-    {
-      "name": "航空发动机",
+      "name": "航空电子产品",
       "type": "系统/部件"
     },
     {
-      "name": "深度学习",
-      "type": "技术"
+      "name": "稳定性",
+      "type": "性能指标"
     },
     {
-      "name": "多尺度排列熵算法",
+      "name": "多模型融合",
+      "type": "研究方法"
+    },
+    {
+      "name": "集成学习框架",
+      "type": "研究方法"
+    },
+    {
+      "name": "Dropout机制",
       "type": "算法"
     },
     {
-      "name": "基于多尺度排列熵算法和LSTM的RUL预测模型",
+      "name": "BP神经网络",
       "type": "模型"
     },
     {
-      "name": "集成神经网络模型",
+      "name": "LSTM基模型",
       "type": "模型"
-    },
-    {
-      "name": "传感器数据",
-      "type": "数据"
-    },
-    {
-      "name": "梯度消失现象",
-      "type": "问题"
-    },
-    {
-      "name": "车畅畅等[22]",
-      "type": ""
-    },
-    {
-      "name": "张永峰等[23]",
-      "type": ""
-    },
-    {
-      "name": "LSTM",
-      "type": ""
-    },
-    {
-      "name": "RNN",
-      "type": ""
     }
   ],
   "relations": [
     {
-      "head": "Dropout机制",
-      "relation": "解决",
-      "tail": "数据驱动模型训练过拟合问题"
+      "head": "双向LSTM故障预测模型",
+      "relation": "应用于",
+      "tail": "航空发动机故障预测"
     },
     {
-      "head": "长短期记忆（LSTM）神经网络",
-      "relation": "解决",
-      "tail": "时序信息记忆问题"
+      "head": "双向LSTM故障预测模型",
+      "relation": "优于",
+      "tail": "RNN"
+    },
+    {
+      "head": "双向LSTM故障预测模型",
+      "relation": "优于",
+      "tail": "GRU"
+    },
+    {
+      "head": "双向LSTM故障预测模型",
+      "relation": "优于",
+      "tail": "LSTM"
+    },
+    {
+      "head": "双向LSTM故障预测模型",
+      "relation": "包含",
+      "tail": "数据预处理"
+    },
+    {
+      "head": "双向LSTM故障预测模型",
+      "relation": "能够识别和学习",
+      "tail": "多种工作条件"
+    },
+    {
+      "head": "航空发动机故障预测",
+      "relation": "为",
+      "tail": "维修决策"
     },
     {
       "head": "Adaboosting算法",
-      "relation": "解决",
-      "tail": "多模型融合的性能差异问题"
-    },
-    {
-      "head": "车畅畅等[22]",
-      "relation": "构建",
-      "tail": "基于多尺度排列熵算法和LSTM的RUL预测模型"
-    },
-    {
-      "head": "张永峰等[23]",
-      "relation": "提出",
-      "tail": "集成神经网络模型"
-    },
-    {
-      "head": "LSTM",
-      "relation": "是...的改进",
-      "tail": "RNN"
+      "relation": "用于",
+      "tail": "多模型融合"
     }
   ]
 }
@@ -302,16 +316,6 @@
 现在，你将接收到用于处理的本次任务的全部输入数据。
 论文全文:
 ```markdown```
-http://bhxb.buaa.edu.cn jbuaa@buaa.edu.cn DOI:10.13700/j.bh.1001- 5965.2017.0285
-
-# 基于LSTM循环神经网络的故障时间序列预测
-
-王鑫，吴际 $^{1, *}$ ，刘超 $^{1}$ ，杨海燕 $^{1}$ ，杜艳丽 $^{2}$ ，牛文生 $^{1,3}$
-
-（1. 北京航空航天大学计算机学院，北京100083；2. 丰台职业教育中心学校，北京100076；
-
-3. 中航工业西安航空计算技术研究所，西安710068）
-
 摘要：有效地预测使用阶段的故障数据对于合理制定可靠性计划以及开展可靠性维护活动等具有重要的指导意义。从复杂系统的历史故障数据出发，提出了一种基于长短期记忆(LSTM)循环神经网络的故障时间序列预测方法，包括网络结构设计、网络训练和预测过程实现算法等，进一步以预测误差最小为目标，提出了一种基于多层网格搜索的LSTM预测模型参数优选算法，通过与多种典型时间序列预测模型的实验对比，验证了所提出的LSTM预测模型及其参数优选算法在故障时间序列分析中具有很强的适用性和更高的准确性。
 
 关键词：长短期记忆（LSTM）模型；循环神经网络；故障时间序列预测；多层网格搜索；深度学习
@@ -675,23 +679,3 @@ Table 3 The first five groups of optimal parameters andcorresponding model accur
 研究可靠性预测方法。
 
 致谢感谢任健老师在实验数据方面提供的支持，感谢王森章博士在语言方面给予的帮助，感谢评论文的各位专家。
-
-# 参考文献（References）
-
-[1] VICHARE N M, PECHT M G. Prognostics and health management of electronics [J]. IEEE Transactions on Components & Packaging Technologies, 2006, 29(1):222- 229. [2] SAPANKEVYCH N, SANKAR R. Time series prediction using support vector machines: A survey [J]. IEEE Computational Intelligence Magazine, 2009, 4(2):24- 38. [3] 王鑫，吴际，刘超，等. 奇异谱分析在故障时间序列分析中的应用 [J]. 北京航空航天大学学报，2016, 42(11):2321- 2331. WANG X, WU J, LIU C, et al. Application of singular spectrum analysis for failure time series [J]. Journal of Beijing University of Aeronautics and Astronautics, 2016, 42(11):2321- 2331 (in Chinese).[4] 李瑞莹，康锐. 基于ARMA模型的故障率预测方法研究 [J]. 系统工程与电子技术, 2008, 30(6):1568- 1591. LI R Y, KANG R. Research on failure rate forecasting method based on ARMA model [J]. Systems Engineering and Electronics, 2008, 30(8):1588- 1591 (in Chinese).[5] ROCCO S C M. Singular spectrum analysis and forecasting of failure time series [J]. Reliability Engineering & System Safety, 2013, 114(6):126- 136. [6] MOURA M D C, ZIO E, LINS I D, et al. Failure and reliability prediction by support vector machines regression of time series data [J]. Reliability Engineering & System Safety, 2011, 96(11):1527- 1534. [7] XU K, XIE M, TANG L C, et al. Application of neural networks
-
-in forecasting engine systems reliability [J]. Applied Soft Computing,2003,2(4):255- 268. [8] WANG X, WU J, LIU C, et al. A hybrid model based on singular spectrum analysis and support vector machines regression for failure time series prediction [J]. Quality & Reliability Engineering International,2016,32(8):2717- 2738. [9] LECUN Y, BENGIO Y, HINTON G. Deep learning [J]. Nature, 2015,521 (7553):436- 444. [10] GRAVES A. Long short- term memory [M]. Berlin: Springer, 2012:1735- 1780. [11] SRIVASTAVA N, MANSIMOV E, SALAKHUTDINOV R. Unsupervised learning of video representations using LSTMs [C] //Proceedings of the 32nd International Conference on Machine Learning. Lille: JMLR W&CP, 2015:843- 852. [12] DONAHUE J, HENDRICKS L A, ROHRBACH M, et al. Longterm recurrent convolutional networks for visual recognition and description [J]. IEEE Transactions on Pattern Analysis & Machine Intelligence,2015,39(4):677- 691. [13] VINYALS O, TOSHEV A, BENGIO S, et al. Show and tell: A neural image caption generator [J] //IEEE Conference on Computer Vision and Pattern Recognition. Piscataway, NJ: IEEE Press,2015:3156- 3164. [14] MA X, TAO Z, WANG Y, et al. Long short- term memory neural network for traffic speed prediction using remote microwave sensor data [J]. Transportation Research Part C Emerging Technologies,2015,54:187- 197. [15] HANSON J, YANG Y, PALIWAL K, et al. Improving protein disorder prediction by deep bidirectional long short- term memory recurrent neural networks [J]. Bioinformatics, 2017, 33 (5):685. [16] GREFF K, SRIVASTAVA R K, KOUTNIK J, et al. LSTM: A search space odyssey [J]. IEEE Transactions on Neural Networks & Learning Systems,2016,LP(99):1- 11. [17] GRAVES A, SCHMIDHUBER J. Famewise phoneme classification with bidirectional LSTM and other neural network architectures [J]. Neural Networks,2005,18(5- 6):602. [18] AMARI S I. Backpropagation and stochastic gradient descent method [J]. Neurocomputing,1993,5(4- 5):185- 196. [19] DUCHI J, HAZAN E, SINGER Y. Adaptive subgradient methods for online learning and stochastic optimization [J]. Journal of Machine Learning Research,2011,12(7):257- 269. [20] YEUNG S, RUSSAKOVSKY O, NING J, et al. Every moment counts: Dense detailed labeling of actions in complex videos [J]. International Journal of Computer Vision,2017(8):1- 45. [21] KINGMA D P, BA J. Adam: A method for stochastic optimization [C] //ICLR 2015,2015:1- 15. [22] CHUNG J, GULCEHRE C, CHO H H, et al. Empirical evaluation of gated recurrent neural networks on sequence modeling [C] //NIPS 2014 Deep Learning and Representation Learning Workshop,2014:1- 9. [23] CHEN P W, WANG J Y, LEE H M. Model selection of SVMs using GA approach [C] //IEEE International Joint Conference on Neural Networks. Piscataway, NJ: IEEE Press, 2004: 2035- 2040. [24] BRATTON D, KENNEDY J. Defining a standard for particle swarm optimization [C] //IEEE Swarm Intelligence Symposium. Piscataway, NJ: IEEE Press, 2007:120- 127. [25] SNOEK J, LAROCHIELLE H, ADAMS R P. Practical Bayesian optimization of machine learning algorithms [C] //International Conference on Neural Information Processing Systems. Lake Tahoe: Curran Associates Inc., 2012:2951- 2959. [26] HSU C W, CHANG C C, LIN C J. A practical guide to support vector classification [EB/OL]. (2016- 05- 19) [2017- 03- 20]. https://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf. [27] SU C, JIN Q, FU Y. Correlation analysis for wind speed and failure rate of wind turbines using time series approach [J]. Journal of Renewable & Sustainable Energy, 2012,4(3):687- 700. [28] CHATFIELD C. The Holt- Winters forecasting procedure [J]. Journal of the Royal Statistical Society, 1978,27(3):264- 279. [29] BARTHOLOMEW D J. Time series analysis forecasting and control [J]. Journal of the Operational Research Society, 1971, 22(2):199- 201. [30] HYNDMAN R J, KHANDAKAR Y. Automatic time series forecasting:The forecast package for R [J]. Journal of Statistical Software,2008,27(3):1- 22. [31] VAUTARD R, YIOU P, GHIL M. Singular- spectrum analysis: A toolkit for short, noise- chaotic signals [J]. Physica D- Nonlinear Phenomena,1992,58(1- 4):95- 126. [32] GOLYANDINA N, KOROBEYNIKOV A. Basic singular spectrum analysis and forecasting with R [J]. Computational Statistics & Data Analysis,2014,71(1):934- 954. [33] NIKOLOPOULOS K, GOODWIN P, PATELIS A, et al. Forecasting with cue information: A comparison of multiple regression with alternative forecasting approaches [J]. European Journal of Operational Research,2007,180(1):354- 368. [34] BIANCO V, MANCA O, NARDINI S. Electricity consumption forecasting in Italy using linear regression models [J]. Energy, 2009,34(9):1413- 1421. [35] BRERETON R G, LOYD G R. Support vector machines for classification and regression [J]. Analyst, 2010, 135(2):230- 267. [36] CHERKASSKY V, MA Y. Practical selection of SVM parameters and noise estimation in SVM regression [J]. Neural Networks,2004,17(1):113- 126. [37] Google. tensorflow miner 1.4.2 [EB/OL]. [2017- 03- 20]. https://www.tensorflow.org/versions/r0.12. [38] R Core Team. The R project for statistical computing [EB/OL]. [2017- 03- 20]. https://www.r- project.org. [39] HYNDMAN R. robjhyndman/forecast [EB/OL]. [2017- 03- 20]. https://github.com/robjhyndman/forecast. [40] KOROBEYNIKOV A. asl/rssa [EB/OL]. [2017- 03- 20]. https://github.com/asl/rssa [41] PAULO C. rminer: Data mining classification and regression methods [EB/OL]. [2017- 03- 20]. https://cran.r- project.org/package = rminer
-
-作者简介:  王鑫 男,博士研究生。主要研究方向:数据驱动技术。
-
-吴际 男，博士，副教授，硕士生导师。主要研究方向：模型驱动、软件可靠性分析。
-
-刘超 男，博士，教授，博士生导师。主要研究方向：软件工程、软件测试。
-
-# Exploring LSTM based recurrent neural network for failure time series prediction
-
-WANG Xin $^{1}$ , WU Ji $^{1, *}$ , LIU Chao $^{1}$ , YANG Haiyan $^{1}$ , DU Yanli $^{2}$ , NIU Wensheng $^{1,3}$   (1. School of Computer Science and Engineering, Beijing University of Aeronautics and Astronautics, Beijing 100083, China; 2. Fengtai Vocational Education Central School, Beijing 100076, China; 3. Aeronautical Computing Technique Research Institute, Aviation Industry Corporation of China, Xi'an 710068, China)
-
-Abstract: Effectively forecasting the failure data in the usage stage is essential to reasonably make reliability plans and carry out reliability maintaining activities. Beginning with the historical failure data of complex system, a long short- term memory (LSTM) based recurrent neural network for failure time series prediction is presented, in which the design of network structure, the procedures and algorithms of network training and forecasting are involved. Furthermore, a multilayer grid search algorithm is proposed to optimize the parameters of LSTM prediction model. The experimental results are compared with various typical time series prediction models, and validate that the proposed LSTM prediction model and the corresponding parameter optimization algorithm have strong adaptiveness and higher accuracy in failure time series prediction.
-
-Keywords: long short- term memory (LSTM) model; recurrent neural network; failure time series prediction; multilayer grid search; deep learning

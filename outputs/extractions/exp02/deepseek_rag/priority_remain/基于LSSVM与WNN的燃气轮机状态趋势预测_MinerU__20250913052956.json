@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "name": "燃气轮机",
+      "type": "系统/部件"
+    },
+    {
+      "name": "状态趋势预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "最小二乘支持向量机",
+      "type": "模型"
+    },
+    {
+      "name": "小波神经网络",
+      "type": "模型"
+    },
+    {
+      "name": "LSSVM-WNN组合模型",
+      "type": "模型"
+    },
+    {
+      "name": "排气温度",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "故障预测",
+      "type": "研究方法"
+    },
+    {
+      "name": "数据驱动",
+      "type": "理论基础"
+    },
+    {
+      "name": "相对误差",
+      "type": "性能指标"
+    },
+    {
+      "name": "主泵",
+      "type": "系统/部件"
+    },
+    {
+      "name": "小波去噪",
+      "type": "算法"
+    }
+  ],
+  "relations": [
+    {
+      "head": "LSSVM-WNN组合模型",
+      "relation": "组合",
+      "tail": "最小二乘支持向量机"
+    },
+    {
+      "head": "LSSVM-WNN组合模型",
+      "relation": "组合",
+      "tail": "小波神经网络"
+    },
+    {
+      "head": "状态趋势预测",
+      "relation": "应用于",
+      "tail": "燃气轮机"
+    },
+    {
+      "head": "状态趋势预测",
+      "relation": "基于",
+      "tail": "排气温度"
+    },
+    {
+      "head": "LSSVM-WNN组合模型",
+      "relation": "用于",
+      "tail": "状态趋势预测"
+    },
+    {
+      "head": "状态趋势预测",
+      "relation": "基于",
+      "tail": "数据驱动"
+    },
+    {
+      "head": "LSSVM-WNN组合模型",
+      "relation": "优于",
+      "tail": "最小二乘支持向量机"
+    },
+    {
+      "head": "LSSVM-WNN组合模型",
+      "relation": "优于",
+      "tail": "小波神经网络"
+    },
+    {
+      "head": "LSSVM-WNN组合模型",
+      "relation": "评价指标是",
+      "tail": "相对误差"
+    }
+  ]
+}

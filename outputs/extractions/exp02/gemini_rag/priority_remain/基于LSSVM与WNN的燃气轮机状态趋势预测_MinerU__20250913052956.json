@@ -5,15 +5,15 @@
       "type": "研究方法"
     },
     {
-      "name": "最小二乘支持向量机",
+      "name": "LSSVM-WNN组合预测模型",
       "type": "模型"
     },
     {
-      "name": "小波神经网络",
+      "name": "最小二乘支持向量机(LSSVM)",
       "type": "模型"
     },
     {
-      "name": "LSSVM-WNN预测模型",
+      "name": "小波神经网络(WNN)",
       "type": "模型"
     },
     {
@@ -25,12 +25,12 @@
       "type": "特征/健康指标"
     },
     {
-      "name": "平均相对误差",
+      "name": "相对误差",
       "type": "性能指标"
     },
     {
-      "name": "排气温度",
-      "type": "传感器/监测参数"
+      "name": "平均相对误差",
+      "type": "性能指标"
     },
     {
       "name": "故障预测技术",
@@ -49,8 +49,20 @@
       "type": "模型"
     },
     {
-      "name": "morlet小波",
+      "name": "最小二乘思想",
       "type": "理论基础"
+    },
+    {
+      "name": "排气温度",
+      "type": "传感器/监测参数"
+    },
+    {
+      "name": "主泵",
+      "type": "系统/部件"
+    },
+    {
+      "name": "健康状态",
+      "type": "特征/健康指标"
     },
     {
       "name": "小波去噪",
@@ -61,34 +73,19 @@
       "type": "数据集"
     },
     {
-      "name": "主泵",
-      "type": "系统/部件"
+      "name": "morlet小波",
+      "type": "算法"
     },
     {
-      "name": "性能衰退",
-      "type": "故障模式"
+      "name": "RBF核函数",
+      "type": "算法"
     }
   ],
   "relations": [
     {
-      "head": "LSSVM-WNN预测模型",
-      "relation": "提出用于",
+      "head": "LSSVM-WNN组合预测模型",
+      "relation": "用于",
       "tail": "燃气轮机状态趋势预测"
-    },
-    {
-      "head": "LSSVM-WNN预测模型",
-      "relation": "结合",
-      "tail": "最小二乘支持向量机"
-    },
-    {
-      "head": "LSSVM-WNN预测模型",
-      "relation": "结合",
-      "tail": "小波神经网络"
-    },
-    {
-      "head": "小波神经网络",
-      "relation": "用于预测",
-      "tail": "残差"
     },
     {
       "head": "燃气轮机状态趋势预测",
@@ -96,63 +93,93 @@
       "tail": "燃气轮机"
     },
     {
-      "head": "LSSVM-WNN预测模型",
-      "relation": "性能优于",
-      "tail": "最小二乘支持向量机"
+      "head": "LSSVM-WNN组合预测模型",
+      "relation": "结合了",
+      "tail": "最小二乘支持向量机(LSSVM)"
     },
     {
-      "head": "LSSVM-WNN预测模型",
-      "relation": "性能优于",
-      "tail": "小波神经网络"
+      "head": "LSSVM-WNN组合预测模型",
+      "relation": "结合了",
+      "tail": "小波神经网络(WNN)"
     },
     {
-      "head": "LSSVM-WNN预测模型",
+      "head": "小波神经网络(WNN)",
+      "relation": "用于预测",
+      "tail": "残差"
+    },
+    {
+      "head": "残差",
+      "relation": "计算自",
+      "tail": "最小二乘支持向量机(LSSVM)"
+    },
+    {
+      "head": "LSSVM-WNN组合预测模型",
       "relation": "评价指标是",
       "tail": "平均相对误差"
     },
     {
-      "head": "最小二乘支持向量机",
+      "head": "最小二乘支持向量机(LSSVM)",
       "relation": "改进了",
       "tail": "标准SVM"
     },
     {
-      "head": "LSSVM-WNN预测模型",
-      "relation": "基于",
-      "tail": "基于数据驱动的预测"
-    },
-    {
-      "head": "燃气轮机状态趋势预测",
-      "relation": "监测参数为",
-      "tail": "排气温度"
-    },
-    {
-      "head": "排气温度",
-      "relation": "衡量",
-      "tail": "主泵"
-    },
-    {
-      "head": "主泵",
-      "relation": "是...的关键部件",
-      "tail": "燃气轮机"
-    },
-    {
-      "head": "主泵",
-      "relation": "存在故障",
-      "tail": "性能衰退"
-    },
-    {
-      "head": "LSSVM-WNN预测模型",
-      "relation": "使用",
-      "tail": "某型燃气轮机试验数据"
+      "head": "最小二乘支持向量机(LSSVM)",
+      "relation": "引入了",
+      "tail": "最小二乘思想"
     },
     {
       "head": "故障预测技术",
-      "relation": "是实现...的基础",
+      "relation": "是...基础",
       "tail": "视情维修"
     },
     {
-      "head": "LSSVM-WNN预测模型",
+      "head": "燃气轮机状态趋势预测",
+      "relation": "属于",
+      "tail": "基于数据驱动的预测"
+    },
+    {
+      "head": "排气温度",
+      "relation": "用于预测",
+      "tail": "健康状态"
+    },
+    {
+      "head": "LSSVM-WNN组合预测模型",
+      "relation": "优于",
+      "tail": "最小二乘支持向量机(LSSVM)"
+    },
+    {
+      "head": "LSSVM-WNN组合预测模型",
+      "relation": "优于",
+      "tail": "小波神经网络(WNN)"
+    },
+    {
+      "head": "主泵",
+      "relation": "是...部件",
+      "tail": "燃气轮机"
+    },
+    {
+      "head": "排气温度",
+      "relation": "是...监测参数",
+      "tail": "燃气轮机"
+    },
+    {
+      "head": "某型燃气轮机试验数据",
+      "relation": "用于验证",
+      "tail": "LSSVM-WNN组合预测模型"
+    },
+    {
+      "head": "小波神经网络(WNN)",
       "relation": "采用",
+      "tail": "morlet小波"
+    },
+    {
+      "head": "最小二乘支持向量机(LSSVM)",
+      "relation": "采用",
+      "tail": "RBF核函数"
+    },
+    {
+      "head": "某型燃气轮机试验数据",
+      "relation": "经过处理",
       "tail": "小波去噪"
     }
   ]
